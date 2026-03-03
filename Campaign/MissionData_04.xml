@@ -54,10 +54,10 @@
             <TgtDescription>1</TgtDescription>
             <RouteWpAction>0</RouteWpAction>
             <TgtWpAction>12</TgtWpAction>
-            <TgtMinAlt>150</TgtMinAlt>
-            <TgtMaxAlt>220</TgtMaxAlt>
+            <TgtMinAlt>280</TgtMinAlt>
+            <TgtMaxAlt>320</TgtMaxAlt>
             <MisAltLowProfile>0</MisAltLowProfile>
-            <MisAltHighProfile>210</MisAltHighProfile>
+            <MisAltHighProfile>310</MisAltHighProfile>
             <SeparationTime>0</SeparationTime>
             <LoiterTime>30</LoiterTime>
             <LoiterTimeMinimum>15</LoiterTimeMinimum>
@@ -98,10 +98,10 @@
             <TgtDescription>1</TgtDescription>
             <RouteWpAction>0</RouteWpAction>
             <TgtWpAction>12</TgtWpAction>
-            <TgtMinAlt>150</TgtMinAlt>
-            <TgtMaxAlt>220</TgtMaxAlt>
+            <TgtMinAlt>220</TgtMinAlt>
+            <TgtMaxAlt>320</TgtMaxAlt>
             <MisAltLowProfile>0</MisAltLowProfile>
-            <MisAltHighProfile>210</MisAltHighProfile>
+            <MisAltHighProfile>300</MisAltHighProfile>
             <SeparationTime>0</SeparationTime>
             <LoiterTime>30</LoiterTime>
             <LoiterTimeMinimum>15</LoiterTimeMinimum>
@@ -186,10 +186,10 @@
             <TgtDescription>3</TgtDescription>
             <RouteWpAction>0</RouteWpAction>
             <TgtWpAction>12</TgtWpAction>
-            <TgtMinAlt>150</TgtMinAlt>
-            <TgtMaxAlt>220</TgtMaxAlt>
+            <TgtMinAlt>280</TgtMinAlt>
+            <TgtMaxAlt>320</TgtMaxAlt>
             <MisAltLowProfile>0</MisAltLowProfile>
-            <MisAltHighProfile>220</MisAltHighProfile>
+            <MisAltHighProfile>300</MisAltHighProfile>
             <SeparationTime>-120</SeparationTime>
             <LoiterTime>30</LoiterTime>
             <LoiterTimeMinimum>15</LoiterTimeMinimum>
@@ -318,10 +318,10 @@
             <TgtDescription>1</TgtDescription>
             <RouteWpAction>11</RouteWpAction>
             <TgtWpAction>11</TgtWpAction>
-            <TgtMinAlt>150</TgtMinAlt>
-            <TgtMaxAlt>280</TgtMaxAlt>
+            <TgtMinAlt>280</TgtMinAlt>
+            <TgtMaxAlt>350</TgtMaxAlt>
             <MisAltLowProfile>0</MisAltLowProfile>
-            <MisAltHighProfile>250</MisAltHighProfile>
+            <MisAltHighProfile>320</MisAltHighProfile>
             <SeparationTime>-180</SeparationTime>
             <LoiterTime>0</LoiterTime>
             <LoiterTimeMinimum>10</LoiterTimeMinimum>
@@ -354,18 +354,18 @@
             <Flags>302006529</Flags>
         </AMIS_SWEEP>
         <AMIS_ALERT>
-            <MisType>8</MisType>
-            <TgtType>3</TgtType>
-            <MisRole>1</MisRole>
-            <MisProfile>2</MisProfile>
-            <TgtProfile>0</TgtProfile>
-            <TgtDescription>3</TgtDescription>
+            <MisType>0</MisType>
+            <TgtType>0</TgtType>
+            <MisRole>0</MisRole>
+            <MisProfile>3</MisProfile>
+            <TgtProfile>1</TgtProfile>
+            <TgtDescription>0</TgtDescription>
             <RouteWpAction>0</RouteWpAction>
-            <TgtWpAction>12</TgtWpAction>
-            <TgtMinAlt>20</TgtMinAlt>
-            <TgtMaxAlt>200</TgtMaxAlt>
+            <TgtWpAction>50</TgtWpAction>
+            <TgtMinAlt>0</TgtMinAlt>
+            <TgtMaxAlt>0</TgtMaxAlt>
             <MisAltLowProfile>0</MisAltLowProfile>
-            <MisAltHighProfile>150</MisAltHighProfile>
+            <MisAltHighProfile>0</MisAltHighProfile>
             <SeparationTime>0</SeparationTime>
             <LoiterTime>0</LoiterTime>
             <LoiterTimeMinimum>10</LoiterTimeMinimum>
@@ -374,9 +374,9 @@
             <LoiterOffset>0</LoiterOffset>
             <LoiterTrackDist>0</LoiterTrackDist>
             <LoiterTimeOnEscort>0</LoiterTimeOnEscort>
-            <MisStrength>2</MisStrength>
+            <MisStrength>0</MisStrength>
             <MinPlanTime>0</MinPlanTime>
-            <MaxPlanTime>10</MaxPlanTime>
+            <MaxPlanTime>0</MaxPlanTime>
             <HoldingTime>0</HoldingTime>
             <HoldingDist>0</HoldingDist>
             <MaxAirThreat>0</MaxAirThreat>
@@ -384,8 +384,8 @@
             <MinDistToFlot>0</MinDistToFlot>
             <MaxDistToFlot>0</MaxDistToFlot>
             <EscortType>0</EscortType>
-            <MinDistSimilar>1</MinDistSimilar>
-            <MinTimeSimilar>30</MinTimeSimilar>
+            <MinDistSimilar>0</MinDistSimilar>
+            <MinTimeSimilar>0</MinTimeSimilar>
             <FormationTypePrePush>1</FormationTypePrePush>
             <FormationSpacingPrePush>-4</FormationSpacingPrePush>
             <FormationTypePreTgt>1</FormationTypePreTgt>
@@ -393,9 +393,9 @@
             <FormationTypePostTgt>1</FormationTypePostTgt>
             <FormationSpacingPostTgt>0</FormationSpacingPostTgt>
             <FormationTypePostSplit>1</FormationTypePostSplit>
-            <FormationSpacingPostSplit>0</FormationSpacingPostSplit>
+            <FormationSpacingPostSplit>-4</FormationSpacingPostSplit>
             <SpecialCapabilities>0</SpecialCapabilities>
-            <Flags>639369216</Flags>
+            <Flags>0</Flags>
         </AMIS_ALERT>
         <AMIS_INTERCEPT>
             <MisType>9</MisType>
@@ -407,9 +407,9 @@
             <RouteWpAction>0</RouteWpAction>
             <TgtWpAction>13</TgtWpAction>
             <TgtMinAlt>150</TgtMinAlt>
-            <TgtMaxAlt>280</TgtMaxAlt>
+            <TgtMaxAlt>300</TgtMaxAlt>
             <MisAltLowProfile>0</MisAltLowProfile>
-            <MisAltHighProfile>250</MisAltHighProfile>
+            <MisAltHighProfile>280</MisAltHighProfile>
             <SeparationTime>0</SeparationTime>
             <LoiterTime>0</LoiterTime>
             <LoiterTimeMinimum>10</LoiterTimeMinimum>
@@ -516,7 +516,7 @@
             <MinDistToFlot>0</MinDistToFlot>
             <MaxDistToFlot>0</MaxDistToFlot>
             <EscortType>11</EscortType>
-            <MinDistSimilar>20</MinDistSimilar>
+            <MinDistSimilar>55</MinDistSimilar>
             <MinTimeSimilar>20</MinTimeSimilar>
             <FormationTypePrePush>1</FormationTypePrePush>
             <FormationSpacingPrePush>-4</FormationSpacingPrePush>
@@ -527,7 +527,7 @@
             <FormationTypePostSplit>1</FormationTypePostSplit>
             <FormationSpacingPostSplit>-4</FormationSpacingPostSplit>
             <SpecialCapabilities>0</SpecialCapabilities>
-            <Flags>268632631</Flags>
+            <Flags>268665399</Flags>
         </AMIS_SEADSTRIKE>
         <AMIS_SEADESCORT>
             <MisType>12</MisType>
@@ -941,14 +941,14 @@
             <SeparationTime>600</SeparationTime>
             <LoiterTime>20</LoiterTime>
             <LoiterTimeMinimum>10</LoiterTimeMinimum>
-            <LoiterDist>25</LoiterDist>
+            <LoiterDist>15</LoiterDist>
             <LoiterDirection>0</LoiterDirection>
             <LoiterOffset>0</LoiterOffset>
             <LoiterTrackDist>0</LoiterTrackDist>
             <LoiterTimeOnEscort>0</LoiterTimeOnEscort>
             <MisStrength>2</MisStrength>
             <MinPlanTime>30</MinPlanTime>
-            <MaxPlanTime>120</MaxPlanTime>
+            <MaxPlanTime>180</MaxPlanTime>
             <HoldingTime>0</HoldingTime>
             <HoldingDist>0</HoldingDist>
             <MaxAirThreat>0</MaxAirThreat>
@@ -956,7 +956,7 @@
             <MinDistToFlot>0</MinDistToFlot>
             <MaxDistToFlot>0</MaxDistToFlot>
             <EscortType>4</EscortType>
-            <MinDistSimilar>55</MinDistSimilar>
+            <MinDistSimilar>37</MinDistSimilar>
             <MinTimeSimilar>20</MinTimeSimilar>
             <FormationTypePrePush>1</FormationTypePrePush>
             <FormationSpacingPrePush>-4</FormationSpacingPrePush>
@@ -967,7 +967,7 @@
             <FormationTypePostSplit>1</FormationTypePostSplit>
             <FormationSpacingPostSplit>-4</FormationSpacingPostSplit>
             <SpecialCapabilities>0</SpecialCapabilities>
-            <Flags>270025234</Flags>
+            <Flags>270041618</Flags>
         </AMIS_PRPLANCAS>
         <AMIS_CAS>
             <MisType>22</MisType>
@@ -985,14 +985,14 @@
             <SeparationTime>600</SeparationTime>
             <LoiterTime>20</LoiterTime>
             <LoiterTimeMinimum>10</LoiterTimeMinimum>
-            <LoiterDist>25</LoiterDist>
+            <LoiterDist>15</LoiterDist>
             <LoiterDirection>0</LoiterDirection>
             <LoiterOffset>0</LoiterOffset>
             <LoiterTrackDist>0</LoiterTrackDist>
             <LoiterTimeOnEscort>0</LoiterTimeOnEscort>
             <MisStrength>2</MisStrength>
             <MinPlanTime>0</MinPlanTime>
-            <MaxPlanTime>120</MaxPlanTime>
+            <MaxPlanTime>180</MaxPlanTime>
             <HoldingTime>0</HoldingTime>
             <HoldingDist>0</HoldingDist>
             <MaxAirThreat>0</MaxAirThreat>
@@ -1000,8 +1000,8 @@
             <MinDistToFlot>0</MinDistToFlot>
             <MaxDistToFlot>0</MaxDistToFlot>
             <EscortType>4</EscortType>
-            <MinDistSimilar>0</MinDistSimilar>
-            <MinTimeSimilar>0</MinTimeSimilar>
+            <MinDistSimilar>37</MinDistSimilar>
+            <MinTimeSimilar>20</MinTimeSimilar>
             <FormationTypePrePush>1</FormationTypePrePush>
             <FormationSpacingPrePush>-4</FormationSpacingPrePush>
             <FormationTypePreTgt>1</FormationTypePreTgt>
@@ -1011,7 +1011,7 @@
             <FormationTypePostSplit>1</FormationTypePostSplit>
             <FormationSpacingPostSplit>-4</FormationSpacingPostSplit>
             <SpecialCapabilities>0</SpecialCapabilities>
-            <Flags>34685458</Flags>
+            <Flags>34701842</Flags>
         </AMIS_CAS>
         <AMIS_SAD>
             <MisType>23</MisType>
@@ -1029,14 +1029,14 @@
             <SeparationTime>600</SeparationTime>
             <LoiterTime>20</LoiterTime>
             <LoiterTimeMinimum>10</LoiterTimeMinimum>
-            <LoiterDist>25</LoiterDist>
-            <LoiterDirection>0</LoiterDirection>
-            <LoiterOffset>0</LoiterOffset>
+            <LoiterDist>30</LoiterDist>
+            <LoiterDirection>2</LoiterDirection>
+            <LoiterOffset>5</LoiterOffset>
             <LoiterTrackDist>0</LoiterTrackDist>
             <LoiterTimeOnEscort>0</LoiterTimeOnEscort>
             <MisStrength>2</MisStrength>
             <MinPlanTime>30</MinPlanTime>
-            <MaxPlanTime>120</MaxPlanTime>
+            <MaxPlanTime>180</MaxPlanTime>
             <HoldingTime>0</HoldingTime>
             <HoldingDist>0</HoldingDist>
             <MaxAirThreat>0</MaxAirThreat>
@@ -1044,7 +1044,7 @@
             <MinDistToFlot>0</MinDistToFlot>
             <MaxDistToFlot>0</MaxDistToFlot>
             <EscortType>4</EscortType>
-            <MinDistSimilar>55</MinDistSimilar>
+            <MinDistSimilar>37</MinDistSimilar>
             <MinTimeSimilar>20</MinTimeSimilar>
             <FormationTypePrePush>1</FormationTypePrePush>
             <FormationSpacingPrePush>-4</FormationSpacingPrePush>
@@ -1055,7 +1055,7 @@
             <FormationTypePostSplit>1</FormationTypePostSplit>
             <FormationSpacingPostSplit>-4</FormationSpacingPostSplit>
             <SpecialCapabilities>0</SpecialCapabilities>
-            <Flags>272187906</Flags>
+            <Flags>272204290</Flags>
         </AMIS_SAD>
         <AMIS_INT>
             <MisType>24</MisType>
@@ -1103,13 +1103,13 @@
         </AMIS_INT>
         <AMIS_BAI>
             <MisType>25</MisType>
-            <TgtType>2</TgtType>
+            <TgtType>3</TgtType>
             <MisRole>4</MisRole>
             <MisProfile>3</MisProfile>
             <TgtProfile>8</TgtProfile>
             <TgtDescription>3</TgtDescription>
             <RouteWpAction>0</RouteWpAction>
-            <TgtWpAction>14</TgtWpAction>
+            <TgtWpAction>16</TgtWpAction>
             <TgtMinAlt>120</TgtMinAlt>
             <TgtMaxAlt>200</TgtMaxAlt>
             <MisAltLowProfile>0</MisAltLowProfile>
@@ -1117,14 +1117,14 @@
             <SeparationTime>60</SeparationTime>
             <LoiterTime>20</LoiterTime>
             <LoiterTimeMinimum>10</LoiterTimeMinimum>
-            <LoiterDist>25</LoiterDist>
-            <LoiterDirection>0</LoiterDirection>
-            <LoiterOffset>0</LoiterOffset>
+            <LoiterDist>30</LoiterDist>
+            <LoiterDirection>2</LoiterDirection>
+            <LoiterOffset>15</LoiterOffset>
             <LoiterTrackDist>0</LoiterTrackDist>
             <LoiterTimeOnEscort>0</LoiterTimeOnEscort>
             <MisStrength>2</MisStrength>
             <MinPlanTime>30</MinPlanTime>
-            <MaxPlanTime>120</MaxPlanTime>
+            <MaxPlanTime>180</MaxPlanTime>
             <HoldingTime>0</HoldingTime>
             <HoldingDist>0</HoldingDist>
             <MaxAirThreat>0</MaxAirThreat>
@@ -1132,7 +1132,7 @@
             <MinDistToFlot>0</MinDistToFlot>
             <MaxDistToFlot>0</MaxDistToFlot>
             <EscortType>4</EscortType>
-            <MinDistSimilar>55</MinDistSimilar>
+            <MinDistSimilar>37</MinDistSimilar>
             <MinTimeSimilar>20</MinTimeSimilar>
             <FormationTypePrePush>1</FormationTypePrePush>
             <FormationSpacingPrePush>-4</FormationSpacingPrePush>
@@ -1143,7 +1143,7 @@
             <FormationTypePostSplit>1</FormationTypePostSplit>
             <FormationSpacingPostSplit>-4</FormationSpacingPostSplit>
             <SpecialCapabilities>0</SpecialCapabilities>
-            <Flags>270090770</Flags>
+            <Flags>270107154</Flags>
         </AMIS_BAI>
         <AMIS_AWACS>
             <MisType>26</MisType>

@@ -1,16 +1,16 @@
 # Version 1.0
 # Author Ratty/MRivers
-#Missle ptr - 10
-# Salvo HE
+# Missle ptr - 24
+# Single HE
 # edit Fritz - CF 04/2025
-1 # Data Format Version
+0 # Data Format Version
 
 # Data
-lauSalvoSize 19
-lauRounds 1
+lauSalvoSize 1
+lauRounds 19
 lauAzimuth 0
 lauElevation 0
-lauRippleTimeMS 46
+lauRippleTimeMS 10
 
 # Particle Sys
 # not applicable to launchers

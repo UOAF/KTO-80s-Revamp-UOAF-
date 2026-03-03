@@ -1465,8 +1465,8 @@ vapor_chain {
 auxaero {
   aircraft {
     type_ac: F16AB
-    cockpit_name: ""
-    cockpit_wings_parent: -1
+    cockpit_name: "F-16CM-50"
+    cockpit_wings_parent: 1756
     is_complex: true
     ir_signature: 1
     vis_signature: 1
