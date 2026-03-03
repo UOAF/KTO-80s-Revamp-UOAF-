@@ -1,0 +1,99 @@
+// 4.34 update, January 2018, by Kolbe
+//
+// This file contains the theater specific country and team names and also
+// the scenario strings, such as  scenario name, description.
+// This file offers some newly added features:
+// - You can specify 4 lines in the description field in the campaign
+//   select window which gives you the opprortunity for more detailed
+//   descriptions. 
+// - In the bottom line of the description field you can enter the
+//   campaign duration (Max. Campaign days:) and the stalemate conditions
+//   (Stalemate (days of no activity):) like they are set in the trigger files. 
+//   Bordom hours have to be converted to days.
+// - A campaign designer can now specify an overall difficulty rating, such as 
+//   Easy, Medium, Hard. 
+
+///////////////////////////////////////////////////////////////
+// START CONTENT 
+///////////////////////////////////////////////////////////////
+
+// -----Country names-----
+[ADDTEXT] TXT_COUNTRY_0 "XX"
+[ADDTEXT] TXT_COUNTRY_1 "U.S."
+[ADDTEXT] TXT_COUNTRY_2 "ROK"
+[ADDTEXT] TXT_COUNTRY_3 "Japan"
+[ADDTEXT] TXT_COUNTRY_4 "CIS"
+[ADDTEXT] TXT_COUNTRY_5 "PRC"
+[ADDTEXT] TXT_COUNTRY_6 "DPRK"
+[ADDTEXT] TXT_COUNTRY_7 "NATO"
+
+// -----Team names-----
+[ADDTEXT] TXT_TEAM_0 "XX"
+[ADDTEXT] TXT_TEAM_1 "U.S."
+[ADDTEXT] TXT_TEAM_2 "ROK"
+[ADDTEXT] TXT_TEAM_3 "Japan"
+[ADDTEXT] TXT_TEAM_4 "CIS"
+[ADDTEXT] TXT_TEAM_5 "PRC"
+[ADDTEXT] TXT_TEAM_6 "DPRK"
+[ADDTEXT] TXT_TEAM_7 "NATO"
+
+// -----Scenario 1-----
+[ADDTEXT] TXT_SCENARIO_1 "WIP"
+[ADDTEXT] TXT_SC_1_LINE_1 ""
+[ADDTEXT] TXT_SC_1_LINE_2 ""
+[ADDTEXT] TXT_SC_1_LINE_3 ""
+[ADDTEXT] TXT_SC_1_LINE_4 ""
+[ADDTEXT] TXT_SC_1_CAMP_END ""
+[ADDTEXT] TXT_SC_1_CAMP_STALE ""
+[ADDTEXT] TXT_SC_1_CAMP_DIFF ""
+[ADDTEXT] NOT_USED "Keep this line!"
+
+// -----Scenario 2-----
+[ADDTEXT] TXT_SCENARIO_2 "ROLLING FIRE"
+[ADDTEXT] TXT_SC_2_LINE_1 "It is winter 1988. After a year of build up and the arival of new Soviet weapons a North Korean invasion is imminent. Repel their attack on Seoul, then capture P'Yongyang and Wonsan."
+[ADDTEXT] TXT_SC_2_LINE_2 ""
+[ADDTEXT] TXT_SC_2_LINE_3 ""
+[ADDTEXT] TXT_SC_2_LINE_4 ""
+[ADDTEXT] TXT_SC_2_CAMP_END "30"
+[ADDTEXT] TXT_SC_2_CAMP_STALE "20"
+[ADDTEXT] TXT_SC_2_CAMP_DIFF "Medium"
+
+// -----Scenario 3-----
+[ADDTEXT] TXT_SCENARIO_3 "WIP"
+[ADDTEXT] TXT_SC_3_LINE_1 ""
+[ADDTEXT] TXT_SC_3_LINE_2 ""
+[ADDTEXT] TXT_SC_3_LINE_3 ""
+[ADDTEXT] TXT_SC_3_LINE_4 ""
+[ADDTEXT] TXT_SC_3_CAMP_END ""
+[ADDTEXT] TXT_SC_3_CAMP_STALE ""
+[ADDTEXT] TXT_SC_3_CAMP_DIFF ""
+
+// -----Scenario 4-----
+[ADDTEXT] TXT_SCENARIO_4 "WIP"
+[ADDTEXT] TXT_SC_4_LINE_1 ""
+[ADDTEXT] TXT_SC_4_LINE_2 ""
+[ADDTEXT] TXT_SC_4_LINE_3 ""
+[ADDTEXT] TXT_SC_4_LINE_4 ""
+[ADDTEXT] TXT_SC_4_CAMP_END ""
+[ADDTEXT] TXT_SC_4_CAMP_STALE ""
+[ADDTEXT] TXT_SC_4_CAMP_DIFF ""
+
+// -----Scenario 5-----
+[ADDTEXT] TXT_SCENARIO_5 ""
+[ADDTEXT] TXT_SC_5_LINE_1 ""
+[ADDTEXT] TXT_SC_5_LINE_2 ""
+[ADDTEXT] TXT_SC_5_LINE_3 ""
+[ADDTEXT] TXT_SC_5_LINE_4 ""
+[ADDTEXT] TXT_SC_5_CAMP_END ""
+[ADDTEXT] TXT_SC_5_CAMP_STALE ""
+[ADDTEXT] TXT_SC_5_CAMP_DIFF ""
+
+// -----Scenario 6-----
+[ADDTEXT] TXT_SCENARIO_6 ""
+[ADDTEXT] TXT_SC_6_LINE_1 ""
+[ADDTEXT] TXT_SC_6_LINE_2 ""
+[ADDTEXT] TXT_SC_6_LINE_3 ""
+[ADDTEXT] TXT_SC_6_LINE_4 ""
+[ADDTEXT] TXT_SC_6_CAMP_END ""
+[ADDTEXT] TXT_SC_6_CAMP_STALE ""
+[ADDTEXT] TXT_SC_6_CAMP_DIFF ""

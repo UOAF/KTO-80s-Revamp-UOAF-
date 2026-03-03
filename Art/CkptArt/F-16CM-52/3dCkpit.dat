@@ -1,0 +1,173 @@
+// 3-d cockpit description
+// New PBR Pit
+// Last change 04 May 2025
+// by MaxWaldorf
+
+// June 2020 RPM Needles calibrated
+
+// Boresight cross height
+boresighty 0.75;
+
+// Shared render to texture target size. width height depth. depth needs to be 32 for texture alpha to work default is primary 
+rttTarget 600 600;
+
+// 3-d coords for Upper left. Upper Right and Lower Left  // Rtt Top. Left. Right. Bottom. BlendMode. Alpha
+// BlendModes are a = alpha blending. c = color blending. g = texture gouraud. t = texture. default = g 
+// example hud with 0.5 vertex alpha:    hud  20.0 -2.0 0.0    20.0 2.0 0.0    20.0 -2.0 4.0    5 5 260 260    a 0.5;
+// first number is toward you / away from you
+// second number is left and right + number is right. - number is left
+// third number is up / down - number is up. + number is down
+// 0. 0  is in the middle of the screen (apprxomiately)
+
+hud	21000.0 -2800.0 -650.0	21000.0	2800.0	-650.0	21000.0	-2800.0	4902.0	0	0	280	280	c;
+pfl	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000	281	0	481	70	c;
+ded	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000	281	71	481	141	c;
+rwr	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000	482	0	600	118	c;
+mfdleft	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000   0.000	375	375	600	600	c;
+mfdright	0.000	0.000	0.000 	0.000	0.000	0.000 	0.000	0.000	0.000	375	145	600	370	c;
+hms	20.063	-4.000	-4.000	20.063	4.000	-4.000	20.063	-4.000	4.000	0	314	286	600	c;
+
+// font settings for displays
+hudfont 4;
+hudwarnfont 6;
+mfdfont 7;
+dedfont 10;
+pflfont 10;
+rwrfont 11;
+hmsfont 13;
+
+// floodlightcolormod r g b where r g b are float between 0.0 to 1.0
+floodlightcolormod 0.0 0.9 0.9; // blue-green
+
+// RPM needls	angle	rpm value Block 52
+rpm_needle	123.50	60
+rpm_needle	173.00	70
+rpm_needle	315.50	97
+rpm_needle	339.50 	100
+
+// various colours
+padlockbg ff7c4706; //padlock background
+padlockliftline ff5ee75e; //padlock liftline. green
+padlockvpside ff00ffff; //padlock viewport box 3 sides. yellow
+padlockvptop ffffffff; //padlock viewport top. white
+padlocktick ff0000ff; //padlock zero level tickmark. red
+needlecolor0 ffdddddd; // primary needle color. gray
+needlecolor1 ffdddddd; // secondary needle color. redish
+dedcolor FF00FF9C; //  DED color
+
+// the LOD models to use.
+cockpitmodel 923;
+cockpitmodel2 3770; //ladder object
+cockpitmodel3 4384;
+cockpithudmodel 4385;
+cockpitwingsmodel 1771;
+cockpitmodel_empty 1802;
+cockpitcanopymodel_empty 1803;
+cockpitlegsmodel 4387;
+cockpitmixedrealitycovermodel 4254;
+
+viewlimit_pan_left 170.0;
+viewlimit_pan_right 170.0;
+viewlimit_pitch_down 70.0;
+
+//6DOF bounding box
+movementlimit_left       0.415;
+movementlimit_right      0.415;
+movementlimit_up         0.119;
+movementlimit_down       0.3;
+movementlimit_fore       1.0;
+movementlimit_aft        0.6;
+6dof_ready 1;
+rtt_canopy 1;
+hudview_tint_color       50000000;
+hud_projector_glow_color 00006000;
+hud_projector_glow_size  1.0;
+SwitchMagCoilSnd 320;
+
+//Ejection seat adjust params
+seat_elevation_max       0.119f;
+seat_elevation_min      -0.119f;
+seat_elevation_angle    30.f;
+
+//Head Position
+head_translation_offset forward:0.1 left:0 up:0 backward:0 right:0 down:0.02
+
+//Guided snap views
+
+//Center
+
+guidedview 0 0.000000 0.000000 0.000000 -0.000000 1.791412 0.000002 59.999996 0 23 9000 29 18000 1 27000 26 'HUD - up once'
+guidedview 1 0.000000 0.000000 0.000000 0.000000 -15.621903 0.000000 59.999996 0 0 9000 13 18000 2 27000 9 'straight forward'
+guidedview 2 0.000000 0.000000 0.000000 0.000000 -36.536102 0.000000 42.999962 0 1 9000 17 18000 52 27000 3 'MFDs - backup instruments'
+guidedview 52 0.000000 0.000000 0.000000 0.000000 -61.739338 -0.000000 46.000004 0 2 9000 17 27000 3 'Kneeboards'
+guidedview 23 0.000000 0.000000 0.000000 -0.000000 28.439116 0.000002 59.999996 0 24 9000 36 18000 0 27000 32 'up twice'
+guidedview 24 0.000000 0.000000 0.000000 -0.000000 58.439114 0.000001 59.999996 0 25 9000 43 18000 23 27000 40 'up three times'
+guidedview 25 0.000000 0.000000 0.000000 0.000000 88.439110 -0.000000 59.999996 9000 49 18000 24 27000 46 'up four times'
+
+//Left
+
+guidedview 3 0.009435 0.007902 0.004033 -13.958798 -40.815235 0.000000 59.999996 0 9 9000 2 27000 4 18000 6 'left aux console'
+guidedview 4 0.000000 -0.004578 0.000000 -90.999969 -52.492168 -0.044651 59.999996 0 10 9000 3 27000 5 18000 7 'left console'
+guidedview 5 0.000000 -0.043100 0.000000 -134.999985 -46.560875 0.000000 59.999996 0 11 9000 4 18000 8 27000 12 'left console back'
+guidedview 6 -0.000352 -0.015893 0.053548 -32.331612 -33.852448 0.000000 39.999999 0 3 27000 7 9000 2 'left aux console zoom'
+guidedview 7 0.000000 0.000000 0.000000 -74.999962 -59.874996 0.000000 34.999983 0 4 27000 8 9000 6 'left console zoom'
+guidedview 8 0.000000 -0.038135 0.000000 -126.499939 -59.874996 0.000000 34.999983 0 5 9000 7 27000 5 'left console back zoom'
+
+guidedview 9 0.000000 0.000000 0.000000 -44.999996 -18.560879 0.000000 59.999996 0 26 9000 1 18000 3 27000 10 'left forward'
+guidedview 10 0.000000 -0.003814 0.000000 -89.999992 -22.560879 0.000000 59.999996 0 27 9000 9 18000 4 27000 11 'left'
+guidedview 11 0.000000 -0.043100 0.000000 -132.999985 -6.560881 0.000000 59.999996 0 28 9000 10 18000 5 27000 12 'left back'
+guidedview 12 0.000000 -0.043100 0.000000 -179.999985 3.439118 0.000000 59.999996 0 35 9000 11 18000 11 'left straight back'
+
+guidedview 26 0.000000 0.000000 0.000000 -44.999996 -0.160882 0.000000 59.999996 0 32 9000 0 18000 9 27000 27 'left forward up once'
+guidedview 27 0.000000 -0.003814 0.000000 -89.999992 -0.160882 0.000000 59.999996 0 33 9000 26 18000 10 27000 28 'left up once'
+guidedview 28 0.000000 -0.043100 0.000000 -132.999985 7.439117 0.000000 59.999996 0 34 9000 27 18000 11 27000 12 'left back up once'
+
+guidedview 32 0.000000 0.000000 0.000000 -44.999996 28.439116 0.000000 59.999996 0 40 9000 23 18000 26 27000 33 'left forward up twice'
+guidedview 33 0.000000 -0.003814 0.000000 -89.999992 28.439116 0.000000 59.999996 0 41 9000 32 18000 27 27000 34 'left up twice'
+guidedview 34 0.000000 -0.043100 0.000000 -134.999985 28.439116 0.000000 59.999996 0 42 9000 33 18000 28 27000 35 'left back up twice'
+guidedview 35 0.000000 -0.043100 0.000000 -158.699982 28.439116 0.000000 59.999996 0 42 9000 34 18000 12 27000 12 'left straight back up twice'
+
+guidedview 40 0.000000 0.000000 0.000000 -44.999996 58.439114 0.000000 59.999996 0 46 9000 24 18000 32 27000 41 'left forward up three times'
+guidedview 41 0.000000 -0.003814 0.000000 -89.999992 58.439114 0.000000 59.999996 0 47 9000 40 18000 33 27000 42 'left up three times'
+guidedview 42 0.000000 -0.043100 0.000000 -134.999985 58.439114 0.000000 59.999996 0 48 9000 41 18000 34 27000 34 'left back up three times'
+
+guidedview 46 0.000000 0.000000 0.000000 -44.999996 88.439110 -0.000002 59.999996 0 25 9000 25 18000 40 27000 47 'left forward up four times'
+guidedview 47 0.000000 -0.003814 0.000000 -89.999992 88.439110 -0.000001 59.999996 0 46 9000 46 18000 41 27000 48 'left up four times'
+guidedview 48 0.000000 -0.043100 0.000000 -134.999985 88.439110 0.000001 59.999996 0 47 9000 47 18000 42 27000 42 'left back up four times'
+
+//Right
+
+guidedview 17 0.000000 0.000000 0.000000 12.999998 -41.560875 -0.000000 59.999996 0 13 9000 18 18000 20 27000 2 'right aux console'
+guidedview 18 0.000000 0.000000 0.000000 80.149956 -55.642162 -0.044651 59.999996 0 14 9000 19 18000 21 27000 17 'right console'
+guidedview 19 0.000000 0.043100 0.000000 134.999985 -46.560875 -0.000000 59.999996 0 15 9000 16 18000 22 27000 18 'right console back'
+guidedview 20 0.065339 0.022967 0.004263 39.404839 -52.400936 0.000000 34.999983 0 17 9000 21 27000 2 'right aux console zoom'
+guidedview 21 0.026925 0.001802 0.029444 72.255814 -52.580479 0.000000 34.999983 0 18 9000 22 27000 20 'right console zoom'
+guidedview 22 0.000000 0.038135 0.000000 126.499939 -59.874996 0.000000 34.999983 0 19 9000 19 27000 21 'right console back zoom'
+
+guidedview 13 0.000000 0.000000 0.000000 44.999996 -18.560879 0.000000 59.999996 0 29 9000 14 18000 17 27000 1 'right forward'
+guidedview 14 0.000000 0.003814 0.000000 89.999992 -22.560879 0.000000 59.999996 0 30 9000 15 18000 18 27000 13 'right'
+guidedview 15 0.000000 0.043100 0.000000 132.999985 -6.560881 0.000000 59.999996 0 31 9000 16 18000 19 27000 14 'right back'
+guidedview 16 0.000000 0.043100 0.000000 179.999985 3.439118 0.000000 59.999996 0 39 18000 15 27000 15 'right straight back'
+
+guidedview 29 0.000000 0.000000 0.000000 44.999996 -0.160882 0.000000 59.999996 0 36 9000 30 18000 13 27000 0 'right forward up once'
+guidedview 30 0.000000 0.003814 0.000000 89.999992 -0.160882 0.000000 59.999996 0 37 9000 31 18000 14 27000 29 'right up once'
+guidedview 31 0.000000 0.043100 0.000000 132.999985 7.439117 0.000000 59.999996 0 38 9000 16 18000 15 27000 30 'right back up once'
+
+guidedview 36 0.000000 0.000000 0.000000 44.999996 28.439116 0.000000 59.999996 0 43 9000 37 18000 29 27000 23 'right forward up twice'
+guidedview 37 0.000000 0.003814 0.000000 89.999992 28.439116 0.000000 59.999996 0 44 9000 38 18000 30 27000 36 'right up twice'
+guidedview 38 0.000000 0.043100 0.000000 134.999985 28.439116 0.000000 59.999996 0 45 9000 39 18000 31 27000 37 'right back up twice'
+guidedview 39 0.000000 0.043100 0.000000 158.699982 28.439116 0.000000 59.999996 0 45 9000 16 18000 16 27000 38 'rigth straight back up twice'
+
+guidedview 43 0.000000 0.000000 0.000000 44.999996 58.439114 0.000000 59.999996 0 49 9000 44 18000 36 27000 24 'right forward up three times'
+guidedview 44 0.000000 0.003814 0.000000 89.999992 58.439114 0.000000 59.999996 0 50 9000 45 18000 37 27000 43 'right up three times'
+guidedview 45 0.000000 0.043100 0.000000 134.999985 58.439114 0.000000 59.999996 0 51 9000 38 18000 38 27000 44 'right back up three times'
+
+guidedview 49 0.000000 0.000000 0.000000 44.999996 88.439110 -0.000002 59.999996 0 25 9000 50 18000 43 27000 25 'right forward up four times'
+guidedview 50 0.000000 0.003814 0.000000 89.999992 88.439110 -0.000000 59.999996 0 49 9000 51 18000 44 27000 49 'right up four times'
+guidedview 51 0.000000 0.043100 0.000000 134.999985 88.439110 -0.000000 59.999996 0 50 9000 45 18000 45 27000 50 'right back up four times'
+
+
+// Custom Snap Views
+
+customview 0.000000 0.000000 0.000000 0.000000 -36.638332 0.000000 46.000004 " " 1; // MFDs & Instruments
+customview 0.000000 0.000000 0.000000 0.000000 -61.739338 0.000000 46.000004 " " 1; // Kneeboards

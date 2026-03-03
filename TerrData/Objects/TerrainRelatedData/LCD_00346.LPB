@@ -1,0 +1,152 @@
+landCoverPolygonProtoVec {
+  groundType: GTP_AIRBASE
+  point {
+    x: 2136259.75
+    y: 1342123.62
+  }
+  point {
+    x: 2138884.75
+    y: 1343748.62
+  }
+  point {
+    x: 2140772.25
+    y: 1340736.12
+  }
+  point {
+    x: 2140816
+    y: 1339754.88
+  }
+  point {
+    x: 2140438
+    y: 1339714.25
+  }
+  point {
+    x: 2140148.75
+    y: 1340119
+  }
+  point {
+    x: 2138829.25
+    y: 1341146.25
+  }
+  point {
+    x: 2138169.5
+    y: 1341535
+  }
+}
+landCoverPolygonProtoVec {
+  groundType: GTP_AIRBASE
+  point {
+    x: 2140423.25
+    y: 1339681.75
+  }
+  point {
+    x: 2140126.5
+    y: 1340097.38
+  }
+  point {
+    x: 2138812
+    y: 1341120.88
+  }
+  point {
+    x: 2138157
+    y: 1341506.62
+  }
+  point {
+    x: 2136231.75
+    y: 1342100.12
+  }
+  point {
+    x: 2136226.75
+    y: 1342139.38
+  }
+  point {
+    x: 2138894.5
+    y: 1343790.88
+  }
+  point {
+    x: 2140802.5
+    y: 1340745.62
+  }
+  point {
+    x: 2140848
+    y: 1339727.38
+  }
+}
+landCoverPolygonProtoVec {
+  groundType: GTP_AIRBASE
+  point {
+    x: 2140408.75
+    y: 1339649.25
+  }
+  point {
+    x: 2140104
+    y: 1340075.88
+  }
+  point {
+    x: 2138794.5
+    y: 1341095.38
+  }
+  point {
+    x: 2138144.5
+    y: 1341478.25
+  }
+  point {
+    x: 2136203.75
+    y: 1342076.5
+  }
+  point {
+    x: 2136193.75
+    y: 1342155.12
+  }
+  point {
+    x: 2138904.5
+    y: 1343833.12
+  }
+  point {
+    x: 2140833
+    y: 1340755
+  }
+  point {
+    x: 2.14088e+06
+    y: 1339699.88
+  }
+}
+landCoverPolygonProtoVec {
+  groundType: GTP_AIRBASE
+  point {
+    x: 2140394.25
+    y: 1339616.75
+  }
+  point {
+    x: 2140081.5
+    y: 1340054.38
+  }
+  point {
+    x: 2138777.25
+    y: 1341069.88
+  }
+  point {
+    x: 2138132
+    y: 1.34145e+06
+  }
+  point {
+    x: 2136175.75
+    y: 1342053
+  }
+  point {
+    x: 2136160.75
+    y: 1342170.75
+  }
+  point {
+    x: 2138914.25
+    y: 1343875.38
+  }
+  point {
+    x: 2140863.25
+    y: 1340764.5
+  }
+  point {
+    x: 2140912
+    y: 1339672.38
+  }
+}

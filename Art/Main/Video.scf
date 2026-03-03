@@ -1,0 +1,34 @@
+#UI BMS4, created by Revientor (2009)
+#Updated by Revientor 2017 to use the original 4:3 movie format Hi-Quality
+
+[WINDOW]
+#UI window width. 4:3: 668 508. 16:9: 880 508.
+[SETUP] VIDEO_WIN C_TYPE_EXCLUSIVE 668 508
+#Windows x/y. 4:3: 178 130. 16:9: 72 130.
+[XY] 178 130
+#Video output coords inside the UI window. 4:3: 14 14 640 480. 16:9: 14 14 852 480.
+#w=video width - 28
+#h=video height - 28
+[RANGES] 0 0 1024 768 622 452
+[CLIENTAREA] 14 14 612 452 0
+[FONT] OCR_EXT_14
+[FLAGBITON] C_BIT_CANTMOVE
+[FLAGBITON] C_BIT_TRANSLUCENT
+[DEPTH] 12
+[GROUP] 19300
+
+[TILE]
+[SETUP] NID 0 VIDEO
+#UI window width. 4:3: 668 508. 16:9: 880 508.
+[XYWH] 0 0 668 508
+[FLAGBITON] C_BIT_ABSOLUTE
+[FLAGBITON] C_BIT_HORIZONTAL
+
+#1 pixel thick box around rendered video
+[BOX]
+[SETUP] NID, 0
+#w=video size + 1
+#h=video size + 1
+[XYWH] 13 13 641 481
+[COLOR] 65 128 173
+[FLAGBITON] C_BIT_ABSOLUTE

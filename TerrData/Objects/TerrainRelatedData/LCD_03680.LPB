@@ -1,0 +1,290 @@
+landCoverPolygonProtoVec {
+  groundType: GTP_AIRBASE
+  point {
+    x: 2626874
+    y: 383322.562
+  }
+  point {
+    x: 2627319.5
+    y: 383350.219
+  }
+  point {
+    x: 2627557.5
+    y: 383638.531
+  }
+  point {
+    x: 2627457
+    y: 384191.625
+  }
+  point {
+    x: 2627113.5
+    y: 384352.188
+  }
+  point {
+    x: 2626758.75
+    y: 384310.406
+  }
+  point {
+    x: 2626502
+    y: 383978.219
+  }
+  point {
+    x: 2626575
+    y: 383543.562
+  }
+}
+landCoverPolygonProtoVec {
+  groundType: GTP_AIRBASE
+  point {
+    x: 2627345
+    y: 383300.438
+  }
+  point {
+    x: 2627612.25
+    y: 383624.25
+  }
+  point {
+    x: 2627502.5
+    y: 384226.844
+  }
+  point {
+    x: 2627122
+    y: 384404.812
+  }
+  point {
+    x: 2626731.5
+    y: 384358.781
+  }
+  point {
+    x: 2626447.75
+    y: 383991.844
+  }
+  point {
+    x: 2626528
+    y: 383514.656
+  }
+  point {
+    x: 2626858.5
+    y: 383270.219
+  }
+}
+landCoverPolygonProtoVec {
+  groundType: GTP_AIRBASE
+  point {
+    x: 2627370.25
+    y: 383250.656
+  }
+  point {
+    x: 2627667
+    y: 383610
+  }
+  point {
+    x: 2627548.25
+    y: 384262.062
+  }
+  point {
+    x: 2627130.5
+    y: 384457.438
+  }
+  point {
+    x: 2626704
+    y: 384407.188
+  }
+  point {
+    x: 2626393.5
+    y: 384005.438
+  }
+  point {
+    x: 2626480.75
+    y: 383485.75
+  }
+  point {
+    x: 2626843
+    y: 383217.906
+  }
+}
+landCoverPolygonProtoVec {
+  groundType: GTP_AIRBASE
+  point {
+    x: 2627395.75
+    y: 383200.875
+  }
+  point {
+    x: 2627721.75
+    y: 383595.719
+  }
+  point {
+    x: 2627594
+    y: 384297.281
+  }
+  point {
+    x: 2627139
+    y: 384510.062
+  }
+  point {
+    x: 2626676.5
+    y: 384455.562
+  }
+  point {
+    x: 2626339.25
+    y: 384019.062
+  }
+  point {
+    x: 2626433.75
+    y: 383456.844
+  }
+  point {
+    x: 2626827.5
+    y: 383165.594
+  }
+}
+landCoverPolygonProtoVec {
+  groundType: GTP_AIRBASE
+  point {
+    x: 2627421
+    y: 383151.062
+  }
+  point {
+    x: 2627776.5
+    y: 383581.469
+  }
+  point {
+    x: 2627639.75
+    y: 384332.5
+  }
+  point {
+    x: 2627147.5
+    y: 384562.656
+  }
+  point {
+    x: 2626649.25
+    y: 384503.969
+  }
+  point {
+    x: 2626285
+    y: 384032.656
+  }
+  point {
+    x: 2626386.5
+    y: 383427.938
+  }
+  point {
+    x: 2626812.25
+    y: 383113.25
+  }
+}
+landCoverPolygonProtoVec {
+  groundType: GTP_AIRBASE
+  point {
+    x: 2.62784e+06
+    y: 384292.5
+  }
+  point {
+    x: 2627813.75
+    y: 384480.781
+  }
+  point {
+    x: 2628398
+    y: 384719.625
+  }
+  point {
+    x: 2628511.5
+    y: 384342.875
+  }
+  point {
+    x: 2628098.75
+    y: 384183.156
+  }
+}
+landCoverPolygonProtoVec {
+  groundType: GTP_AIRBASE
+  point {
+    x: 2628097.75
+    y: 384127.875
+  }
+  point {
+    x: 2627793.25
+    y: 384256.594
+  }
+  point {
+    x: 2627757.25
+    y: 384513.125
+  }
+  point {
+    x: 2628430.75
+    y: 384788.406
+  }
+  point {
+    x: 2628574.5
+    y: 384312.188
+  }
+}
+landCoverPolygonProtoVec {
+  groundType: GTP_AIRBASE
+  point {
+    x: 2628097
+    y: 384072.562
+  }
+  point {
+    x: 2627746.75
+    y: 384220.688
+  }
+  point {
+    x: 2627701
+    y: 384545.5
+  }
+  point {
+    x: 2628463.75
+    y: 384857.219
+  }
+  point {
+    x: 2628637.25
+    y: 384281.5
+  }
+}
+landCoverPolygonProtoVec {
+  groundType: GTP_AIRBASE
+  point {
+    x: 2628096
+    y: 384017.281
+  }
+  point {
+    x: 2.6277e+06
+    y: 384184.781
+  }
+  point {
+    x: 2627644.75
+    y: 384577.875
+  }
+  point {
+    x: 2628496.5
+    y: 384926
+  }
+  point {
+    x: 2.6287e+06
+    y: 384250.844
+  }
+}
+landCoverPolygonProtoVec {
+  groundType: GTP_AIRBASE
+  point {
+    x: 2628095.25
+    y: 383961.969
+  }
+  point {
+    x: 2627653.25
+    y: 384148.875
+  }
+  point {
+    x: 2627588.25
+    y: 384610.219
+  }
+  point {
+    x: 2628529.25
+    y: 384994.781
+  }
+  point {
+    x: 2628762.75
+    y: 384220.156
+  }
+}

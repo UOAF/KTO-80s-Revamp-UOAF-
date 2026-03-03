@@ -1,0 +1,132 @@
+// 3-d cockpit description
+// F-15C by Qawa
+// Shared render to texture target size, width height depth, depth needs to be 32 for texture alpha to work default is primary 
+rttTarget 600 600;
+
+// format is 3-d coords: up left - up right - low left
+// Rtt: LEFT, TOP, Right, Bottom, BlendMode, Alpha
+// BlendModes are a = alpha blending, c = color blending, g = texture gouraud, t = texture, default = g
+
+boresighty 0.2;
+hud 20063.0 -2750.0 -2118.0 20063.0 2750.0 -2118.0 20063.0 -2750.0 3402.0 0 0 280 280 c;
+pfl			0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000	281	0	481	70	c;
+ded			0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000	281	71	481	141	c;
+rwr			0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000	482	0	600	118	c;
+mfdleft		0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000	375	375	600	600	c;
+mfdright	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000	375	145	600	370	c;
+// hms	20.063	-4.000	-4.000	20.063	4.000	-4.000	20.063	-4.000	4.000	0	314	286	600	c;
+
+mirrors distance_ft: 1.50 tilt_deg: -1.0 texture_size: 600 draw_ownship_geometry: true offset_ft { right: 0.0 up: 2.5 } fov_multiplier: 1.0
+
+// Central mirror
+mirror_group
+mirror_stencil center { forward: 0.0 left: 0.0 down: 0.0 } 				scale { wide: 0.0865 tall: 0.081783 } 	rotation_deg: 0.0 		shape: STENCIL_SHAPE_SQUARE; // central rectangle
+mirror_stencil center { forward: 0.0 left: 0.161273 down: 0.014984 } 	scale { wide: 0.089221 tall: 0.081783 } 	rotation_deg: 9.71595 	shape: STENCIL_SHAPE_SQUARE; // edge rectangle
+mirror_stencil center { forward: 0.0 right: 0.161273 down: 0.014984 } 	scale { wide: 0.089221 tall: 0.081783 } 	rotation_deg: -9.71595 	shape: STENCIL_SHAPE_SQUARE; // edge rectangle
+
+mirror_stencil center { forward: 0.0 left: 0.237777 down: 0.023242 } 	scale { wide: 0.075249 tall: 0.075249 } 	rotation_deg: 0.0 		shape: STENCIL_SHAPE_CIRCLE num_triangles: 20; // large edge circle
+mirror_stencil center { forward: 0.0 left: 0.25459 down: 0.060766 } 	scale { wide: 0.055997 tall: 0.055997 } 	rotation_deg: 0.0 		shape: STENCIL_SHAPE_CIRCLE num_triangles: 20; // smaller edge circle 
+
+mirror_stencil center { forward: 0.0 right: 0.237777 down: 0.023242 } 	scale { wide: 0.075249 tall: 0.075249 } 	rotation_deg: 0.0 		shape: STENCIL_SHAPE_CIRCLE num_triangles: 20; // large edge circle 
+mirror_stencil center { forward: 0.0 right: 0.25459 down: 0.060766 } 	scale { wide: 0.055997 tall: 0.055997 } 	rotation_deg: 0.0 		shape: STENCIL_SHAPE_CIRCLE num_triangles: 20; // smaller edge circle 
+mirror_group_end op { rotate{ pitch_deg: 10.2078 } } op { scale { wide: 1.0 tall: 1.0 } } op { translate { forward: 1.49 up: 0.525419 right: 0.00 } }; // group moved from origin to central mirror position
+
+// left mirror 
+mirror_group stencils_from_group: 0
+mirror_group_end op { scale { wide: 1.0 tall: 1.0 } } op { rotate { roll_deg: 47 } } op { rotate { pitch_deg: 11.88 } } op { rotate { yaw_deg: -3.85074 } } op { translate { forward: 1.358 left: 1.063 up: 0.083 } }
+// right mirror 
+mirror_group stencils_from_group: 0
+mirror_group_end op { scale { wide: 1.0 tall: 1.0 } } op { rotate { roll_deg: -47 } } op { rotate { pitch_deg: 11.88 } } op { rotate { yaw_deg: 3.85074 } } op { translate { forward: 1.358 right: 1.063 up: 0.083 } }
+
+// font settings for displays
+hudfont 4;
+hudwarnfont 6;
+mfdfont 7;
+dedfont 2;
+pflfont 2;
+rwrfont 2;
+
+// floodlightcolormod r g b where r g b are float between 0.0 to 1.0
+floodlightcolormod 0.0 0.0 0.0;
+//floodlightcolormod 0.94 0.88 0.66; // yellow
+
+// RPM needls	angle	rpm value 
+rpm_needle	129.00	60
+rpm_needle	152.00	70
+rpm_needle	209.00	95
+rpm_needle	221.00	100
+
+// hack: TEMP scale starts at 2 and current code assume start at 0
+// so subtract 2
+// 			angle		ftit value
+ftit_needle 		0.0 		0.0
+ftit_needle 		241.0 		12.0
+
+//			angle		hyd value
+hyd_needle		325.0		4000
+
+// 			angle	flow value
+fuelflow_needle		79.0	50
+fuelflow_needle		127.0	80
+fuelflow_needle		161.0	100
+
+//Ejection seat adjust params
+seat_elevation_max       0.2083335; //5 in total
+seat_elevation_min      -0.2083335;
+seat_elevation_angle    15.f;
+head_translation_offset forward:0 left:0 up:0.05 backward:0 right:0 down:0;
+
+// various colours
+padlockbg ff7c4706; //padlock background
+padlockliftline ff5ee75e; //padlock liftline, green
+padlockvpside ff00ffff; //padlock viewport box 3 sides, yellow
+padlockvptop ffffffff; //padlock viewport top, white
+padlocktick ff0000ff; //padlock zero level tickmark, red
+needlecolor0 ffdddddd; // primary needle color, gray
+needlecolor1 ffdddddd; // secondary needle color, redish
+dedcolor FF00FF9C; //  DED color
+//ambientAddition 0.3;
+
+//instrumentlight per_model { key: 2217 value { z_bias: 0.05 } }
+//instrumentlight per_model { key: 2217 value { per_switch { key: 175 value { per_bit { key: 4 value { type: LIGHT_DEFAULT_OR_FLOOD knob_type: 13 attenuation { z: 0.1 } color { r: 0.6 g: 1.0 b: 0.6 }  } } } } } }
+//instrumentlight per_model { key: 2217 value { per_switch { key: 175 value { per_bit { key: 5 value { type: LIGHT_DEFAULT_OR_FLOOD knob_type: 18 attenuation { z: 0.1 } color { r: 0.6 g: 1.0 b: 0.6 }  } } } } } }
+//instrumentlight per_model { key: 2217 value { per_switch { key: 175 value { per_bit { key: 9 value { type: LIGHT_DEFAULT_OR_FLOOD knob_type: 14 attenuation { z: 0.1 } color { r: 0.6 g: 1.0 b: 0.6 }  } } } } } }
+//instrumentlight per_model { key: 2217 value { per_switch { key: 175 value { per_bit { key: 10 value { type: LIGHT_DEFAULT_OR_FLOOD knob_type: 23 attenuation { z: 0.1 } color { r: 0.6 g: 1.0 b: 0.6 }  } } } } } }
+//instrumentlight per_model { key: 2217 value { per_switch { key: 175 value { per_bit { key: 14 value { type: LIGHT_DEFAULT_OR_FLOOD knob_type: 15 attenuation { z: 0.1 } color { r: 0.6 g: 1.0 b: 0.6 } } } } } } }
+//instrumentlight per_model { key: 2217 value { per_switch { key: 175 value { per_bit { key: 19 value { type: LIGHT_DEFAULT_OR_FLOOD knob_type: 16 attenuation { z: 0.1 } color { r: 0.6 g: 1.0 b: 0.6 } } } } } } }
+//instrumentlight per_model { key: 2217 value { per_switch { key: 175 value { per_bit { key: 24 value { type: LIGHT_DEFAULT_OR_FLOOD knob_type: 17 attenuation { z: 0.1 } color { r: 0.6 g: 1.0 b: 0.6 } } } } } } }
+
+// the LOD models to use.
+cockpitmodel 4390;			// STATIC
+cockpitmodel2 4391;			// FUNCTIONS
+cockpitmodel3 4392;			// MFD
+cockpitwingsmodel 1567;		// WINGS
+cockpithudmodel 4393;		// HUD
+cockpitlegsmodel 4394;		// PILOT BODY
+
+zbuffering 1
+rtt_canopy 1;
+6dof_ready 1;
+hudview_tint_color       50000000;
+hud_projector_glow_color 00006000;
+hud_projector_glow_size  1.0;
+
+//Head rotation limits
+viewlimit_pan_left 200.0; // 160
+viewlimit_pan_right 200.0; // 160
+viewlimit_pitch_down 85.0; // 90
+
+//6DOF bounding box
+movementlimit_left		0.8;
+movementlimit_right     0.8;
+movementlimit_up        0.5;
+movementlimit_down      1.2;
+movementlimit_fore      1.2;
+movementlimit_aft       0.8;
+
+// movementlimit_left      10.0;
+// movementlimit_right     10.0;
+// movementlimit_up        10.0;
+// movementlimit_down      10.0;
+// movementlimit_fore      10.0;
+// movementlimit_aft       10.0;

@@ -1,0 +1,53 @@
+# EVENT MESSAGES
+# FORMAT: STRING_ID "string with %s for each param" <NUM_PARAMETERS> <PARAM 1> ... <PARAM N>
+# (%S MEANS PRINT PARAMETER AT THIS LOCATION IN THE "string")
+# WHAT EACH PARAMETERS NUMBER REPRESENTS:
+# 0 = TIME... DONT USE THIS
+# 1 = WHO/WHAT THIS IS HAPPENING TO
+# 2 = WEAPON USED IN EVENT
+# 3 = MISSILE INFO (USUALLY ONLY IF IT MISSED)
+# 4 = WHO/WHAT THIS IS HAPPENING TO (INCASE THERE ARE 2 - LIKE MID-AIR COLLISION)
+#
+# CURRENTLY, THERE ARE ONLY THESE PARAMETER TYPES
+# DO NOT CHANGE STRING_ID
+#
+# AN EXAMPLE: ("Hamfist" SHOOTS AN AIM-120 AT "Lawndart" AND "damages" HIM
+#     MESSAGE TYPE = EID_MISSILE_USED ("%s fired %s")
+#     NUMBER OF PARAMETERS = 2
+#     PARAM [1] = "Hamfist" ... SHOOTER
+#     PARAM [2] = "AIM-120" ... MISSILE TYPE USED
+#     OUTPUT WOULD BE: "Hamfist fired AIM-120"
+#
+#   THE NEXT MESSAGE DISPLAYED (ASSUMING THE MISSILE HIT) MIGHT BE BE
+#     MESSAGE TYPE = EID_WEAPON_DAMAGE ("%s damaged")
+#     NUMBER OF PARAMETERS = 1
+#     PARAM (1) = "Lawndart" ... VICTIM
+#     OUTPUT WOULD BE: "Lawndart damaged"
+#
+# ANOTHER EXAMPLE...
+#   ("Hamfist" COLLIDES IN MID-AIR WITH "Lawndart"
+#     MESSAGE TYPE = EID_MID_AIR_DAMAGE ("%s collided with %s")
+#     NUMBER OF PARAMETERS = 2
+#     PARAM (1) = "Hamfist" ... PILOT
+#     PARAM (4) = "Lawndart" ... OTHER PILOT
+#     OUTPUT WOULD BE: "Hamfist collided with Lawndart"
+#
+#
+# INTERNAL ID         STRING TO BUILD       # PARAMS  PARAMETERS
+EID_GUN_USED          "%s fired %s"             2     1 2
+EID_MISSILE_USED      "%s launched %s"          2     1 2
+EID_BOMB_USED         "%s dropped %s"           2     1 2
+EID_ROCKET_USED       "%s launched %s"          2     1 2
+EID_DEATH             "%s destroyed"            1     1
+EID_WEAPON_DAMAGE     "%s damaged"              1     1
+EID_MID_AIR_DAMAGE    "%s collided with %s"     2     1 4
+EID_HIT_GROUND_DAMAGE "%s hit the ground"       1     1
+EID_HIT_BLDNG_DAMAGE  "%s hit a building"       1     1
+EID_PROXIMITY_DAMAGE  "%s damaged by explosion" 1     1
+EID_DEBRIS_DAMAGE     "%s damaged by debris"    1     1
+EID_MISSILE_DONE      "%s"                      1     3
+EID_LANDING           "%s landed"               1     1
+EID_CALLSIGN_EJECT    "%s ejected"              1     1
+EID_PLANE_EJECT       "%s pilot ejected"        1     1
+EID_PLAYER_ENTER_SIM  "%s entered arena"        1     1
+EID_PLAYER_LEFT_SIM   "%s left arena"           1     1

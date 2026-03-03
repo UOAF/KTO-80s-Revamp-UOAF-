@@ -1,0 +1,136 @@
+// F4 3dckpit.dat **v1**  by Qawa  --
+
+// Boresight cross height
+//boresighty 0.75;
+
+// Shared render to texture target size, width height depth, depth needs to be 32 for texture alpha to work default is primary 
+rttTarget 600 600;
+
+// format is 3-d coords: up left - up right - low left
+// Rtt: LEFT, TOP, Right, Bottom, BlendMode, Alpha
+// BlendModes are a = alpha blending, c = color blending, g = texture gouraud, t = texture, default = g HUD 279 INVECE DI 279
+
+hud	24400.0	-2750.0	-618.0	24400.0	2750.0	-618.0	24400.0	-2750.0	4450.0	0	0	280	280	c;
+pfl	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000	281	0	481	70	c;
+ded	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000	281	71	481	141	c;
+rwr	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000	482	0	600	118	c;
+mfdleft	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000	375	375	600	600	c;
+mfdright	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000	375	145	600	370	c;
+
+// Mirrors: distance, tilt and texture size.
+//message GeneralData {
+//  optional float distance_ft = 1 [default = 0.0];  // distance of the pilot head from the mirror.
+//  // mirror tilt.
+//  optional float tilt_deg = 2;
+//  optional float fov_multiplier = 4 [default = 1.0];  // mirror fov
+//  // used to place the mirror source a bit higher to be able to draw the plane geometry without blocking mirrors.
+//  optional Vector3 offset_ft = 5;
+//  optional bool draw_ownship_geometry = 6;
+//  // Notice that if g_bDoubleRTTResolution is set, this is doubled.
+//  optional int32 texture_size = 7 [default = 600];
+//}
+mirrors distance_ft: 1.8 tilt_deg: 0.0 texture_size: 600 draw_ownship_geometry: true offset_ft { forward: 3 up: 0.25 } fov_multiplier: 1.0 
+
+// Mirror stencil: position (xyz same as above), scale (wide, height), mirror rotation in deg.
+//message StencilEntry {
+//  optional Vector3 center
+//  optional Vector3 scale [default = 1.0];
+//  optional float rotation_deg
+//  optional float rotation_rad
+//  optional StencilShape shape
+//  optional int32 num_triangles [default = 8];
+//}
+mirror_group
+mirror_stencil center { forward: 1.42 up: 0.41 } scale { wide: 0.293 tall: 0.05 } rotation_deg: 0.0 shape: STENCIL_SHAPE_CIRCLE num_triangles: 20;
+mirror_stencil center { forward: 1.42 up: 0.35 } scale { wide: 0.28 tall: 0.07 } rotation_deg: 0.0 shape: STENCIL_SHAPE_SQUARE;
+mirror_stencil center { forward: 1.42 up: 0.35 right: 0.275 } scale { wide: 0.03 tall: 0.07 } rotation_deg: 0.0 shape: STENCIL_SHAPE_CIRCLE num_triangles: 20;
+mirror_stencil center { forward: 1.42 up: 0.35 right: -0.275 } scale { wide: 0.03 tall: 0.07 } rotation_deg: 0.0 shape: STENCIL_SHAPE_CIRCLE num_triangles: 20;
+mirror_group_end
+
+// left.
+mirror_group stencils_from_group: 0
+mirror_group_end op { scale { wide: 1.00 tall: 1.14 } } op { rotate { roll_deg: 45.5 } } op { rotate { yaw_deg: -7 } } op { rotate { pitch_deg: 14 } } op { translate { forward: -0.11 up: -0.296 right: -0.835 } };
+
+// right.
+mirror_group stencils_from_group: 0
+mirror_group_end op { scale { wide: 1.00 tall: 1.14 } } op { rotate { roll_deg: -45.5 } } op { rotate { yaw_deg: 7 } } op { rotate { pitch_deg: 14 } } op { translate { forward: -0.11 up: -0.296 right: 0.835 } };
+
+
+// various colours
+padlockbg ff7c4706; //padlock background
+padlockliftline ff5ee75e; //padlock liftline, green
+padlockvpside ff00ffff; //padlock viewport box 3 sides, yellow
+padlockvptop ffffffff; //padlock viewport top, white
+padlocktick ff0000ff; //padlock zero level tickmark, red
+needlecolor0 ff777777; // primary needle color, gray
+needlecolor1 ff777777; // secondary needle color, redish
+dedcolor FF00FF9C //  DED color
+
+// font settings for displays
+hudfont 4;
+hudwarnfont 6;
+mfdfont 7;
+dedfont 10;
+pflfont 10;
+rwrfont 11;
+hmsfont 13;
+
+// floodlightcolormod r g b where r g b are float between 0.0 to 1.0
+floodlightcolormod 0.9 0.0 0.0; // red
+
+cockpitmodel 1717; // the main 3d cockpit model
+cockpitmodel2 1721;         // switches and knobs
+cockpitwingsmodel 1692;     // the 3d cockpit wings model
+cockpithudmodel 1724;       // HUD combiner glass model
+cockpitcanopymodel 1727;    // Canopy model
+cockpitrttcanopymodel 1737; // Canopy model to render scratches and rain drops
+
+//Head rotation limits
+viewlimit_pan_left       155.0;
+viewlimit_pan_right      155.0;
+viewlimit_pitch_down     80.0;
+
+//6DOF bounding box
+movementlimit_left       0.415;
+movementlimit_right      0.415;
+movementlimit_up         0.119;
+movementlimit_down       0.3;
+movementlimit_fore       1.0;
+movementlimit_aft        0.6;
+
+6dof_ready 1;
+rtt_canopy 1;
+
+//Ejection seat adjust params
+seat_elevation_max       0.119f;
+seat_elevation_min      -0.119f;
+seat_elevation_angle    30.f;								  
+
+//Guided views
+guidedview 0 0 0 0 0 -9 0 60 18000 28 22500 29 13500 53 27000 66 9000 13 0 44 31500 73 4500 96;
+guidedview 28 0 0 0 0 -32 0 60 0 0 18000 50 27000 29 9000 53 31500 66 4500 13;
+guidedview 50 -0.06 0 0 0 -60 0 60 0 28 4500 53 31500 29 27000 29 9000 53;
+guidedview 29 0.014469 0 0.06 -55 -51.99985 0 60 9000 28 4500 0 27000 37 13500 50 31500 89 0 66;
+guidedview 37 0 0 0.024633 -110 -54.49992 0 60 9000 29 4500 66 0 89 31500 8 27000 8;
+guidedview 53 0.014469 0 0.06 55 -46.49978 0 60 9000 92 27000 28 31500 0 22500 50 0 13 4500 38;
+guidedview 92 0.014469 0 0.06 110 -50.49974 0 60 27000 53 0 38 31500 13 4500 34 9000 34;
+guidedview 66 0 0 0 -55 -9 0 60 22500 37 18000 29 13500 28 9000 0 27000 89 4500 44 0 73 31500 82;
+guidedview 89 0 0 0 -110 -9 0 60 13500 29 18000 37 9000 66 27000 8 31500 62 0 82 4500 73;
+guidedview 8 0 -0.05 0 -165 -9 0 60 9000 89 13500 37 0 62 4500 82;
+guidedview 13 0 0 0 55 -9 0 60 22500 28 27000 0 18000 53 13500 92 9000 38 31500 44 0 96 4500 71;
+guidedview 38 0 0 0 110 -9 0 60 18000 92 22500 53 27000 13 9000 34 0 71 31500 96 4500 17;
+guidedview 34 0 0.05 0 165 -9 0 60 27000 38 22500 92 0 17 31500 71;
+guidedview 44 0 0 0 0 35 0 60 18000 0 22500 66 13500 13 27000 73 9000 96 0 40 4500 54 31500 12;
+guidedview 73 0 0 0 -55 35 0 60 27000 82 9000 44 18000 66 22500 89 13500 0 0 12 4500 40 31500 70;
+guidedview 82 0 0 0 -110 35 0 60 22500 8 27000 62 18000 89 9000 73 13500 66 0 70 4500 12 31500 91;
+guidedview 62 0 -0.05 0 -165 35 0 60 18000 8 13500 89 9000 82 0 91 4500 70;
+guidedview 96 0 0 0 55 35 0 60 27000 44 9000 71 18000 13 22500 0 13500 38 0 54 4500 80 31500 40;
+guidedview 71 0 0 0 110 35 0 60 27000 96 9000 17 18000 38 22500 13 13500 34 0 80 4500 7 31500 54;
+guidedview 17 0 0.05 0 165 35 0 60 27000 71 18000 34 22500 38 0 7 31500 80;
+guidedview 40 0 0 0 0 80 0 60 27000 12 9000 54 18000 44 13500 96 22500 73;
+guidedview 12 0 0 0 -55 80 0 60 27000 70 9000 40 18000 73 13500 44 22500 82;
+guidedview 70 0 0 0 -110 80 0 60 27000 91 9000 12 18000 82 13500 73 22500 62;
+guidedview 91 0 -0.05 0 -165 80 0 60 18000 62 9000 70 13500 82;
+guidedview 54 0 0 0 55 80 0 60 27000 40 9000 80 18000 96 13500 71 22500 44;
+guidedview 80 0 0 0 110 80 0 60 27000 54 9000 7 18000 71 13500 17 22500 96;
+guidedview 7 0 0.05 0 165 80 0 60 27000 80 18000 17 22500 71;

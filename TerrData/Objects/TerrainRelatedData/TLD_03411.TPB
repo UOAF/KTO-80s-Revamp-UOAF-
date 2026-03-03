@@ -1,0 +1,495 @@
+terrain_level_data {
+  terrain_level: 650
+  terrain_level_polygon {
+    terrain_leveling_percentage: 100
+    terrain_level_point {
+      sim_grid_pos_x: 1665912.5
+      sim_grid_pos_y: 1316150.12
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1665750.5
+      sim_grid_pos_y: 1316196.38
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1665660.88
+      sim_grid_pos_y: 1316362.62
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1665600.38
+      sim_grid_pos_y: 1316540.5
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1665614
+      sim_grid_pos_y: 1316726.5
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1665705.38
+      sim_grid_pos_y: 1316907.25
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1.6658e+06
+      sim_grid_pos_y: 1316954.12
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1665886.88
+      sim_grid_pos_y: 1317102.38
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1666006.62
+      sim_grid_pos_y: 1317228.5
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1666132.62
+      sim_grid_pos_y: 1317206.75
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1666228.5
+      sim_grid_pos_y: 1317059.62
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1666350.25
+      sim_grid_pos_y: 1316919.75
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1666518
+      sim_grid_pos_y: 1316801.12
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1666666.88
+      sim_grid_pos_y: 1316726.38
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1666801.88
+      sim_grid_pos_y: 1316581.12
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1666913.75
+      sim_grid_pos_y: 1316441.38
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1666770.12
+      sim_grid_pos_y: 1316313.25
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1666632.38
+      sim_grid_pos_y: 1316180.38
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1666357.38
+      sim_grid_pos_y: 1316095.75
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1666135
+      sim_grid_pos_y: 1316052.62
+    }
+  }
+  terrain_level_polygon {
+    terrain_leveling_percentage: 75
+    terrain_level_point {
+      sim_grid_pos_x: 1666129
+      sim_grid_pos_y: 1315999.38
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1665895.12
+      sim_grid_pos_y: 1316101.75
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1665715.62
+      sim_grid_pos_y: 1316153
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1665613.75
+      sim_grid_pos_y: 1316342.12
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1665548.5
+      sim_grid_pos_y: 1316533.88
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1665563.62
+      sim_grid_pos_y: 1316740.5
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1665667.38
+      sim_grid_pos_y: 1316945.5
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1665763.5
+      sim_grid_pos_y: 1316993.25
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1665845.62
+      sim_grid_pos_y: 1317133.38
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1665988.25
+      sim_grid_pos_y: 1317283.75
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1666163.38
+      sim_grid_pos_y: 1317253.38
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1666269.38
+      sim_grid_pos_y: 1317090.62
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1666384.88
+      sim_grid_pos_y: 1316958
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1666544.5
+      sim_grid_pos_y: 1316845.25
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1666698.12
+      sim_grid_pos_y: 1316768
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1666840.75
+      sim_grid_pos_y: 1316614.62
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1666984.12
+      sim_grid_pos_y: 1316435.5
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1666804.88
+      sim_grid_pos_y: 1316275.62
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1666659.12
+      sim_grid_pos_y: 1316135
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1666369.88
+      sim_grid_pos_y: 1316046
+    }
+  }
+  terrain_level_polygon {
+    terrain_leveling_percentage: 50
+    terrain_level_point {
+      sim_grid_pos_x: 1666123.12
+      sim_grid_pos_y: 1315946
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1665877.75
+      sim_grid_pos_y: 1316053.38
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1665680.75
+      sim_grid_pos_y: 1316109.62
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1665566.5
+      sim_grid_pos_y: 1316321.62
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1665496.62
+      sim_grid_pos_y: 1316527.25
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1665513.25
+      sim_grid_pos_y: 1316754.5
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1665629.25
+      sim_grid_pos_y: 1316983.88
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1665727
+      sim_grid_pos_y: 1317032.38
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1665804.38
+      sim_grid_pos_y: 1317164.38
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1.66597e+06
+      sim_grid_pos_y: 1317339
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1666194.12
+      sim_grid_pos_y: 1317300.12
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1666310.38
+      sim_grid_pos_y: 1317121.5
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1666419.5
+      sim_grid_pos_y: 1316996.38
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1666570.88
+      sim_grid_pos_y: 1316889.25
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1666729.38
+      sim_grid_pos_y: 1316809.62
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1666879.62
+      sim_grid_pos_y: 1316648.12
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1667054.5
+      sim_grid_pos_y: 1316429.5
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1.66684e+06
+      sim_grid_pos_y: 1316238.12
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1666686
+      sim_grid_pos_y: 1316089.62
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1666382.25
+      sim_grid_pos_y: 1315996.12
+    }
+  }
+  terrain_level_polygon {
+    terrain_leveling_percentage: 25
+    terrain_level_point {
+      sim_grid_pos_x: 1666117.12
+      sim_grid_pos_y: 1315892.62
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1665860.38
+      sim_grid_pos_y: 1316005.12
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1665645.88
+      sim_grid_pos_y: 1316066.25
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1665519.38
+      sim_grid_pos_y: 1316301
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1665444.75
+      sim_grid_pos_y: 1316520.62
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1665462.88
+      sim_grid_pos_y: 1316768.5
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1665591.25
+      sim_grid_pos_y: 1317022.25
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1665690.5
+      sim_grid_pos_y: 1317071.5
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1665763.12
+      sim_grid_pos_y: 1317195.38
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1665951.75
+      sim_grid_pos_y: 1317394.12
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1666224.88
+      sim_grid_pos_y: 1317346.75
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1666351.38
+      sim_grid_pos_y: 1317152.5
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1666454.12
+      sim_grid_pos_y: 1317034.62
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1666597.38
+      sim_grid_pos_y: 1316933.38
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1666760.62
+      sim_grid_pos_y: 1316851.38
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1666918.38
+      sim_grid_pos_y: 1316681.75
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1667124.88
+      sim_grid_pos_y: 1316423.62
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1666874.62
+      sim_grid_pos_y: 1316200.38
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1666712.75
+      sim_grid_pos_y: 1316044.25
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1666394.75
+      sim_grid_pos_y: 1315946.38
+    }
+  }
+}
+terrain_level_data {
+  terrain_level: 540
+  terrain_level_polygon {
+    terrain_leveling_percentage: 100
+    terrain_level_point {
+      sim_grid_pos_x: 1665524.25
+      sim_grid_pos_y: 1315719.25
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1665451
+      sim_grid_pos_y: 1315912.12
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1665219.75
+      sim_grid_pos_y: 1315902.12
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1665031.12
+      sim_grid_pos_y: 1315944.88
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1664796.75
+      sim_grid_pos_y: 1315894.88
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1664612.62
+      sim_grid_pos_y: 1315814.88
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1664595.12
+      sim_grid_pos_y: 1315578.75
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1664838.25
+      sim_grid_pos_y: 1315529.25
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1664986.25
+      sim_grid_pos_y: 1315497.62
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1665110.25
+      sim_grid_pos_y: 1315454
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1665299.5
+      sim_grid_pos_y: 1315429.12
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1665448.75
+      sim_grid_pos_y: 1315550.75
+    }
+  }
+  terrain_level_polygon {
+    terrain_leveling_percentage: 66.6666718
+    terrain_level_point {
+      sim_grid_pos_x: 1665490.5
+      sim_grid_pos_y: 1315518.75
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1665579.75
+      sim_grid_pos_y: 1315717.5
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1665485.75
+      sim_grid_pos_y: 1315965
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1665224.38
+      sim_grid_pos_y: 1315953.62
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1665031.5
+      sim_grid_pos_y: 1315997.38
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1664781
+      sim_grid_pos_y: 1315944
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1664563.88
+      sim_grid_pos_y: 1315849.5
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1664540.62
+      sim_grid_pos_y: 1315537.5
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1664828
+      sim_grid_pos_y: 1315479
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1664972.25
+      sim_grid_pos_y: 1315448.25
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1665098.25
+      sim_grid_pos_y: 1315403.88
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1665314.75
+      sim_grid_pos_y: 1315375.38
+    }
+  }
+  terrain_level_polygon {
+    terrain_leveling_percentage: 33.3333359
+    terrain_level_point {
+      sim_grid_pos_x: 1665532.38
+      sim_grid_pos_y: 1315486.62
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1665635.25
+      sim_grid_pos_y: 1315716
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1665520.5
+      sim_grid_pos_y: 1316017.75
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1665229
+      sim_grid_pos_y: 1316005.12
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1665031.88
+      sim_grid_pos_y: 1316049.88
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1664765.25
+      sim_grid_pos_y: 1315993
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1664515
+      sim_grid_pos_y: 1315884.25
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1664486.12
+      sim_grid_pos_y: 1315496.25
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1664816.88
+      sim_grid_pos_y: 1315429
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1664816.88
+      sim_grid_pos_y: 1315428.88
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1664958.5
+      sim_grid_pos_y: 1315398.75
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1665086.25
+      sim_grid_pos_y: 1315353.75
+    }
+    terrain_level_point {
+      sim_grid_pos_x: 1665329.88
+      sim_grid_pos_y: 1315321.62
+    }
+  }
+}

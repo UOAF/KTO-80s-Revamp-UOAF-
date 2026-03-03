@@ -1,0 +1,1 @@
+mklink /J "E:\Falcon BMS 4.38\Data\Add-On KTO 80s Revamp 4.38\Terrdata\objects\KoreaObj" "E:\Falcon BMS 4.38\Data\TerrData\Objects\KoreaObj"

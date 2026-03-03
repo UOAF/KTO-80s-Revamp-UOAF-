@@ -1,0 +1,63 @@
+Updated: 25/02/2022 (Dee-Jay)
+
+This is the list of cockpit 3dbuttons.dat groups.
+
+Refer to the "3Bbuttons_Dev_Notes" for Cockpit groups/list, located in \Data\Art\CkptArt
+Use Notepad ++ and Winmerge to identify blocks variants and to make your life easier for the editions of these files.
+Notepad++ software (https://notepad-plus-plus.org/) helps in keeping the formatting consistent and help in making researches in files and/or entire folders/sub-folders.
+Winmerge software (https://winmerge.org) helps a lot to identify the cockpit button differences.
+The files are identical within a group/type of cockpit.
+It is important to not break the formatting and respect the boxes. No tabs, Only Spaces.
+Each variance of boxes / sections is properly identified.
+
+=== Cockpit Type: A15 ===
+F-16A-15
+F-16A-15 IAF
+F-16B-15
+F-16B-15
+F-16C-30
+F-16C-30 AGRS
+F-16C-30 IAF
+F-16C-32
+F-16C-32 AGRS
+F-16C-32 ROKAF
+F-16C-40 IAF
+F-16DG-30 IAF
+F-16DG-40 IAF
+
+=== Cockpit Type: AM BAC ===
+F-16AM BAC
+F-16AM RJAF
+
+=== Cockpit Type: AM RNDAF ===
+F-16AM RDAF
+F-16AM RNLAF
+F-16AM RNoAF
+
+=== Cockpit Type: C32 EAF ===
+F-16C-40 EAF
+
+=== Cockpit Type: C40 EAF ===
+F-16C-40 EAF
+
+=== Cockpit Type: C40 ===
+F-16CM-40
+F-16CM-42
+F-16D-52+ RSAF
+F-16DM-40
+
+=== Cockpit Type: C50 ===
+F-16C-52 ROKAF
+F-16CM-50
+F-16CM-50
+F-16CM-52 TB
+F-16DM-52
+
+=== Cockpit Type: C52 EAF ===
+F-16C-52+ EAF
+
+=== Cockpit Type: C52 HAF ===
+F-16C-52+ EAF
+
+=== Cockpit Type: I ===
+F-16I-52+

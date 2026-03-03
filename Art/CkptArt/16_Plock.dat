@@ -1,0 +1,190 @@
+
+#0 MANAGER
+	numsurfaces = 1;
+	numpanels = 1;
+	numcursors = 0;
+	numobjects = 8;
+	numbuttons = 0;
+	numbuttonviews = 0;
+	numsounds = 0;
+	mouseborder = 0;
+	hudfont = 0;
+	dedfont = 0;
+	mfdfont = 0;
+	popupfont = 0;
+	saboxfont = 0;
+	kneefont = 0;
+	generalfont = 0;
+	labelfont = 0;
+	templatefile = 3535 7400 16_tmplt.gif;
+#END
+
+//Altitude Indicator
+#3 INDICATOR
+	cyclebits = 0xffff;
+	minval = 0.0;
+	maxval = 10.0;
+	numtapes = 3;
+	callbackslot = 32;
+	persistant = 0;
+	minpos = 1152;
+	maxpos = 963;
+	srcloc = 939 1230 1204 1243;
+	destloc = 896 192 913 204;
+	minpos = 1152;
+	maxpos = 963;
+	srcloc = 939 1230 1204 1243;
+	destloc = 896 207 913 220;
+	minpos = 1152;
+	maxpos = 963;
+	srcloc = 939 1230 1204 1243;
+	destloc = 882 223 925 235;
+	orientation = vertical;
+#END
+
+//Mach digits
+//Fixed digits to display correct values 02.12.2001 (Bowman)
+#8 DIGITS
+	cyclebits = 0xffff;
+	numdigits = 2;
+	callbackslot = 35;
+	persistant = 0;
+	srcloc = 956 1215 974 1227;
+	srcloc = 1139 1215 1157 1227;
+	srcloc = 1119 1215 1137 1227;
+	srcloc = 1099 1215 1117 1227;
+	srcloc = 1079 1215 1097 1227;
+	srcloc = 1058 1215 1076 1227;
+	srcloc = 1037 1215 1055 1227;
+	srcloc = 1017 1215 1035 1227;
+	srcloc = 997 1215 1015 1227;
+	srcloc = 977 1215 995 1227;
+	destloc = 901 91 919 103;
+	destloc = 901 106 919 118;
+#END
+
+//Name: AOA Indicator
+#102 INDICATOR
+	cyclebits = 0xffff;
+	minval = -30.0;
+	maxval = 30.0;
+	numtapes = 1;
+	callbackslot = 9;
+	persistant = 0;
+	minpos = 1115;
+	maxpos = 739;
+	srcloc = 698 631 1156 658;
+	destloc = 1028 34 1109 61;
+	orientation = vertical;
+#END
+
+//Name: VVI Indicator
+#103 INDICATOR
+	cyclebits = 0xffff;
+	minval = -6000.0;
+	maxval = 6000.0;
+	numtapes = 1;
+	callbackslot = 10;
+	persistant = 0;
+	minpos = 1169;
+	maxpos = 809;
+	srcloc = 767 664 1211 692;
+	destloc = 1029 269 1113 297;
+	orientation = vertical;
+#END
+
+//Name: Altitude Dial
+#105 DIAL
+	cyclebits = 0xffff;
+	numendpoints = 2;
+	points = 1.57 1.5710002;
+	values = 0.0 1000.0;
+	radius0 = 0.0;
+	radius1 = 45.0;
+	radius2 = 4.0;
+	color0 = 0xff000000;
+	color1 = 0xff646464;
+	color2 = 0xffc6c7bc;
+	srcloc = 843 175 978 309;
+	destloc = 843 175 978 309;
+	callbackslot = 33;
+	persistant = 0;
+#END
+
+//Name: Mach digits
+#106 DIGITS
+	cyclebits = 0x23;
+	numdigits = 2;
+	callbackslot = 35;
+	persistant = 0;
+	srcloc = 956 1216 974 1227;
+	srcloc = 1141 1216 1159 1227;
+	srcloc = 1120 1216 1138 1227;
+	srcloc = 1099 1216 1117 1227;
+	srcloc = 1078 1216 1096 1227;
+	srcloc = 1058 1216 1076 1227;
+	srcloc = 1037 1216 1055 1227;
+	srcloc = 1018 1216 1036 1227;
+	srcloc = 998 1216 1016 1227;
+	srcloc = 978 1216 996 1227;
+	destloc = 901 91 919 102;
+	destloc = 901 106 919 117;
+#END
+
+//Name: Mach/Airspeed Indicator
+#101 DIAL
+	cyclebits = 0xffff;
+	numendpoints = 17;
+	points = 1.2389998 0.93900007 0.051999953 -0.80300003 -1.3119999 -1.752 -2.077 -2.445 -2.7230003 -2.9949994 -3.2390003 -3.4490004 -3.655 -3.8550003 -4.0540004 -4.2120004 -4.365;
+	values = 0.8 1.0 1.5 2.0 2.5 3.0 3.5 4.0 4.5 5.0 5.5 6.0 6.5 7.0 7.5 8.0 8.5;
+	radius0 = 0.0;
+	radius1 = 50.0;
+	radius2 = 4.0;
+	color0 = 0xff000000;
+	color1 = 0xffdcdcdc;
+	color2 = 0xff646464;
+	srcloc = 842 15 979 153;
+	destloc = 842 15 979 153;
+	callbackslot = 34;
+	persistant = 0;
+#END
+
+//Name: ADI
+#104 ADI
+	cyclebits = 0xffff;
+	callbackslot = 8;
+	persistant = 0;
+	srcloc = 500 2741 939 2830;
+	ilslimits = 1039 137 1100 202;
+	destloc = transparent 1025 125 1114 214;
+	color0 = 0xff000000;
+	color1 = 0xff000000;
+	color2 = 0xffffffff;
+	color3 = 0xff6cf3f3;
+	color4 = 0xff38e0f8;
+#END
+
+//Back padlock
+#100 PANEL
+	numsurfaces = 1;
+	numobjects = 8;
+	objects =  3 8 102 103 105 106 101 104;
+	numbuttonviews = 0;
+	adjpanels = -1 -1 -1 -1 -1 -1 -1 -1;
+	surfaces = 1 0 opaque 828 1 1151 323;
+	offset = 0 0;
+	pantilt = 0.0 0.0;
+	masktop = 0;
+	cursorid = 0;
+#END
+
+//Starting panel 100
+#1 BUFFER
+	filename = 16_plock.gif;
+	buffersize = 323 550;
+#END
+#1 SURFACE
+	filename = 16_plock.gif;
+	srcloc = 0 0 323 321;
+#END
+//--------------------------

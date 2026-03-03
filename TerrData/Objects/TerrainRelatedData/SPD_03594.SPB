@@ -1,0 +1,76 @@
+specialPolygonData {
+  type: 0
+  point {
+    x: 867437.5
+    y: 1563345.25
+  }
+  point {
+    x: 867602.5
+    y: 1563386.38
+  }
+  point {
+    x: 867602.75
+    y: 1563385.5
+  }
+  point {
+    x: 867437.75
+    y: 1563344.38
+  }
+}
+specialPolygonData {
+  type: 0
+  point {
+    x: 867010.75
+    y: 1567527.5
+  }
+  point {
+    x: 866845.75
+    y: 1567486.38
+  }
+  point {
+    x: 866845.5
+    y: 1567487.25
+  }
+  point {
+    x: 867010.5
+    y: 1567528.38
+  }
+}
+specialPolygonData {
+  type: 0
+  point {
+    x: 867133
+    y: 1565264.5
+  }
+  point {
+    x: 866968
+    y: 1565223.38
+  }
+  point {
+    x: 866967.75
+    y: 1565224.25
+  }
+  point {
+    x: 867132.75
+    y: 1565265.38
+  }
+}
+specialPolygonData {
+  type: 0
+  point {
+    x: 867796.562
+    y: 1563704.25
+  }
+  point {
+    x: 867961.562
+    y: 1563745.38
+  }
+  point {
+    x: 867961.812
+    y: 1563744.5
+  }
+  point {
+    x: 867796.812
+    y: 1563703.38
+  }
+}

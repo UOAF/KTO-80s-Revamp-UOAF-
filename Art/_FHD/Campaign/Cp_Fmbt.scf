@@ -1,0 +1,18 @@
+#UI BMS 4.38 update, February 2024, by Kolbe
+
+#This controls the bottom of the full map display, in case you want to put something down there.
+#unused
+
+[WINDOW]
+[SETUP] CB_FULLBOTTOM_WIN C_TYPE_NORMAL 862 9
+[RANGES] 0 0 1920 1080 862 9
+[XY] 119 692
+[GROUP] 6400
+[FLAGBITON] C_BIT_CANTMOVE
+[DEPTH] 15
+
+#[LINE]
+#[SETUP] NID 0
+#[XYWH] 0 0 862 1
+#[COLOR] 0 0 0
+#[FLAGBITON] C_BIT_ABSOLUTE

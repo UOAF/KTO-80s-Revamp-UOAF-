@@ -1,0 +1,70 @@
+landCoverPolygonProtoVec {
+  groundType: GTP_AIRBASE
+  point {
+    x: 451177.281
+    y: 1533571.12
+  }
+  point {
+    x: 452234.75
+    y: 1533317.38
+  }
+  point {
+    x: 451909.25
+    y: 1532689.12
+  }
+  point {
+    x: 451685.875
+    y: 1532585
+  }
+  point {
+    x: 451531.875
+    y: 1532131.38
+  }
+  point {
+    x: 451219.875
+    y: 1531926.88
+  }
+  point {
+    x: 451138.75
+    y: 1532179.75
+  }
+  point {
+    x: 451095.156
+    y: 1532813.25
+  }
+}
+landCoverPolygonProtoVec {
+  groundType: GTP_AIRBASE
+  point {
+    x: 451191.656
+    y: 1531847.12
+  }
+  point {
+    x: 451088.031
+    y: 1.53217e+06
+  }
+  point {
+    x: 451043.719
+    y: 1532814.25
+  }
+  point {
+    x: 451132.594
+    y: 1533634.62
+  }
+  point {
+    x: 452310.406
+    y: 1533351.88
+  }
+  point {
+    x: 451946.719
+    y: 1.53265e+06
+  }
+  point {
+    x: 451727.344
+    y: 1532547.75
+  }
+  point {
+    x: 451574.719
+    y: 1532098.25
+  }
+}

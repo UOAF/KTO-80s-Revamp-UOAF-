@@ -1,0 +1,147 @@
+// 3-d cockpit description for F-18C AU V.1.1 RTT
+// by Davide "Daws" Sangiorgi
+
+
+// Boresight cross height
+boresighty 0.75;
+
+
+// Shared render to texture target size, width height depth, depth needs to be 32 for texture alpha to work default is primary 
+rttTarget 600 600;
+
+
+// 3-d coords for Upper left. Upper Right and Lower Left  
+// Rtt Top. Left. Right. Bottom. BlendMode. Alpha
+// BlendModes are a = alpha blending. c = color blending. g = texture gouraud. t = texture. default = g 
+// example hud with 0.5 vertex alpha:    hud  20.0 -2.0 0.0    20.0 2.0 0.0    20.0 -2.0 4.0    5 5 260 260    a 0.5;
+// first number is toward you / away from you
+// second number is left and right + number is right. - number is left
+// third number is up / down - number is up. + number is down
+// 0. 0  is in the middle of the screen (apprxomiately)
+hud			24154	-2750	-618	24154	2750	-618	24154	-2750	4902	287	314	573	600	c;
+pfl			0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0	0	200	86	c;
+ded			0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000	201	0	401	86	c;
+rwr			0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000	454	164	600	310	c;
+mfdleft		0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0	88	225	313	c;
+mfdright	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000	228	88	453	313	c;
+hms			20.063	-4.000	-4.000	20.063	4.000	-4.000	20.063	-4.000	4.000	0	314	286	600	c;
+
+
+// font settings for displays
+hudfont 4;
+hudwarnfont 6;
+mfdfont 7;
+dedfont 10;
+pflfont 10;
+rwrfont 11;
+
+
+// various colours
+padlockbg ff7c4706; 		// padlock background
+padlockliftline ff5ee75e; 	// padlock liftline, green
+padlockvpside ff00ffff; 	// padlock viewport box 3 sides, yellow
+padlockvptop ffffffff; 		// padlock viewport top, white
+padlocktick ff0000ff; 		// padlock zero level tickmark, red
+needlecolor0 ff777777; 		// primary needle color, gray
+needlecolor1 ff777777; 		// secondary needle color, redish
+dedcolor ff00ff00; 			// DED color
+
+
+// the LOD models to use.
+cockpitmodel 1457; 			// the main 3d cockpit model
+cockpitmodel2 1665;			// switches and knobs
+cockpithudmodel 1620;		// HUD combiner glass model
+cockpitcanopymodel 579;    	// Canopy model
+cockpitrttcanopymodel 1619; // Canopy model to render scratches and rain drops
+cockpitlegsmodel 2405;
+cockpittype 1801;
+
+
+//		angle to position, rpm value
+rpm_needle 		3636.0 		100
+
+
+//		angle to position, ftit value
+ftit_needle 		36000.0 		10.0
+
+
+//		angle to position, vv
+vvi_needle		37.5	500
+vvi_needle		66.5	1000
+vvi_needle		97.0	2000
+vvi_needle		120.5	3000
+vvi_needle		138.5	4000
+vvi_needle		153.6	5000
+vvi_needle		165.0	6000
+
+
+//Head rotation limits
+viewlimit_pan_left 160.0;
+viewlimit_pan_right 160.0;
+viewlimit_pitch_down 60.0;
+
+
+//6DOF bounding box
+movementlimit_left       0.531;
+movementlimit_right      0.531;
+movementlimit_up         0.119;
+movementlimit_down       1.0;
+movementlimit_fore       0.9;
+movementlimit_aft        0.3;
+
+
+// Options
+hudview_pitch = 5.0f;
+hudview_fov = 80.0f;
+//zbuffering 1;
+6dof_ready 1;
+rtt_canopy 1;
+hudview_tint_color       50000000;
+
+
+//MFD OSB label positions
+mfd_osb_label_locations -0.6 0.985 -0.3 0.985 0.0 0.985 0.3 0.985 0.6 0.985 0.99 0.6 0.99 0.3 0.99 0.0 0.99 -0.3 0.99 -0.6 0.6 -0.87 0.3 -0.87 0.0 -0.87 -0.3 -0.87 -0.6 -0.87 -0.975 -0.6 -0.975 -0.3 -0.975 0.0 -0.975 0.3 -0.975 0.6 
+
+
+//Guided Views
+guidedview 0 0.002895 -0.000075 0.004913 -2.130217 -1.240911 -0.269403 59.999996 0 22 9000 4 18000 1  27000 7''
+guidedview 1 -0.003788 0.001169 0.010378 -1.815290 -13.619148 -0.773593 59.999996 0 0 9000 14 18000 2 27000 17''
+guidedview 2 0.005678 0.001704 0.027835 -1.518839 -32.854435 -0.680207 59.999996 0 1 9000 10 18000 3  27000 12''
+guidedview 3 0.041024 0.001926 0.054822 -0.379488 -49.691322 -0.772880 59.999996 0 2 ''
+//Right View 0
+guidedview 4 -0.019216 0.002416 0.009549 40.493484 3.069704 1.319349 59.999996 0 26 9000 5 18000 14 27000 0''
+guidedview 5 -0.025387 0.003163 0.009305 85.135223 1.355792 1.101588 59.999996 0 27 9000 6 18000 15 27000 4''
+guidedview 6 -0.010509 0.011444 0.007235 134.596313 0.962356 1.787185 59.999996 0 27 18000 16 27000 5''
+//Left View 0
+guidedview 7 -0.019976 -0.001123 0.009990 -39.404217 3.016370 -0.015981 59.999996 0 23 9000 0 18000 17 27000 8''
+guidedview 8 -0.020384 -0.001969 0.012322 -91.257851 6.281113 0.249925 59.999996 0 24 9000 7  18000 18 27000 9 ''
+guidedview 9 -0.008084 -0.014612 0.003741 -137.276825 1.235933 -1.054429 59.999996 0 25 9000 8 18000 19 ''
+//Right View 1
+guidedview 14 -0.035086 0.001161 0.012724 41.198616 -10.548007 1.383842 59.999996 0 4 9000 15 18000 10 27000 1''
+guidedview 15 -0.036969 0.002165 0.013343 84.513924 -18.220495 1.223510 59.999996  0 5 9000 16 18000 11 27000 14''
+guidedview 16 -0.044764 0.002291 0.013883 121.133118 -17.787123 1.126334 59.999996 0 6 18000 11 27000 15''
+//Left View 1
+guidedview 17 -0.017588 0.000665 0.014211 -42.619614 -12.209912 -0.012600 59.999996  0 7 9000 1 18000 12 27000 18 ''
+guidedview 18 -0.015599 0.000598 0.014593 -82.031990 -19.597921 2.327843 59.999996 0 8 9000 17 18000 13 27000 19 ''
+guidedview 19 -0.016786 0.000093 0.015534 -121.200859 -15.268261 1.433646 59.999996 0 9 9000 18 18000 13''
+/Right view 2
+guidedview 10 -0.015199 0.002083 0.006294 24.198744 -38.140705 -4.233915 59.999996 0 14 27000 2 9000 11 ''
+guidedview 11 0.008968 0.007089 0.038459 59.812801 -52.664139 -16.385880 59.999996 0 15 27000 10 18000 20''
+guidedview 20 0.040988 0.012057 0.084741 70.903748 -54.852692 -5.747705 59.999996 0 11 ''
+//Left View 2
+guidedview 12 -0.016856 0.000936 0.014685 -34.002117 -43.769882 6.722177 59.999996 0 17 9000 2 27000 13  ''
+guidedview 13 -0.007369 -0.000165 0.026948 -76.449730 -54.649906 10.527532 59.999996 0 18 9000 12 18000 21 ''
+guidedview 21 0.021540 -0.010140 0.094344 -80.969193 -47.125637 8.723474 59.999996 0 13''
+//Above Canopy Up//
+guidedview 22 -0.022096 -0.001458 0.016399 -1.085244 36.501747 0.437121 59.999996 0 29 9000 26 18000 0 27000 23 ''
+//Right
+guidedview 26 -0.031128 -0.000319 0.014339 38.101799 47.250172 3.824246 59.999996 0 29 9000 27 18000 4 27000 22 ''
+guidedview 27 -0.040375 -0.001519 0.014184 85.606972 38.375164 6.490524 59.999996 0 29 9000 28 18000 5 27000 26 ''
+guidedview 28 -0.043212 0.000976 0.012860 118.572334 36.925060 14.673249 59.999996 0 30 18000 6 27000 27 ''
+//Left
+guidedview 23 -0.029119 -0.000154 0.016787 -41.506855 36.250858 0.398096 59.999996 0 29 9000 22 18000 7 27000 24 ''
+guidedview 24 -0.031609 0.001218 0.019803 -80.140244 35.979080 -7.480626 59.999996 0 29 9000 23 18000 8  27000 25 ''
+guidedview 25 -0.028843 0.001010 0.016251 -115.212326 40.386597 -11.536583 59.999996 0 30 9000 24 18000 9 ''
+//Straight Up
+guidedview 29 -0.060000 -0.000423 0.018921 0.221483 69.870102 0.779853 59.999996 0 30 9000 27 18000 22 27000 24 ''
+guidedview 30 -0.060000 0.000131 0.017971 0.367909 112.461220 3.456624 59.999996 9000 28 18000 29 27000 25''
