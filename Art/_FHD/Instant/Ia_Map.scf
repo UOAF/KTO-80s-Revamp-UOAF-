@@ -1,0 +1,69 @@
+#UI BMS 4.38 update, February 2023, by Kolbe
+
+#This is the Instand Action MAP part
+#It contains
+#- HEADER
+#- MAP location
+#- Locator
+
+##################
+#WINDOW SETUP
+##################
+[WINDOW]
+[SETUP] IA_MAP_WIN C_TYPE_NORMAL 516 547
+[RANGES] 0 0 1024 768 252 332
+[XY] 700 165
+[GROUP] 1000
+[FLAGBITON] C_BIT_CANTMOVE
+[OPENMENU] THR_SELECT_POPUP
+[FLAGBITON] C_BIT_TRANSLUCENT
+[FLAGBITON] C_BIT_ABSOLUTE
+[DEPTH] 1
+
+
+##################
+#CHOOSE MAP HEADER
+##################
+[TEXT]
+[SETUP] NID,0
+[SETTEXT] TXT_CHOOSE_MAP_LOCATION
+[XY] 0 0
+[FGCOLOR] 230 230 230 WHITE
+[FONT] BANK_GOTHIC_24
+
+
+##################
+#MAP IMAGE
+##################
+[BITMAP]
+[SETUP] NID, 0, MAP_SMALL
+[XY] 2 33
+
+
+##################
+#MAP LOCATOR
+##################
+[LOCATOR]
+[SETUP] IA_MAP_CURSOR 0
+[RANGES] 4 35 510 542
+[XYWH] 43 64 40 40
+[COLOR] 255 0 0 
+[BOXCOLOR] 255 0 0
+#[PERCENT] 40
+#[FLAGBITON] C_BIT_TRANSLUCENT
+[HELPTEXT] HELP_SUA_CURSOR
+[CURSOR] CRSR_DRAG
+
+
+##################
+#MAP BOXES
+##################
+[BOX]
+[SETUP] NID,0
+[XYWH] 0 31 515 515
+[COLOR] 255 255 255
+
+[BOX]
+[SETUP] NID,0
+[XYWH] 1 32 513 513
+[COLOR] 255 255 255

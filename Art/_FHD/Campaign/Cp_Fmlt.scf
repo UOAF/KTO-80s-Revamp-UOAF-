@@ -1,0 +1,19 @@
+#UI BMS 4.38 update, February 2024, by Kolbe
+
+#This controls the left side of the full map, in case you want to put something over there.
+#unused
+
+[WINDOW]
+[SETUP] CB_FULLLEFT_WIN C_TYPE_NORMAL 7 650
+[RANGES] 0 0 1920 1080 7 650
+[XY] 119 42
+[GROUP] 6400
+[FLAGBITON] C_BIT_CANTMOVE
+[DEPTH] 15
+
+# [FILL] "Left"
+# [SETUP] NID C_TYPE_VERTICAL
+# [XYWH] 0 0 12 650
+# [GRADIENT] 90 40
+# [FLAGBITON] C_BIT_TRANSLUCENT
+# [FLAGBITON] C_BIT_ABSOLUTE

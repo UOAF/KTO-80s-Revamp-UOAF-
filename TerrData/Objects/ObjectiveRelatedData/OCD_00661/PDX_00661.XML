@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PDRecords>
+    <PD Num="0">
+        <OffsetX>256.625</OffsetX>
+        <OffsetY>300.973</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Type>16</Type>
+        <Flags>1</Flags>
+    </PD>
+    <PD Num="1">
+        <OffsetX>129.325</OffsetX>
+        <OffsetY>321.426</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Type>16</Type>
+    </PD>
+    <PD Num="2">
+        <OffsetX>27.562</OffsetX>
+        <OffsetY>333.254</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Type>16</Type>
+    </PD>
+    <PD Num="3">
+        <OffsetX>-94.090</OffsetX>
+        <OffsetY>347.435</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Type>16</Type>
+        <Flags>2</Flags>
+    </PD>
+</PDRecords>

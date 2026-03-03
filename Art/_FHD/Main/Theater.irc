@@ -1,0 +1,99 @@
+// 4.34 update, January 2018, by Kolbe
+//
+// This file contains the theater specific country and team names and also
+// the scenario strings, such as  scenario name, description.
+// This file offers some newly added features:
+// - You can specify 4 lines in the description field in the campaign
+//   select window which gives you the opprortunity for more detailed
+//   descriptions. 
+// - In the bottom line of the description field you can enter the
+//   campaign duration (Max. Campaign days:) and the stalemate conditions
+//   (Stalemate (days of no activity):) like they are set in the trigger files. 
+//   Bordom hours have to be converted to days.
+// - A campaign designer can now specify an overall difficulty rating, such as 
+//   Easy, Medium, Hard. 
+
+///////////////////////////////////////////////////////////////
+// START CONTENT 
+///////////////////////////////////////////////////////////////
+
+// -----Country names-----
+[ADDTEXT] TXT_COUNTRY_0 "XX"
+[ADDTEXT] TXT_COUNTRY_1 "U.S."
+[ADDTEXT] TXT_COUNTRY_2 "ROK"
+[ADDTEXT] TXT_COUNTRY_3 "Japan"
+[ADDTEXT] TXT_COUNTRY_4 "CIS"
+[ADDTEXT] TXT_COUNTRY_5 "PRC"
+[ADDTEXT] TXT_COUNTRY_6 "DPRK"
+[ADDTEXT] TXT_COUNTRY_7 "NATO"
+
+// -----Team names-----
+[ADDTEXT] TXT_TEAM_0 "XX"
+[ADDTEXT] TXT_TEAM_1 "U.S."
+[ADDTEXT] TXT_TEAM_2 "ROK"
+[ADDTEXT] TXT_TEAM_3 "Japan"
+[ADDTEXT] TXT_TEAM_4 "CIS"
+[ADDTEXT] TXT_TEAM_5 "PRC"
+[ADDTEXT] TXT_TEAM_6 "DPRK"
+[ADDTEXT] TXT_TEAM_7 "NATO"
+
+// -----Scenario 1-----
+[ADDTEXT] TXT_SCENARIO_1 "TIGER SPIRIT"
+[ADDTEXT] TXT_SC_1_LINE_1 "Situation: After civil unrest in North Korea, South Korea answered the calls of resitance and crossed the DMZ."
+[ADDTEXT] TXT_SC_1_LINE_2 "Priority 1: Gain control of Pyongyang and cease the dictatorship that ruled for far too long."
+[ADDTEXT] TXT_SC_1_LINE_3 "Intel: The North Korean leader has retreated to China and is negotiating their army's support..."
+[ADDTEXT] TXT_SC_1_LINE_4 "Some former NK battalions have turned against the regime and will provide support - Recon is essential!"
+[ADDTEXT] TXT_SC_1_CAMP_END "5"
+[ADDTEXT] TXT_SC_1_CAMP_STALE "4"
+[ADDTEXT] TXT_SC_1_CAMP_DIFF "Easy"
+[ADDTEXT] NOT_USED "Keep this line!"
+
+// -----Scenario 2-----
+[ADDTEXT] TXT_SCENARIO_2 "ROLLING FIRE"
+[ADDTEXT] TXT_SC_2_LINE_1 "Situation: North Korea just declared war on South Korea with the logistic support of China."
+[ADDTEXT] TXT_SC_2_LINE_2 "Priority 1: Repel the attack and defend Seoul."
+[ADDTEXT] TXT_SC_2_LINE_3 "Priority 2: Move quickly to Pyongyang and make the North Korean Regime Capitulate."
+[ADDTEXT] TXT_SC_2_LINE_4 "Intel: China and Russia might enter the war if we move towards Pyongyang..."
+[ADDTEXT] TXT_SC_2_CAMP_END "30"
+[ADDTEXT] TXT_SC_2_CAMP_STALE "20"
+[ADDTEXT] TXT_SC_2_CAMP_DIFF "Medium"
+
+// -----Scenario 3-----
+[ADDTEXT] TXT_SCENARIO_3 "IRON FORTRESS"
+[ADDTEXT] TXT_SC_3_LINE_1 "Situation: South Korea Political turmoil gave space for North Korea to Blitz invade Seoul."
+[ADDTEXT] TXT_SC_3_LINE_2 "Priority 1: Regain control of Seoul and maintain it until Day 20. CVN Roosevelt will arrive in 3 days to reinforce!"
+[ADDTEXT] TXT_SC_3_LINE_3 "Optional: Invade North Korea and make the Pyongyang regime fall within 30 days."
+[ADDTEXT] TXT_SC_3_LINE_4 "Intel: China and RUussia will remain hostile but International pressure force them to step back..."
+[ADDTEXT] TXT_SC_3_CAMP_END "30"
+[ADDTEXT] TXT_SC_3_CAMP_STALE "20"
+[ADDTEXT] TXT_SC_3_CAMP_DIFF "Hard"
+
+// -----Scenario 4-----
+[ADDTEXT] TXT_SCENARIO_4 "BEAR TRAP"
+[ADDTEXT] TXT_SC_4_LINE_1 "Russia has decided to annex part of southeastern Korea. Russia's military intervention took place in the aftermath of a local "
+[ADDTEXT] TXT_SC_4_LINE_2 "revolution in the area of Pusan. South Korea and many world leaders condemned the annexation and consider it to be a violation of "
+[ADDTEXT] TXT_SC_4_LINE_3 "international law. However, since the UN is undecided, South Korea must enforce its claim independently."
+[ADDTEXT] TXT_SC_4_LINE_4 "Within the next eight days Busan and Sokcho must be recaptured to prevent a final annexation."
+[ADDTEXT] TXT_SC_4_CAMP_END "8"
+[ADDTEXT] TXT_SC_4_CAMP_STALE "8"
+[ADDTEXT] TXT_SC_4_CAMP_DIFF "Impossible"
+
+// -----Scenario 5-----
+[ADDTEXT] TXT_SCENARIO_5 "DOUBLE DRAGON"
+[ADDTEXT] TXT_SC_5_LINE_1 "China has always been closest ally of North Korea, but latest nuclear and missile tests have tested the patience of the Dragon."
+[ADDTEXT] TXT_SC_5_LINE_2 "The situation escalated and China started an attack to prevent potential missile strikes or a nuclear mishap."
+[ADDTEXT] TXT_SC_5_LINE_3 "But with the capture of Pyongyang and overthrew of the existing regime, the Dragon showed a completely different face."
+[ADDTEXT] TXT_SC_5_LINE_4 "The North Korean people are afraid and the remaining DPRK troops ask South Korea and its Allies for immediate assistance. Could there be hope for an unified Korea?"
+[ADDTEXT] TXT_SC_5_CAMP_END "20"
+[ADDTEXT] TXT_SC_5_CAMP_STALE "10"
+[ADDTEXT] TXT_SC_5_CAMP_DIFF "Medium"
+
+// -----Scenario 6-----
+[ADDTEXT] TXT_SCENARIO_6 "MANTIS AT DAWN"
+[ADDTEXT] TXT_SC_6_LINE_1 "This week South Korea and Japan have a joint maneuver with NATO forces. This exercise takes place under the code name MANTIS AT DAWN "
+[ADDTEXT] TXT_SC_6_LINE_2 "and includes both air, ground and naval forces. The maneuver will be conducted under realistic conditions, with US, South Korean and "
+[ADDTEXT] TXT_SC_6_LINE_3 "Japanese units representing the so called RED FORCE who try to make it as difficult as possible for the combined NATO troops."
+[ADDTEXT] TXT_SC_6_LINE_4 "They have to capture Cheongju until Friday."
+[ADDTEXT] TXT_SC_6_CAMP_END "5"
+[ADDTEXT] TXT_SC_6_CAMP_STALE "4"
+[ADDTEXT] TXT_SC_6_CAMP_DIFF "Easy(BF) / Hard(RF)"

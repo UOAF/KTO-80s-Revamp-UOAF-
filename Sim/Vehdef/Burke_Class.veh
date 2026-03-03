@@ -1,0 +1,44 @@
+# Title: Burke Class
+# Author: BMS
+# Revision: Vehicle Data Manager ver:0.1.0.10 Date: 3/6/2022 1:44:51 PM
+#-----------------------------------------------------
+# Sensor Definition
+#
+# Number of Sensors
+2
+# SensorType, Sensor Idx
+# enum SensorType {IRST, Radar, RWR, Visual, NumSensorTypes};
+3 0
+1 103
+#
+#-----------------------------------------------------
+# Slot Data
+#-----------------------------------------------------
+6 # number of slots
+#type Xpos Ypos Zpos MissilesPerSlot ReloadTime RoundsPerSec RoundsPerBurst IntervalBursts TracersPerBullet IndividualReload
+2  +156  0 -32 0   5 10 20 5 1 1
+2   -89  0 -46 0  60 120 20 5 1 1
+2   34  27 -50 0  15 20 20 5 1 1
+2   34 -27 -50 0  15 20 20 5 1 1
+2 -110  27 -36 0  15 20 20 5 1 1
+2 -110 -27 -36 0  15 20 20 5 1 1
+#-----------------------------------------------------
+# ADDITIONAL DATA
+#-----------------------------------------------------
+#
+HeliSpawnPts 1  -215.00 0.00 -13.00
+#-----------------------------------------------------
+# Exhaust Pipes
+#-----------------------------------------------------
+exhaustPipePts 0 
+ExhaustSmokeMinAlpha 0.1
+ExhaustSmokeMaxAlpha 1
+ExhaustSmokeMinSize 1
+ExhaustSmokeMaxSize 1
+#-----------------------------------------------------
+# Additionals which are not included in VDM.
+#-----------------------------------------------------
+#
+#
+# End of Additional
+#

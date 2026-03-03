@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PDRecords>
+    <PD Num="0">
+        <OffsetX>-99.405</OffsetX>
+        <OffsetY>199.325</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <MaxHeight>0.000</MaxHeight>
+        <MaxWidth>0.000</MaxWidth>
+        <MaxLength>0.000</MaxLength>
+        <Type>16</Type>
+        <Flags>1</Flags>
+        <Heading>245.000</Heading>
+    </PD>
+    <PD Num="1">
+        <OffsetX>81.895</OffsetX>
+        <OffsetY>-227.789</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <MaxHeight>0.000</MaxHeight>
+        <MaxWidth>0.000</MaxWidth>
+        <MaxLength>0.000</MaxLength>
+        <Type>16</Type>
+        <Heading>245.000</Heading>
+    </PD>
+    <PD Num="2">
+        <OffsetX>-36.888</OffsetX>
+        <OffsetY>52.044</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Type>16</Type>
+        <Heading>245.000</Heading>
+    </PD>
+    <PD Num="3">
+        <OffsetX>26.523</OffsetX>
+        <OffsetY>-98.160</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Type>16</Type>
+        <Flags>2</Flags>
+        <Heading>245.000</Heading>
+    </PD>
+</PDRecords>

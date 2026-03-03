@@ -1,0 +1,52 @@
+#fontmanager 7
+
+#resolution 800 600
+// idx bold italic size font-name
+// where idx 0=infoline, 1=radiomessages, 2=radiomenu, 3=3d-pit, 4=the rest
+#font 0 1 0 10 Arial
+#font 1 1 0 12 Arial
+#font 2 0 0 10 Arial
+#font 3 1 0 12 Arial
+#font 4 1 0 12 Arial
+
+#resolution 1024 640
+#font 0 1 0 10 Arial
+#font 1 1 0 12 Arial
+#font 2 0 0 10 Arial
+#font 3 1 0 12 Arial
+#font 4 1 0 12 Arial
+
+#resolution 1024 768
+#font 0 1 0 10 Arial
+#font 1 1 0 12 Arial
+#font 2 0 0 10 Arial
+#font 3 1 0 12 Arial
+#font 4 1 0 12 Arial
+
+#resolution 1280 960
+#font 0 1 0 10 Arial
+#font 1 1 0 12 Arial
+#font 2 0 0 10 Arial
+#font 3 1 0 12 Arial
+#font 4 1 0 12 Arial
+
+#resolution 1440 900
+#font 0 1 0 10 Arial
+#font 1 1 0 12 Arial
+#font 2 0 0 10 Arial
+#font 3 1 0 12 Arial
+#font 4 1 0 12 Arial
+
+#resolution 1600 900
+#font 0 1 0 10 Arial
+#font 1 1 0 12 Arial
+#font 2 0 0 10 Arial
+#font 3 1 0 12 Arial
+#font 4 1 0 12 Arial
+
+#resolution 1920 1200
+#font 0 1 0 10 Arial
+#font 1 1 0 12 Arial
+#font 2 0 0 10 Arial
+#font 3 1 0 12 Arial
+#font 4 1 0 12 Arial

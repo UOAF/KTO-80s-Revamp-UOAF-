@@ -1,0 +1,793 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PDRecords>
+    <PD Num="0">
+        <OffsetX>-1048.773</OffsetX>
+        <OffsetY>-269.342</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Type>16</Type>
+        <Flags>1</Flags>
+        <Heading>59.000</Heading>
+    </PD>
+    <PD Num="1">
+        <OffsetX>-554.736</OffsetX>
+        <OffsetY>35.377</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Type>16</Type>
+        <Heading>59.000</Heading>
+    </PD>
+    <PD Num="2">
+        <OffsetX>-668.604</OffsetX>
+        <OffsetY>-96.658</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <MaxHeight>0.000</MaxHeight>
+        <MaxWidth>0.000</MaxWidth>
+        <MaxLength>0.000</MaxLength>
+        <Type>16</Type>
+        <Heading>59.000</Heading>
+    </PD>
+    <PD Num="3">
+        <OffsetX>-808.829</OffsetX>
+        <OffsetY>-127.649</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <MaxHeight>0.000</MaxHeight>
+        <MaxWidth>0.000</MaxWidth>
+        <MaxLength>0.000</MaxLength>
+        <Type>16</Type>
+        <Flags>2</Flags>
+        <Heading>59.000</Heading>
+    </PD>
+    <PD Num="4">
+        <OffsetX>-2614.624</OffsetX>
+        <OffsetY>1748.791</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <MaxHeight>0.000</MaxHeight>
+        <MaxWidth>0.000</MaxWidth>
+        <MaxLength>0.000</MaxLength>
+        <Type>7</Type>
+        <Flags>1</Flags>
+        <Heading>0.000</Heading>
+    </PD>
+    <PD Num="5">
+        <OffsetX>-2373.774</OffsetX>
+        <OffsetY>1662.928</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <MaxHeight>0.000</MaxHeight>
+        <MaxWidth>0.000</MaxWidth>
+        <MaxLength>0.000</MaxLength>
+        <Type>7</Type>
+        <Heading>0.000</Heading>
+    </PD>
+    <PD Num="6">
+        <OffsetX>-2309.181</OffsetX>
+        <OffsetY>1893.155</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <MaxHeight>0.000</MaxHeight>
+        <MaxWidth>0.000</MaxWidth>
+        <MaxLength>0.000</MaxLength>
+        <Type>7</Type>
+        <Heading>0.000</Heading>
+    </PD>
+    <PD Num="7">
+        <OffsetX>-2322.365</OffsetX>
+        <OffsetY>1781.763</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <MaxHeight>0.000</MaxHeight>
+        <MaxWidth>0.000</MaxWidth>
+        <MaxLength>0.000</MaxLength>
+        <Type>9</Type>
+        <Heading>0.000</Heading>
+    </PD>
+    <PD Num="8">
+        <OffsetX>-2440.364</OffsetX>
+        <OffsetY>1833.930</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <MaxHeight>0.000</MaxHeight>
+        <MaxWidth>0.000</MaxWidth>
+        <MaxLength>0.000</MaxLength>
+        <Type>9</Type>
+        <Heading>0.000</Heading>
+    </PD>
+    <PD Num="9">
+        <OffsetX>-2513.976</OffsetX>
+        <OffsetY>1674.246</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <MaxHeight>0.000</MaxHeight>
+        <MaxWidth>0.000</MaxWidth>
+        <MaxLength>0.000</MaxLength>
+        <Type>9</Type>
+        <Heading>0.000</Heading>
+    </PD>
+    <PD Num="10">
+        <OffsetX>-2917.287</OffsetX>
+        <OffsetY>3048.688</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <MaxHeight>0.000</MaxHeight>
+        <MaxWidth>0.000</MaxWidth>
+        <MaxLength>0.000</MaxLength>
+        <Type>6</Type>
+        <Heading>0.000</Heading>
+    </PD>
+    <PD Num="11">
+        <OffsetX>-2840.868</OffsetX>
+        <OffsetY>3204.162</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <MaxHeight>0.000</MaxHeight>
+        <MaxWidth>0.000</MaxWidth>
+        <MaxLength>0.000</MaxLength>
+        <Type>6</Type>
+        <Heading>0.000</Heading>
+    </PD>
+    <PD Num="12">
+        <OffsetX>-2652.677</OffsetX>
+        <OffsetY>3166.500</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <MaxHeight>0.000</MaxHeight>
+        <MaxWidth>0.000</MaxWidth>
+        <MaxLength>0.000</MaxLength>
+        <Type>6</Type>
+        <Heading>0.000</Heading>
+    </PD>
+    <PD Num="13">
+        <OffsetX>-2578.470</OffsetX>
+        <OffsetY>3057.727</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <MaxHeight>0.000</MaxHeight>
+        <MaxWidth>0.000</MaxWidth>
+        <MaxLength>0.000</MaxLength>
+        <Type>6</Type>
+        <Heading>0.000</Heading>
+    </PD>
+    <PD Num="14">
+        <OffsetX>-2681.639</OffsetX>
+        <OffsetY>2916.730</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <MaxHeight>0.000</MaxHeight>
+        <MaxWidth>0.000</MaxWidth>
+        <MaxLength>0.000</MaxLength>
+        <Type>6</Type>
+        <Heading>0.000</Heading>
+    </PD>
+    <PD Num="15">
+        <OffsetX>-2859.756</OffsetX>
+        <OffsetY>2935.946</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <MaxHeight>0.000</MaxHeight>
+        <MaxWidth>0.000</MaxWidth>
+        <MaxLength>0.000</MaxLength>
+        <Type>4</Type>
+        <Heading>0.000</Heading>
+    </PD>
+    <PD Num="16">
+        <OffsetX>-2795.858</OffsetX>
+        <OffsetY>3131.706</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <MaxHeight>0.000</MaxHeight>
+        <MaxWidth>0.000</MaxWidth>
+        <MaxLength>0.000</MaxLength>
+        <Type>9</Type>
+        <Heading>0.000</Heading>
+    </PD>
+    <PD Num="17">
+        <OffsetX>-2758.353</OffsetX>
+        <OffsetY>3075.009</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <MaxHeight>0.000</MaxHeight>
+        <MaxWidth>0.000</MaxWidth>
+        <MaxLength>0.000</MaxLength>
+        <Type>9</Type>
+        <Heading>0.000</Heading>
+    </PD>
+    <PD Num="18">
+        <OffsetX>-2730.317</OffsetX>
+        <OffsetY>3007.859</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <MaxHeight>0.000</MaxHeight>
+        <MaxWidth>0.000</MaxWidth>
+        <MaxLength>0.000</MaxLength>
+        <Type>9</Type>
+        <Heading>0.000</Heading>
+    </PD>
+    <PD Num="19">
+        <OffsetX>-2749.457</OffsetX>
+        <OffsetY>661.301</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <MaxHeight>0.000</MaxHeight>
+        <MaxWidth>0.000</MaxWidth>
+        <MaxLength>0.000</MaxLength>
+        <Type>6</Type>
+        <Heading>0.000</Heading>
+    </PD>
+    <PD Num="20">
+        <OffsetX>-2673.036</OffsetX>
+        <OffsetY>816.772</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <MaxHeight>0.000</MaxHeight>
+        <MaxWidth>0.000</MaxWidth>
+        <MaxLength>0.000</MaxLength>
+        <Type>6</Type>
+        <Heading>0.000</Heading>
+    </PD>
+    <PD Num="21">
+        <OffsetX>-2484.849</OffsetX>
+        <OffsetY>779.110</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <MaxHeight>0.000</MaxHeight>
+        <MaxWidth>0.000</MaxWidth>
+        <MaxLength>0.000</MaxLength>
+        <Type>6</Type>
+        <Heading>0.000</Heading>
+    </PD>
+    <PD Num="22">
+        <OffsetX>-2410.642</OffsetX>
+        <OffsetY>670.339</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <MaxHeight>0.000</MaxHeight>
+        <MaxWidth>0.000</MaxWidth>
+        <MaxLength>0.000</MaxLength>
+        <Type>6</Type>
+        <Heading>0.000</Heading>
+    </PD>
+    <PD Num="23">
+        <OffsetX>-2513.810</OffsetX>
+        <OffsetY>529.340</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <MaxHeight>0.000</MaxHeight>
+        <MaxWidth>0.000</MaxWidth>
+        <MaxLength>0.000</MaxLength>
+        <Type>6</Type>
+        <Heading>0.000</Heading>
+    </PD>
+    <PD Num="24">
+        <OffsetX>-2691.925</OffsetX>
+        <OffsetY>548.554</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <MaxHeight>0.000</MaxHeight>
+        <MaxWidth>0.000</MaxWidth>
+        <MaxLength>0.000</MaxLength>
+        <Type>4</Type>
+        <Heading>0.000</Heading>
+    </PD>
+    <PD Num="25">
+        <OffsetX>-2598.780</OffsetX>
+        <OffsetY>757.179</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <MaxHeight>0.000</MaxHeight>
+        <MaxWidth>0.000</MaxWidth>
+        <MaxLength>0.000</MaxLength>
+        <Type>9</Type>
+        <Heading>0.000</Heading>
+    </PD>
+    <PD Num="26">
+        <OffsetX>-2561.276</OffsetX>
+        <OffsetY>700.477</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <MaxHeight>0.000</MaxHeight>
+        <MaxWidth>0.000</MaxWidth>
+        <MaxLength>0.000</MaxLength>
+        <Type>9</Type>
+        <Heading>0.000</Heading>
+    </PD>
+    <PD Num="27">
+        <OffsetX>-2533.238</OffsetX>
+        <OffsetY>633.326</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <MaxHeight>0.000</MaxHeight>
+        <MaxWidth>0.000</MaxWidth>
+        <MaxLength>0.000</MaxLength>
+        <Type>9</Type>
+        <Heading>0.000</Heading>
+    </PD>
+    <PD Num="28">
+        <OffsetX>1716.776</OffsetX>
+        <OffsetY>1918.572</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <MaxHeight>0.000</MaxHeight>
+        <MaxWidth>0.000</MaxWidth>
+        <MaxLength>0.000</MaxLength>
+        <Type>6</Type>
+        <Heading>0.000</Heading>
+    </PD>
+    <PD Num="29">
+        <OffsetX>1793.192</OffsetX>
+        <OffsetY>2074.044</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <MaxHeight>0.000</MaxHeight>
+        <MaxWidth>0.000</MaxWidth>
+        <MaxLength>0.000</MaxLength>
+        <Type>6</Type>
+        <Heading>0.000</Heading>
+    </PD>
+    <PD Num="30">
+        <OffsetX>1981.380</OffsetX>
+        <OffsetY>2036.380</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <MaxHeight>0.000</MaxHeight>
+        <MaxWidth>0.000</MaxWidth>
+        <MaxLength>0.000</MaxLength>
+        <Type>6</Type>
+        <Heading>0.000</Heading>
+    </PD>
+    <PD Num="31">
+        <OffsetX>2055.587</OffsetX>
+        <OffsetY>1927.613</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <MaxHeight>0.000</MaxHeight>
+        <MaxWidth>0.000</MaxWidth>
+        <MaxLength>0.000</MaxLength>
+        <Type>6</Type>
+        <Heading>0.000</Heading>
+    </PD>
+    <PD Num="32">
+        <OffsetX>1952.420</OffsetX>
+        <OffsetY>1786.609</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <MaxHeight>0.000</MaxHeight>
+        <MaxWidth>0.000</MaxWidth>
+        <MaxLength>0.000</MaxLength>
+        <Type>6</Type>
+        <Heading>0.000</Heading>
+    </PD>
+    <PD Num="33">
+        <OffsetX>1774.303</OffsetX>
+        <OffsetY>1805.826</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <MaxHeight>0.000</MaxHeight>
+        <MaxWidth>0.000</MaxWidth>
+        <MaxLength>0.000</MaxLength>
+        <Type>4</Type>
+        <Heading>0.000</Heading>
+    </PD>
+    <PD Num="34">
+        <OffsetX>1851.172</OffsetX>
+        <OffsetY>1991.274</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <MaxHeight>0.000</MaxHeight>
+        <MaxWidth>0.000</MaxWidth>
+        <MaxLength>0.000</MaxLength>
+        <Type>9</Type>
+        <Heading>0.000</Heading>
+    </PD>
+    <PD Num="35">
+        <OffsetX>1888.676</OffsetX>
+        <OffsetY>1934.575</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <MaxHeight>0.000</MaxHeight>
+        <MaxWidth>0.000</MaxWidth>
+        <MaxLength>0.000</MaxLength>
+        <Type>9</Type>
+        <Heading>0.000</Heading>
+    </PD>
+    <PD Num="36">
+        <OffsetX>1916.711</OffsetX>
+        <OffsetY>1867.422</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <MaxHeight>0.000</MaxHeight>
+        <MaxWidth>0.000</MaxWidth>
+        <MaxLength>0.000</MaxLength>
+        <Type>9</Type>
+        <Heading>0.000</Heading>
+    </PD>
+    <PD Num="37">
+        <OffsetX>-461.633</OffsetX>
+        <OffsetY>1425.504</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <MaxHeight>0.000</MaxHeight>
+        <MaxWidth>0.000</MaxWidth>
+        <MaxLength>0.000</MaxLength>
+        <Type>6</Type>
+        <Heading>0.000</Heading>
+    </PD>
+    <PD Num="38">
+        <OffsetX>-385.215</OffsetX>
+        <OffsetY>1580.976</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <MaxHeight>0.000</MaxHeight>
+        <MaxWidth>0.000</MaxWidth>
+        <MaxLength>0.000</MaxLength>
+        <Type>6</Type>
+        <Heading>0.000</Heading>
+    </PD>
+    <PD Num="39">
+        <OffsetX>-197.028</OffsetX>
+        <OffsetY>1543.313</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <MaxHeight>0.000</MaxHeight>
+        <MaxWidth>0.000</MaxWidth>
+        <MaxLength>0.000</MaxLength>
+        <Type>6</Type>
+        <Heading>0.000</Heading>
+    </PD>
+    <PD Num="40">
+        <OffsetX>-122.821</OffsetX>
+        <OffsetY>1434.546</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <MaxHeight>0.000</MaxHeight>
+        <MaxWidth>0.000</MaxWidth>
+        <MaxLength>0.000</MaxLength>
+        <Type>6</Type>
+        <Heading>0.000</Heading>
+    </PD>
+    <PD Num="41">
+        <OffsetX>-225.988</OffsetX>
+        <OffsetY>1293.543</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <MaxHeight>0.000</MaxHeight>
+        <MaxWidth>0.000</MaxWidth>
+        <MaxLength>0.000</MaxLength>
+        <Type>6</Type>
+        <Heading>0.000</Heading>
+    </PD>
+    <PD Num="42">
+        <OffsetX>-404.104</OffsetX>
+        <OffsetY>1312.760</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <MaxHeight>0.000</MaxHeight>
+        <MaxWidth>0.000</MaxWidth>
+        <MaxLength>0.000</MaxLength>
+        <Type>4</Type>
+        <Heading>0.000</Heading>
+    </PD>
+    <PD Num="43">
+        <OffsetX>-327.237</OffsetX>
+        <OffsetY>1498.207</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <MaxHeight>0.000</MaxHeight>
+        <MaxWidth>0.000</MaxWidth>
+        <MaxLength>0.000</MaxLength>
+        <Type>9</Type>
+        <Heading>0.000</Heading>
+    </PD>
+    <PD Num="44">
+        <OffsetX>-289.733</OffsetX>
+        <OffsetY>1441.508</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <MaxHeight>0.000</MaxHeight>
+        <MaxWidth>0.000</MaxWidth>
+        <MaxLength>0.000</MaxLength>
+        <Type>9</Type>
+        <Heading>0.000</Heading>
+    </PD>
+    <PD Num="45">
+        <OffsetX>-261.697</OffsetX>
+        <OffsetY>1374.356</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <MaxHeight>0.000</MaxHeight>
+        <MaxWidth>0.000</MaxWidth>
+        <MaxLength>0.000</MaxLength>
+        <Type>9</Type>
+        <Flags>2</Flags>
+        <Heading>0.000</Heading>
+    </PD>
+    <PD Num="46">
+        <OffsetX>-247.995</OffsetX>
+        <OffsetY>-330.088</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <MaxHeight>0.000</MaxHeight>
+        <MaxWidth>0.000</MaxWidth>
+        <MaxLength>0.000</MaxLength>
+        <Type>7</Type>
+        <Flags>1</Flags>
+        <Heading>0.000</Heading>
+    </PD>
+    <PD Num="47">
+        <OffsetX>-7.148</OffsetX>
+        <OffsetY>-415.950</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <MaxHeight>0.000</MaxHeight>
+        <MaxWidth>0.000</MaxWidth>
+        <MaxLength>0.000</MaxLength>
+        <Type>7</Type>
+        <Heading>0.000</Heading>
+    </PD>
+    <PD Num="48">
+        <OffsetX>57.443</OffsetX>
+        <OffsetY>-185.724</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <MaxHeight>0.000</MaxHeight>
+        <MaxWidth>0.000</MaxWidth>
+        <MaxLength>0.000</MaxLength>
+        <Type>7</Type>
+        <Heading>0.000</Heading>
+    </PD>
+    <PD Num="49">
+        <OffsetX>44.260</OffsetX>
+        <OffsetY>-297.116</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <MaxHeight>0.000</MaxHeight>
+        <MaxWidth>0.000</MaxWidth>
+        <MaxLength>0.000</MaxLength>
+        <Type>9</Type>
+        <Heading>0.000</Heading>
+    </PD>
+    <PD Num="50">
+        <OffsetX>-73.737</OffsetX>
+        <OffsetY>-244.948</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <MaxHeight>0.000</MaxHeight>
+        <MaxWidth>0.000</MaxWidth>
+        <MaxLength>0.000</MaxLength>
+        <Type>9</Type>
+        <Heading>0.000</Heading>
+    </PD>
+    <PD Num="51">
+        <OffsetX>-135.715</OffsetX>
+        <OffsetY>-378.506</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <MaxHeight>0.000</MaxHeight>
+        <MaxWidth>0.000</MaxWidth>
+        <MaxLength>0.000</MaxLength>
+        <Type>9</Type>
+        <Heading>0.000</Heading>
+    </PD>
+    <PD Num="52">
+        <OffsetX>-1627.682</OffsetX>
+        <OffsetY>-522.843</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <MaxHeight>0.000</MaxHeight>
+        <MaxWidth>0.000</MaxWidth>
+        <MaxLength>0.000</MaxLength>
+        <Type>4</Type>
+        <Heading>0.000</Heading>
+    </PD>
+    <PD Num="53">
+        <OffsetX>-1551.262</OffsetX>
+        <OffsetY>-367.369</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <MaxHeight>0.000</MaxHeight>
+        <MaxWidth>0.000</MaxWidth>
+        <MaxLength>0.000</MaxLength>
+        <Type>4</Type>
+        <Heading>0.000</Heading>
+    </PD>
+    <PD Num="54">
+        <OffsetX>-1363.074</OffsetX>
+        <OffsetY>-405.031</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <MaxHeight>0.000</MaxHeight>
+        <MaxWidth>0.000</MaxWidth>
+        <MaxLength>0.000</MaxLength>
+        <Type>4</Type>
+        <Heading>0.000</Heading>
+    </PD>
+    <PD Num="55">
+        <OffsetX>-1288.868</OffsetX>
+        <OffsetY>-513.803</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <MaxHeight>0.000</MaxHeight>
+        <MaxWidth>0.000</MaxWidth>
+        <MaxLength>0.000</MaxLength>
+        <Type>4</Type>
+        <Heading>0.000</Heading>
+    </PD>
+    <PD Num="56">
+        <OffsetX>-1392.035</OffsetX>
+        <OffsetY>-654.805</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <MaxHeight>0.000</MaxHeight>
+        <MaxWidth>0.000</MaxWidth>
+        <MaxLength>0.000</MaxLength>
+        <Type>4</Type>
+        <Heading>0.000</Heading>
+    </PD>
+    <PD Num="57">
+        <OffsetX>-1570.151</OffsetX>
+        <OffsetY>-635.589</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <MaxHeight>0.000</MaxHeight>
+        <MaxWidth>0.000</MaxWidth>
+        <MaxLength>0.000</MaxLength>
+        <Type>4</Type>
+        <Heading>0.000</Heading>
+    </PD>
+    <PD Num="58">
+        <OffsetX>-1506.253</OffsetX>
+        <OffsetY>-439.824</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <MaxHeight>0.000</MaxHeight>
+        <MaxWidth>0.000</MaxWidth>
+        <MaxLength>0.000</MaxLength>
+        <Type>9</Type>
+        <Heading>0.000</Heading>
+    </PD>
+    <PD Num="59">
+        <OffsetX>-1468.750</OffsetX>
+        <OffsetY>-496.522</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <MaxHeight>0.000</MaxHeight>
+        <MaxWidth>0.000</MaxWidth>
+        <MaxLength>0.000</MaxLength>
+        <Type>9</Type>
+        <Heading>0.000</Heading>
+    </PD>
+    <PD Num="60">
+        <OffsetX>-1440.712</OffsetX>
+        <OffsetY>-563.674</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <MaxHeight>0.000</MaxHeight>
+        <MaxWidth>0.000</MaxWidth>
+        <MaxLength>0.000</MaxLength>
+        <Type>9</Type>
+        <Heading>0.000</Heading>
+    </PD>
+    <PD Num="61">
+        <OffsetX>-2375.674</OffsetX>
+        <OffsetY>-728.475</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <MaxHeight>0.000</MaxHeight>
+        <MaxWidth>0.000</MaxWidth>
+        <MaxLength>0.000</MaxLength>
+        <Type>4</Type>
+        <Heading>0.000</Heading>
+    </PD>
+    <PD Num="62">
+        <OffsetX>-2299.254</OffsetX>
+        <OffsetY>-573.005</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <MaxHeight>0.000</MaxHeight>
+        <MaxWidth>0.000</MaxWidth>
+        <MaxLength>0.000</MaxLength>
+        <Type>4</Type>
+        <Heading>0.000</Heading>
+    </PD>
+    <PD Num="63">
+        <OffsetX>-2111.067</OffsetX>
+        <OffsetY>-610.667</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <MaxHeight>0.000</MaxHeight>
+        <MaxWidth>0.000</MaxWidth>
+        <MaxLength>0.000</MaxLength>
+        <Type>4</Type>
+        <Heading>0.000</Heading>
+    </PD>
+    <PD Num="64">
+        <OffsetX>-2036.862</OffsetX>
+        <OffsetY>-719.437</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <MaxHeight>0.000</MaxHeight>
+        <MaxWidth>0.000</MaxWidth>
+        <MaxLength>0.000</MaxLength>
+        <Type>4</Type>
+        <Heading>0.000</Heading>
+    </PD>
+    <PD Num="65">
+        <OffsetX>-2140.028</OffsetX>
+        <OffsetY>-860.435</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <MaxHeight>0.000</MaxHeight>
+        <MaxWidth>0.000</MaxWidth>
+        <MaxLength>0.000</MaxLength>
+        <Type>4</Type>
+        <Heading>0.000</Heading>
+    </PD>
+    <PD Num="66">
+        <OffsetX>-2318.143</OffsetX>
+        <OffsetY>-841.221</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <MaxHeight>0.000</MaxHeight>
+        <MaxWidth>0.000</MaxWidth>
+        <MaxLength>0.000</MaxLength>
+        <Type>4</Type>
+        <Heading>0.000</Heading>
+    </PD>
+    <PD Num="67">
+        <OffsetX>-2224.997</OffsetX>
+        <OffsetY>-632.600</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <MaxHeight>0.000</MaxHeight>
+        <MaxWidth>0.000</MaxWidth>
+        <MaxLength>0.000</MaxLength>
+        <Type>9</Type>
+        <Heading>0.000</Heading>
+    </PD>
+    <PD Num="68">
+        <OffsetX>-2187.494</OffsetX>
+        <OffsetY>-689.299</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <MaxHeight>0.000</MaxHeight>
+        <MaxWidth>0.000</MaxWidth>
+        <MaxLength>0.000</MaxLength>
+        <Type>9</Type>
+        <Heading>0.000</Heading>
+    </PD>
+    <PD Num="69">
+        <OffsetX>-2159.456</OffsetX>
+        <OffsetY>-756.450</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <MaxHeight>0.000</MaxHeight>
+        <MaxWidth>0.000</MaxWidth>
+        <MaxLength>0.000</MaxLength>
+        <Type>9</Type>
+        <Heading>0.000</Heading>
+    </PD>
+    <PD Num="70">
+        <OffsetX>1089.443</OffsetX>
+        <OffsetY>2339.431</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <MaxHeight>0.000</MaxHeight>
+        <MaxWidth>0.000</MaxWidth>
+        <MaxLength>0.000</MaxLength>
+        <Type>4</Type>
+        <Heading>0.000</Heading>
+    </PD>
+    <PD Num="71">
+        <OffsetX>1165.862</OffsetX>
+        <OffsetY>2494.905</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <MaxHeight>0.000</MaxHeight>
+        <MaxWidth>0.000</MaxWidth>
+        <MaxLength>0.000</MaxLength>
+        <Type>4</Type>
+        <Heading>0.000</Heading>
+    </PD>
+    <PD Num="72">
+        <OffsetX>1354.048</OffsetX>
+        <OffsetY>2457.241</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <MaxHeight>0.000</MaxHeight>
+        <MaxWidth>0.000</MaxWidth>
+        <MaxLength>0.000</MaxLength>
+        <Type>4</Type>
+        <Heading>0.000</Heading>
+    </PD>
+    <PD Num="73">
+        <OffsetX>1428.254</OffsetX>
+        <OffsetY>2348.471</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <MaxHeight>0.000</MaxHeight>
+        <MaxWidth>0.000</MaxWidth>
+        <MaxLength>0.000</MaxLength>
+        <Type>4</Type>
+        <Heading>0.000</Heading>
+    </PD>
+    <PD Num="74">
+        <OffsetX>1325.088</OffsetX>
+        <OffsetY>2207.469</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <MaxHeight>0.000</MaxHeight>
+        <MaxWidth>0.000</MaxWidth>
+        <MaxLength>0.000</MaxLength>
+        <Type>4</Type>
+        <Heading>0.000</Heading>
+    </PD>
+    <PD Num="75">
+        <OffsetX>1146.972</OffsetX>
+        <OffsetY>2226.685</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <MaxHeight>0.000</MaxHeight>
+        <MaxWidth>0.000</MaxWidth>
+        <MaxLength>0.000</MaxLength>
+        <Type>4</Type>
+        <Heading>0.000</Heading>
+    </PD>
+    <PD Num="76">
+        <OffsetX>1223.840</OffsetX>
+        <OffsetY>2412.133</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <MaxHeight>0.000</MaxHeight>
+        <MaxWidth>0.000</MaxWidth>
+        <MaxLength>0.000</MaxLength>
+        <Type>9</Type>
+        <Heading>0.000</Heading>
+    </PD>
+    <PD Num="77">
+        <OffsetX>1261.342</OffsetX>
+        <OffsetY>2355.434</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <MaxHeight>0.000</MaxHeight>
+        <MaxWidth>0.000</MaxWidth>
+        <MaxLength>0.000</MaxLength>
+        <Type>9</Type>
+        <Heading>0.000</Heading>
+    </PD>
+    <PD Num="78">
+        <OffsetX>1289.378</OffsetX>
+        <OffsetY>2288.281</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <MaxHeight>0.000</MaxHeight>
+        <MaxWidth>0.000</MaxWidth>
+        <MaxLength>0.000</MaxLength>
+        <Type>9</Type>
+        <Flags>2</Flags>
+        <Heading>0.000</Heading>
+    </PD>
+</PDRecords>

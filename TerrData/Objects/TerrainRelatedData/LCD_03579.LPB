@@ -1,0 +1,175 @@
+landCoverPolygonProtoVec {
+  groundType: GTP_AIRBASE
+  point {
+    x: 1525936.25
+    y: 1686205.75
+  }
+  point {
+    x: 1524654
+    y: 1685682.38
+  }
+  point {
+    x: 1524767.5
+    y: 1685372.38
+  }
+  point {
+    x: 1524893.75
+    y: 1685321.25
+  }
+  point {
+    x: 1524982.12
+    y: 1685090.75
+  }
+  point {
+    x: 1525260.38
+    y: 1685221
+  }
+  point {
+    x: 1525718.25
+    y: 1685407.5
+  }
+  point {
+    x: 1526253.62
+    y: 1685651
+  }
+}
+landCoverPolygonProtoVec {
+  groundType: GTP_AIRBASE
+  point {
+    x: 1525268.5
+    y: 1685202.12
+  }
+  point {
+    x: 1525726.38
+    y: 1685388.62
+  }
+  point {
+    x: 1526282.62
+    y: 1685641.62
+  }
+  point {
+    x: 1525945.12
+    y: 1686231.5
+  }
+  point {
+    x: 1524628
+    y: 1685693.88
+  }
+  point {
+    x: 1524751.38
+    y: 1685356.75
+  }
+  point {
+    x: 1524877.75
+    y: 1685305.62
+  }
+  point {
+    x: 1524970.88
+    y: 1685062.88
+  }
+}
+landCoverPolygonProtoVec {
+  groundType: GTP_AIRBASE
+  point {
+    x: 1525276.75
+    y: 1685183.38
+  }
+  point {
+    x: 1525734.5
+    y: 1685369.88
+  }
+  point {
+    x: 1526311.62
+    y: 1685632.25
+  }
+  point {
+    x: 1525954
+    y: 1686257.25
+  }
+  point {
+    x: 1524601.88
+    y: 1685705.38
+  }
+  point {
+    x: 1524735.25
+    y: 1685341.25
+  }
+  point {
+    x: 1524861.88
+    y: 1685289.88
+  }
+  point {
+    x: 1524959.62
+    y: 1685034.88
+  }
+}
+landCoverPolygonProtoVec {
+  groundType: GTP_AIRBASE
+  point {
+    x: 1525285
+    y: 1685164.62
+  }
+  point {
+    x: 1525742.62
+    y: 1685351
+  }
+  point {
+    x: 1526340.5
+    y: 1685623
+  }
+  point {
+    x: 1525962.88
+    y: 1686283.12
+  }
+  point {
+    x: 1524575.88
+    y: 1685716.88
+  }
+  point {
+    x: 1524719.12
+    y: 1685325.62
+  }
+  point {
+    x: 1524845.88
+    y: 1685274.25
+  }
+  point {
+    x: 1524948.38
+    y: 1685007
+  }
+}
+landCoverPolygonProtoVec {
+  groundType: GTP_AIRBASE
+  point {
+    x: 1525293.38
+    y: 1685145.88
+  }
+  point {
+    x: 1525750.75
+    y: 1685332.12
+  }
+  point {
+    x: 1526369.5
+    y: 1685613.62
+  }
+  point {
+    x: 1525971.75
+    y: 1686308.88
+  }
+  point {
+    x: 1524549.75
+    y: 1685728.38
+  }
+  point {
+    x: 1524703
+    y: 1.68531e+06
+  }
+  point {
+    x: 1524829.88
+    y: 1685258.62
+  }
+  point {
+    x: 1524937.12
+    y: 1684979.12
+  }
+}

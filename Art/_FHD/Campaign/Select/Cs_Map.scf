@@ -1,0 +1,47 @@
+#UI BMS4.38 update, December 2023, by Kolbe
+#
+#This sets up the Map in the campaign selection window.
+#- Map & Team Color overlay
+#- Frame
+
+
+##################
+#MAIN WINDOW SETUP
+##################
+
+[WINDOW] CS SUA PANEL
+[SETUP] CS_MAP_WIN C_TYPE_NORMAL 344 344
+[RANGES] 0 0 1024 768 344 344
+#[XY] 1100 205
+[XY] 1100 540
+[GROUP] 4050
+[FLAGBITON] C_BIT_CANTMOVE
+[DEPTH] 4
+
+##################
+#MAP SETUP
+##################
+
+######MAP BACKGROUND
+[BITMAP]
+[SETUP] NID 0 CAMP_SMAP
+
+######MAP TEAM COLORS
+[BITMAP]
+[SETUP] CS_MAP_WIN 0 CS_MAP_TGA
+[XY] 2 2
+[PERCENT] 20
+[FLAGBITON] C_BIT_TRANSLUCENT
+
+######MAP Frame
+[BOX]
+[SETUP] NID 0
+[XYWH] 0 0 343 343
+[COLOR] 255 255 255
+[FLAGBITON] C_BIT_ABSOLUTE 
+
+[BOX]
+[SETUP] NID 0
+[XYWH] 1 1 341 341
+[COLOR] 255 255 255
+[FLAGBITON] C_BIT_ABSOLUTE 

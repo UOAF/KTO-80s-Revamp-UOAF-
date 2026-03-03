@@ -1,0 +1,5 @@
+Art/CkptArt/MovingMap/GNC_Map.dds filter=lfs diff=lfs merge=lfs -text
+Art/CkptArt/MovingMap/GRAYSCALE_DEM_Map.dds filter=lfs diff=lfs merge=lfs -text
+Art/CkptArt/MovingMap/HILLSHADE_Map.dds filter=lfs diff=lfs merge=lfs -text
+Art/CkptArt/MovingMap/SATELLITE_Map.dds filter=lfs diff=lfs merge=lfs -text
+Art/Resource/CampMap.rsc filter=lfs diff=lfs merge=lfs -text

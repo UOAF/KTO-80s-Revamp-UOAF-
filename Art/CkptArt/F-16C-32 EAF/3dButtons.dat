@@ -1,0 +1,511 @@
+// Airframe: F-16C-32 EAF 
+// Cockpit Type: F-16C-32 EAF
+// Last edited: 28 Dec 2023 - Cougar
+
+// <command name>   <x>   <y>   <z>   <size>   <snd>   <msbtn>   <wheel>
+// Panel order: left to right, top down
+// <wheel> : w means wheel , p means this button is invariant to the switch & knobs config options
+
+
+//////////////////
+// LEFT CONSOLE //
+//////////////////
+
+// Test
+SimOverHeat                      1.123000    1.657000   -2.223000    30    312    1    p
+SimOBOGSBit                      1.057516    1.655789   -2.226992    30    115    1
+SimMalIndLights                  0.983000    1.658000   -2.227000    30    312    1    p
+SimProbeHeatMoveUp               1.146550    1.537901   -2.255383    30    115    1
+SimProbeHeatMoveDown             1.146550    1.537901   -2.255383    30    115    2
+SimEpuGenTest                    1.063608    1.536168   -2.256279    30    115    1
+SimFlcsPowerTest                 0.998593    1.454841   -2.276584    30    310    1
+
+// Flight Control
+SimDigitalBUPBackup              0.792535    1.672152   -2.231755    30    311    1
+SimDigitalBUPOff                 0.792535    1.672152   -2.231755    30    311    2
+SimAltFlapsExtend                0.634525    1.668675   -2.233506    30    311    1
+SimAltFlapsNorm                  0.634525    1.668675   -2.233506    30    311    2
+SimManualFlyupDisable            0.716779    1.544263   -2.260399    30    311    1
+SimManualFlyupEnable             0.716779    1.544263   -2.260399    30    311    2
+SimLEFLock                       0.822830    1.422632   -2.289611    30    311    1
+SimLEFAuto                       0.822830    1.422632   -2.289611    30    311    2
+SimFLCSReset                     0.687785    1.419160   -2.291230    30    115    1
+SimFLTBIT                        0.565811    1.418470   -2.287200    30    319    1
+
+// Manual Trim
+SimTrimRollLeft                  0.870152    1.270360   -2.291560    30    309    1
+SimTrimRollRight                 0.870152    1.270360   -2.291560    30    309    2
+SimTrimAPNORM                    0.611879    1.300908   -2.311079    30    310    1
+SimTrimAPDISC                    0.611879    1.300908   -2.311079    30    310    2
+SimTrimYawLeft                   0.831966    1.106001   -2.312325    30    116    1    p
+SimTrimYawRight                  0.831966    1.106001   -2.312325    30    116    2    p
+SimTrimNoseUp                    0.615867    1.083721   -2.334782    30    309    1    p
+SimTrimNoseDown                  0.615867    1.083721   -2.334782    30    309    2    p
+
+// Fuel
+SimMasterFuelOn                  0.403315    1.641081   -2.259847    30    317    1
+SimMasterFuelOff                 0.403315    1.641081   -2.259847    30    316    2
+//unused: Tank Inerting On       0.321484    1.602720   -2.235212    30    311    1
+//unused: Tank Inerting Off      0.321484    1.602720   -2.235212    30    311    2
+SimIncFuelPump                   0.210142    1.593523   -2.220331    30    124    1    w
+SimDecFuelPump                   0.210142    1.593523   -2.220331    30    124    2    w
+SimFuelDoorOpen                  0.112890    1.632864   -2.268466    30    311    1
+SimFuelDoorClose                 0.112890    1.632864   -2.268466    30    311    2
+
+// Auxiliary Communication
+SimAuxComUFC                     0.134451    1.441163   -2.221546    25    125    1    w
+SimAuxComBackup                  0.134451    1.441163   -2.221546    25    125    2    w
+SimIFFMasterInc                  0.390046    1.443800   -2.245529    35    124    1    w
+SimIFFMasterDec                  0.390046    1.443800   -2.245529    35    124    2    w
+SimIFFCodeSwitchZero             0.279117    1.455320   -2.288464    25    311    1
+SimIFFCodeSwitchHold             0.279117    1.455320   -2.288464    25    311    2
+SimIFFMode4ReplyInc              0.412729    1.320360   -2.313586    25    310    1
+SimIFFMode4ReplyDec              0.412729    1.320360   -2.313586    25    310    2
+SimIFFMode4MonitorAud            0.341325    1.320360   -2.313586    25    115    1
+SimIFFMode4MonitorOff            0.341325    1.320360   -2.313586    25    115    2
+SimCycleLeftAuxComDigit          0.280438    1.304193   -2.306854    15    312    1    w
+SimDecLeftAuxComDigit            0.280438    1.304193   -2.306854    15    312    2    w
+SimCycleCenterAuxComDigit        0.242212    1.304193   -2.306854    15    312    1    w
+SimDecCenterAuxComDigit          0.242212    1.304193   -2.306854    15    312    2    w
+SimCycleRightAuxComDigit         0.202611    1.304193   -2.306854    15    312    1    w
+SimDecRightAuxComDigit           0.202611    1.304193   -2.306854    15    312    2    w
+SimCycleBandAuxComDigit          0.163169    1.304193   -2.306854    15    312    1    w
+SimCycleBandAuxComDigit          0.163169    1.304193   -2.306854    15    312    2    w
+SimTACANTR                       0.107072    1.332160   -2.313586    25    115    1
+SimTACANAATR                     0.107072    1.332160   -2.313586    25    115    2
+
+// Exterior Lighting (Old Panel - Front Position)
+SimAntiCollOff                   0.396671    1.181653   -2.339894    30    115    2
+SimAntiCollOn                    0.396671    1.181653   -2.339894    30    115    1
+SimLightsSteady                  0.303051    1.178091   -2.341300    30    115    2
+SimLightsFlash                   0.303051    1.178091   -2.341300    30    115    1
+SimWingLightDec                  0.218657    1.163248   -2.352303    30    115    2
+SimWingLightInc                  0.218657    1.163248   -2.352303    30    115    1
+SimFuselageLightDec              0.114784    1.159700   -2.353764    30    115    2
+SimFuselageLightInc              0.114784    1.159700   -2.353764    30    115    1
+SimStepFormationLightsUp         0.386000    1.049000   -2.343000    35    116    1    w
+SimStepFormationLightsDown       0.386000    1.049000   -2.343000    35    116    2    w
+SimExtlMasterOff                 0.264571    1.047735   -2.362698    30    115    2
+SimExtlMasterNorm                0.264571    1.047735   -2.362698    30    115    1
+SimStepAARLightsUp               0.152000    1.046000   -2.343000    35    116    1    w
+SimStepAARLightsDown             0.152000    1.046000   -2.343000    35    116    2    w
+
+// Emergency Power Unit
+SimEpuUp                        -0.073930    1.675873   -2.235056    30    316    1
+SimEpuDown                      -0.073930    1.675873   -2.235056    30    316    2
+
+// Electronic Panel
+SimMainPowerInc                 -0.229153    1.485824   -2.253803    30    310    1
+SimMainPowerDec                 -0.229153    1.485824   -2.253803    30    310    2
+SimElecReset                    -0.099393    1.458261   -2.248559    35    314    1    p
+
+// Audiovisual Tape Recorder
+SimAVTRSwitchUp                 -0.082736    1.115485   -2.381507    30    115    1
+SimAVTRSwitchDown               -0.082736    1.115485   -2.381507    30    115    2
+//unused: AVTR DispSelect Inc   -0.069525    0.993477   -2.381507    35    125    1    w
+//unused: AVTR DispSelect Dec   -0.069525    0.993477   -2.381507    35    125    2    w
+
+// Electronic Countermeasures Stowage
+SimXMTASPISToggle               -0.29652 1.194374 -2.308459    30  310   1    p
+SimEcmPowerOn                   -0.21274 0.999836 -2.343972    30  310   1
+SimEcmPowerOff                  -0.21274 0.999836 -2.343972    30  310   2
+SimECMBit                       -0.32054 0.999244 -2.352272    30  318   1    p
+
+// Engine/Jet Start
+SimJfsStartInc                  -0.800643    1.398373   -2.233014    30    320    1
+SimJfsStartDec                  -0.800643    1.398373   -2.233014    30    319    2
+SimEngContPri                   -0.663438    1.438661   -2.237188    35    317    1
+SimEngContSec                   -0.663438    1.438661   -2.237188    35    316    2
+//unused: AB Reset Up           -0.486183    1.435691   -2.250122    35    311    1
+//unused: AB Reset Dn           -0.486183    1.435691   -2.250122    35    311    2
+//unused: Max Power Up          -0.324515    1.435752   -2.263941    30    311    1
+//unused: Max Power Dn          -0.324515    1.435752   -2.263941    30    311    2
+
+// Audio 2
+SimStepIntercomVolumeUp         -0.418140    1.213842   -2.248547    30    116    1    w
+SimStepIntercomVolumeDown       -0.418140    1.213842   -2.248547    30    116    2    w
+SimILSUp                        -0.419581    1.044362   -2.288867    25    116    1    w
+SimILSDown                      -0.419581    1.044362   -2.288867    25    116    2    w
+//unused: HotMic Inc            -0.404954    0.964182   -2.351122    30    115    1
+//unused: HotMic Dec            -0.404954    0.964182   -2.351122    30    115    2
+
+// Audio 1
+SimStepComm1VolumeUp            -0.632554    1.231162   -2.235359    30    116    1    w
+SimStepComm1VolumeDown          -0.632554    1.231162   -2.235359    30    116    2    w
+SimStepComm2VolumeUp            -0.636317    1.137682   -2.252884    30    116    1    w
+SimStepComm2VolumeDown          -0.636317    1.137682   -2.252884    30    116    2    w
+//unused: SecureVoice Vol Up    -0.649726    1.047098   -2.318412    30    116    1    w
+//unused: SecureVoice Vol Dn    -0.649726    1.047098   -2.318412    30    116    2    w
+SimStepMissileVolumeUp          -0.637489    0.960682   -2.299623    30    116    1    w
+SimStepMissileVolumeDown        -0.637489    0.960682   -2.299623    30    116    2    w
+SimAud1Com1Gd                   -0.522470    1.225762   -2.248207    35    124    1    w
+SimAud1Com1Sql                  -0.522470    1.225762   -2.248207    35    124    2    w
+SimAud1Com2Gd                   -0.514555    1.136002   -2.264076    35    124    1    w
+SimAud1Com2Sql                  -0.514555    1.136002   -2.264076    35    124    2    w
+SimStepThreatVolumeUp           -0.516828    0.960682   -2.316017    25    116    1    w
+SimStepThreatVolumeDown         -0.516828    0.960682   -2.316017    25    116    2    w
+
+// UHF Radio / Have Quick
+SimCycleRadioChannel            -1.014930    0.942442   -2.276986    30    125    1    w
+SimDecRadioChannel              -1.014930    0.942442   -2.276986    30    125    2    w
+SimBupUhfFreq1Inc               -0.856812    1.259541   -2.216784    25    125    1    w
+SimBupUhfFreq1Dec               -0.856812    1.259541   -2.216784    25    125    2    w
+SimBupUhfFreq2Inc               -0.856812    1.169303   -2.234354    25    125    1    w
+SimBupUhfFreq2Dec               -0.856812    1.169303   -2.234354    25    125    2    w
+SimBupUhfFreq3Inc               -0.858692    1.103127   -2.246916    25    125    1    w
+SimBupUhfFreq3Dec               -0.858692    1.103127   -2.246916    25    125    2    w
+SimBupUhfFreq4Inc               -0.858692    1.031153   -2.262386    25    125    1    w
+SimBupUhfFreq4Dec               -0.858692    1.031153   -2.262386    25    125    2    w
+SimBupUhfFreq5Inc               -0.858692    0.957643   -2.277019    25    125    1    w
+SimBupUhfFreq5Dec               -0.858692    0.957643   -2.277019    25    125    2    w
+SimBupUhfFuncInc                -0.752846    1.218442   -2.234731    35    124    1    w
+SimBupUhfFuncDec                -0.752846    1.218442   -2.234731    35    124    2    w
+OTWBalanceIVCvsAIUp             -0.772400    1.097282   -2.272114    30    116    1    w
+OTWBalanceIVCvsAIDown           -0.772400    1.097282   -2.272114    30    116    2    w
+SimBupUhfModeInc                -0.765860    0.976722   -2.282338    35    124    1    w
+SimBupUhfModeDec                -0.765860    0.976722   -2.282338    35    124    2    w
+
+// Manual Pitch Override
+SimMPOToggle                    -0.993883    1.439997   -2.209807    35    115    1
+SimMPOToggle                    -0.993883    1.439997   -2.209807    35    115    2
+
+// Other
+SimThrottleIdleDetent           -0.529767    1.350808   -1.740250    60    314    1    p
+SimSlapSwitch                   -0.613260    1.381623   -1.645292    20    314    1    p
+AFCanopyLockToggle              -1.189000    1.169000   -1.535000    30    322    1    p
+AFCanopyInc                     -1.133543    1.336160   -1.610083    40    115    1
+AFCanopyDec                     -1.133543    1.336160   -1.610083    40    115    2
+
+
+//////////////////////
+// LEFT AUX CONSOLE //
+//////////////////////
+
+// Landing Gear
+SimEmergencyJettison            -1.756263    1.174065   -1.598289    40    123    1    p
+SimHookUp                       -1.825202    0.913208   -1.614659    32    310    1
+SimHookDown                     -1.825202    0.913208   -1.614659    32    310    2
+SimGndJettOn                    -1.639812    1.300973   -1.679241    35    311    1
+SimGndJettOff                   -1.639812    1.300973   -1.679241    35    311    2
+SimBrakeChannelUp               -1.653715    1.221734   -1.691862    32    115    1
+SimBrakeChannelDown             -1.653715    1.221734   -1.691862    32    115    2
+SimParkingBrakeInc              -1.667836    1.139554   -1.706791    40    319    1
+SimParkingBrakeDec              -1.667836    1.139554   -1.706791    40    320    2
+AFGearUp                        -1.427759    0.848029   -1.700582    50    118    1
+AFGearDown                      -1.427759    0.848029   -1.700582    50    119    2
+AFEmergencyGearHandleUnlock     -1.626493    0.998919   -1.820929    15    322    1    p
+SimCATI                         -1.527941    1.342032   -1.785147    35    115    1
+SimCATIII                       -1.527941    1.342032   -1.785147    35    115    2
+SimSilenceHorn                  -1.547171    1.217163   -1.807190    35    314    1    p
+SimLandingLightInc              -1.568268    1.113128   -1.820866    40    115    1
+SimLandingLightDec              -1.568268    1.113128   -1.820866    40    115    2
+
+// Alternate Gear Down Control
+AFAlternateGear                 -1.173515    1.583277   -2.033915    40    321    1    p
+AFAlternateGearReset            -1.173515    1.583277   -2.033915    40    314    2    p
+
+// Threat Warning Auxiliary
+SimRWRSetSearch                 -1.319612    1.477489   -2.009811    25    318    1    p
+SimRwrPower                     -1.290011    1.415632   -2.063531    25    318    1    p
+SimRWRSetGroundPriority         -1.278401    1.478371   -2.053802    25    318    1    p
+
+// Chaff / Flare
+SimEWSRWROn                     -1.424371    1.258890   -1.929020    32    115    1
+SimEWSRWROff                    -1.424371    1.258890   -1.929020    32    115    2
+SimEWSJammerOn                  -1.370948    1.263116   -1.984969    32    115    1
+SimEWSJammerOff                 -1.370948    1.263116   -1.984969    32    115    2
+SimEWSMwsOn                     -1.313929    1.266320   -2.047032    32    115    1
+SimEWSMwsOff                    -1.313929    1.266320   -2.047032    32    115    2
+SimEWSO1On                      -1.409215    1.196568   -1.967089    32    115    1
+SimEWSO1Off                     -1.409215    1.196568   -1.967089    32    115    2
+SimEWSO2On                      -1.419458    1.130158   -1.979285    32    115    1
+SimEWSO2Off                     -1.419458    1.130158   -1.979285    32    115    2
+SimEWSChaffOn                   -1.429545    1.064692   -1.991320    32    115    1
+SimEWSChaffOff                  -1.429545    1.064692   -1.991320    32    115    2
+SimEWSFlareOn                   -1.438721    0.996910   -2.005142    32    115    1
+SimEWSFlareOff                  -1.438721    0.996910   -2.005142    32    115    2
+SimEwsJettOn                    -1.327400    1.195472   -2.057327    30    311    1
+SimEwsJettOff                   -1.327400    1.195472   -2.057327    30    311    2
+SimEWSProgInc                   -1.303412    1.091360   -2.041459    40    125    1    w
+SimEWSProgDec                   -1.303412    1.091360   -2.041459    40    125    2    w
+SimEWSPGMInc                    -1.330801    0.993760   -2.074830    40    125    1    w
+SimEWSPGMDec                    -1.330801    0.993760   -2.074830    40    125    2    w
+
+// Helm Mount Display
+SimHmsSymWheelUp                -1.200892    1.133200   -2.133098    40    116    1    w
+SimHmsSymWheelDn                -1.200892    1.133200   -2.133098    40    116    2    w
+
+
+////////////////////
+// CENTER CONSOLE //
+////////////////////
+
+// Misc Armament
+SimRFSwitchUp                   -2.115169    0.849989   -1.014307    40    310    1
+SimRFSwitchDown                 -2.115169    0.849989   -1.014307    40    310    2
+SimLaserArmOn                   -2.074869    0.915706   -1.145893    40    310    1
+SimLaserArmOff                  -2.074869    0.915706   -1.145893    40    310    2
+SimPickle                       -2.035176    0.862443   -1.207594    30    312    1    p
+SimMasterArmUp                  -2.025395    0.889384   -1.301323    40    311    1
+SimMasterArmDown                -2.025395    0.889384   -1.301323    40    311    2
+SimLeftAPInc                    -1.966985    0.979293   -1.479837    35    115    1
+SimLeftAPDec                    -1.966985    0.979293   -1.479837    35    115    2
+SimRightAPInc                   -1.964922    0.884721   -1.481141    35    319    1
+SimRightAPDec                   -1.964922    0.884721   -1.481141    35    319    2
+SimToggleTFR                    -1.999140    0.903096   -1.387950    30    318    1    p
+
+// Left Eyebrow
+SimICPFAck                      -1.886789    0.909291   -0.866962    35    122    1    p
+ExtinguishMasterCaution         -1.991385    0.702340   -0.669494    60    127    1    p
+
+// Threat Warning Prime
+SimRWRHandoff                   -2.374458    0.656662   -0.802463    30    318    1    p
+SimRWRLaunch                    -2.357535    0.708719   -0.856120    30    318    1    p
+SimRWRSetPriority               -2.357535    0.656009   -0.856120    30    318    1    p
+SimRWRSetUnknowns               -2.339843    0.760208   -0.912435    30    318    1    p
+SimRWRSysTest                   -2.339843    0.708427   -0.912435    30    318    1    p
+SimRWRSetTargetSep              -2.339843    0.656009   -0.912435    30    318    1    p
+
+// Radar Warning Receiver
+SimRWRBrightnessUp              -2.363928    0.582094   -0.718060    30    116    1    w
+SimRWRBrightnessDown            -2.363928    0.582094   -0.718060    30    116    2    w
+
+// Left MFD
+SimRadarGainUp                  -2.311958    0.768599   -1.061829    10    126    1    p
+SimRadarGainDown                -2.305365    0.768711   -1.082840    10    126    1    p
+SimCBEOSB_BRTUP_L               -2.221328    0.769920   -1.347882    10    126    1    p
+SimCBEOSB_BRTDOWN_L             -2.211044    0.769960   -1.377183    10    126    1    p
+SimCBEOSB_1L                    -2.329097    0.660677   -1.023423    20    126    1    p
+SimCBEOSB_2L                    -2.329098    0.612263   -1.023440    20    126    1    p
+SimCBEOSB_3L                    -2.329099    0.563837   -1.023448    20    126    1    p
+SimCBEOSB_4L                    -2.329100    0.514575   -1.023459    20    126    1    p
+SimCBEOSB_5L                    -2.329102    0.464454   -1.023474    20    126    1    p
+SimCBEOSB_6L                    -2.297115    0.363009   -1.125581    20    126    1    p
+SimCBEOSB_7L                    -2.282624    0.362939   -1.171780    20    126    1    p
+SimCBEOSB_8L                    -2.268139    0.362957   -1.217976    20    126    1    p
+SimCBEOSB_9L                    -2.253422    0.362975   -1.264980    20    126    1    p
+SimCBEOSB_10L                   -2.238420    0.362989   -1.312800    20    126    1    p
+SimCBEOSB_11L                   -2.206613    0.464566   -1.414333    20    126    1    p
+SimCBEOSB_12L                   -2.206612    0.514686   -1.414318    20    126    1    p
+SimCBEOSB_13L                   -2.206610    0.563947   -1.414303    20    126    1    p
+SimCBEOSB_14L                   -2.206609    0.612369   -1.414285    20    126    1    p
+SimCBEOSB_15L                   -2.206608    0.660788   -1.414275    20    126    1    p
+SimCBEOSB_16L                   -2.238427    0.770142   -1.312714    20    126    1    p
+SimCBEOSB_17L                   -2.253427    0.770139   -1.264871    20    126    1    p
+SimCBEOSB_18L                   -2.268145    0.770127   -1.217866    20    126    1    p
+SimCBEOSB_19L                   -2.282630    0.770114   -1.171675    20    126    1    p
+SimCBEOSB_20L                   -2.297104    0.770102   -1.125468    20    126    1    p
+
+// ICP
+SimICPCom1                      -1.580294    0.159431   -0.492920    30    122    1    p
+SimICPCom2                      -1.580294    0.095767   -0.492290    30    122    1    p
+SimICPIFF                       -1.580294    0.032117   -0.492290    30    122    1    p
+SimICPLIST                      -1.580294   -0.035581   -0.492290    30    122    1    p
+SimICPAA                        -1.580294   -0.100331   -0.492290    30    122    1    p
+SimICPAG                        -1.580294   -0.165874   -0.492920    30    122    1    p
+SimICPTILS                      -1.598465    0.143018   -0.562710    30    122    1    p
+SimICPALOW                      -1.598465    0.078402   -0.562710    30    122    1    p
+SimICPTHREE                     -1.598465    0.013066   -0.562710    30    122    1    p
+SimICPStpt                      -1.595798    0.143018   -0.632015    30    122    1    p
+SimICPCrus                      -1.595798    0.078402   -0.632015    30    122    1    p
+SimICPSIX                       -1.595798    0.013066   -0.632015    30    122    1    p
+SimICPMark                      -1.593043    0.143018   -0.693466    30    122    1    p
+SimICPEIGHT                     -1.593043    0.078402   -0.693466    30    122    1    p
+SimICPNINE                      -1.593043    0.013066   -0.693466    30    122    1    p
+SimICPZERO                      -1.593043   -0.048053   -0.693466    30    122    1    p
+SimICPCLEAR                     -1.598465   -0.061500   -0.562710    30    122    1    p
+SimICPEnter                     -1.595798   -0.061500   -0.632015    30    122    1    p
+SimICPNext                      -1.592502    0.146393   -0.750834    16    122    1    p
+SimICPPrevious                  -1.590426    0.148462   -0.781902    16    122    1    p
+SimICPDEDUP                     -1.563010    0.047401   -0.729133    20    120    1    p
+SimICPDEDDOWN                   -1.596654    0.048998   -0.810492    20    120    1    p
+SimICPResetDED                  -1.598393    0.079280   -0.771140    20    120    1    p
+SimICPDEDSEQ                    -1.598393    0.007318   -0.771140    20    120    1    p
+SimDriftCOOn                    -1.565116   -0.049011   -0.750879    16    121    1    p
+SimDriftCOOff                   -1.565116   -0.049011   -0.750879    16    121    2    p
+SimWarnReset                    -1.595755   -0.053701   -0.799984    16    115    1    p
+SimSetWX                        -1.592200   -0.151201   -0.574717    30    122    1    p
+SimFlirLevelUp                  -1.596690   -0.152055   -0.631092    16    126    1    p
+SimFlirLevelDown                -1.595550   -0.152055   -0.662454    16    126    1    p
+SimSymWheelUp                   -1.568470    0.212250   -0.595879    20    116    1    w
+SimSymWheelUp                   -1.571099    0.212825   -0.568341    20    116    1    w
+SimSymWheelUp                   -1.574077    0.213653   -0.537071    20    116    1    w
+SimSymWheelDn                   -1.568470    0.212250   -0.595879    20    116    2    w
+SimSymWheelDn                   -1.571099    0.212825   -0.568341    20    116    2    w
+SimSymWheelDn                   -1.574077    0.213653   -0.537071    20    116    2    w
+SimRetDn                        -1.574386   -0.218249   -0.605102    20    116    1    w
+SimRetDn                        -1.577747   -0.218496   -0.570337    20    116    1    w
+SimRetDn                        -1.580907   -0.220739   -0.538567    20    116    1    w
+SimRetUp                        -1.574386   -0.218249   -0.605102    20    116    2    w
+SimRetUp                        -1.577747   -0.218496   -0.570337    20    116    2    w
+SimRetUp                        -1.580907   -0.220739   -0.538567    20    116    2    w
+SimBrtWheelUp                   -1.575710    0.216435   -0.714358    20    116    1    w
+SimBrtWheelUp                   -1.580160    0.215860   -0.741896    20    116    1    w
+SimBrtWheelUp                   -1.578690    0.217263   -0.683088    20    116    1    w
+SimBrtWheelDn                   -1.575710    0.216435   -0.714358    20    116    2    w
+SimBrtWheelDn                   -1.580160    0.215860   -0.741896    20    116    2    w
+SimBrtWheelDn                   -1.578690    0.217263   -0.683088    20    116    2    w
+
+// Altimeter
+SimAltPressInc                  -1.961325   -0.043320   -1.365163    30    116    1    w
+SimAltPressDec                  -1.961325   -0.043320   -1.365163    30    116    2    w
+
+// Instrument Mode
+SimHSIModeInc                   -1.709831    0.226701   -1.751231    40    124    1    w
+SimHSIModeDec                   -1.709831    0.226701   -1.751231    40    124    2    w
+
+// Horizontal Situation Indicator
+SimHsiHeadingInc                -1.556349    0.106092   -1.828932    35    116    1    w
+SimHsiHeadingDec                -1.556349    0.106092   -1.828932    35    116    2    w
+SimHsiCourseInc                 -1.556349   -0.110726   -1.828932    35    116    1    w
+SimHsiCourseDec                 -1.556349   -0.110726   -1.828932    35    116    2    w
+
+// Fuel Quantity Selector
+SimIncFuelSwitch                -1.652828   -0.228760   -1.767665    40    124    1    w
+SimDecFuelSwitch                -1.652828   -0.228760   -1.767665    40    124    2    w
+SimFuelTransNorm                -1.589638   -0.227714   -1.912819    35    311    1
+SimFuelTransWing                -1.589638   -0.227714   -1.912819    35    311    2
+
+// Right MFD
+SimRadarGainUp                  -2.312181   -0.355786   -1.061721    10    126    1    p
+SimRadarGainDown                -2.305587   -0.355674   -1.082732    10    126    1    p
+SimCBEOSB_BRTUP_R               -2.220160   -0.360280   -1.348244    10    126    1    p
+SimCBEOSB_BRTDOWN_R             -2.211044   -0.361200   -1.377183    10    126    1    p
+SimCBEOSB_1R                    -2.329305   -0.463787   -1.023315    20    126    1    p
+SimCBEOSB_2R                    -2.329307   -0.512202   -1.023332    20    126    1    p
+SimCBEOSB_3R                    -2.329307   -0.560628   -1.023332    20    126    1    p
+SimCBEOSB_4R                    -2.329308   -0.609890   -1.023332    20    126    1    p
+SimCBEOSB_5R                    -2.329310   -0.660011   -1.023332    20    126    1    p
+SimCBEOSB_6R                    -2.297323   -0.761457   -1.125474    20    126    1    p
+SimCBEOSB_7R                    -2.282847   -0.761450   -1.171673    20    126    1    p
+SimCBEOSB_8R                    -2.268363   -0.761432   -1.217868    20    126    1    p
+SimCBEOSB_9R                    -2.253645   -0.761414   -1.264873    20    126    1    p
+SimCBEOSB_10R                   -2.238643   -0.761400   -1.312692    20    126    1    p
+SimCBEOSB_11R                   -2.206821   -0.659900   -1.414225    20    126    1    p
+SimCBEOSB_12R                   -2.206819   -0.609779   -1.414225    20    126    1    p
+SimCBEOSB_13R                   -2.206818   -0.560518   -1.414225    20    126    1    p
+SimCBEOSB_14R                   -2.206816   -0.512096   -1.414225    20    126    1    p
+SimCBEOSB_15R                   -2.206815   -0.463677   -1.414225    20    126    1    p
+SimCBEOSB_16R                   -2.238632   -0.354308   -1.312606    20    126    1    p
+SimCBEOSB_17R                   -2.253634   -0.354322   -1.264763    20    126    1    p
+SimCBEOSB_18R                   -2.268352   -0.354335   -1.217758    20    126    1    p
+SimCBEOSB_19R                   -2.282836   -0.354349   -1.171567    20    126    1    p
+SimCBEOSB_20R                   -2.297311   -0.354362   -1.125361    20    126    1    p
+
+// Ejection seat (Jan Has Seat)
+SimSeatOn                       -1.13473     0.767572   -2.102167    45    315    2    
+SimSeatOff                      -1.13473     0.767572   -2.102167    45    315    1   
+SimEject                        -1.11384    -0.009907   -1.720468    40    117    1    p
+SimEject                        -1.10368     0.063922   -1.725946    40    117    1    p
+SimEject                        -1.13107    -0.083735   -1.726049    40    117    1    p
+
+
+///////////////////
+// RIGHT CONSOLE //
+///////////////////
+
+// Sensor Power Management
+SimLeftHptOn                    -1.076382   -1.231134   -2.280512    30    311    1
+SimLeftHptOff                   -1.076382   -1.231134   -2.280512    30    311    2
+SimRightHptOn                   -1.072243   -1.319131   -2.265504    30    311    1
+SimRightHptOff                  -1.072243   -1.319131   -2.265504    30    311    2
+SimFCROn                        -1.072497   -1.407114   -2.250420    30    311    1
+SimFCROff                       -1.072497   -1.407114   -2.250420    30    311    2
+SimRALTUp                       -1.074519   -1.491770   -2.238710    30    311    1
+SimRALTDown                     -1.074519   -1.491770   -2.238710    30    311    2
+
+// Nuclear Consent
+//unused: Nuke Up               -0.905529   -1.637395   -2.218166    30    317    1
+//unused: Nuke Down             -0.905529   -1.637395   -2.218166    30    316    2
+//unused: Plain Crad1           -0.741536   -1.661489   -2.223389    30    115    1
+//unused: Plain Crad2           -0.741536   -1.661489   -2.223389    30    115    2
+
+// HUD Remote Control
+SimHUDScalesUp                  -0.978185   -1.230068   -2.284581    30    115    1
+SimHUDScalesDown                -0.978185   -1.230068   -2.284581    30    115    2
+SimPitchLadderUp                -0.977938   -1.322288   -2.268779    30    115    1
+SimPitchLadderDown              -0.977938   -1.322288   -2.268779    30    115    2
+SimHUDDEDUp                     -0.976948   -1.417864   -2.252416    30    115    1
+SimHUDDEDDown                   -0.976948   -1.417864   -2.252416    30    115    2
+SimReticleSwitchUp              -0.980097   -1.498250   -2.238582    30    310    1
+SimReticleSwitchDown            -0.980097   -1.498250   -2.238582    30    310    2
+SimHUDVelocityUp                -0.866616   -1.233049   -2.287935    30    115    1
+SimHUDVelocityDown              -0.866616   -1.233049   -2.287935    30    115    2
+SimHUDAltUp                     -0.869061   -1.322923   -2.272488    30    115    1
+SimHUDAltDown                   -0.869061   -1.322923   -2.272488    30    115    2
+SimHUDBrightnessUp              -0.870767   -1.414697   -2.256728    30    115    1
+SimHUDBrightnessDown            -0.870767   -1.414697   -2.256728    30    115    2
+//unused: Test Step Up          -0.867817   -1.506340   -2.241073    30    115    1
+//unused: Test Step Down        -0.867817   -1.506340   -2.241073    30    115    2
+
+// Interior Lighting
+SimInstrumentLightCW            -0.736125   -1.369400   -2.217604    40    116    1    w
+SimInstrumentLightCCW           -0.736125   -1.369400   -2.217604    40    116    2    w
+SimDedBrightnessCW              -0.728155   -1.497532   -2.196445    40    116    1    w
+SimDedBrightnessCCW             -0.728155   -1.497532   -2.196445    40    116    2    w
+SimInteriorLightCW              -0.549610   -1.239279   -2.246777    40    116    1    w
+SimInteriorLightCCW             -0.549610   -1.239279   -2.246777    40    116    2    w
+//unused: Mal IndBrightness Up  -0.543507   -1.509694   -2.252126    40    115    1
+//unused: Mal IndBrightness Dn  -0.543507   -1.509694   -2.252126    40    115    2
+
+// Zeroize/Voice Inhibit
+//unused: Zeroize Up            -0.886037   -1.020204   -2.344102    30    316    1
+//unused: Zeroize Dn            -0.886037   -1.020204   -2.344102    30    317    2
+SimVMSOn                        -0.419556   -1.024835   -2.338250    30    115    1
+SimVMSOff                       -0.419556   -1.024835   -2.338250    30    115    2
+
+// Air Condition
+//unused: Air Cond On           -0.378309   -1.298392   -2.292073    40    125    1
+//unused: Air Cond Off          -0.378309   -1.298392   -2.292073    40    125    2
+SimIncAirSource                 -0.386660   -1.484429   -2.263682    40    124    1    w
+SimDecAirSource                 -0.386660   -1.484429   -2.263682    40    124    2    w
+
+// Secure Voice
+//unused: KY8 Pull Inc           0.177879   -1.611421   -2.231127    40    125    1
+//unused: KY8 Pull Inc           0.177879   -1.611421   -2.231127    40    125    2
+
+// Antenna Selector
+SimAntennaSelectInc              0.552730   -1.693034   -2.194575    30    115    1
+SimAntennaSelectDec              0.552730   -1.693034   -2.194575    30    115    2
+
+// Anti Ice
+SimAntiIceInc                    0.391390   -1.697861   -2.202817    30    311    1
+SimAntiIceDec                    0.391390   -1.697861   -2.202817    30    311    2
+
+// Seat Adjustment
+SimSeatUp                       -1.054350   -1.370733   -1.769483    50    115    1
+SimSeatDown                     -1.054350   -1.370733   -1.769483    50    115    2
+
+// Avionics Power
+SimFCCOn                         0.359646   -1.574545   -2.235885    30    310    1
+SimFCCOff                        0.359646   -1.574545   -2.235885    30    310    2
+SimSMSOn                         0.460937   -1.576761   -2.237422    30    310    1
+SimSMSOff                        0.460937   -1.576761   -2.237422    30    310    2
+SimMFDOn                         0.559281   -1.572981   -2.216199    30    311    1
+SimMFDOff                        0.559281   -1.572981   -2.216199    30    311    2
+SimUFCOn                         0.658871   -1.577070   -2.217266    30    310    1
+SimUFCOff                        0.658871   -1.577070   -2.217266    30    310    2
+SimINSInc                        0.398328   -1.416319   -2.222650    35    124    1    w
+SimINSDec                        0.398328   -1.416319   -2.222650    35    124    2    w
+SimGPSOn                         0.564855   -1.413126   -2.246563    30    310    1
+SimGPSOff                        0.564855   -1.413126   -2.246563    30    310    2
+SimDLOn                          0.664703   -1.419038   -2.246866    30    310    1
+SimDLOff                         0.664703   -1.419038   -2.246866    30    310    2
+
+// Oxygen Regulator
+//unused: Oxy Emer/Test Up       0.806027   -1.588077   -2.195063    35    129    1
+//unused: Oxy Emer/Test Dn       0.806027   -1.588077   -2.195063    35    129    2
+//unused: Oxy 100%/Norm Up       0.932134   -1.592457   -2.181145    35    129    1
+//unused: Oxy 100%/Norm Dn       0.932134   -1.592457   -2.181145    35    129    2
+SimOxySupplyOn                   1.062630   -1.601094   -2.181145    35    129    1
+SimOxySupplyOff                  1.062630   -1.601094   -2.181145    35    129    2
+
+//KneePads
+SimRightKneePadInc                -1.11071    -0.541208   -1.454451   130    0   1 w
+SimLeftKneePadDec                 -1.09713     0.467971   -1.514495   130    0   2 w
+SimRightKneePadDec                -1.11071    -0.541208   -1.454451   130    0   2 w
+SimLeftKneePadInc                 -1.09713     0.467971   -1.514495   130    0   1 w
+SimLeftKneePadInc                 -1.40833     0.464787   -1.508222   130    0   1 w
+SimLeftKneePadDec                 -1.40833     0.464787   -1.508222   130    0   2 w
+SimRightKneePadDec                -1.40881    -0.531164   -1.483563   130    0   2 w
+SimRightKneePadInc                -1.40881    -0.531164   -1.483563   130    0   1 w

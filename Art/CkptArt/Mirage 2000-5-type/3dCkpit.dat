@@ -1,0 +1,108 @@
+﻿// 3-d cockpit description
+// Mirage 2000-5-type Cockpit By Laurent "Buzzz" Buzzi 2009/10
+
+
+// Boresight cross height
+// boresighty 0.75;
+
+
+// Shared render to texture target size, width height depth, depth needs to be 32 for texture alpha to work default is primary 
+rttTarget 512 512;
+
+
+// 3-d coords for Upper Right, Upper Left and Lower Right  
+// Rtt Top, Left, Right, Bottom, BlendMode, Alpha
+// BlendModes are a = alpha blending, c = color blending, g = texture gouraud, t = texture, default = g 
+// example hud with 0.5 vertex alpha:    hud  20.0 -2.0 0.0    20.0 2.0 0.0    20.0 -2.0 4.0    5 5 260 260    a 0.5;
+// first number is toward you / away from you
+// second number is left and right� - number is right, positive number is left
+// third number is up / down� - number is up, positive number is down
+// 0, 0  is in the middle of the screen (apprxomiately)
+hud		  	20057  	-2250  	-0528	20057	2250	-0528	20057	-2250	4191	5	5	260	260	c;
+pfl			0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000	5	345	165	408	c;
+ded			0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000	5	270	165	333	c;
+rwr		 	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000	5 	420 85	500 c;
+mfdleft		0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000	265	5 	440 180 c;
+mfdright  	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000	265 182 440 357 c;
+hms			20.063	-4.000	-4.000	20.063	4.000	-4.000	20.063	-4.000	4.000	265	360	415	510	c;
+
+
+// font settings for displays
+hudfont 2;
+mfdfont 7;
+dedfont 1;
+rwrfont 1;
+
+
+// floodlightcolormod r g b where r g b are float between 0.0 to 1.0
+floodlightcolormod 1.0 0.25 0.0; // Red
+
+
+// various colours
+padlockbg ff7c4706;         // padlock background
+padlockliftline ff5ee75e;   // padlock liftline, green
+padlockvpside ff00ffff;     // padlock viewport box 3 sides, yellow
+padlockvptop ffffffff;      // padlock viewport top, white
+padlocktick ff0000ff;       // padlock zero level tickmark, red
+needlecolor0 ffdddddd;      // primary needle color, gray
+needlecolor1 ffdddddd;      // secondary needle color, redish
+dedcolor FF00FF9C;          // DED color
+
+
+// the LOD models to use.
+cockpitrttcanopymodel 1568; // Canopy model to render scratches and rain drops
+cockpitmodel 1539;          // the main 3d cockpit model
+cockpitmodel1 1588;         // switches and knobs
+cockpitmodel2 1570;         // outside shell
+cockpithudmodel 1557;       // HUD combiner glass model
+cockpitcanopymodel 1560;    // Canopy model
+cockpitlegsmodel 1913;      // Pilot legs
+
+// Head Rotation limits
+viewlimit_pan_left 160.0;
+viewlimit_pan_right 160.0;
+viewlimit_pitch_down 60.0;
+
+// 6DOF bounding box
+movementlimit_left       0.5;
+movementlimit_right      0.5;
+movementlimit_up         0.15;
+movementlimit_down       0.6;
+movementlimit_fore       0.9;
+movementlimit_aft        0.6;
+hudview_fov = 60.0f;
+
+
+// Options
+6dof_ready 1;
+rtt_canopy 1;
+
+
+//Guided views
+guidedview 0 0 0 0 0 -9 0 60 18000 28 22500 29 13500 53 27000 66 9000 13 0 44 31500 73 4500 96;
+guidedview 28 0 0 0 0 -32 0 60 0 0 18000 50 27000 29 9000 53 31500 66 4500 13;
+guidedview 50 -0.06 0 0 0 -60 0 60 0 28 4500 53 31500 29 27000 29 9000 53;
+guidedview 29 0.014469 0 0.06 -55 -51.99985 0 60 9000 28 4500 0 27000 37 13500 50 31500 89 0 66;
+guidedview 37 0 0 0.024633 -110 -54.49992 0 60 9000 29 4500 66 0 89 31500 8 27000 8;
+guidedview 53 0.014469 0 0.06 55 -46.49978 0 60 9000 92 27000 28 31500 0 22500 50 0 13 4500 38;
+guidedview 92 0.014469 0 0.06 110 -50.49974 0 60 27000 53 0 38 31500 13 4500 34 9000 34;
+guidedview 66 0 0 0 -55 -9 0 60 22500 37 18000 29 13500 28 9000 0 27000 89 4500 44 0 73 31500 82;
+guidedview 89 0 0 0 -110 -9 0 60 13500 29 18000 37 9000 66 27000 8 31500 62 0 82 4500 73;
+guidedview 8 0 -0.05 0 -165 -9 0 60 9000 89 13500 37 0 62 4500 82;
+guidedview 13 0 0 0 55 -9 0 60 22500 28 27000 0 18000 53 13500 92 9000 38 31500 44 0 96 4500 71;
+guidedview 38 0 0 0 110 -9 0 60 18000 92 22500 53 27000 13 9000 34 0 71 31500 96 4500 17;
+guidedview 34 0 0.05 0 165 -9 0 60 27000 38 22500 92 0 17 31500 71;
+guidedview 44 0 0 0 0 35 0 60 18000 0 22500 66 13500 13 27000 73 9000 96 0 40 4500 54 31500 12;
+guidedview 73 0 0 0 -55 35 0 60 27000 82 9000 44 18000 66 22500 89 13500 0 0 12 4500 40 31500 70;
+guidedview 82 0 0 0 -110 35 0 60 22500 8 27000 62 18000 89 9000 73 13500 66 0 70 4500 12 31500 91;
+guidedview 62 0 -0.05 0 -165 35 0 60 18000 8 13500 89 9000 82 0 91 4500 70;
+guidedview 96 0 0 0 55 35 0 60 27000 44 9000 71 18000 13 22500 0 13500 38 0 54 4500 80 31500 40;
+guidedview 71 0 0 0 110 35 0 60 27000 96 9000 17 18000 38 22500 13 13500 34 0 80 4500 7 31500 54;
+guidedview 17 0 0.05 0 165 35 0 60 27000 71 18000 34 22500 38 0 7 31500 80;
+guidedview 40 0 0 0 0 80 0 60 27000 12 9000 54 18000 44 13500 96 22500 73;
+guidedview 12 0 0 0 -55 80 0 60 27000 70 9000 40 18000 73 13500 44 22500 82;
+guidedview 70 0 0 0 -110 80 0 60 27000 91 9000 12 18000 82 13500 73 22500 62;
+guidedview 91 0 -0.05 0 -165 80 0 60 18000 62 9000 70 13500 82;
+guidedview 54 0 0 0 55 80 0 60 27000 40 9000 80 18000 96 13500 71 22500 44;
+guidedview 80 0 0 0 110 80 0 60 27000 54 9000 7 18000 71 13500 17 22500 96;
+guidedview 7 0 0.05 0 165 80 0 60 27000 80 18000 17 22500 71;

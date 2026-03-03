@@ -1,0 +1,154 @@
+landCoverPolygonProtoVec {
+  groundType: GTP_AIRBASE
+  point {
+    x: 1440539.62
+    y: 1516731.5
+  }
+  point {
+    x: 1440413.12
+    y: 1516899.25
+  }
+  point {
+    x: 1440246.5
+    y: 1517070.12
+  }
+  point {
+    x: 1440260.25
+    y: 1517229.5
+  }
+  point {
+    x: 1440516
+    y: 1517207.5
+  }
+  point {
+    x: 1440786.62
+    y: 1517190.12
+  }
+  point {
+    x: 1441041.75
+    y: 1517038.5
+  }
+  point {
+    x: 1441202.88
+    y: 1516817.38
+  }
+  point {
+    x: 1441013.88
+    y: 1516715.88
+  }
+}
+landCoverPolygonProtoVec {
+  groundType: GTP_AIRBASE
+  point {
+    x: 1441026
+    y: 1516664.25
+  }
+  point {
+    x: 1440513.38
+    y: 1516681.12
+  }
+  point {
+    x: 1440374.25
+    y: 1516865.75
+  }
+  point {
+    x: 1440193.38
+    y: 1517051.12
+  }
+  point {
+    x: 1440213.62
+    y: 1517285
+  }
+  point {
+    x: 1440519.62
+    y: 1517258.62
+  }
+  point {
+    x: 1440802.25
+    y: 1517240.5
+  }
+  point {
+    x: 1441077
+    y: 1517077.12
+  }
+  point {
+    x: 1441279
+    y: 1516800.12
+  }
+}
+landCoverPolygonProtoVec {
+  groundType: GTP_AIRBASE
+  point {
+    x: 1440014.5
+    y: 1518056.12
+  }
+  point {
+    x: 1440121.25
+    y: 1518149
+  }
+  point {
+    x: 1440563.12
+    y: 1517395.38
+  }
+  point {
+    x: 1440370.25
+    y: 1517360.38
+  }
+}
+landCoverPolygonProtoVec {
+  groundType: GTP_AIRBASE
+  point {
+    x: 1440341.88
+    y: 1517303.25
+  }
+  point {
+    x: 1439950.62
+    y: 1518068.5
+  }
+  point {
+    x: 1440134.25
+    y: 1518228.25
+  }
+  point {
+    x: 1440644.5
+    y: 1517358
+  }
+}
+landCoverPolygonProtoVec {
+  groundType: GTP_AIRBASE
+  point {
+    x: 1439472
+    y: 1516162.5
+  }
+  point {
+    x: 1439589.62
+    y: 1516492.5
+  }
+  point {
+    x: 1439753
+    y: 1516394.25
+  }
+  point {
+    x: 1439611.88
+    y: 1516086.38
+  }
+}
+landCoverPolygonProtoVec {
+  groundType: GTP_AIRBASE
+  point {
+    x: 1439635.5
+    y: 1516015.12
+  }
+  point {
+    x: 1439409
+    y: 1516138.38
+  }
+  point {
+    x: 1439562.38
+    y: 1516568.62
+  }
+  point {
+    x: 1439818.75
+    y: 1516414.62
+  }
+}

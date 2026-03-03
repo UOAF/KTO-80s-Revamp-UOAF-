@@ -1,0 +1,162 @@
+landCoverPolygonProtoVec {
+  groundType: GTP_AIRBASE
+  point {
+    x: 1873023.5
+    y: 1220100.12
+  }
+  point {
+    x: 1872951.88
+    y: 1220280.88
+  }
+  point {
+    x: 1873042.12
+    y: 1220460.62
+  }
+  point {
+    x: 1873200.75
+    y: 1220555
+  }
+  point {
+    x: 1873332.25
+    y: 1220484.12
+  }
+  point {
+    x: 1873423
+    y: 1220301.25
+  }
+  point {
+    x: 1873364
+    y: 1220098.5
+  }
+  point {
+    x: 1873200.5
+    y: 1220035.75
+  }
+}
+landCoverPolygonProtoVec {
+  groundType: GTP_AIRBASE
+  point {
+    x: 1873201.5
+    y: 1219926.25
+  }
+  point {
+    x: 1872945.12
+    y: 1220019.5
+  }
+  point {
+    x: 1872839.62
+    y: 1220285.88
+  }
+  point {
+    x: 1872964
+    y: 1220533.38
+  }
+  point {
+    x: 1873198.25
+    y: 1220672.88
+  }
+  point {
+    x: 1873409.62
+    y: 1220558.88
+  }
+  point {
+    x: 1873532.62
+    y: 1220311
+  }
+  point {
+    x: 1873448.25
+    y: 1220021
+  }
+}
+landCoverPolygonProtoVec {
+  groundType: GTP_AIRBASE
+  point {
+    x: 1873202.38
+    y: 1219816.88
+  }
+  point {
+    x: 1872866.88
+    y: 1219938.88
+  }
+  point {
+    x: 1872727.38
+    y: 1220290.75
+  }
+  point {
+    x: 1872885.75
+    y: 1220606.25
+  }
+  point {
+    x: 1873195.75
+    y: 1220790.62
+  }
+  point {
+    x: 1873487
+    y: 1220633.62
+  }
+  point {
+    x: 1873642.25
+    y: 1220320.75
+  }
+  point {
+    x: 1873532.5
+    y: 1219943.5
+  }
+}
+landCoverPolygonProtoVec {
+  groundType: GTP_AIRBASE
+  point {
+    x: 1869567.38
+    y: 1209378.38
+  }
+  point {
+    x: 1870535.75
+    y: 1209292.5
+  }
+  point {
+    x: 1870395.38
+    y: 1204366
+  }
+  point {
+    x: 1869326.88
+    y: 1204419.38
+  }
+}
+landCoverPolygonProtoVec {
+  groundType: GTP_AIRBASE
+  point {
+    x: 1870445.12
+    y: 1204312.12
+  }
+  point {
+    x: 1869273.12
+    y: 1204370.62
+  }
+  point {
+    x: 1869518.75
+    y: 1209434.25
+  }
+  point {
+    x: 1870588.38
+    y: 1209339.38
+  }
+}
+landCoverPolygonProtoVec {
+  groundType: GTP_AIRBASE
+  point {
+    x: 1870494.88
+    y: 1204258.38
+  }
+  point {
+    x: 1869219.5
+    y: 1204322
+  }
+  point {
+    x: 1869470.12
+    y: 1.20949e+06
+  }
+  point {
+    x: 1870640.88
+    y: 1209386.12
+  }
+}

@@ -1,0 +1,64 @@
+Indx 126 - 76N6 Clam Shell - EWR (SA-10 PMU1)
+Prf 0 (Unused)
+
+CustomSymbolType 4
+
+TimeToLock 5000
+MaxTwstargets 6
+Timeskillfactor 100
+
+Timetosearch1 20000
+Timetosearch2 15000
+Timetosearch3 10000
+Timetoacuire 5000
+Timetoguide 3000
+
+Timetocoast 10000
+
+Rangetosearch1 394000
+Rangetosearch2 328000
+Rangetosearch3 262000
+Rangetoacuire 197000
+Rangetoguide 164000
+
+Sweeptimesearch1 12000
+Sweeptimesearch2 12000
+Sweeptimesearch3 12000
+Sweeptimeacuire 12000
+Sweeptimeguide 1000
+
+Sweeptimecoast 12000
+
+Rwrsoundsearch1 199
+Rwrsoundsearch2 199
+Rwrsoundsearch3 199
+Rwrsoundacuire 199
+Rwrsoundguide 199
+
+Rwrsymbolsearch1 158
+Rwrsymbolsearch2 158
+Rwrsymbolsearch3 158
+Rwrsymbolacuire 158
+Rwrsymbolguide 158
+
+Bandsearch1 E
+Bandsearch2 E
+Bandsearch3 E
+Bandacuire E
+Bandguide E
+
+Typesearch1 P
+Typesearch2 P
+Typesearch3 P
+Typeacuire P
+Typeguide P
+
+PRIsearch1 400
+PRIsearch2 400
+PRIsearch3 400
+PRIacuire 400
+PRIguide 400
+
+TrackWarning 0
+LaunchWarning 0
+RwrsymbolALR93Override 158

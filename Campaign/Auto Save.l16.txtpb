@@ -1,0 +1,76 @@
+network {
+  teams {
+    team_number: TEAM_0
+  }
+  teams {
+    team_number: TEAM_1
+  }
+  teams {
+    team_number: TEAM_2
+  }
+  teams {
+    team_number: TEAM_3
+  }
+  teams {
+    team_number: TEAM_4
+  }
+  teams {
+    team_number: TEAM_5
+  }
+  teams {
+    team_number: TEAM_6
+  }
+  teams {
+    team_number: TEAM_7
+  }
+}
+all_flights {
+  flights {
+    flight_number: 7027
+    stn_number: 1252
+    f2f_channel: -1
+    mission_channel: -1
+    ew_channel: -1
+    team: 6
+  }
+  flights {
+    flight_number: 7146
+    stn_number: 6502
+    f2f_channel: -1
+    mission_channel: -1
+    ew_channel: -1
+    team: 6
+  }
+  flights {
+    flight_number: 7032
+    stn_number: 3332
+    f2f_channel: -1
+    mission_channel: -1
+    ew_channel: -1
+    team: 6
+  }
+  flights {
+    flight_number: 7037
+    stn_number: 6757
+    f2f_channel: -1
+    mission_channel: -1
+    ew_channel: -1
+    team: 6
+  }
+  flights {
+    flight_number: 7042
+    stn_number: 3502
+    f2f_channel: -1
+    mission_channel: -1
+    ew_channel: -1
+    team: 6
+  }
+  flights {
+    flight_number: 7047
+    stn_number: 6615
+    f2f_channel: -1
+    mission_channel: -1
+    ew_channel: -1
+    team: 6
+  }
+}

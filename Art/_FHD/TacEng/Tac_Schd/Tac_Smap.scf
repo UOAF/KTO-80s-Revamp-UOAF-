@@ -1,0 +1,216 @@
+#UI BMS 4.38 update, April 2023, by Kolbe
+
+#This controls the TE map and the toolbar buttons on the right side next to it.
+
+##################
+#WINDOW SETUP
+##################
+[WINDOW]
+[SETUP] TAC_PUA_MAP C_TYPE_NORMAL 1512 938
+[RANGES] 0 0 1920 1080 1510 938
+[XY] 408 55
+[CLIENTAREA] 0 0 1475 920
+[GROUP] 3300
+[FLAGBITON] C_BIT_ABSOLUTE
+[FLAGBITON] C_BIT_CANTMOVE
+#[FLAGBITON] C_BIT_TRANSLUCENT
+[DEPTH] 4
+[OPENCLIENTMENU] 0 MAP_POP
+
+
+##### White frame around the map
+#[LINE]
+#[SETUP] NID 0
+#[XYWH] 408 43 1504 887
+#[COLOR] 230 230 230
+#[FLAGBITON] C_BIT_ABSOLUTE
+
+#####  Background image
+[FILL]
+[SETUP] NID C_TYPE_VERTICAL
+[XYWH] 0 0 1512 938
+[COLOR] 75 92 98
+[FLAGBITON] C_BIT_ABSOLUTE
+
+##### Copyrights for SkyVector.com
+[TEXT]
+[SETUP] NID 0
+[SETTEXT] TXT_COPYRIGHTS
+[XY] 1250 921
+[FONT] OCR_EXT_14
+[FGCOLOR] 255 255 255 WHITE
+[FLAGBITON] C_BIT_ABSOLUTE
+
+#########################################################
+
+#Map Maximize Button
+
+[BUTTON]
+[SETUP] MAP_MAXIMIZE C_TYPE_NORMAL 1479 9
+[BUTTONIMAGE] C_STATE_0 BID_MAP_MAX
+[BUTTONIMAGE] C_STATE_1 BID_MAP_MAX_LIT
+[FLAGBITON] C_BIT_ABSOLUTE
+[GROUP] 3700
+[CURSOR] CRSR_F16_ON
+[SOUNDBITE] SND_MAP C_STATE_DOWN
+[HELPTEXT] HELP_MAP_MAXIMIZE
+
+#########################################################
+
+#Help Button
+
+[BUTTON]
+[SETUP] UI_HELP_GUIDE C_TYPE_NORMAL 1479 39
+[BUTTONIMAGE] C_STATE_0 TOOL_BLANK_UP
+[BUTTONIMAGE] C_STATE_1 TOOL_BLANK_DOWN
+[GROUP] 400033
+[FLAGBITON] C_BIT_ABSOLUTE
+[CURSOR] CRSR_F16_ON
+[SOUNDBITE] SND_PUSH C_STATE_DOWN
+[HELPTEXT] HELP_HELP
+
+#########################################################
+
+#Team Flag Button
+
+[LINE]
+[SETUP] TEAM_COLOR 0
+[XYWH] 1479 69 28 20
+[COLOR] 0 0 0
+[FLAGBITON] C_BIT_ABSOLUTE
+
+[BOX]
+[SETUP] NID 0
+[XYWH] 1482 72 21 13
+[COLOR] 0 0 0
+[FLAGBITON] C_BIT_ABSOLUTE
+
+[BUTTON]
+[SETUP] TEAM_SELECTOR C_TYPE_CUSTOM 1483 73
+[BUTTONIMAGE] C_STATE_0 SMFLGS_SWISS
+[FLAGBITON] C_BIT_ABSOLUTE
+[CURSOR] CRSR_F16_ON
+[SOUNDBITE] SND_PUSH C_STATE_DOWN
+[HELPTEXT] HELP_TEAM
+
+#########################################################
+
+#Add Package Button
+
+[BUTTON]
+[SETUP] ADD_PACKAGE C_TYPE_RADIO 1479 93
+[IMAGES] TOOL_ADDPACK TOOL_ADDPACK_LIT NULL TOOL_ADDPACK
+[FLAGBITON] C_BIT_ABSOLUTE
+[GROUP] 1
+[USERDATA] C_STATE_1 HELP_MESSAGE_ADD_PACKAGE
+[USERDATA] 100 3274
+[CURSOR] CRSR_F16_ON
+[SOUNDBITE] SND_PUSH C_STATE_DOWN
+[HELPTEXT] HELP_ADD_PACKAGE
+
+#########################################################
+
+#Map Zoom Out Button
+
+[BUTTON]
+[SETUP] TAC_ZOOM_OUT C_TYPE_NORMAL 1479 459
+[IMAGES] BID_MAP_MIN BID_MAP_MIN_LIT NULL NULL
+[FLAGBITON] C_BIT_ABSOLUTE
+[GROUP] 3700
+[CURSOR] CRSR_F16_ON
+[SOUNDBITE] SND_MAP_ZOOM_OUT C_STATE_DOWN
+[HELPTEXT] HELP_MAP_ZOOM_OUT
+
+#########################################################
+
+#Map Zoom In Button
+
+[BUTTON]
+[SETUP] TAC_ZOOM_IN C_TYPE_NORMAL 1479 489
+[BUTTONIMAGE] C_STATE_0 BID_MAP_PLUS
+[BUTTONIMAGE] C_STATE_1 BID_MAP_PLUS_LIT
+[FLAGBITON] C_BIT_ABSOLUTE
+[GROUP] 3700
+[CURSOR] CRSR_F16_ON
+[SOUNDBITE] SND_MAP_ZOOM_IN C_STATE_DOWN
+[HELPTEXT] HELP_MAP_ZOOM_IN
+
+#########################################################
+
+#Map Fit Button
+
+[BUTTON]
+[SETUP] BI_FIT_CTRL C_TYPE_NORMAL 1479 519
+[BUTTONIMAGE] C_STATE_0 BID_MAP_FIT
+[BUTTONIMAGE] C_STATE_1 BID_MAP_FIT_LIT
+[FLAGBITON] C_BIT_ABSOLUTE
+[GROUP] 3700
+[CURSOR] CRSR_F16_ON
+[SOUNDBITE] SND_PUSH C_STATE_DOWN
+[HELPTEXT] HELP_MAP_FIT_PLAN
+
+#########################################################
+
+#Map Sel Button
+
+#Dee-Jay 2021/22/09 - Placeholder for Map Selection Button#[BUTTON]
+#Dee-Jay 2021/22/09 - Placeholder for Map Selection Button#[SETUP] BI_MSEL_CTRL C_TYPE_NORMAL 1587 243
+#Dee-Jay 2021/22/09 - Placeholder for Map Selection Button#[IMAGES] BID_MAP_SEL BID_MAP_SEL_LIT NULL NULL
+#Dee-Jay 2021/22/09 - Placeholder for Map Selection Button#[FLAGBITON] C_BIT_ABSOLUTE
+#Dee-Jay 2021/22/09 - Placeholder for Map Selection Button#[GROUP] 6500
+#Dee-Jay 2021/22/09 - Placeholder for Map Selection Button#[CURSOR] CRSR_F16_ON
+#Dee-Jay 2021/22/09 - Placeholder for Map Selection Button#[SOUNDBITE] SND_PUSH C_STATE_DOWN
+
+#########################################################
+
+#Linear Scale Flight Profile
+
+[BUTTON]
+[SETUP] BI_LIN_CTRL C_TYPE_NORMAL 1479 579
+[IMAGES] BID_MAP_LIN BID_MAP_LIN_LIT NULL NULL
+[FLAGBITON] C_BIT_ABSOLUTE
+[GROUP] 6401
+[USERDATA] C_STATE_0 200
+[USERDATA] C_STATE_1 100
+[CURSOR] CRSR_F16_ON
+[SOUNDBITE] SND_PUSH C_STATE_DOWN
+[HELPTEXT] HELP_MAP_LIN_ALT
+
+#########################################################
+
+#Logarithm Scale Flight Profile
+
+#Dee-Jay 2018/24/02 - Log Profile temporarily removed#[BUTTON]
+#Dee-Jay 2018/24/02 - Log Profile temporarily removed#[SETUP] BI_LOG_CTRL C_TYPE_NORMAL 1587 333
+#Dee-Jay 2018/24/02 - Log Profile temporarily removed#[IMAGES] BID_MAP_LOG BID_MAP_LOG_LIT NULL NULL
+#Dee-Jay 2018/24/02 - Log Profile temporarily removed#[FLAGBITON] C_BIT_ABSOLUTE
+#Dee-Jay 2018/24/02 - Log Profile temporarily removed#[GROUP] 6401
+#Dee-Jay 2018/24/02 - Log Profile temporarily removed#[USERDATA] C_STATE_0 100
+#Dee-Jay 2018/24/02 - Log Profile temporarily removed#[USERDATA] C_STATE_1 200
+#Dee-Jay 2018/24/02 - Log Profile temporarily removed#[CURSOR] CRSR_F16_ON
+#Dee-Jay 2018/24/02 - Log Profile temporarily removed#[SOUNDBITE] SND_PUSH C_STATE_DOWN
+#Dee-Jay 2018/24/02 - Log Profile temporarily removed#[HELPTEXT] HELP_MAP_LOG_ALT
+
+#########################################################
+
+#DTC Button	unused -> because of DATACARTRIDGE btn on the bottom menu
+
+#[BUTTON]
+#[SETUP] BI_SHOW_DTC C_TYPE_NORMAL 1479 639
+#[IMAGES] BID_MAP_MAP BID_MAP_MAP_LIT NULL NULL
+#[FLAGBITON] C_BIT_ABSOLUTE
+#[CURSOR] CRSR_F16_ON
+#[SOUNDBITE] SND_PUSH C_STATE_DOWN
+#[HELPTEXT] HELP_MAP_DTC
+
+#########################################################
+
+#Weather Button
+
+[BUTTON]
+[SETUP] BI_SHOW_WEATHER C_TYPE_NORMAL 1479 669
+[IMAGES] BID_MAP_WTH BID_MAP_WTH_LIT NULL NULL
+[FLAGBITON] C_BIT_ABSOLUTE
+[CURSOR] CRSR_F16_ON
+[SOUNDBITE] SND_PUSH C_STATE_DOWN
+[HELPTEXT] HELP_MAP_WTH

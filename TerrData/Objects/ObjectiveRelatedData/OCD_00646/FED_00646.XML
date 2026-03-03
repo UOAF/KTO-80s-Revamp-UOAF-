@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FEDRecords>
+    <FED Num="0">
+        <FeatureCtIdx>2370</FeatureCtIdx>
+        <Value>80</Value>
+        <OffsetX>1512.799</OffsetX>
+        <OffsetY>-176.900</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Heading>0.000</Heading>
+    </FED>
+    <FED Num="1">
+        <FeatureCtIdx>2911</FeatureCtIdx>
+        <OffsetX>447.665</OffsetX>
+        <OffsetY>-605.121</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Heading>43.000</Heading>
+    </FED>
+    <FED Num="2">
+        <FeatureCtIdx>2911</FeatureCtIdx>
+        <OffsetX>603.884</OffsetX>
+        <OffsetY>-429.993</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Heading>221.000</Heading>
+    </FED>
+    <FED Num="3">
+        <FeatureCtIdx>2911</FeatureCtIdx>
+        <OffsetX>471.043</OffsetX>
+        <OffsetY>-483.326</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Heading>132.000</Heading>
+    </FED>
+    <FED Num="4">
+        <FeatureCtIdx>2586</FeatureCtIdx>
+        <OffsetX>801.813</OffsetX>
+        <OffsetY>-695.900</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Heading>182.000</Heading>
+    </FED>
+</FEDRecords>

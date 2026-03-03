@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FEDRecords>
+    <FED Num="0">
+        <FeatureCtIdx>760</FeatureCtIdx>
+        <Value>80</Value>
+        <OffsetX>0.000</OffsetX>
+        <OffsetY>0.000</OffsetY>
+        <OffsetZ>-14.000</OffsetZ>
+        <Heading>183.000</Heading>
+    </FED>
+    <FED Num="1">
+        <FeatureCtIdx>560</FeatureCtIdx>
+        <Value>75</Value>
+        <OffsetX>159.781</OffsetX>
+        <OffsetY>18.725</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Heading>0.000</Heading>
+    </FED>
+    <FED Num="2">
+        <FeatureCtIdx>588</FeatureCtIdx>
+        <Value>40</Value>
+        <OffsetX>-0.408</OffsetX>
+        <OffsetY>8.923</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Heading>180.000</Heading>
+    </FED>
+    <FED Num="3">
+        <FeatureCtIdx>149</FeatureCtIdx>
+        <Value>10</Value>
+        <OffsetX>-62.845</OffsetX>
+        <OffsetY>17.733</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Heading>273.000</Heading>
+    </FED>
+    <FED Num="4">
+        <FeatureCtIdx>3715</FeatureCtIdx>
+        <Value>5</Value>
+        <OffsetX>83.011</OffsetX>
+        <OffsetY>85.487</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Heading>272.000</Heading>
+    </FED>
+    <FED Num="5">
+        <FeatureCtIdx>3265</FeatureCtIdx>
+        <OffsetX>-174.263</OffsetX>
+        <OffsetY>57.671</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Heading>0.000</Heading>
+    </FED>
+    <FED Num="6">
+        <FeatureCtIdx>1383</FeatureCtIdx>
+        <OffsetX>8.607</OffsetX>
+        <OffsetY>84.867</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Heading>91.000</Heading>
+    </FED>
+    <FED Num="7">
+        <FeatureCtIdx>3106</FeatureCtIdx>
+        <OffsetX>29.426</OffsetX>
+        <OffsetY>60.813</OffsetY>
+        <OffsetZ>0.000</OffsetZ>
+        <Heading>85.000</Heading>
+    </FED>
+</FEDRecords>

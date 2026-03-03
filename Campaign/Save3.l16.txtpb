@@ -1,0 +1,49 @@
+network {
+  teams {
+    team_number: TEAM_0
+  }
+  teams {
+    team_number: TEAM_1
+  }
+  teams {
+    team_number: TEAM_2
+    nets {
+      channel_number: 0
+      npg_type: NPG_PPLIA
+      npg_type: NPG_PPLIB
+      npg_type: NPG_SURVINFO
+    }
+    nets {
+      channel_number: 68
+      npg_type: NPG_MISSION
+    }
+    nets {
+      channel_number: 65
+      npg_type: NPG_MISSION
+      npg_type: NPG_F2F
+    }
+    nets {
+      channel_number: 1
+      npg_type: NPG_MISSION
+      npg_type: NPG_EW
+      npg_type: NPG_F2F
+    }
+  }
+  teams {
+    team_number: TEAM_3
+  }
+  teams {
+    team_number: TEAM_4
+  }
+  teams {
+    team_number: TEAM_5
+  }
+  teams {
+    team_number: TEAM_6
+  }
+  teams {
+    team_number: TEAM_7
+  }
+}
+all_flights {
+}

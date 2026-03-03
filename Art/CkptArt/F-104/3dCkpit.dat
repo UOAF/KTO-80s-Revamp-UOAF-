@@ -1,0 +1,73 @@
+// 3-d cockpit description
+// F-104 cockpit
+
+
+// Boresight cross height
+boresighty 0.75;
+
+// Shared render to texture target size. width height depth. depth needs to be 32 for texture alpha to work default is primary 
+rttTarget 600 600;
+
+// 3-d coords for Upper left. Upper Right and Lower Left  
+// Rtt Top. Left. Right. Bottom. BlendMode. Alpha
+// BlendModes are a = alpha blending. c = color blending. g = texture gouraud. t = texture. default = g 
+// example hud with 0.5 vertex alpha:    hud  20.0 -2.0 0.0    20.0 2.0 0.0    20.0 -2.0 4.0    5 5 260 260    a 0.5;
+// first number is toward you / away from you
+// second number is left and right + number is right. - number is left
+// third number is up / down - number is up. + number is down
+// 0. 0  is in the middle of the screen (apprxomiately)
+
+hud	20063.0 -2750.0 -618.0	20063.0	2750.0	-618.0	20063.0	-2750.0	4902.0	0	0	280	280	c;
+pfl	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000	281	0	481	70	c;
+ded	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000	281	71	481	141	c;
+rwr	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000	482	0	600	118	c;
+mfdleft	0.000	0.000	0.000	0.000	0.000	0.000	0.000	0.000   0.000	375	375	600	600	c;
+mfdright	0.000	0.000	0.000 	0.000	0.000	0.000 	0.000	0.000	0.000	375	145	600	370	c;
+hms	20.063	-4.000	-4.000	20.063	4.000	-4.000	20.063	-4.000	4.000	0	314	286	600	c;
+
+// font settings for displays
+hudfont 4;
+hudwarnfont 6;
+mfdfont 7;
+dedfont 10;
+pflfont 10;
+rwrfont 11;
+hmsfont 13;
+
+// floodlightcolormod r g b where r g b are float between 0.0 to 1.0
+floodlightcolormod 0.4 1.0 0.4; // green
+
+// various colours
+padlockbg ff7c4706; //padlock background
+padlockliftline ff5ee75e; //padlock liftline. green
+padlockvpside ff00ffff; //padlock viewport box 3 sides. yellow
+padlockvptop ffffffff; //padlock viewport top. white
+padlocktick ff0000ff; //padlock zero level tickmark. red
+needlecolor0 ffdddddd; // primary needle color. gray
+needlecolor1 ffdddddd; // secondary needle color. redish
+dedcolor FFFFFFFF; //  DED color
+
+// the LOD models to use.
+cockpitmodel 1308; 			// F-104DJ main 3d cockpit model
+cockpitmodel2 1314;			// F-104DJ secondary 3d cockpit model
+cockpithudmodel 736;		// F-15E HUD
+cockpitcanopymodel 3938;	// the canopy model
+
+
+//Head rotation limits
+viewlimit_pan_left       180.0;
+viewlimit_pan_right      180.0;
+viewlimit_pitch_down     80.0;
+
+//6DOF bounding box
+movementlimit_left       0.8;
+movementlimit_right      0.8;
+movementlimit_up         0.2;
+movementlimit_down       2.0;
+movementlimit_fore       1.0;
+movementlimit_aft        1.0;
+
+// Options
+6dof_ready 1;
+rtt_canopy 1;
+

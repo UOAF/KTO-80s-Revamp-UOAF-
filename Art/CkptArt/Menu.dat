@@ -1,0 +1,435 @@
+#menumanager 6 41 30
+
+// Menu Box : Screen width (x), screen height (y), window top (y), window left (x), window bottom (y), window right (x)
+// Note 1: The default radio menu font in otwfonts.dat assumes a box width of 310, height 250 (certified from 100% up to 150% max Windows10 scale font size -> DPI ). With top edge margin of 130 pixels and a right edge margin of 10 pixel.
+// Note 2: The list HAS to be sorted by screen HEIGHT 1st, then WIDTH 2nd!
+// Note 3: Specifically for large ("4K" screens), if you want to move the window closer to the center of the screen, adjust the "window left (x)" and "window right (x)" as desired (by the same amount of pixels for both values).
+// Note 4: If you want to add a resolution, increase the last number in the "menumanager" line to match the number of resolution lines.
+
+#resolution	640	480	130	320	380	630
+#resolution	800	600	130	480	380	790
+#resolution	1280	600	130	960	380	1270
+#resolution	1024	640	130	704	380	1014
+#resolution	1280	720	130	960	380	1270
+#resolution	1024	768	130	704	380	1014
+#resolution	1280	768	130	960	380	1270
+#resolution	1360	768	130	1040	380	1350
+#resolution	1366	768	130	1046	380	1356
+#resolution	1280	800	130	960	380	1270
+#resolution	1152	864	130	832	380	1142
+#resolution	1440	900	130	1120	380	1430
+#resolution	1600	900	130	1280	380	1590
+#resolution	1280	960	130	960	380	1270
+#resolution	1768	992	130	1448	380	1758
+#resolution	1280	1024	130	960	380	1270
+#resolution	1600	1024	130	1280	380	1590
+#resolution	1680	1050	130	1360	380	1670
+#resolution	1920	1080	130	1600	380	1910
+#resolution	2560	1080	130	2240	380	2550
+#resolution	1600	1200	130	1280	380	1590
+#resolution	1920	1200	130	1600	380	1910
+#resolution	4000	1200	130	3680	380	3990
+#resolution	5760	1200	130	5440	380	5750
+#resolution	2560	1440	130	2240	380	2550
+#resolution	3440	1440	130	3120	380	3430
+#resolution	3840	2160	130	3520	380	3830
+#resolution	4096	2160	130	3776	380	4086
+#resolution	11520	2160	130	11200	380	11510
+#resolution	4096	2304	130	3776	380	4086
+
+
+
+
+// DO NOT MODIFY THE FOLLOWING LINES!
+
+// AWACS COMMANDS
+
+#menu AWACSMsg AiNoExtent 2 0 white AWACS COMMANDS
+
+#page 9  0 bright_green Tacticals
+#item 6  0 white 0.1        3         Request Picture
+#item 6  0 white 0.1        31        Declare
+#item 6  0 white 0.1        4         Request Help
+#item 6  0 white 0.1        0         Wilco
+#item 6  0 white 0.1        2         Judy
+#item 6  0 white 0.1        1         Unable
+#item 6  0 white 0.1        8         Check-In
+#item 6  0 white 0.1        9         Check-Out
+#item 6  0 white 0.1        5         Request Relief
+
+#page 9  0 bright_green Vectors
+#item 6  0 white 0.1        14        Vector to Nearest Air Threat
+#item 6  0 white 0.1        15        Vector to Target
+#item 6  0 white 0.1        13        Vector to Package
+#item 6  0 white 0.1        12        Vector to Tanker
+#item 6  0 white 0.1        33        Vector to Nearest Tanker
+#item 6  0 white 0.1        11        Vector to Divert Field
+#item 6  0 white 0.1        10        Vector to Home Plate
+#item 6  0 white 0.1        32        Vector to Carrier Group
+#item -1 0 white 0.1        7         Request Rescue Chopper
+
+// WINGMAN COMMANDS
+
+#menu WingmanMsg AiWingman 9 0 white WINGMAN COMMANDS
+
+#page 9 0 bright_green Combat Management 1
+#item 2  0 white 0.1        9         Attack My Target
+#item 3  0 white 0.1        42        Buddy Spike
+#item 2  0 white 0.1        47        Raygun
+#item 3  0 white 0.1        14        Weapons Free AA
+#item 3  0 white 0.1        111       Weapons Free AG
+#item 3  0 white 0.1        13        Weapons Hold
+#item 3  0 white 0.1        18        Check Your Six
+#item 3  0 white 0.1        17        Clear My Six
+#item 2  0 white 0.1        10        Attack Targets
+
+
+#page 8  0 bright_green Combat Management 2
+#item 3  0 white 0.1        23        Rejoin
+#item 3  0 white 0.1        55        Split Wing
+#item 3  0 white 0.1        56        Glue Wing
+#item 3  0 white 0.1        58        Drop Stores
+#item 3  0 white 0.1        118       Drop Fuel Tanks
+#item 3  0 white 0.1        93        Datalink Ground Target
+#item 2  0 white 0.1        11        Go Shooter
+#item 2  0 white 0.1        12        Go Cover
+
+#page 8  0 bright_green Combat Management 3
+#item 2  0 white 0.1        75        Offensive Pursuit
+#item 2  0 white 0.1        82        Offensive Split
+#item 2  0 white 0.1        83        Beam Deploy
+#item 2  0 white 0.1        84        Grinder
+#item 2  0 white 0.1        85        Wide Azimuth
+#item 2  0 white 0.1        86        Short Azimuth
+#item 2  0 white 0.1        87        Sweep
+#item 2  0 white 0.1        88        Defensive
+
+#page 6 0 bright_green Combat Management 4
+#item 3  0 white 0.1        112        Current Altitude Attack
+#item 3  0 white 0.1        113        High Attack
+#item 3  0 white 0.1        114        Low Attack
+#item 3  0 white 0.1        115        Dive Attack
+#item 3  0 white 0.1        116        PoPup Attack
+#item 3  0 white 0.1        117        Free Attack
+
+#page 10 0 bright_green Mission Management
+#item 3  0 white 0.1        24        Resume Mission
+#item 3  0 white 0.1        37        Return to Base
+#item 3  0 white 0.1        40        Snooze Radar
+#item 3  0 white 0.1        41        Activate Radar
+#item 3  0 white 0.1        32        Say Position
+#item 3  0 white 0.1        34        Say Damage Report
+#item 3  0 white 0.1        33        Say Status
+#item 3  0 white 0.1        35        Say Fuel State
+#item 3  0 white 0.1        36        Say Weapons State
+#item 3  0 white 0.1        39        Take the Lead
+
+#page 10 0 bright_green Formation Management 1
+#item 3  0 white 0.1        28        Close Up
+#item 3  0 white 0.1        29        Switch Side
+#item 3  0 white 0.1        15        Break Right
+#item 3  0 white 0.1        16        Break Left
+#item 3  0 white 0.1        105       Stack High
+#item 3  0 white 0.1        107       Stack Level
+#item 3  0 white 0.1        106       Stack Low
+#item 3  0 white 0.1        104       Go Deck
+#item 3  0 white 0.1        22        Flex
+#item 3  0 white 0.1        27        Kickout
+
+#page 9  0 bright_green Formation Management 2
+#item 3  0 white 0.1        1         Go Wedge
+#item 3  0 white 0.1        2         Go Trail
+#item 3  0 white 0.1        3         Go Ladder
+#item 3  0 white 0.1        4         Go Stack
+#item 3  0 white 0.1        8         Go Fluid
+#item 3  0 white 0.1        0         Go Spread
+#item 4  0 white 0.1        7         Go Arrowhead
+#item 3  0 white 0.1        30        Go Higher
+#item 3  0 white 0.1        31        Go Lower
+
+#page 10  0 bright_green Miscellaneous
+#item 3  0 white 0.1        71        Fence In (Lights Off)
+#item 3  0 white 0.1        70        Fence Out (Lights On)
+#item 3  0 white 0.1        103       Lights S.O.P.
+#item 3  0 white 0.1        72        Music On
+#item 3  0 white 0.1        73        Music Off
+#item 3  0 white 0.1        45        Turn Smoke On
+#item 3  0 white 0.1        46        Turn Smoke Off
+#item 3  0 white 0.1        108       Switch Flight Uniform
+#item 3  0 white 0.1        109       Switch Flight Victor
+#item 3  0 white 0.1        110       Set Bingo
+
+#page 2  0 bright_green Runway Lineup
+#item 3  0 white 0.1        98        Single-Ship
+#item 3  0 white 0.1        99        Element
+
+// ELEMENT COMMANDS
+
+#menu WingmanMsg AiElement 8 0 white ELEMENT COMMANDS
+
+#page 9  0 bright_green Combat Management 1
+#item 2  0 white 0.1        9         Attack My Target
+#item 3  0 white 0.1        42        Buddy Spike
+#item 2  0 white 0.1        47        Raygun
+#item 3  0 white 0.1        14        Weapons Free AA
+#item 3  0 white 0.1        111       Weapons Free AG
+#item 3  0 white 0.1        13        Weapons Hold
+#item 3  0 white 0.1        18        Check Your Six
+#item 3  0 white 0.1        17        Clear My Six
+#item 2  0 white 0.1        10        Attack Targets
+
+#page 4  0 bright_green Combat Management 2
+#item 3  0 white 0.1        23        Rejoin
+#item 3  0 white 0.1        58        Drop Stores
+#item 3  0 white 0.1        118       Drop Fuel Tanks
+#item 3  0 white 0.1        93        Datalink Ground Target
+
+#page 8  0 bright_green Combat Management 3
+#item 2  0 white 0.1        75        Offensive Pursuit
+#item 2  0 white 0.1        82        Offensive Split
+#item 2  0 white 0.1        83        Beam Deploy
+#item 2  0 white 0.1        84        Grinder
+#item 2  0 white 0.1        85        Wide Azimuth
+#item 2  0 white 0.1        86        Short Azimuth
+#item 2  0 white 0.1        87        Sweep
+#item 2  0 white 0.1        88        Defensive
+
+#page 6 0 bright_green Combat Management 4
+#item 3  0 white 0.1        112        Current Altitude Attack
+#item 3  0 white 0.1        113        High Attack
+#item 3  0 white 0.1        114        Low Attack
+#item 3  0 white 0.1        115        Dive Attack
+#item 3  0 white 0.1        116        PoPup Attack
+#item 3  0 white 0.1        117        Free Attack
+
+#page 9  0 bright_green Mission Management
+#item 3  0 white 0.1        24        Resume Mission
+#item 3  0 white 0.1        37        Return to Base
+#item 3  0 white 0.1        40        Snooze Radar
+#item 3  0 white 0.1        41        Activate Radar
+#item 3  0 white 0.1        32        Say Position
+#item 3  0 white 0.1        34        Say Damage Report
+#item 3  0 white 0.1        33        Say Status
+#item 3  0 white 0.1        35        Say Fuel State
+#item 3  0 white 0.1        36        Say Weapons State
+
+#page 10 0 bright_green Formation Management 1
+#item 3  0 white 0.1        28        Close Up
+#item 3  0 white 0.1        29        Switch Side
+#item 3  0 white 0.1        15        Break Right
+#item 3  0 white 0.1        16        Break Left
+#item 3  0 white 0.1        105       Stack High
+#item 3  0 white 0.1        107       Stack Level
+#item 3  0 white 0.1        106       Stack Low
+#item 3  0 white 0.1        104       Go Deck
+#item 3  0 white 0.1        22        Flex
+#item 3  0 white 0.1        27        Kickout
+
+#page 9  0 bright_green Formation Management 2
+#item 3  0 white 0.1        1         Go Wedge
+#item 3  0 white 0.1        2         Go Trail
+#item 3  0 white 0.1        3         Go Ladder
+#item 3  0 white 0.1        4         Go Stack
+#item 3  0 white 0.1        8         Go Fluid
+#item 3  0 white 0.1        0         Go Spread
+#item 4  0 white 0.1        7         Go Arrowhead
+#item 3  0 white 0.1        30        Go Higher
+#item 3  0 white 0.1        31        Go Lower
+
+#page 10  0 bright_green Miscellaneous
+#item 3  0 white 0.1        71        Fence In (Lights Off)
+#item 3  0 white 0.1        70        Fence Out (Lights On)
+#item 3  0 white 0.1        103       Lights S.O.P.
+#item 3  0 white 0.1        72        Music On
+#item 3  0 white 0.1        73        Music Off
+#item 3  0 white 0.1        45        Turn Smoke On
+#item 3  0 white 0.1        46        Turn Smoke Off
+#item 3  0 white 0.1        108       Switch Flight Uniform
+#item 3  0 white 0.1        109       Switch Flight Victor
+#item 3  0 white 0.1        110       Set Bingo
+
+// FLIGHT COMMANDS
+
+#menu WingmanMsg AiFlight 9 0 white FLIGHT COMMANDS
+
+#page 9  0 bright_green Combat Management 1
+#item 2  0 white 0.1        9         Attack My Target
+#item 3  0 white 0.1        42        Buddy Spike
+#item 2  0 white 0.1        47        Raygun
+#item 3  0 white 0.1        14        Weapons Free AA
+#item 3  0 white 0.1        111       Weapons Free AG
+#item 3  0 white 0.1        13        Weapons Hold
+#item 3  0 white 0.1        18        Check Your Six
+#item 3  0 white 0.1        17        Clear My Six
+#item 2  0 white 0.1        10        Attack Targets
+
+#page 4 0 bright_green Combat Management 2
+#item 3 0 white 0.1         23        Rejoin
+#item 3 0 white 0.1         58        Drop Stores
+#item 3  0 white 0.1        118       Drop Fuel Tanks
+#item 3 0 white 0.1         93        Datalink Ground Target
+
+#page 9  0 bright_green Mission Management
+#item 3  0 white 0.1        24        Resume Mission
+#item 3  0 white 0.1        37        Return to Base
+#item 3  0 white 0.1        40        Snooze Radar
+#item 3  0 white 0.1        41        Activate Radar
+#item 3  0 white 0.1        32        Say Position
+#item 3  0 white 0.1        34        Say Damage Report
+#item 3  0 white 0.1        33        Say Status
+#item 3  0 white 0.1        35        Say Fuel State
+#item 3  0 white 0.1        36        Say Weapons State
+
+#page 10 0 bright_green Formation Management 1
+#item 3  0 white 0.1        28        Close Up
+#item 3  0 white 0.1        29        Switch Side
+#item 3  0 white 0.1        15        Break Right
+#item 3  0 white 0.1        16        Break Left
+#item 3  0 white 0.1        105       Stack High
+#item 3  0 white 0.1        107       Stack Level
+#item 3  0 white 0.1        106       Stack Low
+#item 3  0 white 0.1        104       Go Deck
+#item 3  0 white 0.1        22        Flex
+#item 3  0 white 0.1        27        Kickout
+
+#page 9  0 bright_green Formation Management 2
+#item 3  0 white 0.1        1         Go Wedge
+#item 3  0 white 0.1        2         Go Trail
+#item 3  0 white 0.1        3         Go Ladder
+#item 3  0 white 0.1        4         Go Stack
+#item 3  0 white 0.1        8         Go Fluid
+#item 3  0 white 0.1        0         Go Spread
+#item 4  0 white 0.1        7         Go Arrowhead
+#item 4  0 white 0.1        6         Go Box
+#item 3  0 white 0.1        5         Go Res Cell
+
+#page 8  0 bright_green Formation Management 3
+#item 3  0 white 0.1        59        Go Vic
+#item 3  0 white 0.1        62        Go Line Abreast
+#item 3  0 white 0.1        60        Go Finger Four
+#item 3  0 white 0.1        63        Go Echelon Left
+#item 3  0 white 0.1        61        Go Echelon Right
+#item 3  0 white 0.1        64        Go Diamond
+#item 3  0 white 0.1        30        Go Higher
+#item 3  0 white 0.1        31        Go Lower
+
+#page 6 0 bright_green Combat Management 4
+#item 3  0 white 0.1        112        Current Altitude Attack
+#item 3  0 white 0.1        113        High Attack
+#item 3  0 white 0.1        114        Low Attack
+#item 3  0 white 0.1        115        Dive Attack
+#item 3  0 white 0.1        116        PoPup Attack
+#item 3  0 white 0.1        117        Free Attack
+
+#page 10  0 bright_green Miscellaneous
+#item 3  0 white 0.1        71        Fence In (Lights Off)
+#item 3  0 white 0.1        70        Fence Out (Lights On)
+#item 3  0 white 0.1        103       Lights S.O.P.
+#item 3  0 white 0.1        72        Music On
+#item 3  0 white 0.1        73        Music Off
+#item 3  0 white 0.1        45        Turn Smoke On
+#item 3  0 white 0.1        46        Turn Smoke Off
+#item 3  0 white 0.1        108       Switch Flight Uniform
+#item 3  0 white 0.1        109       Switch Flight Victor
+#item 3  0 white 0.1        110       Set Bingo
+
+#page 5  0 bright_green Runway Lineup
+#item 3  0 white 0.1        98        Single-Ship
+#item 3  0 white 0.1        99        Element
+#item 3  0 white 0.1        101       4-Ship Three-in-the-slot
+#item 3  0 white 0.1        102       4-Ship Four-in-the-slot
+#item 3  0 white 0.1        100       Echelon
+
+// ATC COMMANDS
+
+#menu ATCMsg AiNoExtent 8 0 white ATC COMMANDS
+
+#page 8  0 bright_green Ground
+#item 26 0 white 0.1        31        Install / Remove EPU Ground Safety Pin
+#item 9  0 white 0.1        11        Install / Remove Chocks
+#item 11 0 white 0.1        32        Request Taxi for Departure
+#item 11 0 white 0.1        21        Request Taxi Back to Ramp
+#item 10 0 white 0.1        10        Request Hotpit Refuel
+#item 11 0 white 0.1        22        Say Again
+#item 9  0 white 0.1        43        Request JFS Recharge
+#item 9  0 white 0.1        56        Request Preflight Check
+
+#page 8  0 bright_green Tower
+#item 17 0 white 0.1        25        Ready for Departure
+#item 12 0 white 0.1        38        Request Landing
+#item 12 0 white 0.1        39        Request Formation Landing
+#item 12 0 white 0.1        20        Report On Final
+#item 12 0 white 0.1        34        Report Overhead Break
+#item 12 0 white 0.1        44        Declare Emergency
+#item 12 0 white 0.1        6         Abort
+#item 21 0 white 0.1        23        Say Again
+
+#page 7  0 bright_green Approach #1
+#item 13 0 white 0.1        0         Request Visual Approach
+#item 13 0 white 0.1        55        Request Visual Approach Heavy
+#item 13 0 white 0.1        18        Request Instrument Approach
+#item 13 0 white 0.1        54        Request Instrument Approach Heavy
+#item 13 0 white 0.1        33        Request Overhead Approach
+#item 13 0 white 0.1        2         Request Unrestricted Approach
+#item 13 0 white 0.1        53        Request Unrestricted Approach Heavy
+
+#page 4  0 bright_green Approach #2
+#item 13 0 white 0.1        1         Declare Emergency
+#item 13 0 white 0.1        6         Abort
+#item 13 0 white 0.1        9         Traffic in Sight
+#item 13 0 white 0.1        24        Say Again
+
+#page 1  0 bright_green Departure
+#item 13 0 white 0.1        36        Report Airborne
+
+#page 5  0 bright_green Common
+#item 19 0 white 0.1        12        Request QNH
+#item 18 0 white 0.1        13        Request QFE
+#item 18 0 white 0.1        17        Say Active Takeoff Runway
+#item 18 0 white 0.1        16        Say Active Landing Runway
+#item 19 0 white 0.1        15        Request Wind Check
+
+#page 8  0 bright_green Carrier & LSO
+#item 14 0 white 0.1        0         Inbound "Mother"
+#item 14 0 white 0.1        40        Report "See You"
+#item 14 0 white 0.1        41        Report "Platform"
+#item 15 0 white 0.1        19        Call "the Ball"
+#item 15 0 white 0.1        34        Report Overhead Break
+#item 16 0 white 0.1        6         Abort
+#item 20 0 white 0.1        25        Ready for Departure
+#item 14 0 white 0.1        36        Report Airborne
+
+#page 4  0 bright_green Contingencies
+#item 11 0 white 0.1        45        Report 1 Ground Abort
+#item 11 0 white 0.1        46        Declare 2 Ground Abort
+#item 11 0 white 0.1        47        Declare 3 Ground Abort
+#item 11 0 white 0.1        48        Declare 4 Ground Abort
+
+// OTHER AGENCIES COMMANDS
+
+#menu TankerMsg AiNoExtent 2 0 white OTHER AGENCIES COMMANDS
+// Important Note:
+// To differentiate in the code to know which agency to send the message towards -
+// the first word of the menu page names under the OTHER AGENCIES COMMANDS section 
+// selects the agency to which the messages are sent.
+// "Tanker" and "JTAC" [for FAC messages] (case sensitive) are the two such agency 
+// names supported for now. They are hardcoded. DON'T CHANGE THE NAMES!
+
+#page 7  0 bright_green Tanker
+#item 24 0 white 0.1         22        Request Air Flight Refueling 
+#item 8  0 white 0.1         1         Back In Pre-contact Position
+#item 8  0 white 0.1         2         Done Refueling
+#item 8  0 white 0.1         26        Terminate Flight Refuel
+#item 23 0 white 0.1         0         Request Air Individual Refueling 
+#item 25 0 white 0.1         23        Request Air Element Refueling 
+#item 8  0 white 0.1         24        Say Again
+
+#page 8  0 bright_green JTAC
+#item -1 0 white 0.1        28        Initial Contact/Check-In
+#item -1 0 white 0.1        30        Ready for Echo Point/9-Line
+#item -1 0 white 0.1        34        IP Inbound/Re-Attack
+#item -1 0 white 0.1        32        Request Target Bullseye (Status)
+#item -1 0 white 0.1        27        Request Laser Marking (Lasing)
+#item -1 0 white 0.1        31        Request Smoke Marking (Smoke)
+#item -1 0 white 0.1        33        Check-Out
+#item -1 0 white 0.1        35        Say Again
