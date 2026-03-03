@@ -1,16 +1,16 @@
 # Version 1.0
 # Author Ratty/MRivers
-
-0 # Data Format Version
+#Missle ptr - 10
+# Salvo HE
+# edit Fritz - CF 04/2025
+1 # Data Format Version
 
 # Data
-# lauSalvoSize -1
-# lauWeaponId 0
-# lauRounds 0
-# lauAzimuth 0
-# lauElevation 0
-# lauRippleTimeMS 10
+lauSalvoSize 19
+lauRounds 1
+lauAzimuth 0
+lauElevation 0
+lauRippleTimeMS 46
 
 # Particle Sys
-psFeatureImpact $rocket_burst
-psBombImpact $rocket_burst
+# not applicable to launchers
