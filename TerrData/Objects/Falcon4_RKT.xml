@@ -91,7 +91,7 @@
         <RocketCount>7</RocketCount>
     </RKT>
     <RKT Num="18">
-        <RocketPodIdx>323</RocketPodIdx>
+        <RocketPodIdx>867</RocketPodIdx>
         <RocketWpnIdx>536</RocketWpnIdx>
         <RocketCount>19</RocketCount>
     </RKT>
@@ -101,7 +101,7 @@
         <RocketCount>19</RocketCount>
     </RKT>
     <RKT Num="20">
-        <RocketPodIdx>322</RocketPodIdx>
+        <RocketPodIdx>866</RocketPodIdx>
         <RocketWpnIdx>535</RocketWpnIdx>
         <RocketCount>19</RocketCount>
     </RKT>
@@ -149,5 +149,20 @@
         <RocketPodIdx>826</RocketPodIdx>
         <RocketWpnIdx>544</RocketWpnIdx>
         <RocketCount>5</RocketCount>
+    </RKT>
+    <RKT Num="30">
+        <RocketPodIdx>322</RocketPodIdx>
+        <RocketWpnIdx>535</RocketWpnIdx>
+        <RocketCount>19</RocketCount>
+    </RKT>
+    <RKT Num="31">
+        <RocketPodIdx>868</RocketPodIdx>
+        <RocketWpnIdx>537</RocketWpnIdx>
+        <RocketCount>19</RocketCount>
+    </RKT>
+    <RKT Num="32">
+        <RocketPodIdx>323</RocketPodIdx>
+        <RocketWpnIdx>536</RocketWpnIdx>
+        <RocketCount>19</RocketCount>
     </RKT>
 </RKTRecords>

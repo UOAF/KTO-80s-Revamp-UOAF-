@@ -1840,7 +1840,7 @@ auxaero {
     avionics_diff_icp_style: false
     avionics_ag_bullseye_symbol: true
     avionics_mlu_pfl: false
-    avionics_datalink: 2
+    avionics_datalink: 1
     avionics_dl_cursor_as_waypoint: 1
     avionics_dte_idm_label: false
     avionics_ehsi: 1
@@ -1890,10 +1890,10 @@ auxaero {
     avionics_display_colors {
       values: [3, 3, 5, 4, 4, -1, -1, 3, -1, -1, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 1, -1, -1, 1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
     } 
-    avionics_has_link16: true
+    avionics_has_link16: false
     avionics_is_link16_c2: false
     avionics_is_ufc_power_gps: true
-    avionics_is_link16_mmc: true
+    avionics_is_link16_mmc: false
     avionics_no_epu_safety_pin: false
     computer_think_time: 125
   } 

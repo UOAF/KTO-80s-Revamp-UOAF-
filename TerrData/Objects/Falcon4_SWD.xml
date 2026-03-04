@@ -792,11 +792,11 @@
         <EjectX>2000.000</EjectX>
         <EjectY>0.000</EjectY>
         <EjectZ>0.000</EjectZ>
-        <WpnName>L03</WpnName>
+        <WpnName>L03HE</WpnName>
         <WpnClass>1</WpnClass>
         <Domain>2</Domain>
         <WpnType>9</WpnType>
-        <WpnDatIdx>7</WpnDatIdx>
+        <WpnDatIdx>10</WpnDatIdx>
     </SWD>
     <SWD Num="57">
         <Flags>0</Flags>
@@ -5543,5 +5543,103 @@
         <Domain>2</Domain>
         <WpnType>3</WpnType>
         <WpnDatIdx>226</WpnDatIdx>
+    </SWD>
+    <SWD Num="396">
+        <Flags>0</Flags>
+        <Drag>0.020</Drag>
+        <Weight>0.900</Weight>
+        <Area>0.300</Area>
+        <EjectX>2000.000</EjectX>
+        <EjectY>0.000</EjectY>
+        <EjectZ>0.000</EjectZ>
+        <WpnName>L03sWP</WpnName>
+        <WpnClass>1</WpnClass>
+        <Domain>2</Domain>
+        <WpnType>9</WpnType>
+        <WpnDatIdx>25</WpnDatIdx>
+    </SWD>
+    <SWD Num="397">
+        <Flags>0</Flags>
+        <Drag>0.020</Drag>
+        <Weight>0.900</Weight>
+        <Area>0.300</Area>
+        <EjectX>2000.000</EjectX>
+        <EjectY>0.000</EjectY>
+        <EjectZ>0.000</EjectZ>
+        <WpnName>L03sHE</WpnName>
+        <WpnClass>1</WpnClass>
+        <Domain>2</Domain>
+        <WpnType>9</WpnType>
+        <WpnDatIdx>24</WpnDatIdx>
+    </SWD>
+    <SWD Num="398">
+        <Flags>0</Flags>
+        <Drag>0.020</Drag>
+        <Weight>0.900</Weight>
+        <Area>0.300</Area>
+        <EjectX>2000.000</EjectX>
+        <EjectY>0.000</EjectY>
+        <EjectZ>0.000</EjectZ>
+        <WpnName>L03MP</WpnName>
+        <WpnClass>1</WpnClass>
+        <Domain>2</Domain>
+        <WpnType>9</WpnType>
+        <WpnDatIdx>27</WpnDatIdx>
+    </SWD>
+    <SWD Num="399">
+        <Flags>0</Flags>
+        <Drag>0.020</Drag>
+        <Weight>0.900</Weight>
+        <Area>0.300</Area>
+        <EjectX>2000.000</EjectX>
+        <EjectY>0.000</EjectY>
+        <EjectZ>0.000</EjectZ>
+        <WpnName>L03sMP</WpnName>
+        <WpnClass>1</WpnClass>
+        <Domain>2</Domain>
+        <WpnType>9</WpnType>
+        <WpnDatIdx>26</WpnDatIdx>
+    </SWD>
+    <SWD Num="400">
+        <Flags>0</Flags>
+        <Drag>0.020</Drag>
+        <Weight>0.900</Weight>
+        <Area>0.300</Area>
+        <EjectX>2000.000</EjectX>
+        <EjectY>0.000</EjectY>
+        <EjectZ>0.000</EjectZ>
+        <WpnName>L61WP</WpnName>
+        <WpnClass>1</WpnClass>
+        <Domain>2</Domain>
+        <WpnType>9</WpnType>
+        <WpnDatIdx>229</WpnDatIdx>
+    </SWD>
+    <SWD Num="401">
+        <Flags>0</Flags>
+        <Drag>0.020</Drag>
+        <Weight>0.900</Weight>
+        <Area>0.300</Area>
+        <EjectX>2000.000</EjectX>
+        <EjectY>0.000</EjectY>
+        <EjectZ>0.000</EjectZ>
+        <WpnName>L61MP</WpnName>
+        <WpnClass>1</WpnClass>
+        <Domain>2</Domain>
+        <WpnType>9</WpnType>
+        <WpnDatIdx>228</WpnDatIdx>
+    </SWD>
+    <SWD Num="402">
+        <Flags>0</Flags>
+        <Drag>0.020</Drag>
+        <Weight>0.900</Weight>
+        <Area>0.300</Area>
+        <EjectX>2000.000</EjectX>
+        <EjectY>0.000</EjectY>
+        <EjectZ>0.000</EjectZ>
+        <WpnName>L61HE</WpnName>
+        <WpnClass>1</WpnClass>
+        <Domain>2</Domain>
+        <WpnType>9</WpnType>
+        <WpnDatIdx>7</WpnDatIdx>
     </SWD>
 </SWDRecords>
