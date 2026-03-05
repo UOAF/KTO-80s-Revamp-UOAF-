@@ -19710,7 +19710,7 @@
         <CtIdx>816</CtIdx>
         <HitPoints>64</HitPoints>
         <Flags>1611466752</Flags>
-        <Name>F-15CJ</Name>
+        <Name>F-15C Late</Name>
         <NCTR>F15</NCTR>
         <RadarCs>1.227007</RadarCs>
         <MaxWeight>68000</MaxWeight>
@@ -19761,17 +19761,17 @@
         <Det_Naval>25.0</Det_Naval>
         <Det_Rail>25.0</Det_Rail>
         <WpnOrHpIdx_0>492</WpnOrHpIdx_0>
-        <WpnOrHpIdx_1>514</WpnOrHpIdx_1>
-        <WpnOrHpIdx_2>514</WpnOrHpIdx_2>
-        <WpnOrHpIdx_3>515</WpnOrHpIdx_3>
-        <WpnOrHpIdx_4>515</WpnOrHpIdx_4>
+        <WpnOrHpIdx_1>34</WpnOrHpIdx_1>
+        <WpnOrHpIdx_2>34</WpnOrHpIdx_2>
+        <WpnOrHpIdx_3>36</WpnOrHpIdx_3>
+        <WpnOrHpIdx_4>36</WpnOrHpIdx_4>
         <WpnOrHpIdx_5>35</WpnOrHpIdx_5>
         <WpnOrHpIdx_6>37</WpnOrHpIdx_6>
         <WpnOrHpIdx_7>35</WpnOrHpIdx_7>
-        <WpnOrHpIdx_8>515</WpnOrHpIdx_8>
-        <WpnOrHpIdx_9>515</WpnOrHpIdx_9>
-        <WpnOrHpIdx_10>514</WpnOrHpIdx_10>
-        <WpnOrHpIdx_11>514</WpnOrHpIdx_11>
+        <WpnOrHpIdx_8>36</WpnOrHpIdx_8>
+        <WpnOrHpIdx_9>36</WpnOrHpIdx_9>
+        <WpnOrHpIdx_10>34</WpnOrHpIdx_10>
+        <WpnOrHpIdx_11>34</WpnOrHpIdx_11>
         <WpnCount_0>95</WpnCount_0>
         <WpnCount_1>255</WpnCount_1>
         <WpnCount_2>255</WpnCount_2>
@@ -34874,96 +34874,5 @@
         <Dam_Chemical>0</Dam_Chemical>
         <Dam_Nuclear>200</Dam_Nuclear>
         <Dam_Other>200</Dam_Other>
-    </VCD>
-    <VCD Num="452">
-        <CtIdx>5272</CtIdx>
-        <HitPoints>64</HitPoints>
-        <Flags>1074595840</Flags>
-        <Name>F-15C Late</Name>
-        <NCTR>F15</NCTR>
-        <RadarCs>1.324960</RadarCs>
-        <MaxWeight>68000</MaxWeight>
-        <EmptyWeight>30576</EmptyWeight>
-        <FuelWeight>13455</FuelWeight>
-        <FuelRate>96</FuelRate>
-        <EngineSound>246</EngineSound>
-        <MaxAlt>550</MaxAlt>
-        <MinAlt>50</MinAlt>
-        <CruiseAlt>320</CruiseAlt>
-        <MaxSpeed>1150</MaxSpeed>
-        <RadarIdx>62</RadarIdx>
-        <NumberOfCrew>1</NumberOfCrew>
-        <RackFlags>4094</RackFlags>
-        <VisibleFlags>4094</VisibleFlags>
-        <CallsignIdx>52</CallsignIdx>
-        <CallsignSlots>10</CallsignSlots>
-        <Hit_NoMove>35</Hit_NoMove>
-        <Hit_Foot>20</Hit_Foot>
-        <Hit_Wheeled>10</Hit_Wheeled>
-        <Hit_Tracked>10</Hit_Tracked>
-        <Hit_LowAir>45</Hit_LowAir>
-        <Hit_Air>50</Hit_Air>
-        <Hit_Naval>20</Hit_Naval>
-        <Hit_Rail>20</Hit_Rail>
-        <Str_NoMove>108</Str_NoMove>
-        <Str_Foot>161</Str_Foot>
-        <Str_Wheeled>192</Str_Wheeled>
-        <Str_Tracked>192</Str_Tracked>
-        <Str_LowAir>80</Str_LowAir>
-        <Str_Air>94</Str_Air>
-        <Str_Naval>192</Str_Naval>
-        <Str_Rail>192</Str_Rail>
-        <Rng_NoMove>0</Rng_NoMove>
-        <Rng_Foot>0</Rng_Foot>
-        <Rng_Wheeled>0</Rng_Wheeled>
-        <Rng_Tracked>0</Rng_Tracked>
-        <Rng_LowAir>30</Rng_LowAir>
-        <Rng_Air>36</Rng_Air>
-        <Rng_Naval>0</Rng_Naval>
-        <Rng_Rail>0</Rng_Rail>
-        <Det_NoMove>60.0</Det_NoMove>
-        <Det_Foot>0.0</Det_Foot>
-        <Det_Wheeled>25.0</Det_Wheeled>
-        <Det_Tracked>25.0</Det_Tracked>
-        <Det_LowAir>30.0</Det_LowAir>
-        <Det_Air>60.0</Det_Air>
-        <Det_Naval>25.0</Det_Naval>
-        <Det_Rail>25.0</Det_Rail>
-        <WpnOrHpIdx_0>492</WpnOrHpIdx_0>
-        <WpnOrHpIdx_1>34</WpnOrHpIdx_1>
-        <WpnOrHpIdx_2>34</WpnOrHpIdx_2>
-        <WpnOrHpIdx_3>36</WpnOrHpIdx_3>
-        <WpnOrHpIdx_4>36</WpnOrHpIdx_4>
-        <WpnOrHpIdx_5>35</WpnOrHpIdx_5>
-        <WpnOrHpIdx_6>37</WpnOrHpIdx_6>
-        <WpnOrHpIdx_7>35</WpnOrHpIdx_7>
-        <WpnOrHpIdx_8>36</WpnOrHpIdx_8>
-        <WpnOrHpIdx_9>36</WpnOrHpIdx_9>
-        <WpnOrHpIdx_10>34</WpnOrHpIdx_10>
-        <WpnOrHpIdx_11>34</WpnOrHpIdx_11>
-        <WpnCount_0>95</WpnCount_0>
-        <WpnCount_1>255</WpnCount_1>
-        <WpnCount_2>255</WpnCount_2>
-        <WpnCount_3>255</WpnCount_3>
-        <WpnCount_4>255</WpnCount_4>
-        <WpnCount_5>255</WpnCount_5>
-        <WpnCount_6>255</WpnCount_6>
-        <WpnCount_7>255</WpnCount_7>
-        <WpnCount_8>255</WpnCount_8>
-        <WpnCount_9>255</WpnCount_9>
-        <WpnCount_10>255</WpnCount_10>
-        <WpnCount_11>255</WpnCount_11>
-        <Dam_None>100</Dam_None>
-        <Dam_Penetration>100</Dam_Penetration>
-        <Dam_HighExplosive>100</Dam_HighExplosive>
-        <Dam_Heave>50</Dam_Heave>
-        <Dam_Incendairy>100</Dam_Incendairy>
-        <Dam_Proximity>100</Dam_Proximity>
-        <Dam_Kinetic>100</Dam_Kinetic>
-        <Dam_Hydrostatic>0</Dam_Hydrostatic>
-        <Dam_Chemical>0</Dam_Chemical>
-        <Dam_Nuclear>100</Dam_Nuclear>
-        <Dam_Other>100</Dam_Other>
-        <InServiceStart>1979</InServiceStart>
     </VCD>
 </VCDRecords>
