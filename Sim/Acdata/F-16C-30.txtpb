@@ -2062,8 +2062,8 @@ auxaero {
   counter_measures {
     has_ews: true
     ecm_strength: 0
-    n_chaff: 180
-    n_flare: 60
+    n_chaff: 60
+    n_flare: 30
     flare_sequence: 0
     flare_dispencer {
       position {
