@@ -52118,13 +52118,13 @@
         <RoleScore_0>10</RoleScore_0>
         <RoleScore_1>90</RoleScore_1>
         <MainRole>0</MainRole>
-        <Hit_NoMove>55</Hit_NoMove>
-        <Hit_Foot>40</Hit_Foot>
-        <Hit_Wheeled>30</Hit_Wheeled>
-        <Hit_Tracked>30</Hit_Tracked>
-        <Hit_LowAir>28</Hit_LowAir>
-        <Hit_Air>28</Hit_Air>
-        <Hit_Naval>50</Hit_Naval>
+        <Hit_NoMove>20</Hit_NoMove>
+        <Hit_Foot>20</Hit_Foot>
+        <Hit_Wheeled>15</Hit_Wheeled>
+        <Hit_Tracked>10</Hit_Tracked>
+        <Hit_LowAir>25</Hit_LowAir>
+        <Hit_Air>15</Hit_Air>
+        <Hit_Naval>30</Hit_Naval>
         <Hit_Rail>55</Hit_Rail>
         <Str_NoMove>154</Str_NoMove>
         <Str_Foot>35</Str_Foot>
@@ -52138,9 +52138,9 @@
         <Rng_Foot>11</Rng_Foot>
         <Rng_Wheeled>11</Rng_Wheeled>
         <Rng_Tracked>11</Rng_Tracked>
-        <Rng_LowAir>67</Rng_LowAir>
-        <Rng_Air>80</Rng_Air>
-        <Rng_Naval>255</Rng_Naval>
+        <Rng_LowAir>15</Rng_LowAir>
+        <Rng_Air>18</Rng_Air>
+        <Rng_Naval>30</Rng_Naval>
         <Rng_Rail>11</Rng_Rail>
         <Det_NoMove>23.0</Det_NoMove>
         <Det_Foot>0.0</Det_Foot>
