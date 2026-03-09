@@ -3335,7 +3335,7 @@
         <CtIdx>167</CtIdx>
         <HitPoints>56</HitPoints>
         <Flags>1073743872</Flags>
-        <Name>J-7G</Name>
+        <Name>J-7</Name>
         <NCTR>MG21</NCTR>
         <RadarCs>1.272260</RadarCs>
         <MaxWeight>26000</MaxWeight>
@@ -16635,7 +16635,7 @@
         <RadarIdx>0</RadarIdx>
         <NumberOfCrew>3</NumberOfCrew>
         <RackFlags>1</RackFlags>
-        <VisibleFlags>1</VisibleFlags>
+        <VisibleFlags>0</VisibleFlags>
         <CallsignIdx>102</CallsignIdx>
         <CallsignSlots>58</CallsignSlots>
         <Hit_NoMove>0</Hit_NoMove>
