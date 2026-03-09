@@ -5746,15 +5746,13 @@
     <WLD Num="231">
         <Name>RF-4E 2/7</Name>
         <WpnIdx_0>186</WpnIdx_0>
-        <WpnIdx_1>173</WpnIdx_1>
-        <WpnIdx_2>729</WpnIdx_2>
-        <WpnIdx_3>187</WpnIdx_3>
-        <WpnIdx_4>196</WpnIdx_4>
+        <WpnIdx_1>729</WpnIdx_1>
+        <WpnIdx_2>187</WpnIdx_2>
+        <WpnIdx_3>196</WpnIdx_3>
         <WpnCount_0>1</WpnCount_0>
         <WpnCount_1>2</WpnCount_1>
-        <WpnCount_2>2</WpnCount_2>
+        <WpnCount_2>1</WpnCount_2>
         <WpnCount_3>1</WpnCount_3>
-        <WpnCount_4>1</WpnCount_4>
     </WLD>
     <WLD Num="232">
         <Name>RF-4E 5/7</Name>
