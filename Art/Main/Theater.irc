@@ -49,10 +49,10 @@
 [ADDTEXT] NOT_USED "Keep this line!"
 
 // -----Scenario 2-----
-[ADDTEXT] TXT_SCENARIO_2 "ROLLING BLIZZARD"
-[ADDTEXT] TXT_SC_2_LINE_1 "It is winter 1988. After a year of build up and the arival of new Soviet weapons a North Korean invasion is imminent. Repel their attack on Seoul, then capture P'Yongyang and Wonsan."
-[ADDTEXT] TXT_SC_2_LINE_2 ""
-[ADDTEXT] TXT_SC_2_LINE_3 ""
+[ADDTEXT] TXT_SCENARIO_2 "Juche Rises"
+[ADDTEXT] TXT_SC_2_LINE_1 "Winter 1988. With Increasing support from the Chinese, and new equipment supplied by The USSR,"
+[ADDTEXT] TXT_SC_2_LINE_2 "Invasion is imminent."
+[ADDTEXT] TXT_SC_2_LINE_3 "The ROK-US Alliance must again fight over the 38th parallel."
 [ADDTEXT] TXT_SC_2_LINE_4 ""
 [ADDTEXT] TXT_SC_2_CAMP_END "30"
 [ADDTEXT] TXT_SC_2_CAMP_STALE "20"
