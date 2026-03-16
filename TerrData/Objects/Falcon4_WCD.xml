@@ -28063,4 +28063,71 @@
         <BulletRoundsPerSec>0</BulletRoundsPerSec>
         <InServiceStart>1960</InServiceStart>
     </WCD>
+    <WCD Num="869">
+        <CtIdx>5280</CtIdx>
+        <Strength>87</Strength>
+        <DamageType>5</DamageType>
+        <Range>18.0</Range>
+        <Flags>0</Flags>
+        <Name>PL-4A</Name>
+        <Hit_NoMove>0</Hit_NoMove>
+        <Hit_Foot>0</Hit_Foot>
+        <Hit_Wheeled>0</Hit_Wheeled>
+        <Hit_Tracked>0</Hit_Tracked>
+        <Hit_LowAir>25</Hit_LowAir>
+        <Hit_Air>30</Hit_Air>
+        <Hit_Naval>0</Hit_Naval>
+        <Hit_Rail>0</Hit_Rail>
+        <FireRate>1</FireRate>
+        <Rariety>80</Rariety>
+        <Guidance>4</Guidance>
+        <Collective>0</Collective>
+        <Rackgroup>0</Rackgroup>
+        <Weight>505</Weight>
+        <Drag>4</Drag>
+        <BlastRadius>94</BlastRadius>
+        <RadarIdx>112</RadarIdx>
+        <SimWeaponDataIdx>28</SimWeaponDataIdx>
+        <MaxAlt>100</MaxAlt>
+        <MinAlt>0</MinAlt>
+        <BulletTTL>4</BulletTTL>
+        <BulletVelocity>0</BulletVelocity>
+        <BulletDispersion>0</BulletDispersion>
+        <BulletRoundsPerSec>0</BulletRoundsPerSec>
+        <InServiceStart>1976</InServiceStart>
+        <InServiceEnd>1999</InServiceEnd>
+    </WCD>
+    <WCD Num="870">
+        <CtIdx>5281</CtIdx>
+        <Strength>85</Strength>
+        <DamageType>5</DamageType>
+        <Range>8.0</Range>
+        <Flags>0</Flags>
+        <Name>PL-4B</Name>
+        <Hit_NoMove>0</Hit_NoMove>
+        <Hit_Foot>0</Hit_Foot>
+        <Hit_Wheeled>0</Hit_Wheeled>
+        <Hit_Tracked>0</Hit_Tracked>
+        <Hit_LowAir>30</Hit_LowAir>
+        <Hit_Air>30</Hit_Air>
+        <Hit_Naval>0</Hit_Naval>
+        <Hit_Rail>0</Hit_Rail>
+        <FireRate>1</FireRate>
+        <Rariety>90</Rariety>
+        <Guidance>2</Guidance>
+        <Collective>0</Collective>
+        <Rackgroup>0</Rackgroup>
+        <Weight>560</Weight>
+        <Drag>4</Drag>
+        <BlastRadius>93</BlastRadius>
+        <RadarIdx>0</RadarIdx>
+        <SimWeaponDataIdx>40</SimWeaponDataIdx>
+        <MaxAlt>70</MaxAlt>
+        <MinAlt>0</MinAlt>
+        <BulletTTL>3</BulletTTL>
+        <BulletVelocity>0</BulletVelocity>
+        <BulletDispersion>0</BulletDispersion>
+        <BulletRoundsPerSec>0</BulletRoundsPerSec>
+        <InServiceStart>1985</InServiceStart>
+    </WCD>
 </WCDRecords>
