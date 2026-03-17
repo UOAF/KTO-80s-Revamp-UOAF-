@@ -302,6 +302,76 @@
 #ENDIF
 
 //////////////////////////////////////////////////////////////////////////////
+// Event #20
+// Resupply control
+//////////////////////////////////////////////////////////////////////////////
+#IF_NOT_EVENT_PLAYED 20
+	#IF_SUPPLY 6 <= 1000
+		#SET_MINIMUM_SUPPLIES 1 2000 2000 5
+		#SET_MINIMUM_SUPPLIES 2 2000 2000 5
+		#SET_MINIMUM_SUPPLIES 3 2000 2000 5
+		#SET_MINIMUM_SUPPLIES 4 2000 2000 5
+		#SET_MINIMUM_SUPPLIES 5 2000 2000 5
+		#SET_MINIMUM_SUPPLIES 6 2000 2000 5
+		#SET_MINIMUM_SUPPLIES 7 2000 2000 5
+		#DO_EVENT 20
+		#RESET_EVENT 20
+		#DO_MONOLOG Resupply control
+	#ELSE
+		#IF_SUPPLY 2 <= 1000
+			#SET_MINIMUM_SUPPLIES 1 2000 2000 5
+			#SET_MINIMUM_SUPPLIES 2 2000 2000 5
+			#SET_MINIMUM_SUPPLIES 3 2000 2000 5
+			#SET_MINIMUM_SUPPLIES 4 2000 2000 5
+			#SET_MINIMUM_SUPPLIES 5 2000 2000 5
+			#SET_MINIMUM_SUPPLIES 6 2000 2000 5
+			#SET_MINIMUM_SUPPLIES 7 2000 2000 5
+			#DO_EVENT 20
+			#RESET_EVENT 20
+			#DO_MONOLOG Resupply control
+		#ENDIF	
+	#ENDIF
+#ENDIF
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #21
+// keep DPRK initiative up
+//////////////////////////////////////////////////////////////////////////////
+#IF_NOT_EVENT_PLAYED 21
+	#IF_INITIATIVE 6 <= 65
+		#SHIFT_INITIATIVE 2 6 10 
+		#DO_EVENT 21
+		#RESET_EVENT 21
+		#DO_MONOLOG DPRK initiative boost
+	#ENDIF		
+	#IF_INITIATIVE 5 <= 65
+		#SHIFT_INITIATIVE 1 5 10
+		#DO_EVENT 21
+		#RESET_EVENT 21
+		#DO_MONOLOG PRC initiative boost		
+	#ENDIF						
+#ENDIF
+
+//////////////////////////////////////////////////////////////////////////////
+// Event #22
+// If DPRK initiative is too high, boost ROK initiative
+//////////////////////////////////////////////////////////////////////////////
+#IF_NOT_EVENT_PLAYED 22
+	#IF_INITIATIVE 6 >= 90
+        #SHIFT_INITIATIVE 6 2 20 
+        #DO_EVENT 22
+		#RESET_EVENT 22
+		#DO_MONOLOG ROK initiative boost		
+	#ENDIF
+	#IF_INITIATIVE 5 >= 90
+        #SHIFT_INITIATIVE 5 1 10
+        #DO_EVENT 22
+		#RESET_EVENT 22
+		#DO_MONOLOG US initiative boost		
+	#ENDIF
+#ENDIF
+
+//////////////////////////////////////////////////////////////////////////////
 // Script done
 //////////////////////////////////////////////////////////////////////////////
 #ENDSCRIPT
