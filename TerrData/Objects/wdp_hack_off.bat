@@ -1,1 +1,0 @@
-rmdir "E:\Falcon BMS 4.38\Data\Add-On KTO 80s Revamp 4.38\Terrdata\objects\KoreaObj"

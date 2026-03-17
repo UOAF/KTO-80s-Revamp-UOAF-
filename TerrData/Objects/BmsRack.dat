@@ -2029,7 +2029,7 @@ definerack apu-13
 	rackstations 1
 	rackjettmodes EMERGENCY,SELECTIVE
 	weapjettmodes EMERGENCY,SELECTIVE
-	addwid 45 114 122 121 706 
+	addwid 45 114 122 121 375 376 706 
 
 # AA-8 single / R APU-60
 definerack apu-60
