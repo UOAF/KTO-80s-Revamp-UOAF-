@@ -8527,7 +8527,7 @@
     </WCD>
     <WCD Num="261">
         <CtIdx>2144</CtIdx>
-        <Strength>347</Strength>
+        <Strength>450</Strength>
         <DamageType>4</DamageType>
         <Range>0.0</Range>
         <Flags>0</Flags>
@@ -8547,7 +8547,7 @@
         <Rackgroup>0</Rackgroup>
         <Weight>522</Weight>
         <Drag>12</Drag>
-        <BlastRadius>483</BlastRadius>
+        <BlastRadius>600</BlastRadius>
         <RadarIdx>0</RadarIdx>
         <SimWeaponDataIdx>15</SimWeaponDataIdx>
         <MaxAlt>0</MaxAlt>
