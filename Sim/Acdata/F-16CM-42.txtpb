@@ -1884,7 +1884,7 @@ auxaero {
     avionics_radar_vs_mode: true
     avionics_radar_lrs_mode: true
     avionics_radar_uls_mode: true
-    avionics_color_mfd: true
+    avionics_color_mfd: false
     avionics_gray_scale_gm: true
     avionics_activate_mfd_boot: 1
     avionics_mmc_upgrade: true
