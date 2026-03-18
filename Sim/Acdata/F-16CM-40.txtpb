@@ -1866,7 +1866,7 @@ auxaero {
     avionics_radar_vs_mode: true
     avionics_radar_lrs_mode: true
     avionics_radar_uls_mode: true
-    avionics_color_mfd: true
+    avionics_color_mfd: false
     avionics_gray_scale_gm: true
     avionics_activate_mfd_boot: 1
     avionics_mmc_upgrade: true
@@ -1874,10 +1874,10 @@ auxaero {
     avionics_egi_upgrade: true
     avionics_digital_flcs: true
     avionics_rwr_type: 1
-    avionics_gun_eegs_mode: true
-    avionics_gun_sslc_mode: false
-    avionics_gun_lcos_mode: false
-    avionics_gun_snap_mode: false
+    avionics_gun_eegs_mode: false
+    avionics_gun_sslc_mode: true
+    avionics_gun_lcos_mode: true
+    avionics_gun_snap_mode: true
     avionics_engine_type: 2
     avionics_mfd_cata_symbol_aim120: false
     avionics_hud_old_bai_type: false
