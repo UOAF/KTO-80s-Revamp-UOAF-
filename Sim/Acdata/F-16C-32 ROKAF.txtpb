@@ -1916,9 +1916,9 @@ auxaero {
     computer_think_time: 125
   } 
   iff {
-    avionics_iff_transponder_settings: 63
-    avionics_iff_interrogator_settings: 15
-    avionics_iff_backup_m1_m3: 1
+    avionics_iff_transponder_settings: 31
+    avionics_iff_interrogator_settings: 0
+    avionics_iff_backup_m1_m3: 0
   } 
   autopilot {
     max_autopilot_mach: 0.95
