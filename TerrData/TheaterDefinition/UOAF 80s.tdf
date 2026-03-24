@@ -3,10 +3,10 @@
 #------------------
 
 # shown in the pick list
-name KTO 80s Revamp (UOAF)
+name UOAF 80s
 
 # Title shown on theater page
-desc KTO 80s Revamp (UOAF)  - WARNING: Restart BMS after any theatre change.
+desc UOAF 80s (RC3)
 
 # bitmap to display on theater page
 bitmap Terrdata\theaterdefinition\Korea KTO.tga
@@ -16,7 +16,7 @@ bitmap Terrdata\theaterdefinition\Korea KTO.tga
 # so probably best to put in explicitly.
  
 # Where the campaign directory is
-campaigndir Add-on KTO 80s Revamp (UOAF)\Campaign
+campaigndir Add-on UOAF 80s\Campaign
 
 # where the terrain data is
 terraindir Terrdata\korea
@@ -25,28 +25,28 @@ terraindir Terrdata\korea
 tileset POLAK
 
 # where art is loaded from
-artdir Add-on KTO 80s Revamp (UOAF)
+artdir Add-on UOAF 80s
 
 # movies
-moviedir Add-on KTO 80s Revamp (UOAF)
+moviedir Add-on UOAF 80s
  
 # uisounds 
 #uisounddir Sounds
 
 # default objects
-objectdir Add-on KTO 80s Revamp (UOAF)\TerrData\Objects
+objectdir Add-on UOAF 80s\TerrData\Objects
 
 # misc textures
 misctexdir Terrdata\misctex
 
 # 3d object files
-3ddatadir Add-on KTO 80s Revamp (UOAF)\Terrdata\Objects
+3ddatadir Add-on UOAF 80s\Terrdata\Objects
 
 # sounds dir
 sounddir Sounds
 
 # simdata dir
-simdatadir Add-on KTO 80s Revamp (UOAF)\Sim
+simdatadir Add-on UOAF 80s\Sim
 
 # minimum tacan channel
 mintacan 1
