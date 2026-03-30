@@ -211,12 +211,9 @@
 // ROK is defensive and protects Seoul from invasion
 //////////////////////////////////////////////////////////////////////////////
 #IF_EVENT_PLAYED 12
-	#SET_PAK_PRIORITY_GND 2 3228 40
-	#SET_PAK_PRIORITY_GND 2 1488 90
-	#SET_PAK_PRIORITY_GND 2 1344 80
-	#SET_PAK_PRIORITY_AIR 2 1488 100
-	#SET_PAK_PRIORITY_AIR 2 1344 80
-	#SET_PAK_PRIORITY_AIR 2 3228 80
+	#SET_PAK_PRIORITY 2 3228 40
+	#SET_PAK_PRIORITY 2 1488 90
+	#SET_PAK_PRIORITY 2 1344 80
 	#SET_PAK_PRIORITY 2 2122 20
 	#SET_PAK_PRIORITY 6 2122 20
 	#SET_PAK_PRIORITY 6 3228 100
@@ -272,10 +269,10 @@
 
 //////////////////////////////////////////////////////////////////////////////
 // Event #18
-// China Enters War After Day 1
+// China Enters War After Day 3
 //////////////////////////////////////////////////////////////////////////////
 #IF_NOT_EVENT_PLAYED 18
-	#IF_CAMPAIGN_DAY >= 2
+	#IF_CAMPAIGN_DAY >= 3
 	   //PRC - DDPRK - Allied
 		#CHANGE_RELATIONS 5 6 1
 		//
