@@ -41,7 +41,7 @@
 //////////////////////////////////////////////////////////////////////////////
 #IF_NOT_EVENT_PLAYED 1
 	#IF_CONTROLLED 6 OR 1162 1818 314 2182 1460 1788
-		#PLAY_MOVIE 100
+		//#PLAY_MOVIE 100
 		#SET_TEMPO 255
 		#DO_EVENT 1
 		#DO_MONOLOG Seoul being attacked by DPRK forces
@@ -55,7 +55,7 @@
 //////////////////////////////////////////////////////////////////////////////
 #IF_NOT_EVENT_PLAYED 2
 	#IF_CONTROLLED 6 AND 1722 314 1746 1726
-		#PLAY_MOVIE 101
+		//#PLAY_MOVIE 101
 		#SET_PAK_PRIORITY 6 2180 100
 		#SET_PAK_PRIORITY 6 3228 50
 		#DO_EVENT 2
@@ -69,7 +69,7 @@
 //////////////////////////////////////////////////////////////////////////////
 #IF_NOT_EVENT_PLAYED 3
 	#IF_CONTROLLED 2 OR 1446 2102 1812 865
-		#PLAY_MOVIE 102
+		//#PLAY_MOVIE 102
 		#SET_TEMPO 255
 		#DO_EVENT 3
 		#DO_MONOLOG P'yongyang being attacked by ROK forces
@@ -83,7 +83,7 @@
 //////////////////////////////////////////////////////////////////////////////
 #IF_NOT_EVENT_PLAYED 4
 	#IF_CONTROLLED 2 AND 2122 2124 1448
-		#PLAY_MOVIE 103
+		//#PLAY_MOVIE 103
 		#SET_PAK_PRIORITY 2 1382 100
 		#SET_PAK_PRIORITY 2 2122 50
 		#DO_EVENT 4
@@ -112,7 +112,7 @@
 //////////////////////////////////////////////////////////////////////////////
 #IF_EVENT_PLAYED 5
 	#IF_CONTROLLED 2 AND 204 3453 477 148 3583 147 877 883 887 1006
-		#PLAY_MOVIE 104
+		//#PLAY_MOVIE 104
 		#DO_EVENT 6
 		#RESET_EVENT 5
 		#DO_MONOLOG DPRK pushed back to DMZ
@@ -140,13 +140,13 @@
 //////////////////////////////////////////////////////////////////////////////
 #IF_EVENT_PLAYED 7
 	#IF_EVENT_PLAYED 5
-		#PLAY_MOVIE 105
+		//#PLAY_MOVIE 105
 		#DO_EVENT 8
 		#RESET_EVENT 7
 		#DO_MONOLOG Combined forces pushed back to DMZ
 	#ELSE
 		#IF_CONTROLLED 6 AND 1346 4378 3022 3021 3019 3020 3016 3013 3012 3025 190 3260
-			#PLAY_MOVIE 105
+			//#PLAY_MOVIE 105
 			#DO_EVENT 8
 			#RESET_EVENT 7
 			#DO_MONOLOG Combined forces pushed back to DMZ
@@ -160,7 +160,7 @@
 //////////////////////////////////////////////////////////////////////////////
 #IF_EVENT_PLAYED 10
 	#IF_ON_OFFENSIVE 2
-		#PLAY_MOVIE 106
+		//#PLAY_MOVIE 106
 		#DO_EVENT 9
 		#SET_PAK_PRIORITY 2 2122 100
 		#SET_PAK_PRIORITY 2 3228 50
@@ -178,7 +178,7 @@
 //////////////////////////////////////////////////////////////////////////////
 #IF_EVENT_PLAYED 9
 	#IF_ON_OFFENSIVE 6
-		#PLAY_MOVIE 107
+		//#PLAY_MOVIE 107
 		#DO_EVENT 10
 		#RESET_EVENT 9
 		#DO_MONOLOG Combined forces go on defensive
@@ -193,7 +193,7 @@
 //////////////////////////////////////////////////////////////////////////////
 #IF_NOT_EVENT_PLAYED 11
 	#IF_CONTROLLED 2 OR 1488 1344
-		#PLAY_MOVIE 108
+		//#PLAY_MOVIE 108
 		//PRC - DDPRK - Allied
 		#CHANGE_RELATIONS 5 6 1
 		//USSR - DPRK - Allied
@@ -224,10 +224,10 @@
 //////////////////////////////////////////////////////////////////////////////
 // Event #14
 // Bad guys win
-// DPRK reached Yongin-Si, Seoul is lost!
+// DPRK reached Seoul South
 //////////////////////////////////////////////////////////////////////////////
-#IF_CONTROLLED 6 AND 2180
-	#PLAY_MOVIE 113
+#IF_CONTROLLED 6 AND 1746
+	//#PLAY_MOVIE 113
 	#DO_EVENT 14
 	#END_GAME 14
 	#DO_MONOLOG DPRK reached Yongin-Si, Seoul is lost! -> END GAME
@@ -238,7 +238,7 @@
 // Stalemate
 //////////////////////////////////////////////////////////////////////////////
 #IF_BORDOM_HOURS 480
-	#PLAY_MOVIE 114
+	//#PLAY_MOVIE 114
 	#DO_EVENT 15
 	#END_GAME 15
 	#DO_MONOLOG Stalemate -> END GAME
@@ -248,8 +248,8 @@
 // Event #16
 // Timeout
 //////////////////////////////////////////////////////////////////////////////
-#IF_CAMPAIGN_DAY >= 30
-	#PLAY_MOVIE 115
+#IF_CAMPAIGN_DAY >= 10
+	//#PLAY_MOVIE 115
 	#DO_EVENT 16
 	#END_GAME 16
 	#DO_MONOLOG Timeout -> END GAME
@@ -258,10 +258,10 @@
 //////////////////////////////////////////////////////////////////////////////
 // Event #17
 // We win - hu-rah!
-// ROK reached Sunch'on, Pyongyang is lost!
+// ROK reached Pyongyang!
 //////////////////////////////////////////////////////////////////////////////
-#IF_CONTROLLED 2 AND 1382
-	#PLAY_MOVIE 116
+#IF_CONTROLLED 2 AND 2122
+	//#PLAY_MOVIE 116
 	#DO_EVENT 17
 	#END_GAME 17
 	#DO_MONOLOG ROK reached Sunch'on, Pyongyang is lost! -> END GAME
