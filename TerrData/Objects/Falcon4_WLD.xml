@@ -627,7 +627,9 @@
     <WLD Num="34">
         <Name>F-15C Wing Rail</Name>
         <WpnIdx_0>174</WpnIdx_0>
+        <WpnIdx_1>175</WpnIdx_1>
         <WpnCount_0>1</WpnCount_0>
+        <WpnCount_1>1</WpnCount_1>
     </WLD>
     <WLD Num="35">
         <Name>F-15C/J Wing</Name>
@@ -1150,11 +1152,13 @@
         <WpnIdx_2>442</WpnIdx_2>
         <WpnIdx_3>126</WpnIdx_3>
         <WpnIdx_4>123</WpnIdx_4>
+        <WpnIdx_5>122</WpnIdx_5>
         <WpnCount_0>1</WpnCount_0>
         <WpnCount_1>1</WpnCount_1>
         <WpnCount_2>1</WpnCount_2>
         <WpnCount_3>1</WpnCount_3>
         <WpnCount_4>1</WpnCount_4>
+        <WpnCount_5>1</WpnCount_5>
     </WLD>
     <WLD Num="58">
         <Name>MiG-27 Shoulder</Name>
@@ -1304,6 +1308,7 @@
         <WpnIdx_23>370</WpnIdx_23>
         <WpnIdx_24>371</WpnIdx_24>
         <WpnIdx_25>372</WpnIdx_25>
+        <WpnIdx_26>122</WpnIdx_26>
         <WpnCount_0>1</WpnCount_0>
         <WpnCount_1>1</WpnCount_1>
         <WpnCount_2>1</WpnCount_2>
@@ -1330,6 +1335,7 @@
         <WpnCount_23>4</WpnCount_23>
         <WpnCount_24>2</WpnCount_24>
         <WpnCount_25>1</WpnCount_25>
+        <WpnCount_26>1</WpnCount_26>
     </WLD>
     <WLD Num="61">
         <Name>Su-7 2/5</Name>
@@ -2138,8 +2144,10 @@
         <Name>MiG-29A 1/6</Name>
         <WpnIdx_0>119</WpnIdx_0>
         <WpnIdx_1>127</WpnIdx_1>
+        <WpnIdx_2>122</WpnIdx_2>
         <WpnCount_0>1</WpnCount_0>
         <WpnCount_1>1</WpnCount_1>
+        <WpnCount_2>1</WpnCount_2>
     </WLD>
     <WLD Num="103">
         <Name>MiG-19 1/4</Name>
@@ -3224,7 +3232,9 @@
     <WLD Num="143">
         <Name>F-15A Rail</Name>
         <WpnIdx_0>729</WpnIdx_0>
+        <WpnIdx_1>175</WpnIdx_1>
         <WpnCount_0>1</WpnCount_0>
+        <WpnCount_1>1</WpnCount_1>
     </WLD>
     <WLD Num="144">
         <Name>F-15A Body</Name>
@@ -3674,6 +3684,7 @@
         <WpnIdx_19>230</WpnIdx_19>
         <WpnIdx_20>371</WpnIdx_20>
         <WpnIdx_21>372</WpnIdx_21>
+        <WpnIdx_22>122</WpnIdx_22>
         <WpnCount_0>1</WpnCount_0>
         <WpnCount_1>1</WpnCount_1>
         <WpnCount_2>1</WpnCount_2>
@@ -3696,6 +3707,7 @@
         <WpnCount_19>1</WpnCount_19>
         <WpnCount_20>1</WpnCount_20>
         <WpnCount_21>1</WpnCount_21>
+        <WpnCount_22>1</WpnCount_22>
     </WLD>
     <WLD Num="171">
         <Name>MiG-29S 3/4</Name>
