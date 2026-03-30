@@ -885,13 +885,13 @@
         <InfiniteGun>0</InfiniteGun>
     </SSD>
     <SSD Num="36">
-        <WpnStores_101>80</WpnStores_101>
-        <WpnStores_123>40</WpnStores_123>
-        <WpnStores_124>40</WpnStores_124>
-        <WpnStores_125>40</WpnStores_125>
-        <WpnStores_126>40</WpnStores_126>
-        <WpnStores_127>40</WpnStores_127>
-        <WpnStores_442>30</WpnStores_442>
+        <WpnStores_101>250</WpnStores_101>
+        <WpnStores_123>200</WpnStores_123>
+        <WpnStores_124>200</WpnStores_124>
+        <WpnStores_125>200</WpnStores_125>
+        <WpnStores_126>200</WpnStores_126>
+        <WpnStores_127>200</WpnStores_127>
+        <WpnStores_442>80</WpnStores_442>
         <InfiniteAG>0</InfiniteAG>
         <InfiniteAA>0</InfiniteAA>
         <InfiniteGun>0</InfiniteGun>
@@ -1311,10 +1311,10 @@
         <InfiniteGun>0</InfiniteGun>
     </SSD>
     <SSD Num="52">
-        <WpnStores_115>120</WpnStores_115>
+        <WpnStores_115>250</WpnStores_115>
         <WpnStores_116>120</WpnStores_116>
         <WpnStores_119>120</WpnStores_119>
-        <WpnStores_127>120</WpnStores_127>
+        <WpnStores_127>250</WpnStores_127>
         <WpnStores_273>120</WpnStores_273>
         <WpnStores_274>120</WpnStores_274>
         <WpnStores_278>120</WpnStores_278>
@@ -1477,16 +1477,14 @@
         <InfiniteGun>0</InfiniteGun>
     </SSD>
     <SSD Num="58">
-        <WpnStores_83>120</WpnStores_83>
-        <WpnStores_102>75</WpnStores_102>
-        <WpnStores_115>40</WpnStores_115>
-        <WpnStores_116>40</WpnStores_116>
-        <WpnStores_117>30</WpnStores_117>
-        <WpnStores_118>20</WpnStores_118>
-        <WpnStores_119>160</WpnStores_119>
+        <WpnStores_83>250</WpnStores_83>
+        <WpnStores_102>250</WpnStores_102>
+        <WpnStores_115>150</WpnStores_115>
+        <WpnStores_116>150</WpnStores_116>
+        <WpnStores_119>200</WpnStores_119>
         <WpnStores_123>140</WpnStores_123>
         <WpnStores_127>150</WpnStores_127>
-        <WpnStores_128>120</WpnStores_128>
+        <WpnStores_128>200</WpnStores_128>
         <InfiniteAG>0</InfiniteAG>
         <InfiniteAA>0</InfiniteAA>
         <InfiniteGun>0</InfiniteGun>
