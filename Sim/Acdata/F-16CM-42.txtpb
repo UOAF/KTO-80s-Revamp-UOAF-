@@ -1892,7 +1892,7 @@ auxaero {
     avionics_egi_upgrade: true
     avionics_digital_flcs: true
     avionics_rwr_type: 1
-    avionics_gun_eegs_mode: true
+    avionics_gun_eegs_mode: false
     avionics_gun_sslc_mode: true
     avionics_gun_lcos_mode: true
     avionics_gun_snap_mode: true
