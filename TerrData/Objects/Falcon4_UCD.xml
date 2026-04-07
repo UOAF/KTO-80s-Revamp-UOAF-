@@ -856,8 +856,12 @@
         <ElementCount_0>2</ElementCount_0>
         <ElementCount_1>2</ElementCount_1>
         <ElementCount_2>2</ElementCount_2>
+        <ElementCount_3>2</ElementCount_3>
         <ElementCount_4>2</ElementCount_4>
+        <ElementCount_5>2</ElementCount_5>
         <ElementCount_6>2</ElementCount_6>
+        <ElementCount_7>2</ElementCount_7>
+        <ElementCount_8>2</ElementCount_8>
         <ElementCount_9>2</ElementCount_9>
         <ElementCount_11>2</ElementCount_11>
         <ElementCount_13>2</ElementCount_13>
@@ -4003,7 +4007,7 @@
         <ElementCount_14>1</ElementCount_14>
         <ElementCount_15>1</ElementCount_15>
         <VehicleCtIdx_0>1031</VehicleCtIdx_0>
-        <VehicleCtIdx_1>678</VehicleCtIdx_1>
+        <VehicleCtIdx_1>679</VehicleCtIdx_1>
         <VehicleCtIdx_2>1031</VehicleCtIdx_2>
         <VehicleCtIdx_3>1031</VehicleCtIdx_3>
         <VehicleCtIdx_4>808</VehicleCtIdx_4>
@@ -4015,7 +4019,7 @@
         <VehicleCtIdx_10>1031</VehicleCtIdx_10>
         <VehicleCtIdx_11>808</VehicleCtIdx_11>
         <VehicleCtIdx_12>1031</VehicleCtIdx_12>
-        <VehicleCtIdx_13>678</VehicleCtIdx_13>
+        <VehicleCtIdx_13>679</VehicleCtIdx_13>
         <VehicleCtIdx_14>1031</VehicleCtIdx_14>
         <VehicleCtIdx_15>1031</VehicleCtIdx_15>
         <Flags>15</Flags>
@@ -6739,9 +6743,13 @@
         <ElementCount_1>2</ElementCount_1>
         <ElementCount_2>2</ElementCount_2>
         <ElementCount_3>2</ElementCount_3>
+        <ElementCount_4>2</ElementCount_4>
         <ElementCount_5>2</ElementCount_5>
+        <ElementCount_6>2</ElementCount_6>
         <ElementCount_7>2</ElementCount_7>
+        <ElementCount_8>2</ElementCount_8>
         <ElementCount_9>2</ElementCount_9>
+        <ElementCount_10>2</ElementCount_10>
         <ElementCount_11>2</ElementCount_11>
         <ElementCount_12>2</ElementCount_12>
         <ElementCount_13>2</ElementCount_13>
@@ -11037,11 +11045,18 @@
         <ElementCount_0>2</ElementCount_0>
         <ElementCount_1>2</ElementCount_1>
         <ElementCount_2>2</ElementCount_2>
+        <ElementCount_3>2</ElementCount_3>
         <ElementCount_4>2</ElementCount_4>
+        <ElementCount_5>2</ElementCount_5>
         <ElementCount_6>2</ElementCount_6>
+        <ElementCount_7>2</ElementCount_7>
+        <ElementCount_8>2</ElementCount_8>
         <ElementCount_9>2</ElementCount_9>
+        <ElementCount_10>2</ElementCount_10>
         <ElementCount_11>2</ElementCount_11>
+        <ElementCount_12>2</ElementCount_12>
         <ElementCount_13>2</ElementCount_13>
+        <ElementCount_14>2</ElementCount_14>
         <ElementCount_15>2</ElementCount_15>
         <VehicleCtIdx_0>167</VehicleCtIdx_0>
         <VehicleCtIdx_1>167</VehicleCtIdx_1>
@@ -11974,11 +11989,18 @@
         <ElementCount_0>2</ElementCount_0>
         <ElementCount_1>2</ElementCount_1>
         <ElementCount_2>2</ElementCount_2>
+        <ElementCount_3>2</ElementCount_3>
         <ElementCount_4>2</ElementCount_4>
+        <ElementCount_5>2</ElementCount_5>
         <ElementCount_6>2</ElementCount_6>
+        <ElementCount_7>2</ElementCount_7>
+        <ElementCount_8>2</ElementCount_8>
         <ElementCount_9>2</ElementCount_9>
+        <ElementCount_10>2</ElementCount_10>
         <ElementCount_11>2</ElementCount_11>
+        <ElementCount_12>2</ElementCount_12>
         <ElementCount_13>2</ElementCount_13>
+        <ElementCount_14>2</ElementCount_14>
         <ElementCount_15>2</ElementCount_15>
         <VehicleCtIdx_0>161</VehicleCtIdx_0>
         <VehicleCtIdx_1>161</VehicleCtIdx_1>
@@ -13328,14 +13350,14 @@
         <VehicleCtIdx_4>747</VehicleCtIdx_4>
         <VehicleCtIdx_5>707</VehicleCtIdx_5>
         <VehicleCtIdx_6>2476</VehicleCtIdx_6>
-        <VehicleCtIdx_7>677</VehicleCtIdx_7>
+        <VehicleCtIdx_7>679</VehicleCtIdx_7>
         <ElementFlags_2>1</ElementFlags_2>
         <ElementFlags_5>64</ElementFlags_5>
         <ElementFlags_6>8</ElementFlags_6>
         <Description>Mobile configuration - Light</Description>
         <Flags>28</Flags>
         <Name>Air Defense</Name>
-        <MoveType>0</MoveType>
+        <MoveType>1</MoveType>
         <MoveSpeed>0</MoveSpeed>
         <MaxRange>0</MaxRange>
         <Fuel>0</Fuel>
@@ -13911,7 +13933,7 @@
         <VehicleCtIdx_4>709</VehicleCtIdx_4>
         <VehicleCtIdx_5>688</VehicleCtIdx_5>
         <VehicleCtIdx_6>835</VehicleCtIdx_6>
-        <VehicleCtIdx_7>677</VehicleCtIdx_7>
+        <VehicleCtIdx_7>679</VehicleCtIdx_7>
         <Flags>8</Flags>
         <Name>AAA</Name>
         <MoveType>2</MoveType>
@@ -17065,7 +17087,7 @@
         <ElementCount_13>1</ElementCount_13>
         <ElementCount_14>1</ElementCount_14>
         <VehicleCtIdx_0>568</VehicleCtIdx_0>
-        <VehicleCtIdx_1>677</VehicleCtIdx_1>
+        <VehicleCtIdx_1>679</VehicleCtIdx_1>
         <VehicleCtIdx_2>568</VehicleCtIdx_2>
         <VehicleCtIdx_3>807</VehicleCtIdx_3>
         <VehicleCtIdx_4>568</VehicleCtIdx_4>
@@ -17077,8 +17099,8 @@
         <VehicleCtIdx_10>568</VehicleCtIdx_10>
         <VehicleCtIdx_11>683</VehicleCtIdx_11>
         <VehicleCtIdx_12>568</VehicleCtIdx_12>
-        <VehicleCtIdx_13>678</VehicleCtIdx_13>
-        <VehicleCtIdx_14>678</VehicleCtIdx_14>
+        <VehicleCtIdx_13>679</VehicleCtIdx_13>
+        <VehicleCtIdx_14>679</VehicleCtIdx_14>
         <Flags>15</Flags>
         <Name>Airborne</Name>
         <MoveType>4</MoveType>
@@ -17160,7 +17182,7 @@
         <VehicleCtIdx_4>714</VehicleCtIdx_4>
         <VehicleCtIdx_5>714</VehicleCtIdx_5>
         <VehicleCtIdx_6>714</VehicleCtIdx_6>
-        <VehicleCtIdx_7>17</VehicleCtIdx_7>
+        <VehicleCtIdx_7>557</VehicleCtIdx_7>
         <VehicleCtIdx_8>741</VehicleCtIdx_8>
         <VehicleCtIdx_9>702</VehicleCtIdx_9>
         <VehicleCtIdx_10>707</VehicleCtIdx_10>
@@ -17407,7 +17429,7 @@
         <VehicleCtIdx_3>745</VehicleCtIdx_3>
         <VehicleCtIdx_4>5</VehicleCtIdx_4>
         <VehicleCtIdx_5>747</VehicleCtIdx_5>
-        <VehicleCtIdx_6>757</VehicleCtIdx_6>
+        <VehicleCtIdx_6>556</VehicleCtIdx_6>
         <VehicleCtIdx_7>745</VehicleCtIdx_7>
         <VehicleCtIdx_8>747</VehicleCtIdx_8>
         <VehicleCtIdx_9>5</VehicleCtIdx_9>
@@ -17417,7 +17439,6 @@
         <VehicleCtIdx_13>5</VehicleCtIdx_13>
         <VehicleCtIdx_14>745</VehicleCtIdx_14>
         <VehicleCtIdx_15>5</VehicleCtIdx_15>
-        <ElementFlags_6>1</ElementFlags_6>
         <Flags>12</Flags>
         <Name>Tank</Name>
         <MoveType>3</MoveType>
@@ -17500,7 +17521,7 @@
         <VehicleCtIdx_1>6</VehicleCtIdx_1>
         <VehicleCtIdx_2>745</VehicleCtIdx_2>
         <VehicleCtIdx_3>6</VehicleCtIdx_3>
-        <VehicleCtIdx_4>17</VehicleCtIdx_4>
+        <VehicleCtIdx_4>557</VehicleCtIdx_4>
         <VehicleCtIdx_5>745</VehicleCtIdx_5>
         <VehicleCtIdx_6>702</VehicleCtIdx_6>
         <VehicleCtIdx_7>6</VehicleCtIdx_7>
@@ -18329,7 +18350,7 @@
         <VehicleCtIdx_5>569</VehicleCtIdx_5>
         <VehicleCtIdx_6>688</VehicleCtIdx_6>
         <VehicleCtIdx_7>835</VehicleCtIdx_7>
-        <VehicleCtIdx_8>677</VehicleCtIdx_8>
+        <VehicleCtIdx_8>679</VehicleCtIdx_8>
         <ElementFlags_3>1</ElementFlags_3>
         <Flags>12</Flags>
         <Name>AAA</Name>
@@ -18931,7 +18952,7 @@
         <VehicleCtIdx_7>1031</VehicleCtIdx_7>
         <VehicleCtIdx_8>567</VehicleCtIdx_8>
         <VehicleCtIdx_9>1031</VehicleCtIdx_9>
-        <VehicleCtIdx_10>678</VehicleCtIdx_10>
+        <VehicleCtIdx_10>679</VehicleCtIdx_10>
         <VehicleCtIdx_11>1031</VehicleCtIdx_11>
         <VehicleCtIdx_12>807</VehicleCtIdx_12>
         <VehicleCtIdx_13>1031</VehicleCtIdx_13>
@@ -19024,7 +19045,7 @@
         <VehicleCtIdx_9>1031</VehicleCtIdx_9>
         <VehicleCtIdx_10>1031</VehicleCtIdx_10>
         <VehicleCtIdx_11>1031</VehicleCtIdx_11>
-        <VehicleCtIdx_12>678</VehicleCtIdx_12>
+        <VehicleCtIdx_12>679</VehicleCtIdx_12>
         <VehicleCtIdx_13>811</VehicleCtIdx_13>
         <VehicleCtIdx_14>567</VehicleCtIdx_14>
         <VehicleCtIdx_15>1031</VehicleCtIdx_15>
@@ -19277,13 +19298,13 @@
         <VehicleCtIdx_6>707</VehicleCtIdx_6>
         <VehicleCtIdx_7>708</VehicleCtIdx_7>
         <VehicleCtIdx_8>2476</VehicleCtIdx_8>
-        <VehicleCtIdx_9>677</VehicleCtIdx_9>
+        <VehicleCtIdx_9>679</VehicleCtIdx_9>
         <ElementFlags_3>1</ElementFlags_3>
         <ElementFlags_8>8</ElementFlags_8>
         <Description>Static Configuration - Heavy</Description>
         <Flags>28</Flags>
         <Name>Air Defense</Name>
-        <MoveType>0</MoveType>
+        <MoveType>1</MoveType>
         <MoveSpeed>0</MoveSpeed>
         <MaxRange>0</MaxRange>
         <Fuel>0</Fuel>
@@ -19358,12 +19379,12 @@
         <VehicleCtIdx_5>707</VehicleCtIdx_5>
         <VehicleCtIdx_6>708</VehicleCtIdx_6>
         <VehicleCtIdx_7>2477</VehicleCtIdx_7>
-        <VehicleCtIdx_8>678</VehicleCtIdx_8>
+        <VehicleCtIdx_8>679</VehicleCtIdx_8>
         <ElementFlags_2>1</ElementFlags_2>
         <ElementFlags_7>8</ElementFlags_7>
         <Flags>28</Flags>
         <Name>Air Defense</Name>
-        <MoveType>0</MoveType>
+        <MoveType>1</MoveType>
         <MoveSpeed>0</MoveSpeed>
         <MaxRange>0</MaxRange>
         <Fuel>0</Fuel>
@@ -19446,7 +19467,7 @@
         <ElementFlags_8>4</ElementFlags_8>
         <Flags>28</Flags>
         <Name>Air Defense</Name>
-        <MoveType>0</MoveType>
+        <MoveType>1</MoveType>
         <MoveSpeed>0</MoveSpeed>
         <MaxRange>0</MaxRange>
         <Fuel>0</Fuel>
@@ -19521,7 +19542,7 @@
         <VehicleCtIdx_5>35</VehicleCtIdx_5>
         <VehicleCtIdx_6>688</VehicleCtIdx_6>
         <VehicleCtIdx_7>835</VehicleCtIdx_7>
-        <VehicleCtIdx_8>677</VehicleCtIdx_8>
+        <VehicleCtIdx_8>679</VehicleCtIdx_8>
         <ElementFlags_3>1</ElementFlags_3>
         <Flags>8</Flags>
         <Name>AAA</Name>
@@ -20320,7 +20341,7 @@
         <ElementCount_8>2</ElementCount_8>
         <ElementCount_9>3</ElementCount_9>
         <VehicleCtIdx_0>741</VehicleCtIdx_0>
-        <VehicleCtIdx_1>797</VehicleCtIdx_1>
+        <VehicleCtIdx_1>556</VehicleCtIdx_1>
         <VehicleCtIdx_2>755</VehicleCtIdx_2>
         <VehicleCtIdx_3>797</VehicleCtIdx_3>
         <VehicleCtIdx_4>702</VehicleCtIdx_4>
@@ -20330,7 +20351,6 @@
         <VehicleCtIdx_8>756</VehicleCtIdx_8>
         <VehicleCtIdx_9>707</VehicleCtIdx_9>
         <ElementFlags_0>48</ElementFlags_0>
-        <ElementFlags_1>1</ElementFlags_1>
         <ElementFlags_2>16</ElementFlags_2>
         <ElementFlags_3>1</ElementFlags_3>
         <ElementFlags_4>1</ElementFlags_4>
@@ -20651,7 +20671,7 @@
         <VehicleCtIdx_1>740</VehicleCtIdx_1>
         <VehicleCtIdx_2>22</VehicleCtIdx_2>
         <VehicleCtIdx_3>702</VehicleCtIdx_3>
-        <VehicleCtIdx_4>17</VehicleCtIdx_4>
+        <VehicleCtIdx_4>556</VehicleCtIdx_4>
         <VehicleCtIdx_5>707</VehicleCtIdx_5>
         <VehicleCtIdx_6>707</VehicleCtIdx_6>
         <VehicleCtIdx_7>689</VehicleCtIdx_7>
@@ -22419,12 +22439,19 @@
         <CtIdx>408</CtIdx>
         <ElementCount_0>2</ElementCount_0>
         <ElementCount_1>2</ElementCount_1>
+        <ElementCount_2>2</ElementCount_2>
         <ElementCount_3>2</ElementCount_3>
+        <ElementCount_4>2</ElementCount_4>
         <ElementCount_5>2</ElementCount_5>
+        <ElementCount_6>2</ElementCount_6>
         <ElementCount_7>2</ElementCount_7>
+        <ElementCount_8>2</ElementCount_8>
         <ElementCount_9>2</ElementCount_9>
+        <ElementCount_10>2</ElementCount_10>
         <ElementCount_11>2</ElementCount_11>
+        <ElementCount_12>2</ElementCount_12>
         <ElementCount_13>2</ElementCount_13>
+        <ElementCount_14>2</ElementCount_14>
         <ElementCount_15>2</ElementCount_15>
         <VehicleCtIdx_0>213</VehicleCtIdx_0>
         <VehicleCtIdx_1>213</VehicleCtIdx_1>
@@ -23414,11 +23441,18 @@
         <ElementCount_0>2</ElementCount_0>
         <ElementCount_1>2</ElementCount_1>
         <ElementCount_2>2</ElementCount_2>
+        <ElementCount_3>2</ElementCount_3>
         <ElementCount_4>2</ElementCount_4>
+        <ElementCount_5>2</ElementCount_5>
         <ElementCount_6>2</ElementCount_6>
+        <ElementCount_7>2</ElementCount_7>
+        <ElementCount_8>2</ElementCount_8>
         <ElementCount_9>2</ElementCount_9>
+        <ElementCount_10>2</ElementCount_10>
         <ElementCount_11>2</ElementCount_11>
+        <ElementCount_12>2</ElementCount_12>
         <ElementCount_13>2</ElementCount_13>
+        <ElementCount_14>2</ElementCount_14>
         <ElementCount_15>2</ElementCount_15>
         <VehicleCtIdx_0>163</VehicleCtIdx_0>
         <VehicleCtIdx_1>163</VehicleCtIdx_1>
@@ -23661,11 +23695,18 @@
         <ElementCount_0>2</ElementCount_0>
         <ElementCount_1>2</ElementCount_1>
         <ElementCount_2>2</ElementCount_2>
+        <ElementCount_3>2</ElementCount_3>
         <ElementCount_4>2</ElementCount_4>
+        <ElementCount_5>2</ElementCount_5>
         <ElementCount_6>2</ElementCount_6>
+        <ElementCount_7>2</ElementCount_7>
+        <ElementCount_8>2</ElementCount_8>
         <ElementCount_9>2</ElementCount_9>
+        <ElementCount_10>2</ElementCount_10>
         <ElementCount_11>2</ElementCount_11>
+        <ElementCount_12>2</ElementCount_12>
         <ElementCount_13>2</ElementCount_13>
+        <ElementCount_14>2</ElementCount_14>
         <ElementCount_15>2</ElementCount_15>
         <VehicleCtIdx_0>274</VehicleCtIdx_0>
         <VehicleCtIdx_1>274</VehicleCtIdx_1>
@@ -25704,12 +25745,12 @@
         <VehicleCtIdx_6>707</VehicleCtIdx_6>
         <VehicleCtIdx_7>708</VehicleCtIdx_7>
         <VehicleCtIdx_8>2476</VehicleCtIdx_8>
-        <VehicleCtIdx_9>677</VehicleCtIdx_9>
+        <VehicleCtIdx_9>679</VehicleCtIdx_9>
         <ElementFlags_3>1</ElementFlags_3>
         <ElementFlags_8>8</ElementFlags_8>
         <Flags>28</Flags>
         <Name>Air Defense</Name>
-        <MoveType>0</MoveType>
+        <MoveType>1</MoveType>
         <MoveSpeed>0</MoveSpeed>
         <MaxRange>0</MaxRange>
         <Fuel>0</Fuel>
@@ -25782,12 +25823,12 @@
         <VehicleCtIdx_4>707</VehicleCtIdx_4>
         <VehicleCtIdx_5>707</VehicleCtIdx_5>
         <VehicleCtIdx_6>2477</VehicleCtIdx_6>
-        <VehicleCtIdx_7>677</VehicleCtIdx_7>
+        <VehicleCtIdx_7>679</VehicleCtIdx_7>
         <ElementFlags_2>1</ElementFlags_2>
         <ElementFlags_6>8</ElementFlags_6>
         <Flags>28</Flags>
         <Name>Air Defense</Name>
-        <MoveType>0</MoveType>
+        <MoveType>1</MoveType>
         <MoveSpeed>0</MoveSpeed>
         <MaxRange>0</MaxRange>
         <Fuel>0</Fuel>
@@ -36608,11 +36649,18 @@
         <ElementCount_0>2</ElementCount_0>
         <ElementCount_1>2</ElementCount_1>
         <ElementCount_2>2</ElementCount_2>
+        <ElementCount_3>2</ElementCount_3>
         <ElementCount_4>2</ElementCount_4>
+        <ElementCount_5>2</ElementCount_5>
         <ElementCount_6>2</ElementCount_6>
+        <ElementCount_7>2</ElementCount_7>
+        <ElementCount_8>2</ElementCount_8>
         <ElementCount_9>2</ElementCount_9>
+        <ElementCount_10>2</ElementCount_10>
         <ElementCount_11>2</ElementCount_11>
+        <ElementCount_12>2</ElementCount_12>
         <ElementCount_13>2</ElementCount_13>
+        <ElementCount_14>2</ElementCount_14>
         <ElementCount_15>2</ElementCount_15>
         <VehicleCtIdx_0>2442</VehicleCtIdx_0>
         <VehicleCtIdx_1>2442</VehicleCtIdx_1>
@@ -37795,11 +37843,18 @@
         <ElementCount_0>2</ElementCount_0>
         <ElementCount_1>2</ElementCount_1>
         <ElementCount_2>2</ElementCount_2>
+        <ElementCount_3>2</ElementCount_3>
         <ElementCount_4>2</ElementCount_4>
+        <ElementCount_5>2</ElementCount_5>
         <ElementCount_6>2</ElementCount_6>
+        <ElementCount_7>2</ElementCount_7>
+        <ElementCount_8>2</ElementCount_8>
         <ElementCount_9>2</ElementCount_9>
+        <ElementCount_10>2</ElementCount_10>
         <ElementCount_11>2</ElementCount_11>
+        <ElementCount_12>2</ElementCount_12>
         <ElementCount_13>2</ElementCount_13>
+        <ElementCount_14>2</ElementCount_14>
         <ElementCount_15>2</ElementCount_15>
         <VehicleCtIdx_0>2449</VehicleCtIdx_0>
         <VehicleCtIdx_1>2449</VehicleCtIdx_1>
@@ -38824,11 +38879,14 @@
         <ElementCount_1>2</ElementCount_1>
         <ElementCount_2>2</ElementCount_2>
         <ElementCount_3>2</ElementCount_3>
+        <ElementCount_4>2</ElementCount_4>
         <ElementCount_5>2</ElementCount_5>
+        <ElementCount_6>2</ElementCount_6>
         <ElementCount_7>2</ElementCount_7>
         <ElementCount_8>2</ElementCount_8>
         <ElementCount_9>2</ElementCount_9>
         <ElementCount_10>2</ElementCount_10>
+        <ElementCount_11>2</ElementCount_11>
         <ElementCount_12>2</ElementCount_12>
         <ElementCount_13>2</ElementCount_13>
         <ElementCount_14>2</ElementCount_14>
@@ -39000,11 +39058,15 @@
         <ElementCount_1>2</ElementCount_1>
         <ElementCount_2>2</ElementCount_2>
         <ElementCount_3>2</ElementCount_3>
+        <ElementCount_4>2</ElementCount_4>
         <ElementCount_5>2</ElementCount_5>
+        <ElementCount_6>2</ElementCount_6>
         <ElementCount_7>2</ElementCount_7>
+        <ElementCount_8>2</ElementCount_8>
         <ElementCount_9>2</ElementCount_9>
         <ElementCount_10>2</ElementCount_10>
         <ElementCount_11>2</ElementCount_11>
+        <ElementCount_12>2</ElementCount_12>
         <ElementCount_13>2</ElementCount_13>
         <ElementCount_14>2</ElementCount_14>
         <ElementCount_15>2</ElementCount_15>
@@ -39083,7 +39145,7 @@
         <Dam_Nuclear>64</Dam_Nuclear>
         <Dam_Other>0</Dam_Other>
         <RadarVehicle>0</RadarVehicle>
-        <SquadronStoresIdx>12</SquadronStoresIdx>
+        <SquadronStoresIdx>111</SquadronStoresIdx>
         <UnitIcon>10065</UnitIcon>
     </UCD>
     <UCD Num="472">
@@ -39176,11 +39238,15 @@
         <ElementCount_1>2</ElementCount_1>
         <ElementCount_2>2</ElementCount_2>
         <ElementCount_3>2</ElementCount_3>
+        <ElementCount_4>2</ElementCount_4>
         <ElementCount_5>2</ElementCount_5>
+        <ElementCount_6>2</ElementCount_6>
         <ElementCount_7>2</ElementCount_7>
+        <ElementCount_8>2</ElementCount_8>
         <ElementCount_9>2</ElementCount_9>
         <ElementCount_10>2</ElementCount_10>
         <ElementCount_11>2</ElementCount_11>
+        <ElementCount_12>2</ElementCount_12>
         <ElementCount_13>2</ElementCount_13>
         <ElementCount_14>2</ElementCount_14>
         <ElementCount_15>2</ElementCount_15>
@@ -39261,7 +39327,7 @@
         <Dam_Nuclear>64</Dam_Nuclear>
         <Dam_Other>0</Dam_Other>
         <RadarVehicle>0</RadarVehicle>
-        <SquadronStoresIdx>63</SquadronStoresIdx>
+        <SquadronStoresIdx>113</SquadronStoresIdx>
         <UnitIcon>10065</UnitIcon>
     </UCD>
     <UCD Num="474">
@@ -39436,7 +39502,7 @@
         <Dam_Nuclear>64</Dam_Nuclear>
         <Dam_Other>0</Dam_Other>
         <RadarVehicle>0</RadarVehicle>
-        <SquadronStoresIdx>63</SquadronStoresIdx>
+        <SquadronStoresIdx>113</SquadronStoresIdx>
         <UnitIcon>10065</UnitIcon>
     </UCD>
     <UCD Num="476">
@@ -41930,11 +41996,15 @@
         <ElementCount_1>2</ElementCount_1>
         <ElementCount_2>2</ElementCount_2>
         <ElementCount_3>2</ElementCount_3>
+        <ElementCount_4>2</ElementCount_4>
         <ElementCount_5>2</ElementCount_5>
+        <ElementCount_6>2</ElementCount_6>
         <ElementCount_7>2</ElementCount_7>
+        <ElementCount_8>2</ElementCount_8>
         <ElementCount_9>2</ElementCount_9>
         <ElementCount_10>2</ElementCount_10>
         <ElementCount_11>2</ElementCount_11>
+        <ElementCount_12>2</ElementCount_12>
         <ElementCount_13>2</ElementCount_13>
         <ElementCount_14>2</ElementCount_14>
         <ElementCount_15>2</ElementCount_15>
@@ -42014,7 +42084,7 @@
         <Dam_Nuclear>64</Dam_Nuclear>
         <Dam_Other>0</Dam_Other>
         <RadarVehicle>0</RadarVehicle>
-        <SquadronStoresIdx>12</SquadronStoresIdx>
+        <SquadronStoresIdx>110</SquadronStoresIdx>
         <UnitIcon>10065</UnitIcon>
     </UCD>
     <UCD Num="506">
@@ -42022,11 +42092,18 @@
         <ElementCount_0>2</ElementCount_0>
         <ElementCount_1>2</ElementCount_1>
         <ElementCount_2>2</ElementCount_2>
+        <ElementCount_3>2</ElementCount_3>
         <ElementCount_4>2</ElementCount_4>
+        <ElementCount_5>2</ElementCount_5>
+        <ElementCount_6>2</ElementCount_6>
         <ElementCount_7>2</ElementCount_7>
         <ElementCount_8>2</ElementCount_8>
+        <ElementCount_9>2</ElementCount_9>
         <ElementCount_10>2</ElementCount_10>
         <ElementCount_11>2</ElementCount_11>
+        <ElementCount_12>2</ElementCount_12>
+        <ElementCount_13>2</ElementCount_13>
+        <ElementCount_14>2</ElementCount_14>
         <ElementCount_15>2</ElementCount_15>
         <VehicleCtIdx_0>2459</VehicleCtIdx_0>
         <VehicleCtIdx_1>2459</VehicleCtIdx_1>
@@ -42543,7 +42620,7 @@
         <Dam_Nuclear>64</Dam_Nuclear>
         <Dam_Other>0</Dam_Other>
         <RadarVehicle>0</RadarVehicle>
-        <SquadronStoresIdx>63</SquadronStoresIdx>
+        <SquadronStoresIdx>114</SquadronStoresIdx>
         <UnitIcon>10065</UnitIcon>
     </UCD>
     <UCD Num="512">
@@ -42635,11 +42712,15 @@
         <ElementCount_1>2</ElementCount_1>
         <ElementCount_2>2</ElementCount_2>
         <ElementCount_3>2</ElementCount_3>
+        <ElementCount_4>2</ElementCount_4>
         <ElementCount_5>2</ElementCount_5>
+        <ElementCount_6>2</ElementCount_6>
         <ElementCount_7>2</ElementCount_7>
+        <ElementCount_8>2</ElementCount_8>
         <ElementCount_9>2</ElementCount_9>
         <ElementCount_10>2</ElementCount_10>
         <ElementCount_11>2</ElementCount_11>
+        <ElementCount_12>2</ElementCount_12>
         <ElementCount_13>2</ElementCount_13>
         <ElementCount_14>2</ElementCount_14>
         <ElementCount_15>2</ElementCount_15>
@@ -42719,7 +42800,7 @@
         <Dam_Nuclear>64</Dam_Nuclear>
         <Dam_Other>0</Dam_Other>
         <RadarVehicle>0</RadarVehicle>
-        <SquadronStoresIdx>12</SquadronStoresIdx>
+        <SquadronStoresIdx>112</SquadronStoresIdx>
         <UnitIcon>10065</UnitIcon>
     </UCD>
     <UCD Num="514">
@@ -43467,9 +43548,13 @@
         <ElementCount_1>2</ElementCount_1>
         <ElementCount_2>2</ElementCount_2>
         <ElementCount_3>2</ElementCount_3>
+        <ElementCount_4>2</ElementCount_4>
         <ElementCount_5>2</ElementCount_5>
+        <ElementCount_6>2</ElementCount_6>
         <ElementCount_7>2</ElementCount_7>
+        <ElementCount_8>2</ElementCount_8>
         <ElementCount_9>2</ElementCount_9>
+        <ElementCount_10>2</ElementCount_10>
         <ElementCount_11>2</ElementCount_11>
         <ElementCount_12>2</ElementCount_12>
         <ElementCount_13>2</ElementCount_13>
@@ -43549,7 +43634,7 @@
         <Dam_Nuclear>64</Dam_Nuclear>
         <Dam_Other>0</Dam_Other>
         <RadarVehicle>0</RadarVehicle>
-        <SquadronStoresIdx>67</SquadronStoresIdx>
+        <SquadronStoresIdx>115</SquadronStoresIdx>
         <UnitIcon>10075</UnitIcon>
     </UCD>
     <UCD Num="524">
@@ -45159,11 +45244,15 @@
         <ElementCount_1>2</ElementCount_1>
         <ElementCount_2>2</ElementCount_2>
         <ElementCount_3>2</ElementCount_3>
+        <ElementCount_4>2</ElementCount_4>
         <ElementCount_5>2</ElementCount_5>
+        <ElementCount_6>2</ElementCount_6>
         <ElementCount_7>2</ElementCount_7>
+        <ElementCount_8>2</ElementCount_8>
         <ElementCount_9>2</ElementCount_9>
         <ElementCount_10>2</ElementCount_10>
         <ElementCount_11>2</ElementCount_11>
+        <ElementCount_12>2</ElementCount_12>
         <ElementCount_13>2</ElementCount_13>
         <ElementCount_14>2</ElementCount_14>
         <ElementCount_15>2</ElementCount_15>
@@ -52028,8 +52117,8 @@
     </UCD>
     <UCD Num="628">
         <CtIdx>5267</CtIdx>
-        <ElementName_0>Kuznetsov</ElementName_0>
-        <ElementName_1>Pyotr Velikiy</ElementName_1>
+        <ElementName_0>Hangzhou</ElementName_0>
+        <ElementName_1>Fuzhou</ElementName_1>
         <ElementCount_0>1</ElementCount_0>
         <ElementCount_1>1</ElementCount_1>
         <VehicleCtIdx_0>814</VehicleCtIdx_0>
@@ -52047,13 +52136,13 @@
         <RoleScore_0>10</RoleScore_0>
         <RoleScore_1>90</RoleScore_1>
         <MainRole>0</MainRole>
-        <Hit_NoMove>55</Hit_NoMove>
-        <Hit_Foot>40</Hit_Foot>
-        <Hit_Wheeled>30</Hit_Wheeled>
-        <Hit_Tracked>30</Hit_Tracked>
-        <Hit_LowAir>28</Hit_LowAir>
-        <Hit_Air>28</Hit_Air>
-        <Hit_Naval>50</Hit_Naval>
+        <Hit_NoMove>20</Hit_NoMove>
+        <Hit_Foot>20</Hit_Foot>
+        <Hit_Wheeled>15</Hit_Wheeled>
+        <Hit_Tracked>10</Hit_Tracked>
+        <Hit_LowAir>25</Hit_LowAir>
+        <Hit_Air>15</Hit_Air>
+        <Hit_Naval>30</Hit_Naval>
         <Hit_Rail>55</Hit_Rail>
         <Str_NoMove>154</Str_NoMove>
         <Str_Foot>35</Str_Foot>
@@ -52067,9 +52156,9 @@
         <Rng_Foot>11</Rng_Foot>
         <Rng_Wheeled>11</Rng_Wheeled>
         <Rng_Tracked>11</Rng_Tracked>
-        <Rng_LowAir>67</Rng_LowAir>
-        <Rng_Air>80</Rng_Air>
-        <Rng_Naval>255</Rng_Naval>
+        <Rng_LowAir>15</Rng_LowAir>
+        <Rng_Air>18</Rng_Air>
+        <Rng_Naval>30</Rng_Naval>
         <Rng_Rail>11</Rng_Rail>
         <Det_NoMove>23.0</Det_NoMove>
         <Det_Foot>0.0</Det_Foot>
@@ -52096,9 +52185,12 @@
     </UCD>
     <UCD Num="629">
         <CtIdx>5268</CtIdx>
-        <ElementName_0>Kuznetsov</ElementName_0>
+        <ElementName_0>Sovremenny</ElementName_0>
+        <ElementName_1>Otlichny</ElementName_1>
         <ElementCount_0>1</ElementCount_0>
+        <ElementCount_1>1</ElementCount_1>
         <VehicleCtIdx_0>814</VehicleCtIdx_0>
+        <VehicleCtIdx_1>814</VehicleCtIdx_1>
         <ElementFlags_0>1</ElementFlags_0>
         <Flags>2</Flags>
         <Name>SAG</Name>

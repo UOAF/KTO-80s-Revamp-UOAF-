@@ -1,0 +1,58 @@
+#------------------
+# Korean TDF file
+#------------------
+
+# shown in the pick list
+name UOAF 80s
+
+# Title shown on theater page
+desc UOAF 80s (RC3)
+
+# bitmap to display on theater page
+bitmap Terrdata\theaterdefinition\Korea KTO.tga
+
+# in general, you can miss out most of these, and it
+# will use the default, unless another theater changes it
+# so probably best to put in explicitly.
+ 
+# Where the campaign directory is
+campaigndir Add-on UOAF 80s\Campaign
+
+# where the terrain data is
+terraindir Terrdata\korea
+
+# which tileset to use - overrides the global setting in the cfg file
+tileset POLAK
+
+# where art is loaded from
+artdir Add-on UOAF 80s
+
+# movies
+moviedir Add-on UOAF 80s
+ 
+# uisounds 
+#uisounddir Sounds
+
+# default objects
+objectdir Add-on UOAF 80s\TerrData\Objects
+
+# misc textures
+misctexdir Terrdata\misctex
+
+# 3d object files
+3ddatadir Add-on UOAF 80s\Terrdata\Objects
+
+# sounds dir
+sounddir Sounds
+
+# simdata dir
+simdatadir Add-on UOAF 80s\Sim
+
+# minimum tacan channel
+mintacan 1
+
+# use double resolution 2D UI map
+doubleres2dmap 1
+
+# magnetic declination
+magneticdeclination 0
