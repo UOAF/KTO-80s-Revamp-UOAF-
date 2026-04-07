@@ -10,7 +10,7 @@
 #-----------------------------------------------------
 #
 # Final Time (sec)
-30.000000
+130.000000
 # Pk (0.0-1.0)
 1.000000
 # Weight of missile (lbs)
@@ -42,7 +42,7 @@
 # Field of View (deg)
 0.0
 # Guidance Delay (sec)
-60.00
+0.45
 # Lofting Bias (Gs)
 0.00
 # Proportional nav gain
@@ -286,9 +286,9 @@ sndAim9EnviroGround 187
 #-----------------------------------------------------
 # Particle sys files
 #-----------------------------------------------------
-psGroundImpact 
+psGroundImpact $rocket_burst
 psMissileKill 
-psFeatureImpact 
+psFeatureImpact $rocket_burst
 psBombImpact 
 psArmingDelay 
 psExceedFOV 

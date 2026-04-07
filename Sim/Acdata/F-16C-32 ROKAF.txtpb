@@ -1504,8 +1504,8 @@ vapor_chain {
 auxaero {
   aircraft {
     type_ac: F16CD
-    cockpit_name: ""
-    cockpit_wings_parent: -1
+    cockpit_name: "F-16CM-50"
+    cockpit_wings_parent: 1809
     is_complex: true
     ir_signature: 1
     vis_signature: 1
@@ -1892,7 +1892,7 @@ auxaero {
     avionics_egi_upgrade: false
     avionics_digital_flcs: false
     avionics_rwr_type: 2
-    avionics_gun_eegs_mode: true
+    avionics_gun_eegs_mode: false
     avionics_gun_sslc_mode: true
     avionics_gun_lcos_mode: true
     avionics_gun_snap_mode: true
@@ -1916,9 +1916,9 @@ auxaero {
     computer_think_time: 125
   } 
   iff {
-    avionics_iff_transponder_settings: 63
-    avionics_iff_interrogator_settings: 15
-    avionics_iff_backup_m1_m3: 1
+    avionics_iff_transponder_settings: 31
+    avionics_iff_interrogator_settings: 0
+    avionics_iff_backup_m1_m3: 0
   } 
   autopilot {
     max_autopilot_mach: 0.95

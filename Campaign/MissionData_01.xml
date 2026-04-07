@@ -355,13 +355,13 @@
         </AMIS_SWEEP>
         <AMIS_ALERT>
             <MisType>8</MisType>
-            <TgtType>3</TgtType>
-            <MisRole>1</MisRole>
+            <TgtType>0</TgtType>
+            <MisRole>0</MisRole>
             <MisProfile>2</MisProfile>
             <TgtProfile>0</TgtProfile>
-            <TgtDescription>3</TgtDescription>
+            <TgtDescription>0</TgtDescription>
             <RouteWpAction>0</RouteWpAction>
-            <TgtWpAction>12</TgtWpAction>
+            <TgtWpAction>0</TgtWpAction>
             <TgtMinAlt>20</TgtMinAlt>
             <TgtMaxAlt>200</TgtMaxAlt>
             <MisAltLowProfile>0</MisAltLowProfile>
@@ -374,7 +374,7 @@
             <LoiterOffset>0</LoiterOffset>
             <LoiterTrackDist>0</LoiterTrackDist>
             <LoiterTimeOnEscort>0</LoiterTimeOnEscort>
-            <MisStrength>2</MisStrength>
+            <MisStrength>0</MisStrength>
             <MinPlanTime>0</MinPlanTime>
             <MaxPlanTime>10</MaxPlanTime>
             <HoldingTime>0</HoldingTime>
@@ -615,7 +615,7 @@
             <FormationTypePostSplit>1</FormationTypePostSplit>
             <FormationSpacingPostSplit>-4</FormationSpacingPostSplit>
             <SpecialCapabilities>0</SpecialCapabilities>
-            <Flags>402883391</Flags>
+            <Flags>402883135</Flags>
         </AMIS_OCASTRIKE>
         <AMIS_INTSTRIKE>
             <MisType>14</MisType>
@@ -659,7 +659,7 @@
             <FormationTypePostSplit>1</FormationTypePostSplit>
             <FormationSpacingPostSplit>-4</FormationSpacingPostSplit>
             <SpecialCapabilities>0</SpecialCapabilities>
-            <Flags>268649267</Flags>
+            <Flags>268649011</Flags>
         </AMIS_INTSTRIKE>
         <AMIS_STRIKE>
             <MisType>15</MisType>
@@ -703,7 +703,7 @@
             <FormationTypePostSplit>1</FormationTypePostSplit>
             <FormationSpacingPostSplit>-4</FormationSpacingPostSplit>
             <SpecialCapabilities>0</SpecialCapabilities>
-            <Flags>268649271</Flags>
+            <Flags>268649015</Flags>
         </AMIS_STRIKE>
         <AMIS_DEEPSTRIKE>
             <MisType>16</MisType>
@@ -747,7 +747,7 @@
             <FormationTypePostSplit>1</FormationTypePostSplit>
             <FormationSpacingPostSplit>-4</FormationSpacingPostSplit>
             <SpecialCapabilities>0</SpecialCapabilities>
-            <Flags>268649271</Flags>
+            <Flags>268649015</Flags>
         </AMIS_DEEPSTRIKE>
         <AMIS_STSTRIKE>
             <MisType>17</MisType>
@@ -791,7 +791,7 @@
             <FormationTypePostSplit>1</FormationTypePostSplit>
             <FormationSpacingPostSplit>-4</FormationSpacingPostSplit>
             <SpecialCapabilities>32</SpecialCapabilities>
-            <Flags>268665600</Flags>
+            <Flags>268665344</Flags>
         </AMIS_STSTRIKE>
         <AMIS_STRATBOMB>
             <MisType>18</MisType>
@@ -835,7 +835,7 @@
             <FormationTypePostSplit>1</FormationTypePostSplit>
             <FormationSpacingPostSplit>-4</FormationSpacingPostSplit>
             <SpecialCapabilities>0</SpecialCapabilities>
-            <Flags>269173565</Flags>
+            <Flags>269173309</Flags>
         </AMIS_STRATBOMB>
         <AMIS_FAC>
             <MisType>19</MisType>
@@ -1187,7 +1187,7 @@
             <FormationTypePostSplit>1</FormationTypePostSplit>
             <FormationSpacingPostSplit>0</FormationSpacingPostSplit>
             <SpecialCapabilities>0</SpecialCapabilities>
-            <Flags>941105426</Flags>
+            <Flags>941105170</Flags>
         </AMIS_AWACS>
         <AMIS_JSTAR>
             <MisType>27</MisType>
@@ -1231,7 +1231,7 @@
             <FormationTypePostSplit>1</FormationTypePostSplit>
             <FormationSpacingPostSplit>0</FormationSpacingPostSplit>
             <SpecialCapabilities>0</SpecialCapabilities>
-            <Flags>941105424</Flags>
+            <Flags>941105168</Flags>
         </AMIS_JSTAR>
         <AMIS_TANKER>
             <MisType>28</MisType>
@@ -1363,7 +1363,7 @@
             <FormationTypePostSplit>1</FormationTypePostSplit>
             <FormationSpacingPostSplit>0</FormationSpacingPostSplit>
             <SpecialCapabilities>0</SpecialCapabilities>
-            <Flags>134381824</Flags>
+            <Flags>134381568</Flags>
         </AMIS_BDA>
         <AMIS_ECM>
             <MisType>31</MisType>
