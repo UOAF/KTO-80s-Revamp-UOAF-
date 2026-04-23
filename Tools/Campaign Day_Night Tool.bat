@@ -142,6 +142,8 @@ if "%BACKUP%"=="1" (
 )
 )
 
+pause
+
 REM === MISSION DATA SWAP ===
 echo.
 echo Applying %MODE_NAME% mission data...
@@ -152,7 +154,6 @@ echo To:
 echo "%ROOT%\Campaign\"
 
 copy /Y "%ROOT%\Campaign\%MISSION_FOLDER%\MissionData_*.xml" "%ROOT%\Campaign\"
-pause
 
 echo.
 echo ============================

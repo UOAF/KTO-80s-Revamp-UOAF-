@@ -23,6 +23,13 @@ from lib.parsers.parse_cmp import parse_cmp
 from lib.parsers.parse_uni import parse_uni
 
 
+MIN_WAYPOINT_TIME_MS = 120000
+
+
+def _target_waypoint_time_ms(waypoint_index: int) -> int:
+    return MIN_WAYPOINT_TIME_MS + waypoint_index
+
+
 def _infer_campaign_dir(save_path: Path, explicit_campaign_dir: str | Path | None) -> Path | None:
     if explicit_campaign_dir:
         return Path(explicit_campaign_dir).expanduser().resolve()
@@ -69,11 +76,18 @@ def _build_all_waypoint_zero_patch(flight: dict[str, Any]) -> FlightWritePatch |
         has_depart = isinstance(waypoint.get("depart_ms"), int)
         if not has_arrive and not has_depart:
             continue
+        arrive_ms = waypoint.get("arrive_ms")
+        depart_ms = waypoint.get("depart_ms")
+        target_time_ms = _target_waypoint_time_ms(waypoint_index)
+        write_arrive = has_arrive and arrive_ms != target_time_ms
+        write_depart = has_depart and depart_ms != target_time_ms
+        if not write_arrive and not write_depart:
+            continue
         waypoint_overrides.append(
             WaypointWriteValue(
                 waypoint_index=waypoint_index,
-                arrive_ms=0 if has_arrive else None,
-                depart_ms=0 if has_depart else None,
+                arrive_ms=target_time_ms if write_arrive else None,
+                depart_ms=target_time_ms if write_depart else None,
             )
         )
     if not waypoint_overrides:
@@ -299,7 +313,7 @@ def _build_control_state_patches(
 
 def main() -> int:
     parser = argparse.ArgumentParser(
-        description="Write a copy of a .cam save with all waypoint timings set to 0."
+        description="Write a copy of a .cam save with all waypoint timings set to the minimum stable value."
     )
     parser.add_argument("save_file", help="Path to the source .cam save file")
     parser.add_argument(
@@ -309,7 +323,7 @@ def main() -> int:
     parser.add_argument(
         "--skip-takeoff-wipe",
         action="store_true",
-        help="Do not zero waypoint timings.",
+        help="Do not rewrite waypoint timings.",
     )
     control_group = parser.add_mutually_exclusive_group()
     control_group.add_argument(

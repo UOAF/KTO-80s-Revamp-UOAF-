@@ -402,7 +402,7 @@ def _extract_timing_from_waypoints(
         wp
         for wp in waypoints
         if isinstance(wp.get("arrive_ms"), int)
-        and wp["arrive_ms"] > 120000
+        and wp["arrive_ms"] >= 120000
         and not (wp.get("x") == 0 and wp.get("y") == 0 and wp.get("flags") == 0xFF000000)
     ]
     if not usable:
@@ -494,6 +494,7 @@ def _waypoint_array_quality(waypoints: list[dict[str, Any]] | None) -> int:
     actions = [wp.get("action") for wp in waypoints if isinstance(wp, dict)]
     arrive = [wp.get("arrive_ms") for wp in waypoints if isinstance(wp, dict)]
     good_actions = sum(1 for action in actions if isinstance(action, int) and 0 <= action <= 32)
+    bad_actions = sum(1 for action in actions if not isinstance(action, int) or action < 0 or action > 32)
     good_coords = sum(
         1
         for wp in waypoints
@@ -503,15 +504,40 @@ def _waypoint_array_quality(waypoints: list[dict[str, Any]] | None) -> int:
         and -4096 <= wp["x"] <= 4096
         and -4096 <= wp["y"] <= 4096
     )
+    bad_coords = sum(
+        1
+        for wp in waypoints
+        if isinstance(wp, dict)
+        and (
+            not isinstance(wp.get("x"), int)
+            or not isinstance(wp.get("y"), int)
+            or not (-4096 <= wp["x"] <= 4096)
+            or not (-4096 <= wp["y"] <= 4096)
+        )
+    )
     plausible_arrive = sum(
         1 for value in arrive if isinstance(value, int) and 120000 <= value <= 600000000
     )
+    bad_arrive = sum(
+        1 for value in arrive if not isinstance(value, int) or value < 120000 or value > 600000000
+    )
+    weird_haves = sum(
+        1
+        for wp in waypoints
+        if isinstance(wp, dict)
+        and isinstance(wp.get("haves"), int)
+        and (wp["haves"] & ~0x03) != 0
+    )
     has_takeoff = any(action == 1 for action in actions)
     has_terminal = any(
-        isinstance(action, int) and action in {10, 11, 12, 13, 14, 15, 16, 17, 18}
+        isinstance(action, int) and action in {7, 10, 11, 12, 13, 14, 15, 16, 17, 18, 27}
         for action in actions
     )
-    score = good_actions * 3 + good_coords + plausible_arrive * 2 + len(waypoints)
+    score = good_actions * 3 + good_coords * 2 + plausible_arrive * 2 + len(waypoints)
+    score -= bad_actions * 6
+    score -= bad_coords * 5
+    score -= bad_arrive * 3
+    score -= weird_haves * 8
     if has_takeoff:
         score += 20
     if has_terminal:
@@ -521,6 +547,9 @@ def _waypoint_array_quality(waypoints: list[dict[str, Any]] | None) -> int:
         score += 15
     elif isinstance(first_action, int) and first_action > 32:
         score -= 20
+    last_action = actions[-1] if actions else None
+    if last_action in {7, 27}:
+        score += 10
     if len(waypoints) <= 1:
         score -= 30
     return score
@@ -1554,14 +1583,13 @@ def _parse_uni(data: bytes, ctx: ParseContext) -> dict[str, Any]:
         waypoint_candidates: list[list[dict[str, Any]]] = []
         if kind == "squadron":
             primary_score = _waypoint_array_quality(waypoints)
-            if primary_score < 20:
-                scanned_waypoints = _extract_unit_waypoints_scan(
-                    record_blob, ctx.container_version
-                )
-                scanned_score = _waypoint_array_quality(scanned_waypoints)
-                if scanned_score > primary_score:
-                    waypoints = scanned_waypoints
-                    record["waypoint_parse_mode"] = "scan_fallback"
+            scanned_waypoints = _extract_unit_waypoints_scan(
+                record_blob, ctx.container_version
+            )
+            scanned_score = _waypoint_array_quality(scanned_waypoints)
+            if scanned_score > primary_score:
+                waypoints = scanned_waypoints
+                record["waypoint_parse_mode"] = "scan_fallback"
             waypoint_candidates = _scan_waypoint_candidates(record_blob, ctx.container_version)
         if waypoints is not None:
             if waypoint_candidates:

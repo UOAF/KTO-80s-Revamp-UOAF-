@@ -16,7 +16,7 @@ from lib.cam.cam_content import (
     _detect_container_version,
     parse_container,
 )
-from lib.cam.lzss import LzssError, lzss_compress_literals
+from lib.cam.lzss import LzssError, lzss_compress
 from lib.cam.types import ParsedUniData
 from lib.parsers.parse_uni import _waypoint_array_quality, parse_uni
 
@@ -654,7 +654,7 @@ def _verify_entry_patches(
 
 
 def _encode_cmp_entry(cmp_data: bytes) -> bytes:
-    payload = lzss_compress_literals(cmp_data)
+    payload = lzss_compress(cmp_data)
     compressed_size = len(payload) + 4
     return struct.pack("<II", compressed_size, len(cmp_data)) + payload
 
@@ -677,7 +677,7 @@ def _encode_decoded_entry(
 
 
 def _encode_uni_entry(uni_data: bytes, record_count: int) -> bytes:
-    payload = lzss_compress_literals(uni_data)
+    payload = lzss_compress(uni_data)
     compressed_size = len(payload) + 6
     return (
         struct.pack("<IHI", compressed_size, record_count, len(uni_data))
@@ -809,7 +809,7 @@ def _locate_record_waypoints(
 ) -> list[dict[str, Any]]:
     primary = _extract_located_unit_waypoints(record_blob, container_version)
     primary_score = _waypoint_array_quality(primary)
-    if kind == "squadron" and primary_score < 20:
+    if kind == "squadron":
         scanned = _extract_located_unit_waypoints_scan(record_blob, container_version)
         scanned_score = _waypoint_array_quality(scanned)
         if scanned_score > primary_score:
