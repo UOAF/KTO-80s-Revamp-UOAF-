@@ -1,1 +1,2 @@
-"""Local parser and integration helpers for frag_helper."""
+"""Clean Falcon BMS campaign parsing primitives."""
+
