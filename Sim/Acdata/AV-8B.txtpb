@@ -847,7 +847,7 @@ vapor_chain {
 } 
 auxaero {
   aircraft {
-    type_ac: NONE
+    type_ac: AV8B
     cockpit_name: "AV-8"
     cockpit_wings_parent: -1
     is_complex: true
@@ -2181,7 +2181,15 @@ auxaero {
     tgp_exp_fov: 0.334
     tgp_tv_fov: 0.5
     tgp_has_tv_video: true
-  } 
+  }
+  lantirn {
+    Lantirn_type: POD_INTERNAL
+    lantirn_camera_off {
+      x: 21.765
+      y: 0
+      z: 0.0
+    } 
+  }
   gun {
     gun_location {
       x: 8.6

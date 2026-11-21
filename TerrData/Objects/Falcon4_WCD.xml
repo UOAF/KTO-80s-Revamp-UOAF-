@@ -351,6 +351,7 @@
         <BulletVelocity>0</BulletVelocity>
         <BulletDispersion>0</BulletDispersion>
         <BulletRoundsPerSec>0</BulletRoundsPerSec>
+        <InServiceStart>1995</InServiceStart>
     </WCD>
     <WCD Num="11">
         <CtIdx>3067</CtIdx>
@@ -448,6 +449,7 @@
         <BulletVelocity>0</BulletVelocity>
         <BulletDispersion>90</BulletDispersion>
         <BulletRoundsPerSec>0</BulletRoundsPerSec>
+        <InServiceStart>2007</InServiceStart>
     </WCD>
     <WCD Num="14">
         <CtIdx>2337</CtIdx>
@@ -480,6 +482,7 @@
         <BulletVelocity>0</BulletVelocity>
         <BulletDispersion>90</BulletDispersion>
         <BulletRoundsPerSec>0</BulletRoundsPerSec>
+        <InServiceStart>2012</InServiceStart>
     </WCD>
     <WCD Num="15">
         <CtIdx>1703</CtIdx>
@@ -612,6 +615,7 @@
         <BulletVelocity>0</BulletVelocity>
         <BulletDispersion>0</BulletDispersion>
         <BulletRoundsPerSec>0</BulletRoundsPerSec>
+        <InServiceStart>2015</InServiceStart>
     </WCD>
     <WCD Num="19">
         <CtIdx>2258</CtIdx>
@@ -644,6 +648,7 @@
         <BulletVelocity>0</BulletVelocity>
         <BulletDispersion>0</BulletDispersion>
         <BulletRoundsPerSec>0</BulletRoundsPerSec>
+        <InServiceStart>1991</InServiceStart>
     </WCD>
     <WCD Num="20">
         <CtIdx>2266</CtIdx>
@@ -676,6 +681,7 @@
         <BulletVelocity>9</BulletVelocity>
         <BulletDispersion>0</BulletDispersion>
         <BulletRoundsPerSec>0</BulletRoundsPerSec>
+        <InServiceStart>1991</InServiceStart>
     </WCD>
     <WCD Num="21">
         <CtIdx>2939</CtIdx>
@@ -1093,6 +1099,7 @@
         <BulletVelocity>0</BulletVelocity>
         <BulletDispersion>0</BulletDispersion>
         <BulletRoundsPerSec>0</BulletRoundsPerSec>
+        <InServiceStart>2016</InServiceStart>
     </WCD>
     <WCD Num="34">
         <CtIdx>3056</CtIdx>
@@ -1447,6 +1454,7 @@
         <BulletVelocity>0</BulletVelocity>
         <BulletDispersion>0</BulletDispersion>
         <BulletRoundsPerSec>0</BulletRoundsPerSec>
+        <InServiceStart>2004</InServiceStart>
     </WCD>
     <WCD Num="45">
         <CtIdx>3064</CtIdx>
@@ -1479,6 +1487,7 @@
         <BulletVelocity>0</BulletVelocity>
         <BulletDispersion>0</BulletDispersion>
         <BulletRoundsPerSec>0</BulletRoundsPerSec>
+        <InServiceStart>2007</InServiceStart>
     </WCD>
     <WCD Num="46">
         <CtIdx>3073</CtIdx>
@@ -1991,6 +2000,7 @@
         <BulletVelocity>0</BulletVelocity>
         <BulletDispersion>0</BulletDispersion>
         <BulletRoundsPerSec>0</BulletRoundsPerSec>
+        <InServiceStart>1992</InServiceStart>
     </WCD>
     <WCD Num="62">
         <CtIdx>1134</CtIdx>
@@ -2087,6 +2097,7 @@
         <BulletVelocity>0</BulletVelocity>
         <BulletDispersion>0</BulletDispersion>
         <BulletRoundsPerSec>0</BulletRoundsPerSec>
+        <InServiceStart>2005</InServiceStart>
     </WCD>
     <WCD Num="65">
         <CtIdx>1161</CtIdx>
@@ -3005,8 +3016,8 @@
         <Guidance>0</Guidance>
         <Collective>0</Collective>
         <Rackgroup>0</Rackgroup>
-        <Weight>820</Weight>
-        <Drag>34</Drag>
+        <Weight>475</Weight>
+        <Drag>35</Drag>
         <BlastRadius>0</BlastRadius>
         <RadarIdx>0</RadarIdx>
         <SimWeaponDataIdx>19</SimWeaponDataIdx>
@@ -3112,6 +3123,7 @@
         <BulletVelocity>0</BulletVelocity>
         <BulletDispersion>0</BulletDispersion>
         <BulletRoundsPerSec>0</BulletRoundsPerSec>
+        <InServiceStart>1984</InServiceStart>
     </WCD>
     <WCD Num="97">
         <CtIdx>3026</CtIdx>
@@ -3326,7 +3338,7 @@
         <Collective>0</Collective>
         <Rackgroup>0</Rackgroup>
         <Weight>399</Weight>
-        <Drag>20</Drag>
+        <Drag>32</Drag>
         <BlastRadius>0</BlastRadius>
         <RadarIdx>0</RadarIdx>
         <SimWeaponDataIdx>20</SimWeaponDataIdx>
@@ -7706,6 +7718,7 @@
         <BulletVelocity>3</BulletVelocity>
         <BulletDispersion>0</BulletDispersion>
         <BulletRoundsPerSec>0</BulletRoundsPerSec>
+        <InServiceStart>1975</InServiceStart>
     </WCD>
     <WCD Num="236">
         <CtIdx>2178</CtIdx>
@@ -7836,6 +7849,7 @@
         <BulletVelocity>0</BulletVelocity>
         <BulletDispersion>0</BulletDispersion>
         <BulletRoundsPerSec>0</BulletRoundsPerSec>
+        <InServiceStart>1977</InServiceStart>
     </WCD>
     <WCD Num="240">
         <CtIdx>2147</CtIdx>
@@ -7964,6 +7978,7 @@
         <BulletVelocity>0</BulletVelocity>
         <BulletDispersion>0</BulletDispersion>
         <BulletRoundsPerSec>0</BulletRoundsPerSec>
+        <InServiceStart>1986</InServiceStart>
     </WCD>
     <WCD Num="244">
         <CtIdx>3163</CtIdx>
@@ -7996,6 +8011,7 @@
         <BulletVelocity>0</BulletVelocity>
         <BulletDispersion>0</BulletDispersion>
         <BulletRoundsPerSec>0</BulletRoundsPerSec>
+        <InServiceStart>1986</InServiceStart>
     </WCD>
     <WCD Num="245">
         <CtIdx>1050</CtIdx>
@@ -8028,6 +8044,8 @@
         <BulletVelocity>0</BulletVelocity>
         <BulletDispersion>0</BulletDispersion>
         <BulletRoundsPerSec>0</BulletRoundsPerSec>
+        <InServiceStart>1991</InServiceStart>
+        <InServiceEnd>2019</InServiceEnd>
     </WCD>
     <WCD Num="246">
         <CtIdx>3160</CtIdx>
@@ -8060,6 +8078,7 @@
         <BulletVelocity>0</BulletVelocity>
         <BulletDispersion>0</BulletDispersion>
         <BulletRoundsPerSec>0</BulletRoundsPerSec>
+        <InServiceStart>1981</InServiceStart>
     </WCD>
     <WCD Num="247">
         <CtIdx>3162</CtIdx>
@@ -8092,6 +8111,7 @@
         <BulletVelocity>0</BulletVelocity>
         <BulletDispersion>0</BulletDispersion>
         <BulletRoundsPerSec>0</BulletRoundsPerSec>
+        <InServiceStart>1981</InServiceStart>
     </WCD>
     <WCD Num="248">
         <CtIdx>2277</CtIdx>
@@ -8288,6 +8308,7 @@
         <BulletVelocity>0</BulletVelocity>
         <BulletDispersion>0</BulletDispersion>
         <BulletRoundsPerSec>0</BulletRoundsPerSec>
+        <InServiceStart>1983</InServiceStart>
     </WCD>
     <WCD Num="254">
         <CtIdx>2139</CtIdx>
@@ -8656,6 +8677,7 @@
         <BulletVelocity>0</BulletVelocity>
         <BulletDispersion>0</BulletDispersion>
         <BulletRoundsPerSec>0</BulletRoundsPerSec>
+        <InServiceStart>1999</InServiceStart>
     </WCD>
     <WCD Num="265">
         <CtIdx>512</CtIdx>
@@ -8721,6 +8743,7 @@
         <BulletVelocity>0</BulletVelocity>
         <BulletDispersion>0</BulletDispersion>
         <BulletRoundsPerSec>0</BulletRoundsPerSec>
+        <InServiceStart>1986</InServiceStart>
     </WCD>
     <WCD Num="267">
         <CtIdx>3159</CtIdx>
@@ -8753,6 +8776,7 @@
         <BulletVelocity>0</BulletVelocity>
         <BulletDispersion>0</BulletDispersion>
         <BulletRoundsPerSec>0</BulletRoundsPerSec>
+        <InServiceStart>1981</InServiceStart>
     </WCD>
     <WCD Num="268">
         <CtIdx>806</CtIdx>
@@ -8817,6 +8841,7 @@
         <BulletVelocity>0</BulletVelocity>
         <BulletDispersion>0</BulletDispersion>
         <BulletRoundsPerSec>0</BulletRoundsPerSec>
+        <InServiceStart>2004</InServiceStart>
     </WCD>
     <WCD Num="270">
         <CtIdx>2715</CtIdx>
@@ -8849,6 +8874,7 @@
         <BulletVelocity>0</BulletVelocity>
         <BulletDispersion>24</BulletDispersion>
         <BulletRoundsPerSec>0</BulletRoundsPerSec>
+        <InServiceStart>1995</InServiceStart>
     </WCD>
     <WCD Num="271">
         <CtIdx>614</CtIdx>
@@ -8913,6 +8939,8 @@
         <BulletVelocity>0</BulletVelocity>
         <BulletDispersion>0</BulletDispersion>
         <BulletRoundsPerSec>0</BulletRoundsPerSec>
+        <InServiceStart>1981</InServiceStart>
+        <InServiceEnd>2006</InServiceEnd>
     </WCD>
     <WCD Num="273">
         <CtIdx>2749</CtIdx>
@@ -10119,6 +10147,7 @@
         <BulletVelocity>0</BulletVelocity>
         <BulletDispersion>0</BulletDispersion>
         <BulletRoundsPerSec>0</BulletRoundsPerSec>
+        <InServiceStart>2005</InServiceStart>
     </WCD>
     <WCD Num="310">
         <CtIdx>2271</CtIdx>
@@ -10183,6 +10212,7 @@
         <BulletVelocity>0</BulletVelocity>
         <BulletDispersion>0</BulletDispersion>
         <BulletRoundsPerSec>0</BulletRoundsPerSec>
+        <InServiceStart>1985</InServiceStart>
     </WCD>
     <WCD Num="312">
         <CtIdx>916</CtIdx>
@@ -10215,6 +10245,7 @@
         <BulletVelocity>0</BulletVelocity>
         <BulletDispersion>0</BulletDispersion>
         <BulletRoundsPerSec>0</BulletRoundsPerSec>
+        <InServiceStart>1983</InServiceStart>
     </WCD>
     <WCD Num="313">
         <CtIdx>2697</CtIdx>
@@ -10247,6 +10278,7 @@
         <BulletVelocity>0</BulletVelocity>
         <BulletDispersion>0</BulletDispersion>
         <BulletRoundsPerSec>0</BulletRoundsPerSec>
+        <InServiceStart>1990</InServiceStart>
     </WCD>
     <WCD Num="314">
         <CtIdx>2777</CtIdx>
@@ -10279,6 +10311,7 @@
         <BulletVelocity>0</BulletVelocity>
         <BulletDispersion>0</BulletDispersion>
         <BulletRoundsPerSec>0</BulletRoundsPerSec>
+        <InServiceStart>1984</InServiceStart>
     </WCD>
     <WCD Num="315">
         <CtIdx>2779</CtIdx>
@@ -10311,6 +10344,7 @@
         <BulletVelocity>0</BulletVelocity>
         <BulletDispersion>0</BulletDispersion>
         <BulletRoundsPerSec>0</BulletRoundsPerSec>
+        <InServiceStart>1990</InServiceStart>
     </WCD>
     <WCD Num="316">
         <CtIdx>848</CtIdx>
@@ -10343,6 +10377,7 @@
         <BulletVelocity>0</BulletVelocity>
         <BulletDispersion>0</BulletDispersion>
         <BulletRoundsPerSec>0</BulletRoundsPerSec>
+        <InServiceStart>1975</InServiceStart>
     </WCD>
     <WCD Num="317">
         <CtIdx>2752</CtIdx>
@@ -10407,6 +10442,7 @@
         <BulletVelocity>0</BulletVelocity>
         <BulletDispersion>0</BulletDispersion>
         <BulletRoundsPerSec>0</BulletRoundsPerSec>
+        <InServiceStart>1975</InServiceStart>
     </WCD>
     <WCD Num="319">
         <CtIdx>566</CtIdx>
@@ -10887,6 +10923,7 @@
         <BulletVelocity>0</BulletVelocity>
         <BulletDispersion>0</BulletDispersion>
         <BulletRoundsPerSec>0</BulletRoundsPerSec>
+        <InServiceStart>1985</InServiceStart>
     </WCD>
     <WCD Num="334">
         <CtIdx>2317</CtIdx>
@@ -11112,6 +11149,7 @@
         <BulletVelocity>0</BulletVelocity>
         <BulletDispersion>0</BulletDispersion>
         <BulletRoundsPerSec>0</BulletRoundsPerSec>
+        <InServiceStart>1973</InServiceStart>
     </WCD>
     <WCD Num="341">
         <CtIdx>2857</CtIdx>
@@ -11144,6 +11182,7 @@
         <BulletVelocity>0</BulletVelocity>
         <BulletDispersion>0</BulletDispersion>
         <BulletRoundsPerSec>0</BulletRoundsPerSec>
+        <InServiceStart>1996</InServiceStart>
     </WCD>
     <WCD Num="342">
         <CtIdx>2858</CtIdx>
@@ -11176,6 +11215,7 @@
         <BulletVelocity>0</BulletVelocity>
         <BulletDispersion>0</BulletDispersion>
         <BulletRoundsPerSec>0</BulletRoundsPerSec>
+        <InServiceStart>2000</InServiceStart>
     </WCD>
     <WCD Num="343">
         <CtIdx>254</CtIdx>
@@ -11996,6 +12036,7 @@
         <BulletVelocity>0</BulletVelocity>
         <BulletDispersion>0</BulletDispersion>
         <BulletRoundsPerSec>0</BulletRoundsPerSec>
+        <InServiceStart>1997</InServiceStart>
     </WCD>
     <WCD Num="368">
         <CtIdx>546</CtIdx>
@@ -12220,6 +12261,7 @@
         <BulletVelocity>0</BulletVelocity>
         <BulletDispersion>0</BulletDispersion>
         <BulletRoundsPerSec>0</BulletRoundsPerSec>
+        <InServiceStart>1993</InServiceStart>
     </WCD>
     <WCD Num="375">
         <CtIdx>269</CtIdx>
@@ -12252,6 +12294,8 @@
         <BulletVelocity>0</BulletVelocity>
         <BulletDispersion>0</BulletDispersion>
         <BulletRoundsPerSec>0</BulletRoundsPerSec>
+        <InServiceStart>1998</InServiceStart>
+        <InServiceEnd>2020</InServiceEnd>
     </WCD>
     <WCD Num="376">
         <CtIdx>271</CtIdx>
@@ -12284,6 +12328,7 @@
         <BulletVelocity>0</BulletVelocity>
         <BulletDispersion>0</BulletDispersion>
         <BulletRoundsPerSec>0</BulletRoundsPerSec>
+        <InServiceStart>1990</InServiceStart>
     </WCD>
     <WCD Num="377">
         <CtIdx>1173</CtIdx>
@@ -12444,6 +12489,7 @@
         <BulletVelocity>0</BulletVelocity>
         <BulletDispersion>0</BulletDispersion>
         <BulletRoundsPerSec>0</BulletRoundsPerSec>
+        <InServiceStart>1978</InServiceStart>
     </WCD>
     <WCD Num="382">
         <CtIdx>826</CtIdx>
@@ -12476,6 +12522,7 @@
         <BulletVelocity>0</BulletVelocity>
         <BulletDispersion>0</BulletDispersion>
         <BulletRoundsPerSec>0</BulletRoundsPerSec>
+        <InServiceStart>1993</InServiceStart>
     </WCD>
     <WCD Num="383">
         <CtIdx>2309</CtIdx>
@@ -12508,6 +12555,7 @@
         <BulletVelocity>0</BulletVelocity>
         <BulletDispersion>0</BulletDispersion>
         <BulletRoundsPerSec>0</BulletRoundsPerSec>
+        <InServiceStart>2003</InServiceStart>
     </WCD>
     <WCD Num="384">
         <CtIdx>2262</CtIdx>
@@ -12540,6 +12588,7 @@
         <BulletVelocity>0</BulletVelocity>
         <BulletDispersion>0</BulletDispersion>
         <BulletRoundsPerSec>0</BulletRoundsPerSec>
+        <InServiceStart>1988</InServiceStart>
     </WCD>
     <WCD Num="385">
         <CtIdx>2340</CtIdx>
@@ -13886,6 +13935,7 @@
         <BulletVelocity>0</BulletVelocity>
         <BulletDispersion>0</BulletDispersion>
         <BulletRoundsPerSec>0</BulletRoundsPerSec>
+        <InServiceStart>2003</InServiceStart>
     </WCD>
     <WCD Num="427">
         <CtIdx>694</CtIdx>
@@ -14014,6 +14064,8 @@
         <BulletVelocity>0</BulletVelocity>
         <BulletDispersion>0</BulletDispersion>
         <BulletRoundsPerSec>0</BulletRoundsPerSec>
+        <InServiceStart>1978</InServiceStart>
+        <InServiceEnd>2011</InServiceEnd>
     </WCD>
     <WCD Num="431">
         <CtIdx>2275</CtIdx>
@@ -14046,6 +14098,8 @@
         <BulletVelocity>0</BulletVelocity>
         <BulletDispersion>0</BulletDispersion>
         <BulletRoundsPerSec>0</BulletRoundsPerSec>
+        <InServiceStart>1983</InServiceStart>
+        <InServiceEnd>2019</InServiceEnd>
     </WCD>
     <WCD Num="432">
         <CtIdx>2608</CtIdx>
@@ -14206,6 +14260,7 @@
         <BulletVelocity>0</BulletVelocity>
         <BulletDispersion>0</BulletDispersion>
         <BulletRoundsPerSec>0</BulletRoundsPerSec>
+        <InServiceStart>1985</InServiceStart>
     </WCD>
     <WCD Num="437">
         <CtIdx>3168</CtIdx>
@@ -14370,6 +14425,7 @@
         <BulletVelocity>0</BulletVelocity>
         <BulletDispersion>0</BulletDispersion>
         <BulletRoundsPerSec>0</BulletRoundsPerSec>
+        <InServiceStart>1970</InServiceStart>
     </WCD>
     <WCD Num="442">
         <CtIdx>1163</CtIdx>
@@ -14402,6 +14458,7 @@
         <BulletVelocity>0</BulletVelocity>
         <BulletDispersion>0</BulletDispersion>
         <BulletRoundsPerSec>0</BulletRoundsPerSec>
+        <InServiceStart>1970</InServiceStart>
     </WCD>
     <WCD Num="443">
         <CtIdx>3049</CtIdx>
@@ -14627,6 +14684,7 @@
         <BulletVelocity>0</BulletVelocity>
         <BulletDispersion>0</BulletDispersion>
         <BulletRoundsPerSec>0</BulletRoundsPerSec>
+        <InServiceStart>2003</InServiceStart>
     </WCD>
     <WCD Num="450">
         <CtIdx>2695</CtIdx>
@@ -14659,6 +14717,7 @@
         <BulletVelocity>0</BulletVelocity>
         <BulletDispersion>0</BulletDispersion>
         <BulletRoundsPerSec>0</BulletRoundsPerSec>
+        <InServiceStart>2004</InServiceStart>
     </WCD>
     <WCD Num="451">
         <CtIdx>3017</CtIdx>
@@ -14755,6 +14814,7 @@
         <BulletVelocity>0</BulletVelocity>
         <BulletDispersion>0</BulletDispersion>
         <BulletRoundsPerSec>0</BulletRoundsPerSec>
+        <InServiceStart>2005</InServiceStart>
     </WCD>
     <WCD Num="454">
         <CtIdx>2357</CtIdx>
@@ -19182,7 +19242,7 @@
         <DamageType>0</DamageType>
         <Range>0.0</Range>
         <Flags>0</Flags>
-        <Name>R MiG-21 AAM</Name>
+        <Name>R MiG-21 Wing Pyl</Name>
         <Hit_NoMove>0</Hit_NoMove>
         <Hit_Foot>0</Hit_Foot>
         <Hit_Wheeled>0</Hit_Wheeled>
@@ -19196,8 +19256,8 @@
         <Guidance>0</Guidance>
         <Collective>0</Collective>
         <Rackgroup>0</Rackgroup>
-        <Weight>98</Weight>
-        <Drag>9</Drag>
+        <Weight>80</Weight>
+        <Drag>5</Drag>
         <BlastRadius>0</BlastRadius>
         <RadarIdx>0</RadarIdx>
         <SimWeaponDataIdx>54</SimWeaponDataIdx>
@@ -19260,8 +19320,8 @@
         <Guidance>0</Guidance>
         <Collective>0</Collective>
         <Rackgroup>0</Rackgroup>
-        <Weight>72</Weight>
-        <Drag>2</Drag>
+        <Weight>150</Weight>
+        <Drag>5</Drag>
         <BlastRadius>0</BlastRadius>
         <RadarIdx>0</RadarIdx>
         <SimWeaponDataIdx>0</SimWeaponDataIdx>
@@ -20029,7 +20089,7 @@
         <Collective>0</Collective>
         <Rackgroup>0</Rackgroup>
         <Weight>295</Weight>
-        <Drag>8</Drag>
+        <Drag>9</Drag>
         <BlastRadius>0</BlastRadius>
         <RadarIdx>0</RadarIdx>
         <SimWeaponDataIdx>0</SimWeaponDataIdx>
@@ -21993,6 +22053,7 @@
         <BulletVelocity>0</BulletVelocity>
         <BulletDispersion>0</BulletDispersion>
         <BulletRoundsPerSec>0</BulletRoundsPerSec>
+        <InServiceStart>1990</InServiceStart>
     </WCD>
     <WCD Num="680">
         <CtIdx>3108</CtIdx>
@@ -22692,7 +22753,7 @@
         <Collective>0</Collective>
         <Rackgroup>0</Rackgroup>
         <Weight>276</Weight>
-        <Drag>7</Drag>
+        <Drag>23</Drag>
         <BlastRadius>0</BlastRadius>
         <RadarIdx>0</RadarIdx>
         <SimWeaponDataIdx>0</SimWeaponDataIdx>
@@ -22991,6 +23052,8 @@
         <BulletVelocity>0</BulletVelocity>
         <BulletDispersion>0</BulletDispersion>
         <BulletRoundsPerSec>0</BulletRoundsPerSec>
+        <InServiceStart>1961</InServiceStart>
+        <InServiceEnd>2005</InServiceEnd>
     </WCD>
     <WCD Num="711">
         <CtIdx>4250</CtIdx>
@@ -23568,6 +23631,7 @@
         <BulletVelocity>0</BulletVelocity>
         <BulletDispersion>0</BulletDispersion>
         <BulletRoundsPerSec>0</BulletRoundsPerSec>
+        <InServiceStart>2011</InServiceStart>
     </WCD>
     <WCD Num="729">
         <CtIdx>4281</CtIdx>
@@ -23880,7 +23944,7 @@
         <Collective>0</Collective>
         <Rackgroup>0</Rackgroup>
         <Weight>276</Weight>
-        <Drag>7</Drag>
+        <Drag>23</Drag>
         <BlastRadius>0</BlastRadius>
         <RadarIdx>0</RadarIdx>
         <SimWeaponDataIdx>0</SimWeaponDataIdx>
@@ -24200,7 +24264,7 @@
         <Collective>0</Collective>
         <Rackgroup>0</Rackgroup>
         <Weight>295</Weight>
-        <Drag>8</Drag>
+        <Drag>9</Drag>
         <BlastRadius>0</BlastRadius>
         <RadarIdx>0</RadarIdx>
         <SimWeaponDataIdx>0</SimWeaponDataIdx>
@@ -24359,8 +24423,8 @@
         <Guidance>0</Guidance>
         <Collective>0</Collective>
         <Rackgroup>0</Rackgroup>
-        <Weight>820</Weight>
-        <Drag>34</Drag>
+        <Weight>475</Weight>
+        <Drag>35</Drag>
         <BlastRadius>0</BlastRadius>
         <RadarIdx>0</RadarIdx>
         <SimWeaponDataIdx>19</SimWeaponDataIdx>
@@ -24392,7 +24456,7 @@
         <Collective>0</Collective>
         <Rackgroup>0</Rackgroup>
         <Weight>399</Weight>
-        <Drag>20</Drag>
+        <Drag>32</Drag>
         <BlastRadius>0</BlastRadius>
         <RadarIdx>0</RadarIdx>
         <SimWeaponDataIdx>20</SimWeaponDataIdx>
@@ -24434,6 +24498,7 @@
         <BulletVelocity>0</BulletVelocity>
         <BulletDispersion>0</BulletDispersion>
         <BulletRoundsPerSec>0</BulletRoundsPerSec>
+        <InServiceStart>2008</InServiceStart>
     </WCD>
     <WCD Num="756">
         <CtIdx>4756</CtIdx>
@@ -25590,6 +25655,7 @@
         <BulletVelocity>0</BulletVelocity>
         <BulletDispersion>0</BulletDispersion>
         <BulletRoundsPerSec>0</BulletRoundsPerSec>
+        <InServiceStart>2025</InServiceStart>
     </WCD>
     <WCD Num="792">
         <CtIdx>5123</CtIdx>
@@ -25750,6 +25816,7 @@
         <BulletVelocity>0</BulletVelocity>
         <BulletDispersion>0</BulletDispersion>
         <BulletRoundsPerSec>0</BulletRoundsPerSec>
+        <InServiceStart>2023</InServiceStart>
     </WCD>
     <WCD Num="797">
         <CtIdx>5133</CtIdx>
@@ -25782,6 +25849,7 @@
         <BulletVelocity>0</BulletVelocity>
         <BulletDispersion>0</BulletDispersion>
         <BulletRoundsPerSec>0</BulletRoundsPerSec>
+        <InServiceStart>2023</InServiceStart>
     </WCD>
     <WCD Num="798">
         <CtIdx>5134</CtIdx>
@@ -26071,6 +26139,7 @@
         <BulletVelocity>0</BulletVelocity>
         <BulletDispersion>0</BulletDispersion>
         <BulletRoundsPerSec>0</BulletRoundsPerSec>
+        <InServiceStart>2004</InServiceStart>
     </WCD>
     <WCD Num="807">
         <CtIdx>5143</CtIdx>
@@ -26327,6 +26396,7 @@
         <BulletVelocity>0</BulletVelocity>
         <BulletDispersion>0</BulletDispersion>
         <BulletRoundsPerSec>0</BulletRoundsPerSec>
+        <InServiceStart>2015</InServiceStart>
     </WCD>
     <WCD Num="815">
         <CtIdx>5151</CtIdx>
@@ -26359,6 +26429,7 @@
         <BulletVelocity>0</BulletVelocity>
         <BulletDispersion>0</BulletDispersion>
         <BulletRoundsPerSec>0</BulletRoundsPerSec>
+        <InServiceStart>2015</InServiceStart>
     </WCD>
     <WCD Num="816">
         <CtIdx>5152</CtIdx>
@@ -26423,6 +26494,7 @@
         <BulletVelocity>0</BulletVelocity>
         <BulletDispersion>0</BulletDispersion>
         <BulletRoundsPerSec>0</BulletRoundsPerSec>
+        <InServiceStart>2015</InServiceStart>
     </WCD>
     <WCD Num="818">
         <CtIdx>5154</CtIdx>
@@ -26519,6 +26591,7 @@
         <BulletVelocity>0</BulletVelocity>
         <BulletDispersion>0</BulletDispersion>
         <BulletRoundsPerSec>0</BulletRoundsPerSec>
+        <InServiceStart>2018</InServiceStart>
     </WCD>
     <WCD Num="821">
         <CtIdx>5157</CtIdx>
@@ -26679,6 +26752,7 @@
         <BulletVelocity>0</BulletVelocity>
         <BulletDispersion>0</BulletDispersion>
         <BulletRoundsPerSec>0</BulletRoundsPerSec>
+        <InServiceStart>2015</InServiceStart>
     </WCD>
     <WCD Num="826">
         <CtIdx>5165</CtIdx>
@@ -26904,6 +26978,7 @@
         <BulletVelocity>0</BulletVelocity>
         <BulletDispersion>0</BulletDispersion>
         <BulletRoundsPerSec>0</BulletRoundsPerSec>
+        <InServiceStart>2012</InServiceStart>
     </WCD>
     <WCD Num="833">
         <CtIdx>5173</CtIdx>
@@ -27225,6 +27300,7 @@
         <BulletVelocity>0</BulletVelocity>
         <BulletDispersion>0</BulletDispersion>
         <BulletRoundsPerSec>0</BulletRoundsPerSec>
+        <InServiceStart>2013</InServiceStart>
     </WCD>
     <WCD Num="843">
         <CtIdx>5187</CtIdx>
@@ -27321,6 +27397,7 @@
         <BulletVelocity>0</BulletVelocity>
         <BulletDispersion>0</BulletDispersion>
         <BulletRoundsPerSec>0</BulletRoundsPerSec>
+        <InServiceStart>2000</InServiceStart>
     </WCD>
     <WCD Num="846">
         <CtIdx>5190</CtIdx>
@@ -27578,6 +27655,7 @@
         <BulletVelocity>0</BulletVelocity>
         <BulletDispersion>0</BulletDispersion>
         <BulletRoundsPerSec>0</BulletRoundsPerSec>
+        <InServiceStart>2013</InServiceStart>
     </WCD>
     <WCD Num="854">
         <CtIdx>5204</CtIdx>
@@ -27933,12 +28011,1296 @@
         <BulletRoundsPerSec>0</BulletRoundsPerSec>
     </WCD>
     <WCD Num="865">
-        <CtIdx>5262</CtIdx>
-        <Strength>86</Strength>
-        <DamageType>5</DamageType>
-        <Range>15.0</Range>
+        <CtIdx>5261</CtIdx>
+        <Strength>0</Strength>
+        <DamageType>0</DamageType>
+        <Range>0.0</Range>
         <Flags>0</Flags>
-        <Name>HQ-61 Missile</Name>
+        <Name>R MiG-21 CL Pyl</Name>
+        <Hit_NoMove>0</Hit_NoMove>
+        <Hit_Foot>0</Hit_Foot>
+        <Hit_Wheeled>0</Hit_Wheeled>
+        <Hit_Tracked>0</Hit_Tracked>
+        <Hit_LowAir>0</Hit_LowAir>
+        <Hit_Air>0</Hit_Air>
+        <Hit_Naval>0</Hit_Naval>
+        <Hit_Rail>0</Hit_Rail>
+        <FireRate>1</FireRate>
+        <Rariety>99</Rariety>
+        <Guidance>0</Guidance>
+        <Collective>0</Collective>
+        <Rackgroup>0</Rackgroup>
+        <Weight>80</Weight>
+        <Drag>5</Drag>
+        <BlastRadius>0</BlastRadius>
+        <RadarIdx>0</RadarIdx>
+        <SimWeaponDataIdx>54</SimWeaponDataIdx>
+        <MaxAlt>0</MaxAlt>
+        <MinAlt>0</MinAlt>
+        <BulletTTL>0</BulletTTL>
+        <BulletVelocity>0</BulletVelocity>
+        <BulletDispersion>0</BulletDispersion>
+        <BulletRoundsPerSec>0</BulletRoundsPerSec>
+    </WCD>
+    <WCD Num="866">
+        <CtIdx>5265</CtIdx>
+        <Strength>0</Strength>
+        <DamageType>0</DamageType>
+        <Range>0.0</Range>
+        <Flags>0</Flags>
+        <Name>R Khibiny-SM R</Name>
+        <Hit_NoMove>0</Hit_NoMove>
+        <Hit_Foot>0</Hit_Foot>
+        <Hit_Wheeled>0</Hit_Wheeled>
+        <Hit_Tracked>0</Hit_Tracked>
+        <Hit_LowAir>0</Hit_LowAir>
+        <Hit_Air>0</Hit_Air>
+        <Hit_Naval>0</Hit_Naval>
+        <Hit_Rail>0</Hit_Rail>
+        <FireRate>1</FireRate>
+        <Rariety>99</Rariety>
+        <Guidance>0</Guidance>
+        <Collective>0</Collective>
+        <Rackgroup>0</Rackgroup>
+        <Weight>0</Weight>
+        <Drag>0</Drag>
+        <BlastRadius>0</BlastRadius>
+        <RadarIdx>0</RadarIdx>
+        <SimWeaponDataIdx>0</SimWeaponDataIdx>
+        <MaxAlt>0</MaxAlt>
+        <MinAlt>0</MinAlt>
+        <BulletTTL>0</BulletTTL>
+        <BulletVelocity>0</BulletVelocity>
+        <BulletDispersion>0</BulletDispersion>
+        <BulletRoundsPerSec>0</BulletRoundsPerSec>
+    </WCD>
+    <WCD Num="867">
+        <CtIdx>5266</CtIdx>
+        <Strength>0</Strength>
+        <DamageType>0</DamageType>
+        <Range>0.0</Range>
+        <Flags>0</Flags>
+        <Name>R Khibiny-SM L</Name>
+        <Hit_NoMove>0</Hit_NoMove>
+        <Hit_Foot>0</Hit_Foot>
+        <Hit_Wheeled>0</Hit_Wheeled>
+        <Hit_Tracked>0</Hit_Tracked>
+        <Hit_LowAir>0</Hit_LowAir>
+        <Hit_Air>0</Hit_Air>
+        <Hit_Naval>0</Hit_Naval>
+        <Hit_Rail>0</Hit_Rail>
+        <FireRate>1</FireRate>
+        <Rariety>99</Rariety>
+        <Guidance>0</Guidance>
+        <Collective>0</Collective>
+        <Rackgroup>0</Rackgroup>
+        <Weight>0</Weight>
+        <Drag>0</Drag>
+        <BlastRadius>0</BlastRadius>
+        <RadarIdx>0</RadarIdx>
+        <SimWeaponDataIdx>0</SimWeaponDataIdx>
+        <MaxAlt>0</MaxAlt>
+        <MinAlt>0</MinAlt>
+        <BulletTTL>0</BulletTTL>
+        <BulletVelocity>0</BulletVelocity>
+        <BulletDispersion>0</BulletDispersion>
+        <BulletRoundsPerSec>0</BulletRoundsPerSec>
+    </WCD>
+    <WCD Num="868">
+        <CtIdx>5267</CtIdx>
+        <Strength>0</Strength>
+        <DamageType>0</DamageType>
+        <Range>30.0</Range>
+        <Flags>8196</Flags>
+        <Name>Sorbtsiya SM Pod</Name>
+        <Hit_NoMove>0</Hit_NoMove>
+        <Hit_Foot>0</Hit_Foot>
+        <Hit_Wheeled>0</Hit_Wheeled>
+        <Hit_Tracked>0</Hit_Tracked>
+        <Hit_LowAir>0</Hit_LowAir>
+        <Hit_Air>0</Hit_Air>
+        <Hit_Naval>0</Hit_Naval>
+        <Hit_Rail>0</Hit_Rail>
+        <FireRate>1</FireRate>
+        <Rariety>99</Rariety>
+        <Guidance>0</Guidance>
+        <Collective>0</Collective>
+        <Rackgroup>0</Rackgroup>
+        <Weight>300</Weight>
+        <Drag>5</Drag>
+        <BlastRadius>0</BlastRadius>
+        <RadarIdx>0</RadarIdx>
+        <SimWeaponDataIdx>79</SimWeaponDataIdx>
+        <MaxAlt>0</MaxAlt>
+        <MinAlt>0</MinAlt>
+        <BulletTTL>0</BulletTTL>
+        <BulletVelocity>0</BulletVelocity>
+        <BulletDispersion>0</BulletDispersion>
+        <BulletRoundsPerSec>0</BulletRoundsPerSec>
+    </WCD>
+    <WCD Num="869">
+        <CtIdx>5268</CtIdx>
+        <Strength>0</Strength>
+        <DamageType>0</DamageType>
+        <Range>0.0</Range>
+        <Flags>0</Flags>
+        <Name>R LAU-7 (Long)</Name>
+        <Hit_NoMove>0</Hit_NoMove>
+        <Hit_Foot>0</Hit_Foot>
+        <Hit_Wheeled>0</Hit_Wheeled>
+        <Hit_Tracked>0</Hit_Tracked>
+        <Hit_LowAir>0</Hit_LowAir>
+        <Hit_Air>0</Hit_Air>
+        <Hit_Naval>0</Hit_Naval>
+        <Hit_Rail>0</Hit_Rail>
+        <FireRate>1</FireRate>
+        <Rariety>99</Rariety>
+        <Guidance>0</Guidance>
+        <Collective>0</Collective>
+        <Rackgroup>0</Rackgroup>
+        <Weight>95</Weight>
+        <Drag>2</Drag>
+        <BlastRadius>0</BlastRadius>
+        <RadarIdx>0</RadarIdx>
+        <SimWeaponDataIdx>54</SimWeaponDataIdx>
+        <MaxAlt>0</MaxAlt>
+        <MinAlt>0</MinAlt>
+        <BulletTTL>0</BulletTTL>
+        <BulletVelocity>0</BulletVelocity>
+        <BulletDispersion>0</BulletDispersion>
+        <BulletRoundsPerSec>0</BulletRoundsPerSec>
+    </WCD>
+    <WCD Num="870">
+        <CtIdx>5269</CtIdx>
+        <Strength>0</Strength>
+        <DamageType>0</DamageType>
+        <Range>0.0</Range>
+        <Flags>0</Flags>
+        <Name>R SUU-59_LAU-7</Name>
+        <Hit_NoMove>0</Hit_NoMove>
+        <Hit_Foot>0</Hit_Foot>
+        <Hit_Wheeled>0</Hit_Wheeled>
+        <Hit_Tracked>0</Hit_Tracked>
+        <Hit_LowAir>0</Hit_LowAir>
+        <Hit_Air>0</Hit_Air>
+        <Hit_Naval>0</Hit_Naval>
+        <Hit_Rail>0</Hit_Rail>
+        <FireRate>1</FireRate>
+        <Rariety>99</Rariety>
+        <Guidance>0</Guidance>
+        <Collective>0</Collective>
+        <Rackgroup>0</Rackgroup>
+        <Weight>19</Weight>
+        <Drag>0</Drag>
+        <BlastRadius>0</BlastRadius>
+        <RadarIdx>0</RadarIdx>
+        <SimWeaponDataIdx>54</SimWeaponDataIdx>
+        <MaxAlt>0</MaxAlt>
+        <MinAlt>0</MinAlt>
+        <BulletTTL>0</BulletTTL>
+        <BulletVelocity>0</BulletVelocity>
+        <BulletDispersion>0</BulletDispersion>
+        <BulletRoundsPerSec>0</BulletRoundsPerSec>
+    </WCD>
+    <WCD Num="871">
+        <CtIdx>5270</CtIdx>
+        <Strength>0</Strength>
+        <DamageType>0</DamageType>
+        <Range>0.0</Range>
+        <Flags>0</Flags>
+        <Name>R SUU-59_LAU-7 L</Name>
+        <Hit_NoMove>0</Hit_NoMove>
+        <Hit_Foot>0</Hit_Foot>
+        <Hit_Wheeled>0</Hit_Wheeled>
+        <Hit_Tracked>0</Hit_Tracked>
+        <Hit_LowAir>0</Hit_LowAir>
+        <Hit_Air>0</Hit_Air>
+        <Hit_Naval>0</Hit_Naval>
+        <Hit_Rail>0</Hit_Rail>
+        <FireRate>1</FireRate>
+        <Rariety>99</Rariety>
+        <Guidance>0</Guidance>
+        <Collective>0</Collective>
+        <Rackgroup>0</Rackgroup>
+        <Weight>95</Weight>
+        <Drag>2</Drag>
+        <BlastRadius>0</BlastRadius>
+        <RadarIdx>0</RadarIdx>
+        <SimWeaponDataIdx>54</SimWeaponDataIdx>
+        <MaxAlt>0</MaxAlt>
+        <MinAlt>0</MinAlt>
+        <BulletTTL>0</BulletTTL>
+        <BulletVelocity>0</BulletVelocity>
+        <BulletDispersion>0</BulletDispersion>
+        <BulletRoundsPerSec>0</BulletRoundsPerSec>
+    </WCD>
+    <WCD Num="872">
+        <CtIdx>5271</CtIdx>
+        <Strength>0</Strength>
+        <DamageType>0</DamageType>
+        <Range>0.0</Range>
+        <Flags>0</Flags>
+        <Name>R SUU-59_LAU-7 R</Name>
+        <Hit_NoMove>0</Hit_NoMove>
+        <Hit_Foot>0</Hit_Foot>
+        <Hit_Wheeled>0</Hit_Wheeled>
+        <Hit_Tracked>0</Hit_Tracked>
+        <Hit_LowAir>0</Hit_LowAir>
+        <Hit_Air>0</Hit_Air>
+        <Hit_Naval>0</Hit_Naval>
+        <Hit_Rail>0</Hit_Rail>
+        <FireRate>1</FireRate>
+        <Rariety>99</Rariety>
+        <Guidance>0</Guidance>
+        <Collective>0</Collective>
+        <Rackgroup>0</Rackgroup>
+        <Weight>95</Weight>
+        <Drag>2</Drag>
+        <BlastRadius>0</BlastRadius>
+        <RadarIdx>0</RadarIdx>
+        <SimWeaponDataIdx>54</SimWeaponDataIdx>
+        <MaxAlt>0</MaxAlt>
+        <MinAlt>0</MinAlt>
+        <BulletTTL>0</BulletTTL>
+        <BulletVelocity>0</BulletVelocity>
+        <BulletDispersion>0</BulletDispersion>
+        <BulletRoundsPerSec>0</BulletRoundsPerSec>
+    </WCD>
+    <WCD Num="873">
+        <CtIdx>5272</CtIdx>
+        <Strength>0</Strength>
+        <DamageType>0</DamageType>
+        <Range>0.0</Range>
+        <Flags>0</Flags>
+        <Name>R SUU-59_LAU-128</Name>
+        <Hit_NoMove>0</Hit_NoMove>
+        <Hit_Foot>0</Hit_Foot>
+        <Hit_Wheeled>0</Hit_Wheeled>
+        <Hit_Tracked>0</Hit_Tracked>
+        <Hit_LowAir>0</Hit_LowAir>
+        <Hit_Air>0</Hit_Air>
+        <Hit_Naval>0</Hit_Naval>
+        <Hit_Rail>0</Hit_Rail>
+        <FireRate>1</FireRate>
+        <Rariety>99</Rariety>
+        <Guidance>0</Guidance>
+        <Collective>0</Collective>
+        <Rackgroup>0</Rackgroup>
+        <Weight>19</Weight>
+        <Drag>0</Drag>
+        <BlastRadius>0</BlastRadius>
+        <RadarIdx>0</RadarIdx>
+        <SimWeaponDataIdx>54</SimWeaponDataIdx>
+        <MaxAlt>0</MaxAlt>
+        <MinAlt>0</MinAlt>
+        <BulletTTL>0</BulletTTL>
+        <BulletVelocity>0</BulletVelocity>
+        <BulletDispersion>0</BulletDispersion>
+        <BulletRoundsPerSec>0</BulletRoundsPerSec>
+    </WCD>
+    <WCD Num="874">
+        <CtIdx>5273</CtIdx>
+        <Strength>0</Strength>
+        <DamageType>0</DamageType>
+        <Range>0.0</Range>
+        <Flags>0</Flags>
+        <Name>R Delilah Adjuste</Name>
+        <Hit_NoMove>0</Hit_NoMove>
+        <Hit_Foot>0</Hit_Foot>
+        <Hit_Wheeled>0</Hit_Wheeled>
+        <Hit_Tracked>0</Hit_Tracked>
+        <Hit_LowAir>0</Hit_LowAir>
+        <Hit_Air>0</Hit_Air>
+        <Hit_Naval>0</Hit_Naval>
+        <Hit_Rail>0</Hit_Rail>
+        <FireRate>1</FireRate>
+        <Rariety>99</Rariety>
+        <Guidance>0</Guidance>
+        <Collective>0</Collective>
+        <Rackgroup>0</Rackgroup>
+        <Weight>0</Weight>
+        <Drag>0</Drag>
+        <BlastRadius>0</BlastRadius>
+        <RadarIdx>0</RadarIdx>
+        <SimWeaponDataIdx>0</SimWeaponDataIdx>
+        <MaxAlt>0</MaxAlt>
+        <MinAlt>0</MinAlt>
+        <BulletTTL>0</BulletTTL>
+        <BulletVelocity>0</BulletVelocity>
+        <BulletDispersion>0</BulletDispersion>
+        <BulletRoundsPerSec>0</BulletRoundsPerSec>
+    </WCD>
+    <WCD Num="875">
+        <CtIdx>5277</CtIdx>
+        <Strength>3961</Strength>
+        <DamageType>0</DamageType>
+        <Range>0.0</Range>
+        <Flags>2</Flags>
+        <Name>F-2 Tank 600gal</Name>
+        <Hit_NoMove>0</Hit_NoMove>
+        <Hit_Foot>0</Hit_Foot>
+        <Hit_Wheeled>0</Hit_Wheeled>
+        <Hit_Tracked>0</Hit_Tracked>
+        <Hit_LowAir>0</Hit_LowAir>
+        <Hit_Air>0</Hit_Air>
+        <Hit_Naval>0</Hit_Naval>
+        <Hit_Rail>0</Hit_Rail>
+        <FireRate>1</FireRate>
+        <Rariety>99</Rariety>
+        <Guidance>0</Guidance>
+        <Collective>0</Collective>
+        <Rackgroup>0</Rackgroup>
+        <Weight>399</Weight>
+        <Drag>32</Drag>
+        <BlastRadius>0</BlastRadius>
+        <RadarIdx>0</RadarIdx>
+        <SimWeaponDataIdx>20</SimWeaponDataIdx>
+        <MaxAlt>0</MaxAlt>
+        <MinAlt>0</MinAlt>
+        <BulletTTL>0</BulletTTL>
+        <BulletVelocity>0</BulletVelocity>
+        <BulletDispersion>0</BulletDispersion>
+        <BulletRoundsPerSec>0</BulletRoundsPerSec>
+    </WCD>
+    <WCD Num="876">
+        <CtIdx>5278</CtIdx>
+        <Strength>2040</Strength>
+        <DamageType>0</DamageType>
+        <Range>0.0</Range>
+        <Flags>2</Flags>
+        <Name>F-2 Tank 300gal</Name>
+        <Hit_NoMove>0</Hit_NoMove>
+        <Hit_Foot>0</Hit_Foot>
+        <Hit_Wheeled>0</Hit_Wheeled>
+        <Hit_Tracked>0</Hit_Tracked>
+        <Hit_LowAir>0</Hit_LowAir>
+        <Hit_Air>0</Hit_Air>
+        <Hit_Naval>0</Hit_Naval>
+        <Hit_Rail>0</Hit_Rail>
+        <FireRate>1</FireRate>
+        <Rariety>99</Rariety>
+        <Guidance>0</Guidance>
+        <Collective>0</Collective>
+        <Rackgroup>0</Rackgroup>
+        <Weight>392</Weight>
+        <Drag>17</Drag>
+        <BlastRadius>0</BlastRadius>
+        <RadarIdx>0</RadarIdx>
+        <SimWeaponDataIdx>18</SimWeaponDataIdx>
+        <MaxAlt>0</MaxAlt>
+        <MinAlt>0</MinAlt>
+        <BulletTTL>0</BulletTTL>
+        <BulletVelocity>0</BulletVelocity>
+        <BulletDispersion>0</BulletDispersion>
+        <BulletRoundsPerSec>0</BulletRoundsPerSec>
+    </WCD>
+    <WCD Num="877">
+        <CtIdx>5279</CtIdx>
+        <Strength>200</Strength>
+        <DamageType>0</DamageType>
+        <Range>0.0</Range>
+        <Flags>0</Flags>
+        <Name>J/AAQ-2 NAVPOD</Name>
+        <Hit_NoMove>0</Hit_NoMove>
+        <Hit_Foot>0</Hit_Foot>
+        <Hit_Wheeled>0</Hit_Wheeled>
+        <Hit_Tracked>0</Hit_Tracked>
+        <Hit_LowAir>0</Hit_LowAir>
+        <Hit_Air>0</Hit_Air>
+        <Hit_Naval>0</Hit_Naval>
+        <Hit_Rail>0</Hit_Rail>
+        <FireRate>1</FireRate>
+        <Rariety>99</Rariety>
+        <Guidance>2</Guidance>
+        <Collective>0</Collective>
+        <Rackgroup>0</Rackgroup>
+        <Weight>429</Weight>
+        <Drag>22</Drag>
+        <BlastRadius>0</BlastRadius>
+        <RadarIdx>0</RadarIdx>
+        <SimWeaponDataIdx>26</SimWeaponDataIdx>
+        <MaxAlt>0</MaxAlt>
+        <MinAlt>0</MinAlt>
+        <BulletTTL>0</BulletTTL>
+        <BulletVelocity>0</BulletVelocity>
+        <BulletDispersion>0</BulletDispersion>
+        <BulletRoundsPerSec>0</BulletRoundsPerSec>
+        <InServiceStart>2005</InServiceStart>
+    </WCD>
+    <WCD Num="878">
+        <CtIdx>5280</CtIdx>
+        <Strength>0</Strength>
+        <DamageType>0</DamageType>
+        <Range>0.0</Range>
+        <Flags>0</Flags>
+        <Name>R F-2 600WT</Name>
+        <Hit_NoMove>0</Hit_NoMove>
+        <Hit_Foot>0</Hit_Foot>
+        <Hit_Wheeled>0</Hit_Wheeled>
+        <Hit_Tracked>0</Hit_Tracked>
+        <Hit_LowAir>0</Hit_LowAir>
+        <Hit_Air>0</Hit_Air>
+        <Hit_Naval>0</Hit_Naval>
+        <Hit_Rail>0</Hit_Rail>
+        <FireRate>1</FireRate>
+        <Rariety>99</Rariety>
+        <Guidance>0</Guidance>
+        <Collective>0</Collective>
+        <Rackgroup>0</Rackgroup>
+        <Weight>295</Weight>
+        <Drag>9</Drag>
+        <BlastRadius>0</BlastRadius>
+        <RadarIdx>0</RadarIdx>
+        <SimWeaponDataIdx>0</SimWeaponDataIdx>
+        <MaxAlt>0</MaxAlt>
+        <MinAlt>0</MinAlt>
+        <BulletTTL>0</BulletTTL>
+        <BulletVelocity>0</BulletVelocity>
+        <BulletDispersion>0</BulletDispersion>
+        <BulletRoundsPerSec>0</BulletRoundsPerSec>
+    </WCD>
+    <WCD Num="879">
+        <CtIdx>5281</CtIdx>
+        <Strength>0</Strength>
+        <DamageType>0</DamageType>
+        <Range>0.0</Range>
+        <Flags>0</Flags>
+        <Name>R F-2 Pylon</Name>
+        <Hit_NoMove>0</Hit_NoMove>
+        <Hit_Foot>0</Hit_Foot>
+        <Hit_Wheeled>0</Hit_Wheeled>
+        <Hit_Tracked>0</Hit_Tracked>
+        <Hit_LowAir>0</Hit_LowAir>
+        <Hit_Air>0</Hit_Air>
+        <Hit_Naval>0</Hit_Naval>
+        <Hit_Rail>0</Hit_Rail>
+        <FireRate>1</FireRate>
+        <Rariety>99</Rariety>
+        <Guidance>0</Guidance>
+        <Collective>0</Collective>
+        <Rackgroup>0</Rackgroup>
+        <Weight>320</Weight>
+        <Drag>14</Drag>
+        <BlastRadius>0</BlastRadius>
+        <RadarIdx>0</RadarIdx>
+        <SimWeaponDataIdx>54</SimWeaponDataIdx>
+        <MaxAlt>0</MaxAlt>
+        <MinAlt>0</MinAlt>
+        <BulletTTL>0</BulletTTL>
+        <BulletVelocity>0</BulletVelocity>
+        <BulletDispersion>0</BulletDispersion>
+        <BulletRoundsPerSec>0</BulletRoundsPerSec>
+    </WCD>
+    <WCD Num="880">
+        <CtIdx>5282</CtIdx>
+        <Strength>0</Strength>
+        <DamageType>0</DamageType>
+        <Range>0.0</Range>
+        <Flags>0</Flags>
+        <Name>R F-2 LAU-7</Name>
+        <Hit_NoMove>0</Hit_NoMove>
+        <Hit_Foot>0</Hit_Foot>
+        <Hit_Wheeled>0</Hit_Wheeled>
+        <Hit_Tracked>0</Hit_Tracked>
+        <Hit_LowAir>0</Hit_LowAir>
+        <Hit_Air>0</Hit_Air>
+        <Hit_Naval>0</Hit_Naval>
+        <Hit_Rail>0</Hit_Rail>
+        <FireRate>1</FireRate>
+        <Rariety>99</Rariety>
+        <Guidance>0</Guidance>
+        <Collective>0</Collective>
+        <Rackgroup>0</Rackgroup>
+        <Weight>95</Weight>
+        <Drag>2</Drag>
+        <BlastRadius>0</BlastRadius>
+        <RadarIdx>0</RadarIdx>
+        <SimWeaponDataIdx>54</SimWeaponDataIdx>
+        <MaxAlt>0</MaxAlt>
+        <MinAlt>0</MinAlt>
+        <BulletTTL>0</BulletTTL>
+        <BulletVelocity>0</BulletVelocity>
+        <BulletDispersion>0</BulletDispersion>
+        <BulletRoundsPerSec>0</BulletRoundsPerSec>
+    </WCD>
+    <WCD Num="881">
+        <CtIdx>5283</CtIdx>
+        <Strength>0</Strength>
+        <DamageType>0</DamageType>
+        <Range>0.0</Range>
+        <Flags>0</Flags>
+        <Name>R F-2 LAU-129+16S</Name>
+        <Hit_NoMove>0</Hit_NoMove>
+        <Hit_Foot>0</Hit_Foot>
+        <Hit_Wheeled>0</Hit_Wheeled>
+        <Hit_Tracked>0</Hit_Tracked>
+        <Hit_LowAir>0</Hit_LowAir>
+        <Hit_Air>0</Hit_Air>
+        <Hit_Naval>0</Hit_Naval>
+        <Hit_Rail>0</Hit_Rail>
+        <FireRate>1</FireRate>
+        <Rariety>99</Rariety>
+        <Guidance>0</Guidance>
+        <Collective>0</Collective>
+        <Rackgroup>0</Rackgroup>
+        <Weight>95</Weight>
+        <Drag>2</Drag>
+        <BlastRadius>0</BlastRadius>
+        <RadarIdx>0</RadarIdx>
+        <SimWeaponDataIdx>54</SimWeaponDataIdx>
+        <MaxAlt>0</MaxAlt>
+        <MinAlt>0</MinAlt>
+        <BulletTTL>0</BulletTTL>
+        <BulletVelocity>0</BulletVelocity>
+        <BulletDispersion>0</BulletDispersion>
+        <BulletRoundsPerSec>0</BulletRoundsPerSec>
+    </WCD>
+    <WCD Num="882">
+        <CtIdx>5284</CtIdx>
+        <Strength>0</Strength>
+        <DamageType>0</DamageType>
+        <Range>0.0</Range>
+        <Flags>0</Flags>
+        <Name>R F-2 Center</Name>
+        <Hit_NoMove>0</Hit_NoMove>
+        <Hit_Foot>0</Hit_Foot>
+        <Hit_Wheeled>0</Hit_Wheeled>
+        <Hit_Tracked>0</Hit_Tracked>
+        <Hit_LowAir>0</Hit_LowAir>
+        <Hit_Air>0</Hit_Air>
+        <Hit_Naval>0</Hit_Naval>
+        <Hit_Rail>0</Hit_Rail>
+        <FireRate>1</FireRate>
+        <Rariety>99</Rariety>
+        <Guidance>0</Guidance>
+        <Collective>0</Collective>
+        <Rackgroup>0</Rackgroup>
+        <Weight>172</Weight>
+        <Drag>16</Drag>
+        <BlastRadius>0</BlastRadius>
+        <RadarIdx>0</RadarIdx>
+        <SimWeaponDataIdx>54</SimWeaponDataIdx>
+        <MaxAlt>0</MaxAlt>
+        <MinAlt>0</MinAlt>
+        <BulletTTL>0</BulletTTL>
+        <BulletVelocity>0</BulletVelocity>
+        <BulletDispersion>0</BulletDispersion>
+        <BulletRoundsPerSec>0</BulletRoundsPerSec>
+    </WCD>
+    <WCD Num="883">
+        <CtIdx>5285</CtIdx>
+        <Strength>59</Strength>
+        <DamageType>5</DamageType>
+        <Range>6.0</Range>
+        <Flags>0</Flags>
+        <Name>AAM-5B</Name>
+        <Hit_NoMove>0</Hit_NoMove>
+        <Hit_Foot>0</Hit_Foot>
+        <Hit_Wheeled>0</Hit_Wheeled>
+        <Hit_Tracked>0</Hit_Tracked>
+        <Hit_LowAir>40</Hit_LowAir>
+        <Hit_Air>45</Hit_Air>
+        <Hit_Naval>0</Hit_Naval>
+        <Hit_Rail>0</Hit_Rail>
+        <FireRate>1</FireRate>
+        <Rariety>70</Rariety>
+        <Guidance>2</Guidance>
+        <Collective>0</Collective>
+        <Rackgroup>0</Rackgroup>
+        <Weight>210</Weight>
+        <Drag>4</Drag>
+        <BlastRadius>66</BlastRadius>
+        <RadarIdx>0</RadarIdx>
+        <SimWeaponDataIdx>140</SimWeaponDataIdx>
+        <MaxAlt>100</MaxAlt>
+        <MinAlt>0</MinAlt>
+        <BulletTTL>2</BulletTTL>
+        <BulletVelocity>0</BulletVelocity>
+        <BulletDispersion>0</BulletDispersion>
+        <BulletRoundsPerSec>0</BulletRoundsPerSec>
+        <InServiceStart>2016</InServiceStart>
+    </WCD>
+    <WCD Num="884">
+        <CtIdx>5289</CtIdx>
+        <Strength>365</Strength>
+        <DamageType>2</DamageType>
+        <Range>3.0</Range>
+        <Flags>8</Flags>
+        <Name>JL-100R</Name>
+        <Hit_NoMove>20</Hit_NoMove>
+        <Hit_Foot>10</Hit_Foot>
+        <Hit_Wheeled>10</Hit_Wheeled>
+        <Hit_Tracked>10</Hit_Tracked>
+        <Hit_LowAir>0</Hit_LowAir>
+        <Hit_Air>0</Hit_Air>
+        <Hit_Naval>10</Hit_Naval>
+        <Hit_Rail>10</Hit_Rail>
+        <FireRate>1</FireRate>
+        <Rariety>99</Rariety>
+        <Guidance>0</Guidance>
+        <Collective>0</Collective>
+        <Rackgroup>0</Rackgroup>
+        <Weight>270</Weight>
+        <Drag>10</Drag>
+        <BlastRadius>150</BlastRadius>
+        <RadarIdx>0</RadarIdx>
+        <SimWeaponDataIdx>21</SimWeaponDataIdx>
+        <MaxAlt>0</MaxAlt>
+        <MinAlt>0</MinAlt>
+        <BulletTTL>0</BulletTTL>
+        <BulletVelocity>0</BulletVelocity>
+        <BulletDispersion>0</BulletDispersion>
+        <BulletRoundsPerSec>0</BulletRoundsPerSec>
+    </WCD>
+    <WCD Num="885">
+        <CtIdx>5290</CtIdx>
+        <Strength>365</Strength>
+        <DamageType>2</DamageType>
+        <Range>3.0</Range>
+        <Flags>8</Flags>
+        <Name>LRF-1</Name>
+        <Hit_NoMove>20</Hit_NoMove>
+        <Hit_Foot>10</Hit_Foot>
+        <Hit_Wheeled>10</Hit_Wheeled>
+        <Hit_Tracked>10</Hit_Tracked>
+        <Hit_LowAir>0</Hit_LowAir>
+        <Hit_Air>0</Hit_Air>
+        <Hit_Naval>10</Hit_Naval>
+        <Hit_Rail>10</Hit_Rail>
+        <FireRate>1</FireRate>
+        <Rariety>99</Rariety>
+        <Guidance>0</Guidance>
+        <Collective>0</Collective>
+        <Rackgroup>0</Rackgroup>
+        <Weight>350</Weight>
+        <Drag>7</Drag>
+        <BlastRadius>150</BlastRadius>
+        <RadarIdx>0</RadarIdx>
+        <SimWeaponDataIdx>21</SimWeaponDataIdx>
+        <MaxAlt>0</MaxAlt>
+        <MinAlt>0</MinAlt>
+        <BulletTTL>0</BulletTTL>
+        <BulletVelocity>0</BulletVelocity>
+        <BulletDispersion>0</BulletDispersion>
+        <BulletRoundsPerSec>0</BulletRoundsPerSec>
+    </WCD>
+    <WCD Num="886">
+        <CtIdx>5291</CtIdx>
+        <Strength>95</Strength>
+        <DamageType>5</DamageType>
+        <Range>20.0</Range>
+        <Flags>0</Flags>
+        <Name>MATRA R530 (RF)</Name>
+        <Hit_NoMove>0</Hit_NoMove>
+        <Hit_Foot>0</Hit_Foot>
+        <Hit_Wheeled>0</Hit_Wheeled>
+        <Hit_Tracked>0</Hit_Tracked>
+        <Hit_LowAir>40</Hit_LowAir>
+        <Hit_Air>45</Hit_Air>
+        <Hit_Naval>0</Hit_Naval>
+        <Hit_Rail>0</Hit_Rail>
+        <FireRate>1</FireRate>
+        <Rariety>80</Rariety>
+        <Guidance>4</Guidance>
+        <Collective>0</Collective>
+        <Rackgroup>0</Rackgroup>
+        <Weight>423</Weight>
+        <Drag>15</Drag>
+        <BlastRadius>75</BlastRadius>
+        <RadarIdx>0</RadarIdx>
+        <SimWeaponDataIdx>143</SimWeaponDataIdx>
+        <MaxAlt>100</MaxAlt>
+        <MinAlt>0</MinAlt>
+        <BulletTTL>4</BulletTTL>
+        <BulletVelocity>0</BulletVelocity>
+        <BulletDispersion>0</BulletDispersion>
+        <BulletRoundsPerSec>0</BulletRoundsPerSec>
+        <InServiceStart>1963</InServiceStart>
+        <InServiceEnd>1991</InServiceEnd>
+    </WCD>
+    <WCD Num="887">
+        <CtIdx>5292</CtIdx>
+        <Strength>0</Strength>
+        <DamageType>0</DamageType>
+        <Range>0.0</Range>
+        <Flags>0</Flags>
+        <Name>R M5 Wing Rear</Name>
+        <Hit_NoMove>0</Hit_NoMove>
+        <Hit_Foot>0</Hit_Foot>
+        <Hit_Wheeled>0</Hit_Wheeled>
+        <Hit_Tracked>0</Hit_Tracked>
+        <Hit_LowAir>0</Hit_LowAir>
+        <Hit_Air>0</Hit_Air>
+        <Hit_Naval>0</Hit_Naval>
+        <Hit_Rail>0</Hit_Rail>
+        <FireRate>1</FireRate>
+        <Rariety>99</Rariety>
+        <Guidance>0</Guidance>
+        <Collective>0</Collective>
+        <Rackgroup>0</Rackgroup>
+        <Weight>72</Weight>
+        <Drag>2</Drag>
+        <BlastRadius>0</BlastRadius>
+        <RadarIdx>0</RadarIdx>
+        <SimWeaponDataIdx>0</SimWeaponDataIdx>
+        <MaxAlt>0</MaxAlt>
+        <MinAlt>0</MinAlt>
+        <BulletTTL>0</BulletTTL>
+        <BulletVelocity>0</BulletVelocity>
+        <BulletDispersion>0</BulletDispersion>
+        <BulletRoundsPerSec>0</BulletRoundsPerSec>
+    </WCD>
+    <WCD Num="888">
+        <CtIdx>5293</CtIdx>
+        <Strength>0</Strength>
+        <DamageType>0</DamageType>
+        <Range>0.0</Range>
+        <Flags>0</Flags>
+        <Name>R MIII ADP-4</Name>
+        <Hit_NoMove>0</Hit_NoMove>
+        <Hit_Foot>0</Hit_Foot>
+        <Hit_Wheeled>0</Hit_Wheeled>
+        <Hit_Tracked>0</Hit_Tracked>
+        <Hit_LowAir>0</Hit_LowAir>
+        <Hit_Air>0</Hit_Air>
+        <Hit_Naval>0</Hit_Naval>
+        <Hit_Rail>0</Hit_Rail>
+        <FireRate>1</FireRate>
+        <Rariety>99</Rariety>
+        <Guidance>0</Guidance>
+        <Collective>0</Collective>
+        <Rackgroup>0</Rackgroup>
+        <Weight>20</Weight>
+        <Drag>1</Drag>
+        <BlastRadius>0</BlastRadius>
+        <RadarIdx>0</RadarIdx>
+        <SimWeaponDataIdx>0</SimWeaponDataIdx>
+        <MaxAlt>0</MaxAlt>
+        <MinAlt>0</MinAlt>
+        <BulletTTL>0</BulletTTL>
+        <BulletVelocity>0</BulletVelocity>
+        <BulletDispersion>0</BulletDispersion>
+        <BulletRoundsPerSec>0</BulletRoundsPerSec>
+    </WCD>
+    <WCD Num="889">
+        <CtIdx>5294</CtIdx>
+        <Strength>0</Strength>
+        <DamageType>0</DamageType>
+        <Range>0.0</Range>
+        <Flags>0</Flags>
+        <Name>R MIII AERO 3b</Name>
+        <Hit_NoMove>0</Hit_NoMove>
+        <Hit_Foot>0</Hit_Foot>
+        <Hit_Wheeled>0</Hit_Wheeled>
+        <Hit_Tracked>0</Hit_Tracked>
+        <Hit_LowAir>0</Hit_LowAir>
+        <Hit_Air>0</Hit_Air>
+        <Hit_Naval>0</Hit_Naval>
+        <Hit_Rail>0</Hit_Rail>
+        <FireRate>1</FireRate>
+        <Rariety>99</Rariety>
+        <Guidance>0</Guidance>
+        <Collective>0</Collective>
+        <Rackgroup>0</Rackgroup>
+        <Weight>50</Weight>
+        <Drag>1</Drag>
+        <BlastRadius>0</BlastRadius>
+        <RadarIdx>0</RadarIdx>
+        <SimWeaponDataIdx>0</SimWeaponDataIdx>
+        <MaxAlt>0</MaxAlt>
+        <MinAlt>0</MinAlt>
+        <BulletTTL>0</BulletTTL>
+        <BulletVelocity>0</BulletVelocity>
+        <BulletDispersion>0</BulletDispersion>
+        <BulletRoundsPerSec>0</BulletRoundsPerSec>
+    </WCD>
+    <WCD Num="890">
+        <CtIdx>5295</CtIdx>
+        <Strength>0</Strength>
+        <DamageType>0</DamageType>
+        <Range>0.0</Range>
+        <Flags>0</Flags>
+        <Name>R MIII CES-3</Name>
+        <Hit_NoMove>0</Hit_NoMove>
+        <Hit_Foot>0</Hit_Foot>
+        <Hit_Wheeled>0</Hit_Wheeled>
+        <Hit_Tracked>0</Hit_Tracked>
+        <Hit_LowAir>0</Hit_LowAir>
+        <Hit_Air>0</Hit_Air>
+        <Hit_Naval>0</Hit_Naval>
+        <Hit_Rail>0</Hit_Rail>
+        <FireRate>1</FireRate>
+        <Rariety>99</Rariety>
+        <Guidance>0</Guidance>
+        <Collective>0</Collective>
+        <Rackgroup>0</Rackgroup>
+        <Weight>17</Weight>
+        <Drag>1</Drag>
+        <BlastRadius>0</BlastRadius>
+        <RadarIdx>0</RadarIdx>
+        <SimWeaponDataIdx>0</SimWeaponDataIdx>
+        <MaxAlt>0</MaxAlt>
+        <MinAlt>0</MinAlt>
+        <BulletTTL>0</BulletTTL>
+        <BulletVelocity>0</BulletVelocity>
+        <BulletDispersion>0</BulletDispersion>
+        <BulletRoundsPerSec>0</BulletRoundsPerSec>
+    </WCD>
+    <WCD Num="891">
+        <CtIdx>5296</CtIdx>
+        <Strength>0</Strength>
+        <DamageType>0</DamageType>
+        <Range>0.0</Range>
+        <Flags>0</Flags>
+        <Name>R MIII CL-MER</Name>
+        <Hit_NoMove>0</Hit_NoMove>
+        <Hit_Foot>0</Hit_Foot>
+        <Hit_Wheeled>0</Hit_Wheeled>
+        <Hit_Tracked>0</Hit_Tracked>
+        <Hit_LowAir>0</Hit_LowAir>
+        <Hit_Air>0</Hit_Air>
+        <Hit_Naval>0</Hit_Naval>
+        <Hit_Rail>0</Hit_Rail>
+        <FireRate>1</FireRate>
+        <Rariety>99</Rariety>
+        <Guidance>0</Guidance>
+        <Collective>0</Collective>
+        <Rackgroup>0</Rackgroup>
+        <Weight>234</Weight>
+        <Drag>19</Drag>
+        <BlastRadius>0</BlastRadius>
+        <RadarIdx>0</RadarIdx>
+        <SimWeaponDataIdx>0</SimWeaponDataIdx>
+        <MaxAlt>0</MaxAlt>
+        <MinAlt>0</MinAlt>
+        <BulletTTL>0</BulletTTL>
+        <BulletVelocity>0</BulletVelocity>
+        <BulletDispersion>0</BulletDispersion>
+        <BulletRoundsPerSec>0</BulletRoundsPerSec>
+    </WCD>
+    <WCD Num="892">
+        <CtIdx>5297</CtIdx>
+        <Strength>0</Strength>
+        <DamageType>0</DamageType>
+        <Range>0.0</Range>
+        <Flags>0</Flags>
+        <Name>R MIII CL-PM3</Name>
+        <Hit_NoMove>0</Hit_NoMove>
+        <Hit_Foot>0</Hit_Foot>
+        <Hit_Wheeled>0</Hit_Wheeled>
+        <Hit_Tracked>0</Hit_Tracked>
+        <Hit_LowAir>0</Hit_LowAir>
+        <Hit_Air>0</Hit_Air>
+        <Hit_Naval>0</Hit_Naval>
+        <Hit_Rail>0</Hit_Rail>
+        <FireRate>1</FireRate>
+        <Rariety>99</Rariety>
+        <Guidance>0</Guidance>
+        <Collective>0</Collective>
+        <Rackgroup>0</Rackgroup>
+        <Weight>177</Weight>
+        <Drag>8</Drag>
+        <BlastRadius>0</BlastRadius>
+        <RadarIdx>0</RadarIdx>
+        <SimWeaponDataIdx>0</SimWeaponDataIdx>
+        <MaxAlt>0</MaxAlt>
+        <MinAlt>0</MinAlt>
+        <BulletTTL>0</BulletTTL>
+        <BulletVelocity>0</BulletVelocity>
+        <BulletDispersion>0</BulletDispersion>
+        <BulletRoundsPerSec>0</BulletRoundsPerSec>
+    </WCD>
+    <WCD Num="893">
+        <CtIdx>5298</CtIdx>
+        <Strength>0</Strength>
+        <DamageType>0</DamageType>
+        <Range>0.0</Range>
+        <Flags>0</Flags>
+        <Name>R MIII CRP-18</Name>
+        <Hit_NoMove>0</Hit_NoMove>
+        <Hit_Foot>0</Hit_Foot>
+        <Hit_Wheeled>0</Hit_Wheeled>
+        <Hit_Tracked>0</Hit_Tracked>
+        <Hit_LowAir>0</Hit_LowAir>
+        <Hit_Air>0</Hit_Air>
+        <Hit_Naval>0</Hit_Naval>
+        <Hit_Rail>0</Hit_Rail>
+        <FireRate>1</FireRate>
+        <Rariety>99</Rariety>
+        <Guidance>0</Guidance>
+        <Collective>0</Collective>
+        <Rackgroup>0</Rackgroup>
+        <Weight>72</Weight>
+        <Drag>5</Drag>
+        <BlastRadius>0</BlastRadius>
+        <RadarIdx>0</RadarIdx>
+        <SimWeaponDataIdx>0</SimWeaponDataIdx>
+        <MaxAlt>0</MaxAlt>
+        <MinAlt>0</MinAlt>
+        <BulletTTL>0</BulletTTL>
+        <BulletVelocity>0</BulletVelocity>
+        <BulletDispersion>0</BulletDispersion>
+        <BulletRoundsPerSec>0</BulletRoundsPerSec>
+    </WCD>
+    <WCD Num="894">
+        <CtIdx>5299</CtIdx>
+        <Strength>0</Strength>
+        <DamageType>0</DamageType>
+        <Range>0.0</Range>
+        <Flags>0</Flags>
+        <Name>R MIII CRP-37</Name>
+        <Hit_NoMove>0</Hit_NoMove>
+        <Hit_Foot>0</Hit_Foot>
+        <Hit_Wheeled>0</Hit_Wheeled>
+        <Hit_Tracked>0</Hit_Tracked>
+        <Hit_LowAir>0</Hit_LowAir>
+        <Hit_Air>0</Hit_Air>
+        <Hit_Naval>0</Hit_Naval>
+        <Hit_Rail>0</Hit_Rail>
+        <FireRate>1</FireRate>
+        <Rariety>99</Rariety>
+        <Guidance>0</Guidance>
+        <Collective>0</Collective>
+        <Rackgroup>0</Rackgroup>
+        <Weight>86</Weight>
+        <Drag>5</Drag>
+        <BlastRadius>0</BlastRadius>
+        <RadarIdx>0</RadarIdx>
+        <SimWeaponDataIdx>0</SimWeaponDataIdx>
+        <MaxAlt>0</MaxAlt>
+        <MinAlt>0</MinAlt>
+        <BulletTTL>0</BulletTTL>
+        <BulletVelocity>0</BulletVelocity>
+        <BulletDispersion>0</BulletDispersion>
+        <BulletRoundsPerSec>0</BulletRoundsPerSec>
+    </WCD>
+    <WCD Num="895">
+        <CtIdx>5300</CtIdx>
+        <Strength>0</Strength>
+        <DamageType>0</DamageType>
+        <Range>0.0</Range>
+        <Flags>0</Flags>
+        <Name>R MIII LM-14</Name>
+        <Hit_NoMove>0</Hit_NoMove>
+        <Hit_Foot>0</Hit_Foot>
+        <Hit_Wheeled>0</Hit_Wheeled>
+        <Hit_Tracked>0</Hit_Tracked>
+        <Hit_LowAir>0</Hit_LowAir>
+        <Hit_Air>0</Hit_Air>
+        <Hit_Naval>0</Hit_Naval>
+        <Hit_Rail>0</Hit_Rail>
+        <FireRate>1</FireRate>
+        <Rariety>99</Rariety>
+        <Guidance>0</Guidance>
+        <Collective>0</Collective>
+        <Rackgroup>0</Rackgroup>
+        <Weight>85</Weight>
+        <Drag>6</Drag>
+        <BlastRadius>0</BlastRadius>
+        <RadarIdx>0</RadarIdx>
+        <SimWeaponDataIdx>0</SimWeaponDataIdx>
+        <MaxAlt>0</MaxAlt>
+        <MinAlt>0</MinAlt>
+        <BulletTTL>0</BulletTTL>
+        <BulletVelocity>0</BulletVelocity>
+        <BulletDispersion>0</BulletDispersion>
+        <BulletRoundsPerSec>0</BulletRoundsPerSec>
+    </WCD>
+    <WCD Num="896">
+        <CtIdx>5301</CtIdx>
+        <Strength>0</Strength>
+        <DamageType>0</DamageType>
+        <Range>0.0</Range>
+        <Flags>0</Flags>
+        <Name>R MIII LM40-ADP L</Name>
+        <Hit_NoMove>0</Hit_NoMove>
+        <Hit_Foot>0</Hit_Foot>
+        <Hit_Wheeled>0</Hit_Wheeled>
+        <Hit_Tracked>0</Hit_Tracked>
+        <Hit_LowAir>0</Hit_LowAir>
+        <Hit_Air>0</Hit_Air>
+        <Hit_Naval>0</Hit_Naval>
+        <Hit_Rail>0</Hit_Rail>
+        <FireRate>1</FireRate>
+        <Rariety>99</Rariety>
+        <Guidance>0</Guidance>
+        <Collective>0</Collective>
+        <Rackgroup>0</Rackgroup>
+        <Weight>150</Weight>
+        <Drag>2</Drag>
+        <BlastRadius>0</BlastRadius>
+        <RadarIdx>0</RadarIdx>
+        <SimWeaponDataIdx>0</SimWeaponDataIdx>
+        <MaxAlt>0</MaxAlt>
+        <MinAlt>0</MinAlt>
+        <BulletTTL>0</BulletTTL>
+        <BulletVelocity>0</BulletVelocity>
+        <BulletDispersion>0</BulletDispersion>
+        <BulletRoundsPerSec>0</BulletRoundsPerSec>
+    </WCD>
+    <WCD Num="897">
+        <CtIdx>5302</CtIdx>
+        <Strength>0</Strength>
+        <DamageType>0</DamageType>
+        <Range>0.0</Range>
+        <Flags>0</Flags>
+        <Name>R MIII LM40-ADP R</Name>
+        <Hit_NoMove>0</Hit_NoMove>
+        <Hit_Foot>0</Hit_Foot>
+        <Hit_Wheeled>0</Hit_Wheeled>
+        <Hit_Tracked>0</Hit_Tracked>
+        <Hit_LowAir>0</Hit_LowAir>
+        <Hit_Air>0</Hit_Air>
+        <Hit_Naval>0</Hit_Naval>
+        <Hit_Rail>0</Hit_Rail>
+        <FireRate>1</FireRate>
+        <Rariety>99</Rariety>
+        <Guidance>0</Guidance>
+        <Collective>0</Collective>
+        <Rackgroup>0</Rackgroup>
+        <Weight>150</Weight>
+        <Drag>2</Drag>
+        <BlastRadius>0</BlastRadius>
+        <RadarIdx>0</RadarIdx>
+        <SimWeaponDataIdx>0</SimWeaponDataIdx>
+        <MaxAlt>0</MaxAlt>
+        <MinAlt>0</MinAlt>
+        <BulletTTL>0</BulletTTL>
+        <BulletVelocity>0</BulletVelocity>
+        <BulletDispersion>0</BulletDispersion>
+        <BulletRoundsPerSec>0</BulletRoundsPerSec>
+    </WCD>
+    <WCD Num="898">
+        <CtIdx>5303</CtIdx>
+        <Strength>858</Strength>
+        <DamageType>0</DamageType>
+        <Range>0.0</Range>
+        <Flags>2</Flags>
+        <Name>RP-18 (500l)</Name>
+        <Hit_NoMove>0</Hit_NoMove>
+        <Hit_Foot>0</Hit_Foot>
+        <Hit_Wheeled>0</Hit_Wheeled>
+        <Hit_Tracked>0</Hit_Tracked>
+        <Hit_LowAir>0</Hit_LowAir>
+        <Hit_Air>0</Hit_Air>
+        <Hit_Naval>0</Hit_Naval>
+        <Hit_Rail>0</Hit_Rail>
+        <FireRate>0</FireRate>
+        <Rariety>0</Rariety>
+        <Guidance>0</Guidance>
+        <Collective>0</Collective>
+        <Rackgroup>0</Rackgroup>
+        <Weight>160</Weight>
+        <Drag>7</Drag>
+        <BlastRadius>0</BlastRadius>
+        <RadarIdx>0</RadarIdx>
+        <SimWeaponDataIdx>0</SimWeaponDataIdx>
+        <MaxAlt>0</MaxAlt>
+        <MinAlt>0</MinAlt>
+        <BulletTTL>0</BulletTTL>
+        <BulletVelocity>0</BulletVelocity>
+        <BulletDispersion>0</BulletDispersion>
+        <BulletRoundsPerSec>0</BulletRoundsPerSec>
+    </WCD>
+    <WCD Num="899">
+        <CtIdx>5304</CtIdx>
+        <Strength>858</Strength>
+        <DamageType>0</DamageType>
+        <Range>0.0</Range>
+        <Flags>2</Flags>
+        <Name>RPK-10LH</Name>
+        <Hit_NoMove>0</Hit_NoMove>
+        <Hit_Foot>0</Hit_Foot>
+        <Hit_Wheeled>0</Hit_Wheeled>
+        <Hit_Tracked>0</Hit_Tracked>
+        <Hit_LowAir>0</Hit_LowAir>
+        <Hit_Air>0</Hit_Air>
+        <Hit_Naval>0</Hit_Naval>
+        <Hit_Rail>0</Hit_Rail>
+        <FireRate>0</FireRate>
+        <Rariety>0</Rariety>
+        <Guidance>0</Guidance>
+        <Collective>0</Collective>
+        <Rackgroup>0</Rackgroup>
+        <Weight>173</Weight>
+        <Drag>15</Drag>
+        <BlastRadius>0</BlastRadius>
+        <RadarIdx>0</RadarIdx>
+        <SimWeaponDataIdx>0</SimWeaponDataIdx>
+        <MaxAlt>0</MaxAlt>
+        <MinAlt>0</MinAlt>
+        <BulletTTL>0</BulletTTL>
+        <BulletVelocity>0</BulletVelocity>
+        <BulletDispersion>0</BulletDispersion>
+        <BulletRoundsPerSec>0</BulletRoundsPerSec>
+    </WCD>
+    <WCD Num="900">
+        <CtIdx>5305</CtIdx>
+        <Strength>858</Strength>
+        <DamageType>0</DamageType>
+        <Range>0.0</Range>
+        <Flags>2</Flags>
+        <Name>RPK-10RH</Name>
+        <Hit_NoMove>0</Hit_NoMove>
+        <Hit_Foot>0</Hit_Foot>
+        <Hit_Wheeled>0</Hit_Wheeled>
+        <Hit_Tracked>0</Hit_Tracked>
+        <Hit_LowAir>0</Hit_LowAir>
+        <Hit_Air>0</Hit_Air>
+        <Hit_Naval>0</Hit_Naval>
+        <Hit_Rail>0</Hit_Rail>
+        <FireRate>0</FireRate>
+        <Rariety>0</Rariety>
+        <Guidance>0</Guidance>
+        <Collective>0</Collective>
+        <Rackgroup>0</Rackgroup>
+        <Weight>173</Weight>
+        <Drag>15</Drag>
+        <BlastRadius>0</BlastRadius>
+        <RadarIdx>0</RadarIdx>
+        <SimWeaponDataIdx>0</SimWeaponDataIdx>
+        <MaxAlt>0</MaxAlt>
+        <MinAlt>0</MinAlt>
+        <BulletTTL>0</BulletTTL>
+        <BulletVelocity>0</BulletVelocity>
+        <BulletDispersion>0</BulletDispersion>
+        <BulletRoundsPerSec>0</BulletRoundsPerSec>
+    </WCD>
+    <WCD Num="901">
+        <CtIdx>5306</CtIdx>
+        <Strength>858</Strength>
+        <DamageType>0</DamageType>
+        <Range>0.0</Range>
+        <Flags>2</Flags>
+        <Name>RPL-18 (500l)</Name>
+        <Hit_NoMove>0</Hit_NoMove>
+        <Hit_Foot>0</Hit_Foot>
+        <Hit_Wheeled>0</Hit_Wheeled>
+        <Hit_Tracked>0</Hit_Tracked>
+        <Hit_LowAir>0</Hit_LowAir>
+        <Hit_Air>0</Hit_Air>
+        <Hit_Naval>0</Hit_Naval>
+        <Hit_Rail>0</Hit_Rail>
+        <FireRate>0</FireRate>
+        <Rariety>0</Rariety>
+        <Guidance>0</Guidance>
+        <Collective>0</Collective>
+        <Rackgroup>0</Rackgroup>
+        <Weight>173</Weight>
+        <Drag>15</Drag>
+        <BlastRadius>0</BlastRadius>
+        <RadarIdx>0</RadarIdx>
+        <SimWeaponDataIdx>0</SimWeaponDataIdx>
+        <MaxAlt>0</MaxAlt>
+        <MinAlt>0</MinAlt>
+        <BulletTTL>0</BulletTTL>
+        <BulletVelocity>0</BulletVelocity>
+        <BulletDispersion>0</BulletDispersion>
+        <BulletRoundsPerSec>0</BulletRoundsPerSec>
+    </WCD>
+    <WCD Num="902">
+        <CtIdx>5307</CtIdx>
+        <Strength>2955</Strength>
+        <DamageType>0</DamageType>
+        <Range>0.0</Range>
+        <Flags>2</Flags>
+        <Name>RPL-30 (1700l)</Name>
+        <Hit_NoMove>0</Hit_NoMove>
+        <Hit_Foot>0</Hit_Foot>
+        <Hit_Wheeled>0</Hit_Wheeled>
+        <Hit_Tracked>0</Hit_Tracked>
+        <Hit_LowAir>0</Hit_LowAir>
+        <Hit_Air>0</Hit_Air>
+        <Hit_Naval>0</Hit_Naval>
+        <Hit_Rail>0</Hit_Rail>
+        <FireRate>0</FireRate>
+        <Rariety>0</Rariety>
+        <Guidance>0</Guidance>
+        <Collective>0</Collective>
+        <Rackgroup>0</Rackgroup>
+        <Weight>384</Weight>
+        <Drag>33</Drag>
+        <BlastRadius>0</BlastRadius>
+        <RadarIdx>0</RadarIdx>
+        <SimWeaponDataIdx>0</SimWeaponDataIdx>
+        <MaxAlt>0</MaxAlt>
+        <MinAlt>0</MinAlt>
+        <BulletTTL>0</BulletTTL>
+        <BulletVelocity>0</BulletVelocity>
+        <BulletDispersion>0</BulletDispersion>
+        <BulletRoundsPerSec>0</BulletRoundsPerSec>
+    </WCD>
+    <WCD Num="903">
+        <CtIdx>5308</CtIdx>
+        <Strength>2293</Strength>
+        <DamageType>0</DamageType>
+        <Range>0.0</Range>
+        <Flags>2</Flags>
+        <Name>RPL-62 (1300l)</Name>
+        <Hit_NoMove>0</Hit_NoMove>
+        <Hit_Foot>0</Hit_Foot>
+        <Hit_Wheeled>0</Hit_Wheeled>
+        <Hit_Tracked>0</Hit_Tracked>
+        <Hit_LowAir>0</Hit_LowAir>
+        <Hit_Air>0</Hit_Air>
+        <Hit_Naval>0</Hit_Naval>
+        <Hit_Rail>0</Hit_Rail>
+        <FireRate>0</FireRate>
+        <Rariety>0</Rariety>
+        <Guidance>0</Guidance>
+        <Collective>0</Collective>
+        <Rackgroup>0</Rackgroup>
+        <Weight>240</Weight>
+        <Drag>23</Drag>
+        <BlastRadius>0</BlastRadius>
+        <RadarIdx>0</RadarIdx>
+        <SimWeaponDataIdx>0</SimWeaponDataIdx>
+        <MaxAlt>0</MaxAlt>
+        <MinAlt>0</MinAlt>
+        <BulletTTL>0</BulletTTL>
+        <BulletVelocity>0</BulletVelocity>
+        <BulletDispersion>0</BulletDispersion>
+        <BulletRoundsPerSec>0</BulletRoundsPerSec>
+    </WCD>
+    <WCD Num="904">
+        <CtIdx>5309</CtIdx>
+        <Strength>1455</Strength>
+        <DamageType>0</DamageType>
+        <Range>0.0</Range>
+        <Flags>2</Flags>
+        <Name>RPL-825 (825l)</Name>
+        <Hit_NoMove>0</Hit_NoMove>
+        <Hit_Foot>0</Hit_Foot>
+        <Hit_Wheeled>0</Hit_Wheeled>
+        <Hit_Tracked>0</Hit_Tracked>
+        <Hit_LowAir>0</Hit_LowAir>
+        <Hit_Air>0</Hit_Air>
+        <Hit_Naval>0</Hit_Naval>
+        <Hit_Rail>0</Hit_Rail>
+        <FireRate>0</FireRate>
+        <Rariety>0</Rariety>
+        <Guidance>0</Guidance>
+        <Collective>0</Collective>
+        <Rackgroup>0</Rackgroup>
+        <Weight>240</Weight>
+        <Drag>20</Drag>
+        <BlastRadius>0</BlastRadius>
+        <RadarIdx>0</RadarIdx>
+        <SimWeaponDataIdx>0</SimWeaponDataIdx>
+        <MaxAlt>0</MaxAlt>
+        <MinAlt>0</MinAlt>
+        <BulletTTL>0</BulletTTL>
+        <BulletVelocity>0</BulletVelocity>
+        <BulletDispersion>0</BulletDispersion>
+        <BulletRoundsPerSec>0</BulletRoundsPerSec>
+    </WCD>
+    <WCD Num="905">
+        <CtIdx>5310</CtIdx>
+        <Strength>67</Strength>
+        <DamageType>5</DamageType>
+        <Range>4.0</Range>
+        <Flags>0</Flags>
+        <Name>Shafrir 2</Name>
         <Hit_NoMove>0</Hit_NoMove>
         <Hit_Foot>0</Hit_Foot>
         <Hit_Wheeled>0</Hit_Wheeled>
@@ -27948,24 +29310,58 @@
         <Hit_Naval>0</Hit_Naval>
         <Hit_Rail>0</Hit_Rail>
         <FireRate>1</FireRate>
-        <Rariety>99</Rariety>
-        <Guidance>68</Guidance>
+        <Rariety>70</Rariety>
+        <Guidance>34</Guidance>
         <Collective>0</Collective>
         <Rackgroup>0</Rackgroup>
-        <Weight>485</Weight>
-        <Drag>0</Drag>
-        <BlastRadius>77</BlastRadius>
+        <Weight>205</Weight>
+        <Drag>4</Drag>
+        <BlastRadius>71</BlastRadius>
         <RadarIdx>0</RadarIdx>
-        <SimWeaponDataIdx>47</SimWeaponDataIdx>
-        <MaxAlt>20</MaxAlt>
+        <SimWeaponDataIdx>108</SimWeaponDataIdx>
+        <MaxAlt>100</MaxAlt>
         <MinAlt>0</MinAlt>
-        <BulletTTL>4</BulletTTL>
+        <BulletTTL>3</BulletTTL>
+        <BulletVelocity>0</BulletVelocity>
+        <BulletDispersion>0</BulletDispersion>
+        <BulletRoundsPerSec>0</BulletRoundsPerSec>
+        <InServiceStart>1963</InServiceStart>
+        <InServiceEnd>1989</InServiceEnd>
+    </WCD>
+    <WCD Num="906">
+        <CtIdx>5344</CtIdx>
+        <Strength>0</Strength>
+        <DamageType>0</DamageType>
+        <Range>0.0</Range>
+        <Flags>0</Flags>
+        <Name>R MIII CL-PM30</Name>
+        <Hit_NoMove>0</Hit_NoMove>
+        <Hit_Foot>0</Hit_Foot>
+        <Hit_Wheeled>0</Hit_Wheeled>
+        <Hit_Tracked>0</Hit_Tracked>
+        <Hit_LowAir>0</Hit_LowAir>
+        <Hit_Air>0</Hit_Air>
+        <Hit_Naval>0</Hit_Naval>
+        <Hit_Rail>0</Hit_Rail>
+        <FireRate>1</FireRate>
+        <Rariety>99</Rariety>
+        <Guidance>0</Guidance>
+        <Collective>0</Collective>
+        <Rackgroup>0</Rackgroup>
+        <Weight>177</Weight>
+        <Drag>8</Drag>
+        <BlastRadius>0</BlastRadius>
+        <RadarIdx>0</RadarIdx>
+        <SimWeaponDataIdx>0</SimWeaponDataIdx>
+        <MaxAlt>0</MaxAlt>
+        <MinAlt>0</MinAlt>
+        <BulletTTL>0</BulletTTL>
         <BulletVelocity>0</BulletVelocity>
         <BulletDispersion>0</BulletDispersion>
         <BulletRoundsPerSec>0</BulletRoundsPerSec>
     </WCD>
-    <WCD Num="866">
-        <CtIdx>5269</CtIdx>
+    <WCD Num="907">
+        <CtIdx>5349</CtIdx>
         <Strength>110</Strength>
         <DamageType>2</DamageType>
         <Range>3.0</Range>
@@ -27997,8 +29393,8 @@
         <BulletRoundsPerSec>0</BulletRoundsPerSec>
         <InServiceStart>1960</InServiceStart>
     </WCD>
-    <WCD Num="867">
-        <CtIdx>5270</CtIdx>
+    <WCD Num="908">
+        <CtIdx>5350</CtIdx>
         <Strength>110</Strength>
         <DamageType>2</DamageType>
         <Range>3.0</Range>
@@ -28030,8 +29426,8 @@
         <BulletRoundsPerSec>0</BulletRoundsPerSec>
         <InServiceStart>1960</InServiceStart>
     </WCD>
-    <WCD Num="868">
-        <CtIdx>5271</CtIdx>
+    <WCD Num="909">
+        <CtIdx>5351</CtIdx>
         <Strength>110</Strength>
         <DamageType>2</DamageType>
         <Range>3.0</Range>
@@ -28063,8 +29459,8 @@
         <BulletRoundsPerSec>0</BulletRoundsPerSec>
         <InServiceStart>1960</InServiceStart>
     </WCD>
-    <WCD Num="869">
-        <CtIdx>5280</CtIdx>
+    <WCD Num="910">
+        <CtIdx>5360</CtIdx>
         <Strength>87</Strength>
         <DamageType>5</DamageType>
         <Range>18.0</Range>
@@ -28097,8 +29493,8 @@
         <InServiceStart>1976</InServiceStart>
         <InServiceEnd>1999</InServiceEnd>
     </WCD>
-    <WCD Num="870">
-        <CtIdx>5281</CtIdx>
+    <WCD Num="911">
+        <CtIdx>5361</CtIdx>
         <Strength>85</Strength>
         <DamageType>5</DamageType>
         <Range>8.0</Range>

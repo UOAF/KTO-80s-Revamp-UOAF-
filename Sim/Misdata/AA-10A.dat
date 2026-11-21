@@ -348,12 +348,17 @@ AspectSelectorSize 50
 #-----------------------------------------------------
 # Engine
 #-----------------------------------------------------
-engLocation -6.10 0.00 0.35
+engLocation 9.697 0.00 0.401000
 EngineSound 267
 hasGasDynamicManeuvering 0
 mistrail 49
 contrail 0
-misengGlowBSP 672
+misengGlowBSP 0
+flameChainID 4
+flameChainInitialSize 1.0
+flameChainGrowthRate 0.20
+flameChainLength 40.0
+flameChainRandomPosition 0.005
 #-----------------------------------------------------
 # Rocket
 #-----------------------------------------------------

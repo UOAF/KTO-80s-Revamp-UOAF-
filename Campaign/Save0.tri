@@ -220,27 +220,27 @@
 //////////////////////////////////////////////////////////////////////////////
 // Event #17
 // (1) We win - hu-rah! Basically - We own Wonsan and P'yongyang
-// (1) Along with Onch'ang-ni, Hamju, Huich'on, Kaech'on, Taehung
+// (1) Along with Cheonan, Pyongyang East, Pyongyang North, West Wonsan
 //
 // (2) Alternative win - hu-rah!
 // (2) If allies control both Wonsan and P'yongyang
-// (2) If allies control any of Onch'ang-ni, Hamju, Huicho'on, Kaech'on, or Taehung
+// (2) If allies control any of Cheonan, Pyongyang East, Pyongyang North, West Wonsan
 // (2) If DPRK Ground Forces are less than 0.1 of Allied Ground Forces
 //
 // (3) Alternative win - hu-rah!
-// (3) If allies control either of P'yongyang or Wonsan
+// (3) If allies control either of Wonsan and P'yongyang
 // (3) If DPRK Ground forces are less than 0.1 of Allied Ground Forces
-// (3) Basically attritted DPRK while retaining P'yongyang or Wonsan
+// (3) Basically attritted DPRK while retaining Wonsan and P'yongyang
 //////////////////////////////////////////////////////////////////////////////
 #IF_CAMPAIGN_DAY >= 5
-	#IF_CONTROLLED 2 AND 2122 1850 1792 1013 358 454 1698
+	#IF_CONTROLLED 2 AND 2122 1850 1812 1448 2124 775
 		#PLAY_MOVIE 116
 		#DO_EVENT 17
 		#END_GAME 17
 		#DO_MONOLOG We win - hu-rah! (1) -> END GAME
 	#ELSE
 		#IF_CONTROLLED 2 AND 2122 1850
-			#IF_CONTROLLED 2 OR 1792 1013 358 454 1698
+			#IF_CONTROLLED 2 OR 1812 1448 2124 775
 				#IF_FORCE_RATIO GND 6 2 <= 1
 					#PLAY_MOVIE 116
 					#DO_EVENT 17

@@ -13,7 +13,7 @@
     <PHD Num="1">
         <ObjIdx>61</ObjIdx>
         <Type>1</Type>
-        <PointCount>246</PointCount>
+        <PointCount>236</PointCount>
         <FeatureDependencyIdx_0>1</FeatureDependencyIdx_0>
         <FeatureDependencyIdx_1>2</FeatureDependencyIdx_1>
         <FeatureDependencyIdx_2>3</FeatureDependencyIdx_2>
@@ -27,13 +27,13 @@
     <PHD Num="2">
         <ObjIdx>61</ObjIdx>
         <Type>1</Type>
-        <PointCount>255</PointCount>
+        <PointCount>245</PointCount>
         <FeatureDependencyIdx_0>4</FeatureDependencyIdx_0>
         <FeatureDependencyIdx_1>3</FeatureDependencyIdx_1>
         <FeatureDependencyIdx_2>2</FeatureDependencyIdx_2>
         <FeatureDependencyIdx_3>1</FeatureDependencyIdx_3>
         <Data>188.100</Data>
-        <FirstPtIdx>254</FirstPtIdx>
+        <FirstPtIdx>244</FirstPtIdx>
         <RunwayTexture>0</RunwayTexture>
         <RunwayNumber>0</RunwayNumber>
         <LandingPattern>0</LandingPattern>
@@ -43,7 +43,7 @@
         <Type>8</Type>
         <PointCount>8</PointCount>
         <Data>1.800</Data>
-        <FirstPtIdx>509</FirstPtIdx>
+        <FirstPtIdx>489</FirstPtIdx>
         <RunwayTexture>0</RunwayTexture>
         <RunwayNumber>1</RunwayNumber>
         <LandingPattern>0</LandingPattern>
@@ -57,7 +57,7 @@
         <FeatureDependencyIdx_2>9</FeatureDependencyIdx_2>
         <FeatureDependencyIdx_3>10</FeatureDependencyIdx_3>
         <Data>1.804</Data>
-        <FirstPtIdx>517</FirstPtIdx>
+        <FirstPtIdx>497</FirstPtIdx>
         <RunwayTexture>0</RunwayTexture>
         <RunwayNumber>1</RunwayNumber>
         <LandingPattern>0</LandingPattern>
@@ -71,7 +71,7 @@
         <FeatureDependencyIdx_2>8</FeatureDependencyIdx_2>
         <FeatureDependencyIdx_3>7</FeatureDependencyIdx_3>
         <Data>181.800</Data>
-        <FirstPtIdx>755</FirstPtIdx>
+        <FirstPtIdx>735</FirstPtIdx>
         <RunwayTexture>0</RunwayTexture>
         <RunwayNumber>1</RunwayNumber>
         <LandingPattern>0</LandingPattern>
@@ -81,7 +81,7 @@
         <Type>14</Type>
         <PointCount>8</PointCount>
         <Data>0.000</Data>
-        <FirstPtIdx>1002</FirstPtIdx>
+        <FirstPtIdx>982</FirstPtIdx>
         <RunwayTexture>0</RunwayTexture>
         <RunwayNumber>0</RunwayNumber>
         <LandingPattern>0</LandingPattern>
@@ -91,7 +91,7 @@
         <Type>6</Type>
         <PointCount>40</PointCount>
         <Data>0.000</Data>
-        <FirstPtIdx>1010</FirstPtIdx>
+        <FirstPtIdx>990</FirstPtIdx>
         <RunwayTexture>-1</RunwayTexture>
         <RunwayNumber>0</RunwayNumber>
         <LandingPattern>0</LandingPattern>
@@ -101,7 +101,7 @@
         <Type>4</Type>
         <PointCount>27</PointCount>
         <Data>0.000</Data>
-        <FirstPtIdx>1050</FirstPtIdx>
+        <FirstPtIdx>1030</FirstPtIdx>
         <RunwayTexture>-1</RunwayTexture>
         <RunwayNumber>0</RunwayNumber>
         <LandingPattern>0</LandingPattern>
@@ -111,7 +111,7 @@
         <Type>18</Type>
         <PointCount>19</PointCount>
         <Data>0.000</Data>
-        <FirstPtIdx>1077</FirstPtIdx>
+        <FirstPtIdx>1057</FirstPtIdx>
         <RunwayTexture>0</RunwayTexture>
         <RunwayNumber>0</RunwayNumber>
         <LandingPattern>0</LandingPattern>

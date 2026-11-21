@@ -28,8 +28,8 @@ TurretAzimuthOffset 0.00
 DrivetrainDataDofIdx 10
 DrivetrainDataDofFactor 1.80
 DrivetrainDataSwitchIdx 11
-DrivetrainDataSwitchFactor 8.00
-DrivetrainDataSwitchNumStates 6
+DrivetrainDataSwitchFactor 133.25
+DrivetrainDataSwitchNumStates 4
 #-----------------------------------------------------
 # Trailer Data
 #-----------------------------------------------------

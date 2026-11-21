@@ -17,15 +17,15 @@ airframe {
     position_ft {
       x: 15.5
       y: 0
-      z: 7.25
+      z: 7.20
     } 
-    range_deg: 100
+    range_deg: 120
   } 
   gear {
     position_ft {
       x: 36.6
       y: -5.6
-      z: 7.25
+      z: 7.20
     } 
     range_deg: 90
   } 
@@ -33,7 +33,7 @@ airframe {
     position_ft {
       x: 36.6
       y: 5.6
-      z: 7.25
+      z: 7.20
     } 
     range_deg: 90
   } 

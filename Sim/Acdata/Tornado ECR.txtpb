@@ -19,7 +19,7 @@ airframe {
       y: 0
       z: 7
     } 
-    range_deg: 100
+    range_deg: 110
   } 
   gear {
     position_ft {
@@ -467,9 +467,9 @@ auxaero {
     damage_hit_threshold: 45
     complex_nozzle: 0
     anim_exh_noz_idle: 0
-    anim_exh_noz_min: 10
+    anim_exh_noz_min: 20
     anim_exh_noz_max: 5
-    anim_exh_noz_ab: 0
+    anim_exh_noz_ab: 15
     anim_exh_noz_abmax: 15
     anim_exh_noz_rate: 5
     prop_engine_switch_states: 0
@@ -498,7 +498,21 @@ auxaero {
     jet_heat_shader_max_speed_kts: 250
   } 
   intake_ramp_data {
-  } 
+    anim_intake_ramp {
+      table {
+        x_axis {
+          breakpoints: [0]
+        } 
+        y_axis {
+          breakpoints: [0, 0.1, 0.3, 0.6, 1, 2]
+        } 
+        data {
+          values: [25, 20, 16, 0, 18, 25]
+        } 
+      } 
+      rate: 75
+    } 
+  }
   flight_dynamics {
     area2_span: 0.1406
     pitch_momentum: 1.2
@@ -577,7 +591,7 @@ auxaero {
     airbrake_out_rate_factor: 0.416667
     airbrake_in_rate_factor: 0.138889
     airbrake_approach_angle_deg: -1
-    min_airbrake_speed_kts: 200
+    min_airbrake_speed_kts: -1
   } 
   drag_chute {
     drag_chute_cd: 0
@@ -594,10 +608,10 @@ auxaero {
     nlg_wow_percentage: 0.5
     nws_rate_up: 1.5
     nws_rate_down: 4
-    nws_dof_multiplier_for_ai: 0
+    nws_dof_multiplier_for_ai: 3
     nws_dof_multiplier_for_player: 1
     anim_gear_angle_ofm_deg {
-      values: [0, 0, 0]
+      values: [10, 70, 70]
     } 
     anim_gear_angle_afm_deg {
       values: [0, 0, 0]
@@ -609,7 +623,7 @@ auxaero {
       values: [0.5, 0.45, 0.45]
     } 
     anim_gear_max_ext_ft {
-      values: [0.5, 0.4, 0.4]
+      values: [0.4, 0.4, 0.4]
     } 
     anim_gear_inverted: false
     gear_dof_rate {
@@ -622,7 +636,7 @@ auxaero {
       values: [0, 0, 0]
     } 
     door_dof_rate {
-      values: [0.6, 0.6, 0.6]
+      values: [0.4, 0.4, 0.4]
     } 
     door_delay_down_sec {
       values: [0, 0, 0]
@@ -805,7 +819,7 @@ auxaero {
   iff {
     avionics_iff_transponder_settings: 31
     avionics_iff_interrogator_settings: 0
-    avionics_iff_backup_m1_m3: 1
+    avionics_iff_backup_m1_m3: 0
   } 
   autopilot {
     max_autopilot_mach: 0.95
@@ -1520,7 +1534,7 @@ auxaero {
     opt_climb_mach: 0.8
     min_climb_rate: 2800
     descent_path: -1
-    landing_aoa: 12.5
+    landing_aoa: 10
     aerobraking_aoa: 0
     ai_landing_offset: -600
     min_decel_gs_after_touchdown: 0.1
@@ -1735,11 +1749,181 @@ auxaero {
     } 
   } 
   lights {
+    point_lights {  #Nav wing left
+      type: LIGHT_POS_WINGS
+      identifier: 0
+      position {
+        x: -6.6
+        y: -21.39
+        z: -1.13
+      } 
+      color {
+        x: 0.4
+        y: 0
+        z: 0
+      } 
+      radius: 30
+      attenuation: 0.7
+      ps_alpha_cx: 0
+      ps_kick_in_dist: 0
+    } 
+    point_lights {  #Nav wing right
+      type: LIGHT_POS_WINGS
+      identifier: 1
+      position {
+        x: -6.32
+        y: 21.1
+        z: -0.97
+      } 
+      color {
+        x: 0
+        y: 0.4
+        z: 0
+      } 
+      radius: 30
+      attenuation: 0.7
+      ps_size_cx: 0
+      ps_alpha_cx: 0
+      ps_kick_in_dist: 0
+    } 
+    point_lights {  #Nav side fuse left
+      type: LIGHT_POS_WINGS
+      identifier: 2
+      position {
+        x: 5.96
+        y: -5.48
+        z: -0.97
+      } 
+      color {
+        x: 0.4
+        y: 0
+        z: 0
+      } 
+      radius: 25
+      attenuation: 0.7
+      ps_size_cx: 0
+      ps_alpha_cx: 0
+      ps_kick_in_dist: 0
+    } 
+    point_lights {  #Nav side fuse right
+      type: LIGHT_POS_WINGS
+      identifier: 3
+      position {
+        x: 5.67
+        y: 5.59
+        z: -0.97
+      } 
+      color {
+        x: 0
+        y: 0.4
+        z: 0
+      } 
+      radius: 25
+      attenuation: 0.7
+      ps_size_cx: 0
+      ps_alpha_cx: 0
+      ps_kick_in_dist: 0
+    } 
+    point_lights {  #Tail strobe
+      type: LIGHT_POS_WINGS
+      identifier: 4
+      position {
+        x: -27.44
+        y: -0.05
+        z: -12.4
+      } 
+      color {
+        x: 0.4
+        y: 0
+        z: 0
+      } 
+      radius: 25
+      attenuation: 0.1
+      ps_size_cx: 0
+      ps_alpha_cx: 0
+      ps_kick_in_dist: 0
+    } 
+    point_lights {  #Top fuse strobe
+      type: LIGHT_TAIL_STROBE
+      identifier: 5
+      position {
+        x: -1.78
+        y: 0.32
+        z: -4.7
+      } 
+      color {
+        x: 0.5
+        y: 0.5
+        z: 0.5
+      } 
+      radius: 25
+      attenuation: 0.7
+      ps_size_cx: 0
+      ps_alpha_cx: 0
+      ps_kick_in_dist: 0
+    } 
+    point_lights {  #Belly Strobe
+      type: LIGHT_TAIL_STROBE
+      identifier: 6
+      position {
+        x: 7.94
+        y: 0
+        z: 2.45
+      } 
+      color {
+        x: 0.5
+        y: 0.5
+        z: 0.5
+      } 
+      radius: 25
+      attenuation: 0.7
+      ps_size_cx: 0
+      ps_alpha_cx: 0
+      ps_kick_in_dist: 0
+    } 
+    point_lights {  #Tail strobe
+      type: LIGHT_POS_WINGS
+      identifier: 7
+      position {
+        x: -27.27
+        y: 0
+        z: -12.4
+      } 
+      color {
+        x: 0
+        y: 0.4
+        z: 0
+      } 
+      radius: 25
+      attenuation: 0.1
+      ps_size_cx: 0
+      ps_alpha_cx: 0
+      ps_kick_in_dist: 0
+    } 
+    point_lights {
+      type: LIGHT_AB_STAGE2
+      identifier: 8
+      position {
+        x: -22
+        y: 0
+        z: -1.22
+      } 
+      color {
+        x: 0.8
+        y: 0.6
+        z: 0.3
+      } 
+      radius: 20
+      attenuation: 0.01
+      ps_size_cx: 0
+      ps_alpha_cx: 0
+      ps_kick_in_dist: 0
+    } 
     anim_strobe_on_time: 0.02
-    anim_strobe_off_time: 1
+    anim_strobe_off_time: 0.5
     anim_wing_flash_on_time: 0.03
-    anim_wing_flash_off_time: 1.5
-    num_formation_light_levels: 0
+    anim_wing_flash_off_time: 1
+    num_formation_light_levels: 3
     num_aar_light_levels: 0
     ext_light_ctrl_panel: 0
     features_mobile_lights {

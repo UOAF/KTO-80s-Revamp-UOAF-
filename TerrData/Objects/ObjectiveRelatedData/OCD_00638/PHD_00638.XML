@@ -13,7 +13,7 @@
     <PHD Num="1">
         <ObjIdx>638</ObjIdx>
         <Type>1</Type>
-        <PointCount>146</PointCount>
+        <PointCount>139</PointCount>
         <FeatureDependencyIdx_0>1</FeatureDependencyIdx_0>
         <FeatureDependencyIdx_1>2</FeatureDependencyIdx_1>
         <FeatureDependencyIdx_2>3</FeatureDependencyIdx_2>
@@ -28,14 +28,14 @@
     <PHD Num="2">
         <ObjIdx>638</ObjIdx>
         <Type>1</Type>
-        <PointCount>180</PointCount>
+        <PointCount>174</PointCount>
         <FeatureDependencyIdx_0>6</FeatureDependencyIdx_0>
         <FeatureDependencyIdx_1>5</FeatureDependencyIdx_1>
         <FeatureDependencyIdx_2>4</FeatureDependencyIdx_2>
         <FeatureDependencyIdx_3>3</FeatureDependencyIdx_3>
         <FeatureDependencyIdx_4>2</FeatureDependencyIdx_4>
         <Data>247.598</Data>
-        <FirstPtIdx>154</FirstPtIdx>
+        <FirstPtIdx>147</FirstPtIdx>
         <RunwayTexture>0</RunwayTexture>
         <RunwayNumber>0</RunwayNumber>
         <LandingPattern>0</LandingPattern>
@@ -45,7 +45,7 @@
         <Type>14</Type>
         <PointCount>18</PointCount>
         <Data>250.000</Data>
-        <FirstPtIdx>334</FirstPtIdx>
+        <FirstPtIdx>321</FirstPtIdx>
         <RunwayTexture>0</RunwayTexture>
         <RunwayNumber>0</RunwayNumber>
         <LandingPattern>0</LandingPattern>
@@ -55,7 +55,7 @@
         <Type>6</Type>
         <PointCount>22</PointCount>
         <Data>260.000</Data>
-        <FirstPtIdx>352</FirstPtIdx>
+        <FirstPtIdx>339</FirstPtIdx>
         <RunwayTexture>-1</RunwayTexture>
         <RunwayNumber>-1</RunwayNumber>
         <LandingPattern>0</LandingPattern>
@@ -65,7 +65,7 @@
         <Type>4</Type>
         <PointCount>25</PointCount>
         <Data>260.000</Data>
-        <FirstPtIdx>374</FirstPtIdx>
+        <FirstPtIdx>361</FirstPtIdx>
         <RunwayTexture>-1</RunwayTexture>
         <RunwayNumber>-1</RunwayNumber>
         <LandingPattern>0</LandingPattern>
@@ -75,7 +75,7 @@
         <Type>18</Type>
         <PointCount>19</PointCount>
         <Data>0.000</Data>
-        <FirstPtIdx>399</FirstPtIdx>
+        <FirstPtIdx>386</FirstPtIdx>
         <RunwayTexture>0</RunwayTexture>
         <RunwayNumber>0</RunwayNumber>
         <LandingPattern>0</LandingPattern>

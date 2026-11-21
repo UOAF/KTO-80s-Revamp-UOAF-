@@ -1,446 +1,474 @@
 // Airframe: F-15ABCD
 // Cockpit Type: F-15C
-// Last edited: 26 Jan 2024 - Kolbe
+// Last edited: Oct 2026 - Van
 
-// <command name>   <x>   <y>   <z>   <size>   <snd>   <msbtn>   <wheel>
+// Search for //WIP comments
+// Blender outputs incorrectly as +X,+Y,+Z, should be -Z,-X,+Y. X right, Y up, Z forward.
+// <command name>   <z>   <x>   <y>   <size>   <snd>   <msbtn>   <wheel>
 // Panel order: left to right, top down
 // <wheel> : w means wheel , p means this button is invariant to the switch & knobs config options
 
-///////////////////////////
-// LEFT PANEL
-///////////////////////////
+/////////////////////////
+//LEFT PANEL
+/////////////////////////
 
-// GND PWR Panel (n/i)
+//GND PWR Panel (n/i)
 
-// BIT Panel (n/i)
+//BIT Panel
+SimF15BitSelectorInc                        0.602273    1.561041    -2.258326   30  116 1
+SimF15BitSelectorDec                        0.602273    1.561041    -2.258326   30  116 2
+SimF15BitInitiatePress                      0.753778    1.603367    -2.254232   15  314 1
+SimF15BitCcResetPress                       0.753778    1.603367    -2.254232   15  314 1
+SimF15BitReset                              0.541197    1.842293    -2.244626   15  115 1
+SimF15BitRecall                             0.541197    1.842293    -2.244626   15  115 2
 
-// JTIDS
-SimF15JtidsA                                 0.53319 1.914193 -2.408727    20  115   1
-SimF15JtidsB                                 0.53319 1.914193 -2.408727    20  115   2
-SimF15JtidsZero                              0.41740 1.914161 -2.396276    20  115   1
-SimF15JtidsNorm                              0.41740 1.914161 -2.396276    20  115   2
-SimF15JtidsChannelInc                        0.53617 1.729764 -2.419497    20  116   1 w
-SimF15JtidsChannelDec                        0.53642 1.729764 -2.419497    20  116   2 w
-SimF15JtidsInc                               0.47205 1.626035 -2.400035    35  124   1 w
-SimF15JtidsDec                               0.47205 1.626035 -2.400035    35  124   2 w
+//JTIDS
+// SimF15JtidsA								0.533190	1.914193	-2.408727	20	115	1
+// SimF15JtidsB								0.533190	1.914193	-2.408727	20	115	2
+SimF15JtidsNorm								0.165478	1.813320	-2.214946	20	115	1
+SimF15JtidsZero								0.165478	1.813320	-2.214946	20	115	2
+SimF15JtidsChannelInc						0.291573	1.697338	-2.233163	20	125	1	w
+SimF15JtidsChannelDec						0.291573	1.697338	-2.233163	20	125	2	w
+SimF15JtidsInc								0.226706	1.528190	-2.243077	30	124	1
+SimF15JtidsDec								0.226706	1.528190	-2.243077	30	124	2
 
-// KY58 Panel (n/i)
+//KY58 Panel (n/i)
 
-// ICS Panel (n/i)
+//ICS Panel (n/i)
 
-// AAI Panel 399661
-SimF15AIFFMasterInc                          0.14401 1.919366 -2.419040    25  124   1 w
-SimF15AIFFMasterDec                          0.14401 1.919366 -2.419040    25  124   2 w
-SimF15AIFFModeInc                            0.12510 1.827880 -2.419040    15  125   1 w
-SimF15AIFFModeDec                            0.12510 1.827880 -2.419040    15  125   2 w
-SimF15AIFFCodeDigit1Inc                      0.12510 1.738958 -2.419040    15  125   1 w
-SimF15AIFFCodeDigit1Dec                      0.12510 1.738958 -2.419040    15  125   2 w
-SimF15AIFFCodeDigit2Inc                      0.12510 1.698200 -2.419040    15  125   1 w
-SimF15AIFFCodeDigit2Dec                      0.12510 1.698200 -2.419040    15  125   2 w
-SimF15AIFFCodeDigit3Inc                      0.12510 1.658596 -2.419040    15  125   1 w
-SimF15AIFFCodeDigit3Dec                      0.12510 1.658596 -2.419040    15  125   2 w
-SimF15AIFFCodeDigit4Inc                      0.12510 1.619237 -2.419040    15  125   1 w
-SimF15AIFFCodeDigit4Dec                      0.12510 1.619237 -2.419040    15  125   2 w
+//AAI Panel 399661
+SimF15AIFFMasterInc              			0.049811	1.840529	-2.212261	25	124	1
+SimF15AIFFMasterDec              			0.049811	1.840529	-2.212261	25	124	2
+SimF15AIFFModeInc             				0.054990	1.750490	-2.251373	25	125	1	w
+SimF15AIFFModeDec             				0.054990	1.750490	-2.251373	25	125	2	w
+SimF15AIFFCodeDigit1Inc       				0.055008	1.671481	-2.259160	15	125	1	w
+SimF15AIFFCodeDigit1Dec       				0.055008	1.671481	-2.259160	15	125	2	w
+SimF15AIFFCodeDigit2Inc       				0.055019	1.629267	-2.263439	15	125	1	w
+SimF15AIFFCodeDigit2Dec       				0.055019	1.629267	-2.263439	15	125	2	w
+SimF15AIFFCodeDigit3Inc       				0.055008	1.586928	-2.267501	15	125	1	w
+SimF15AIFFCodeDigit3Dec       				0.055008	1.586928	-2.267501	15	125	2	w
+SimF15AIFFCodeDigit4Inc       				0.055020	1.544919	-2.271760	15	125	1	w
+SimF15AIFFCodeDigit4Dec       				0.055020	1.544919	-2.271760	15	125	2	w
 
-// IFF Panel
-SimF15IFFCypherInc                          -0.14681 1.939957 -2.402827    20  311   1
-SimF15IFFCypherDec                          -0.14681 1.939957 -2.402827    20  311   2
-SimF15IFFModeInc                            -0.15267 1.829789 -2.406977    20  311   1
-SimF15IFFModeDec                            -0.15267 1.829789 -2.406977    20  311   2
-SimF15IFFMonitorInc                         -0.11208 1.752579 -2.405132    20  115   1
-SimF15IFFMonitorDec                         -0.11208 1.752579 -2.405132    20  115   2
-SimF15IFFMasterInc                          -0.14407 1.639291 -2.404047    20  311   1
-SimF15IFFMasterDec                          -0.14407 1.639291 -2.404047    20  311   2
-SimF15IFFM1Digit1Inc                        -0.02228 1.937903 -2.406222    15  125   1 w
-SimF15IFFM1Digit1Dec                        -0.02228 1.937903 -2.406222    15  125   2 w
-SimF15IFFM1Digit2Inc                        -0.02228 1.894011 -2.406222    15  125   1 w
-SimF15IFFM1Digit2Dec                        -0.02228 1.894011 -2.406222    15  125   2 w
-SimF15IFFM1Inc                              -0.00175 1.791909 -2.405132    20  115   1
-SimF15IFFM1Dec                              -0.00175 1.791909 -2.405132    20  115   2
-SimF15IFFM2Inc                              -0.00175 1.736468 -2.405132    20  115   1
-SimF15IFFM2Dec                              -0.00175 1.736468 -2.405132    20  115   2
-SimF15IFFM3aInc                             -0.00175 1.680616 -2.405132    20  115   1
-SimF15IFFM3aDec                             -0.00175 1.680616 -2.405132    20  115   2
-SimF15IFFMcInc                              -0.00175 1.618208 -2.405132    20  115   1
-SimF15IFFMcDec                              -0.00175 1.618208 -2.405132    20  115   2
+//IFF Panel
+SimF15IFFCypherInc              			-0.230047	1.847813	-2.211540	20	311	1
+SimF15IFFCypherDec              			-0.230047	1.847813	-2.211540	20	311	2
+SimF15IFFModeInc                			-0.230047	1.751002	-2.221092	20	311	1
+SimF15IFFModeDec                			-0.230047	1.751002	-2.221092	20	311	2
+SimF15IFFMonitorInc             			-0.198530	1.656423	-2.230423	20	115	1
+SimF15IFFMonitorDec             			-0.198530	1.656423	-2.230423	20	115	2
+SimF15IFFMasterInc              			-0.230047	1.537791	-2.242126	20	311	1
+SimF15IFFMasterDec              			-0.230047	1.537791	-2.242126	20	311	2
+SimF15IFFM1Digit1Inc          				-0.118962	1.828791	-2.245338	15	125	1	w
+SimF15IFFM1Digit1Dec          				-0.118962	1.828791	-2.245338	15	125	2	w
+SimF15IFFM1Digit2Inc          				-0.118951	1.787376	-2.249539	15	125	1	w
+SimF15IFFM1Digit2Dec          				-0.118951	1.787376	-2.249539	15	125	2	w
+SimF15IFFM1Inc                  			-0.101563	1.728162	-2.234362	20	115	1
+SimF15IFFM1Dec                  			-0.101563	1.728162	-2.234362	20	115	2
+SimF15IFFM2Inc                  			-0.101563	1.658566	-2.241228	20	115	1
+SimF15IFFM2Dec                  			-0.101563	1.658566	-2.241228	20	115	2
+SimF15IFFM3aInc                 			-0.101563	1.588379	-2.248152	20	115	1
+SimF15IFFM3aDec                 			-0.101563	1.588379	-2.248152	20	115	2
+SimF15IFFMcInc                  			-0.101563	1.517207	-2.255174	20	115	1
+SimF15IFFMcDec                  			-0.101563	1.517207	-2.255174	20	115	2
 
-// ICC Panel
-SimRadio2Freq1Inc                           -0.06680 1.400271 -2.406222    15  125   1 w
-SimRadio2Freq1Dec                           -0.06680 1.400271 -2.406222    15  125   1 w
-SimRadio2Freq2Inc                           -0.06680 1.370913 -2.406222    15  125   1 w
-SimRadio2Freq2Dec                           -0.06680 1.370913 -2.406222    15  125   2 w
-SimRadio2Freq3Inc                           -0.06680 1.337145 -2.406222    15  125   1 w
-SimRadio2Freq3Dec                           -0.06680 1.337145 -2.406222    15  125   2 w
-SimRadio2Freq4Inc                           -0.06680 1.299563 -2.406222    15  125   1 w
-SimRadio2Freq4Dec                           -0.06680 1.299563 -2.406222    15  125   1 w
-SimRadio2Freq5Inc                           -0.06680 1.259191 -2.406222    15  125   1 w
-SimRadio2Freq5Dec                           -0.06680 1.259191 -2.406222    15  125   1 w
-SimCycleRadio2Channel                        0.00819 1.150322 -2.406222    20  125   1 w
-SimDecRadio2Channel                          0.00819 1.150322 -2.406222    20  125   2 w
-SimRadio2DisplayFrequencyR1                  0.11544 1.409506 -2.405132    20  116   1
-SimRadio2DisplayFrequencyR2                  0.11544 1.409506 -2.405132    20  116   2
-SimRadio2ModeInc                             0.11821 1.188168 -2.406222    25  125   1 w
-SimRadio2ModeDec                             0.11821 1.188168 -2.406222    25  125   2 w
-SimF15LaunchVolumeInc                        0.26769 1.418837 -2.406222    15  116   1 w
-SimF15LaunchVolumeDec                        0.26769 1.418837 -2.406222    15  116   2 w
-SimF15CautionVolumeInc                       0.26769 1.440404 -2.371171    15  116   1 w
-SimF15CautionVolumeDec                       0.26769 1.440404 -2.371171    15  116   2 w
-SimF15WpnVolumeInc                           0.26769 1.262342 -2.406222    15  116   1 w
-SimF15WpnVolumeDec                           0.26769 1.262342 -2.406222    15  116   2 w
-SimF15ICSVolumeInc                           0.26769 1.284342 -2.371171    15  116   1 w
-SimF15ICSVolumeDec                           0.26769 1.284342 -2.371171    15  116   2 w
-SimStepComm2VolumeUp                         0.26791 1.166849 -2.371171    20  116   1 w
-SimStepComm2VolumeDown                       0.26791 1.166849 -2.371171    20  116   2 w
+//ICC Panel
+SimF15R2HundredsTensDec						-0.067791	1.342139	-2.271211	15	125	2	w
+SimF15R2HundredsTensInc               		-0.067791	1.342139	-2.271211	15	125	1	w
+SimF15R2OnesDec               				-0.067791	1.250445	-2.280530	15	125	2	w
+SimF15R2OnesInc               				-0.067791	1.250445	-2.280530	15	125	1	w
+SimF15R2FractionDec               			-0.067791	1.157382	-2.289989	15	125	2	w
+SimF15R2FractionInc							-0.067791	1.157382	-2.289989	15	125	1	w
 
-// EW Panel
-SimF15EWRwrIcsCombat                        -0.25737 1.933263 -2.400225    20  311   1
-SimF15EWRwrIcsTrng                          -0.25737 1.933263 -2.400225    20  311   2
-SimF15EWPodsXmit                            -0.25678 1.813390 -2.400225    20  311   1
-SimF15EWPodsStdy                            -0.25678 1.813390 -2.400225    20  311   2
-SimF15EWIcsInc                              -0.25678 1.680821 -2.400225    20  311   1
-SimF15EWIcsDec                              -0.25678 1.680821 -2.400225    20  311   2
+SimCycleRadio2Channel						-0.067791	1.067880	-2.29424	20	125	1	w
+SimDecRadio2Channel							-0.067791	1.067880	-2.29424	20	125	2	w
+SimRadio2DisplayFrequencyR1      			0.045392	1.310215	-2.275596	20	116	1	
+SimRadio2DisplayFrequencyR2      			0.045392	1.310215	-2.275596	20	116	2	
+SimF15LaunchVolumeInc            			0.240235	1.360595	-2.265340	15	116	1	w
+SimF15LaunchVolumeDec            			0.240235	1.360595	-2.265340	15	116	2	w
+SimF15WpnVolumeInc               			0.241243	1.176584	-2.284329	15	116	1	w
+SimF15WpnVolumeDec               			0.241243	1.176584	-2.284329	15	116	2	w
+SimStepComm2VolumeUp             			0.183976	1.060791	-2.259723	20	116	1	w
+SimStepComm2VolumeDown           			0.183976	1.060791	-2.259723	20	116	2	w
+SimF15ICSVolumeInc               			0.169125	1.170232	-2.248323	15	116	1	w
+SimF15ICSVolumeDec               			0.169125	1.170232	-2.248323	15	116	2	w
+SimF15CautionVolumeInc           			0.168058	1.355937	-2.228995	15	116	1	w
+SimF15CautionVolumeDec           			0.168058	1.355937	-2.228995	15	116	2	w
+SimRadio2ModeInc                 			0.048272	1.062208	-2.281086	25	125	1	w
+SimRadio2ModeDec                 			0.048272	1.062208	-2.281086	25	125	2	w
 
-// EXT LT Panel
-SimF15FormationLightsInc                    -0.25418 1.427845 -2.419040    35  124   1 w
-SimF15FormationLightsDec                    -0.25418 1.427845 -2.419040    35  124   2 w
-SimF15AnticollisionOn                       -0.22345 1.323782 -2.419040    30  115   1
-SimF15AnticollisionOff                      -0.22345 1.323782 -2.419040    30  115   2
-SimF15PositionLightsDec                     -0.25418 1.219073 -2.419040    35  124   2 w
-SimF15PositionLightsInc                     -0.25418 1.219073 -2.419040    35  124   1 w
+//EW Panel
+SimF15EWRwrIcsCombat            			-0.357433	1.833318	-2.212970	20	311	1
+SimF15EWRwrIcsTrng              			-0.357433	1.833318	-2.212970	20	311	2
+SimF15EWPodsXmit                			-0.357433	1.712615	-2.224878	20	311	1
+SimF15EWPodsStdy                			-0.357433	1.712615	-2.224878	20	311	2
+SimF15EWIcsInc                  			-0.357433	1.579001	-2.238060	20	311	1
+SimF15EWIcsDec                  			-0.357433	1.579001	-2.238060	20	311	2
 
-// RADAR Panel
-SimF15FCRPowerInc                           -0.78767 1.870780 -2.396276    30  125   1 w
-SimF15FCRPowerDec                           -0.78767 1.870780 -2.396276    30  125   2 w
-SimF15FCRRangeInc                           -0.78765 1.636686 -2.396276    30  125   1 w
-SimF15FCRRangeDec                           -0.78765 1.636686 -2.396276    30  125   2 w
-SimF15FCRBandInc                            -0.74727 1.758693 -2.396276    20  312   1
-SimF15FCRBandDec                            -0.74727 1.758693 -2.396276    20  312   2
-SimF15FCRFramesInc                          -0.64483 1.870775 -2.396276    35  124   1 w
-SimF15FCRFramesDec                          -0.64483 1.870775 -2.396276    35  124   2 w
-SimF15FCRScanInc                            -0.64259 1.635577 -2.396276    30  125   1 w
-SimF15FCRScanDec                            -0.64259 1.635577 -2.396276    30  125   2 w
-SimF15FCRChannelInc                         -0.58195 1.764654 -2.396276    30  311   1 w
-SimF15FCRChannelDec                         -0.58195 1.764654 -2.396276    30  311   2 w
-SimF15FCRSpecialInc                         -0.51643 1.870649 -2.396276    30  125   1 w
-SimF15FCRSpecialDec                         -0.51643 1.870666 -2.396276    30  125   2 w
-SimF15FCRAzimuthInc                         -0.50991 1.635573 -2.396276    30  125   1 w
-SimF15FCRAzimuthDec                         -0.50991 1.635573 -2.396276    30  125   2 w
-SimF15FCRModeAuto                           -0.38376 1.863400 -2.396276    20  311   1
-SimF15FCRModeMan                            -0.38376 1.863400 -2.396276    20  311   2
-SimF15FCRModeInc                            -0.38620 1.723789 -2.396276    30  125   1 w
-SimF15FCRModeDec                            -0.38620 1.723789 -2.396276    30  125   2 w
-SimF15FCRNctrOn                             -0.69857 2.018946 -2.396276    30  311   1
-SimF15FCRNctrOff                            -0.69857 2.018946 -2.396276    30  311   2
+//EXT LT Panel
+SimF15FormationLightsInc        			-0.335169	1.320736	-2.263540	35	124	1	w
+SimF15FormationLightsDec        			-0.335169	1.320736	-2.263540	35	124	2	w
+SimF15AnticollisionOn           			-0.300774	1.201062	-2.275347	30	115	1	
+SimF15AnticollisionOff          			-0.300774	1.201062	-2.275347	30	115	2	
+SimF15PositionLightsInc         			-0.335169	1.077909	-2.287497	35	124	1	w
+SimF15PositionLightsDec         			-0.335169	1.077909	-2.287497	35	124	2	w
 
-// THROTTLE
-SimF15FingerLiftEngineLeft                  -0.41700 1.424419 -2.094028    20  314   1 
-SimF15FingerLiftEngineRight                 -0.43447 1.317421 -2.077693    20  314   1
-SimF15FingerLiftEngineLeft                  -0.55700 1.459419 -2.094028    20  314   2
-SimF15FingerLiftEngineRight                 -0.57447 1.327421 -2.077693    20  314   2 
-SimF15FlapsRetract                          -0.36863 1.575303 -2.400225    30  115   1
-SimF15FlapsExtend                           -0.36863 1.575303 -2.400225    30  115   2
+//RADAR Panel
+SimF15FCRPowerInc               			-0.905384	1.760212	-2.220179	30	125	1	w
+SimF15FCRPowerDec               			-0.905384	1.760212	-2.220179	30	125	2	w
+SimF15FCRRangeInc               			-0.905384	1.528801	-2.243009	30	125	1	w
+SimF15FCRRangeDec               			-0.905384	1.528801	-2.243009	30	125	2	w
+SimF15FCRFramesInc              			-0.760321	1.760212	-2.220180	35	124	1	w
+SimF15FCRFramesDec              			-0.760321	1.760212	-2.220180	35	124	2	w
+SimF15FCRScanInc                			-0.759292	1.528802	-2.243010	30	125	1	w
+SimF15FCRScanDec                			-0.759292	1.528802	-2.243010	30	125	2	w
+SimF15FCRAzimuthInc             			-0.623619	1.530802	-2.242814	30	125	1	w
+SimF15FCRAzimuthDec             			-0.623619	1.530802	-2.242814	30	125	2	w
+SimF15FCRSpecialInc             			-0.624341	1.759532	-2.220248	30	125	1	w
+SimF15FCRSpecialDec             			-0.624341	1.759532	-2.220248	30	125	2	w
+SimF15FCRModeInc                			-0.492228	1.616333	-2.234376	30	125	1	w
+SimF15FCRModeDec                			-0.492228	1.616333	-2.234376	30	125	2	w
+SimF15FCRModeAuto               			-0.488942	1.764023	-2.219805	30	311	1	
+SimF15FCRModeMan                			-0.488942	1.764023	-2.219805	30	311	2	
+SimF15FCRChannelInc             			-0.693954	1.633037	-2.268403	20	311	1	w
+SimF15FCRChannelDec             			-0.693954	1.633037	-2.268403	20	311	2	w
+// SimF15FCRBandInc							-0.74727	1.758693	-2.396276	20	312	1	
+// SimF15FCRBandDec							-0.74727	1.758693	-2.396276	20	312	2	
+SimF15FCRNctrOn                 			-0.763898	1.918598	-2.210271	30	311	1	
+SimF15FCRNctrOff                			-0.763898	1.918598	-2.210271	30	311	2	
 
-// FUEL Panel
-SimFuelDump                                 -1.08955 1.767833 -2.369771    30  311   1
-SimFuelTransNorm                            -1.08955 1.767833 -2.369771    30  311   2
-SimFuelDoorOpen                             -0.99092 1.630870 -2.369771    30  311   1
-SimFuelDoorClose                            -0.99092 1.630870 -2.369771    30  311   2
+//THROTTLE
+// SimF15FingerLiftEngineLeft				-0.41700	1.424419	-2.094028	20	314	1 
+// SimF15FingerLiftEngineRight				-0.43447	1.317421	-2.077693	20	314	1
+// SimF15FingerLiftEngineLeft				-0.55700	1.459419	-2.094028	20	314	2
+// SimF15FingerLiftEngineRight				-0.57447	1.327421	-2.077693	20	314	2 
+SimF15FlapsRetract							-0.445017	1.406013	-2.251808	30	115	1
+SimF15FlapsExtend							-0.445017	1.406013	-2.251808	30	115	2
 
-// MISC Panel
-SimF15AntiSkidInc                           -1.47811 1.629166 -2.353510    25  311   1
-SimF15AntiSkidDec                           -1.47811 1.629166 -2.353510    25  311   2
-SimLandingLightInc                          -1.35687 1.625209 -2.353510    25  115   1
-SimLandingLightDec                          -1.35687 1.625209 -2.353510    25  115   2
+//FUEL Panel
+SimF15FuelDumpOn                            -1.208440   1.647197    -2.235751   30  115 2
+SimF15FuelDumpNorm                          -1.208440   1.647197    -2.235751   30  320 1
+SimFuelTransNorm                			-1.208440	1.647197	-2.235751	30	311	2
+SimFuelDoorOpen								-1.114957	1.515959	-2.234047	30	311	1
+SimFuelDoorClose							-1.114957	1.515959	-2.234047	30	311	2
+SimF15ExtCtrlCtrInc                         -1.338605   1.647197    -2.235750   30  115 1
+SimF15ExtCtrlCtrDec                         -1.338605   1.647197    -2.235750   30  115 2
+SimF15ExtCtrlCftInc                         -1.338605   1.545202    -2.245813   30  115 1
+SimF15ExtCtrlCftDec                         -1.338605   1.545202    -2.245813   30  115 2
+SimF15ExtCtrlWingInc                        -1.338605   1.749913    -2.225616   30  115 1
+SimF15ExtCtrlWingDec                        -1.338605   1.749913    -2.225616   30  115 2
 
-// ILS TCN Panel
-SimTacanIlsTensUnitsInc                     -1.57852 1.452908 -2.296804    15  116   1 w 
-SimTacanIlsTensUnitsDec                     -1.57852 1.452908 -2.296804    15  116   2 w
-SimTacanIlsDecimalsInc                      -1.56942 1.439212 -2.351980    15  116   1 w
-SimTacanIlsDecimalsDec                      -1.56942 1.439212 -2.351980    15  116   2 w
-SimILSUp                                    -1.56826 1.162000 -2.354417    35  124   1 w
-SimILSDown                                  -1.56826 1.162000 -2.354417    35  124   2 w
-SimXBandAuxComDigit                         -1.44618 1.485420 -2.362661    25  115   1
-SimYBandAuxComDigit                         -1.44618 1.485420 -2.362661    25  115   2
-SimTacanChannelTensHundredsInc              -1.44078 1.394824 -2.296804    15  116   1 w
-SimTacanChannelTensHundredsDec              -1.44078 1.394824 -2.296804    15  116   2 w
-SimTacanChannelUnitsInc                     -1.43175 1.381452 -2.351980    15  116   1 w
-SimTacanChannelUnitsDec                     -1.43175 1.381452 -2.351980    15  116   2 w
-SimTACANAATR                                -1.44604 1.183354 -2.358124    30  125   1 w
-SimTACANTR                                  -1.44604 1.183354 -2.358124    30  125   2 w
+//MISC Panel
+SimF15AntiSkidOn                   			-1.617254	1.516907	-2.243662	25	311	1
+SimF15AntiSkidOff               			-1.617254	1.516907	-2.243662	25	311	2
+SimLandingLightInc              			-1.469429	1.516908	-2.243663	25	115	1
+SimLandingLightDec              			-1.469429	1.516908	-2.243663	25	115	2
 
-// CAS Panel
-SimF15YawInc                                -1.27066 1.430803 -2.360431    30  311   1
-SimF15YawDec                                -1.27066 1.430803 -2.360431    30  311   2
-SimF15RollInc                               -1.27066 1.313127 -2.360431    30  311   1
-SimF15RollDec                               -1.27066 1.313127 -2.360431    30  311   2
-SimF15PitchInc                              -1.27066 1.196485 -2.360431    30  311   1
-SimF15PitchDec                              -1.27066 1.196485 -2.360431    30  311   2
-SimF15ALTHoldOn                             -1.15654 1.433389 -2.367069    30  115   1
-SimF15ALTHoldOff                            -1.15654 1.433389 -2.367069    30  115   2
-SimF15ATTHoldOn                             -1.15654 1.314779 -2.367069    30  115   1
-SimF15ATTHoldOff                            -1.15654 1.314779 -2.367069    30  115   2
-SimF15TOTrimToggle                          -1.15919 1.232104 -2.357315    30  312   1
+//ILS TCN Panel
+SimTacanIlsTensUnitsInc         			-1.688277	1.350436	-2.224291	15	116	1	w
+SimTacanIlsTensUnitsDec         			-1.688277	1.350436	-2.224291	15	116	2	w
+SimTacanIlsDecimalsInc          			-1.668573	1.355460	-2.275216	15	116	1	w
+SimTacanIlsDecimalsDec          			-1.668573	1.355460	-2.275216	15	116	2	w
+SimILSUp                        			-1.685954	1.076727	-2.302715	30	125	1	w
+SimILSDown                      			-1.685954	1.076727	-2.302715	30	125	2	w
+SimXBandAuxComDigit             			-1.542953	1.368454	-2.258824	20	115	1	
+SimYBandAuxComDigit             			-1.542953	1.368454	-2.258824	20	115	2	
+SimTacanChannelTensHundredsInc				-1.542953	1.280289	-2.231213	15	116	1	w
+SimTacanChannelTensHundredsDec				-1.542953	1.280289	-2.231213	15	116	2	w
+SimTacanChannelUnitsInc         			-1.523248	1.285313	-2.282137	15	116	1	w
+SimTacanChannelUnitsDec         			-1.523248	1.285313	-2.282137	15	116	2	w
+SimTACANAATR                    			-1.531183	1.059140	-2.304451	15	125	2	w
+SimTACANTR                      			-1.531183	1.059140	-2.304451	15	125	1	w
 
-///////////////////////////
-// CENTER PANEL
-///////////////////////////
+//CAS Panel
+SimF15YawInc                    			-1.394715	1.332889	-2.262334	30	311	1
+SimF15YawDec                    			-1.394715	1.332889	-2.262334	30	311	2
+SimF15RollInc                   			-1.394714	1.201060	-2.275340	30	311	1
+SimF15RollDec                   			-1.394714	1.201060	-2.275340	30	311	2
+SimF15PitchInc                  			-1.394714	1.068886	-2.288380	30	311	1
+SimF15PitchDec                  			-1.394714	1.068886	-2.288380	30	311	2
+SimF15ALTHoldOn                 			-1.268243	1.332889	-2.262335	30	115	1
+SimF15ALTHoldOff                			-1.268243	1.332889	-2.262335	30	115	2
+SimF15ATTHoldOn                 			-1.268243	1.201060	-2.275341	30	115	1
+SimF15ATTHoldOff                			-1.268243	1.201060	-2.275341	30	115	2
+SimF15TOTrimToggle              			-1.278826	1.096278	-2.294420	30	312	1
 
-// FIRE WARNING Panel
-SimF15FireTest 								-2.02664 1.109618 -0.936605    30  124	 1
+/////////////////////////
+//CENTER PANEL
+/////////////////////////
 
-// VSD Panel
-SimF15VsdBrightnessIncrease                 -1.97070 0.950216 -1.052304    30  116   1 w
-SimF15VsdBrightnessDecrease                 -1.97070 0.950216 -1.052304    30  116   2 w
+//FIRE WARNING Panel
+SimF15FireTest                  			-1.922662	1.020532	-0.958885	30	124	1
 
-// MCC Panel
-ExtinguishMasterCaution                     -1.73601 0.230880 -0.515639    50  127   1 p
-SimF15IFFM3Digit1Inc                        -1.73317 0.093125 -0.508070    25  125   1 w
-SimF15IFFM3Digit1Dec                        -1.73317 0.093125 -0.508070    25  125   2 w
-SimF15IFFM3Digit2Inc                        -1.73317 0.032181 -0.508070    25  125   1 w
-SimF15IFFM3Digit2Dec                        -1.73317 0.032181 -0.508070    25  125   2 w
-SimF15IFFM3Digit3Inc                        -1.73317 -0.027420 -0.508070   25  125   1 w
-SimF15IFFM3Digit3Dec                        -1.73317 -0.027420 -0.508070   25  125   2 w
-SimF15IFFM3Digit4Inc                        -1.73317 -0.093429 -0.508070   25  125   1 w
-SimF15IFFM3Digit4Dec                        -1.73317 -0.093429 -0.508070   25  125   2 w
-SimCycleRadioChannel                        -1.77990 0.263700 -0.674566    25  125   1 w
-SimDecRadioChannel                          -1.77987 0.263945 -0.675042    25  125   2 w
-SimBupUhfFreq1Inc                           -1.76513 0.123020 -0.603780    25  125   1 w
-SimBupUhfFreq1Dec                           -1.76513 0.123020 -0.603780    25  125   2 w
-SimBupUhfFreq2Inc                           -1.76513 0.067583 -0.603780    25  125   1 w
-SimBupUhfFreq2Dec                           -1.76513 0.067583 -0.603780    25  125   2 w
-SimBupUhfFreq3Inc                           -1.76515 0.018777 -0.604200    25  125   1 w
-SimBupUhfFreq3Dec                           -1.76515 0.018777 -0.604200    25  125   2 w
-SimBupUhfFreq4Inc                           -1.76531 -0.033718 -0.605666   25  125   1 w
-SimBupUhfFreq4Dec                           -1.76531 -0.033718 -0.605666   25  125   2 w
-SimBupUhfFreq5Inc                           -1.76535 -0.089498 -0.606742   25  125   1 w
-SimBupUhfFreq5Dec                           -1.76535 -0.089498 -0.606742   25  125   2 w
-SimStepComm1VolumeUp                        -1.75192 -0.234565 -0.593201   30  116   1 w
-SimStepComm1VolumeDown                      -1.75192 -0.234565 -0.593201   30  116   2 w
-SimBupUhfModeInc                            -1.74740 -0.222446 -0.682339   35  124   1 w
-SimBupUhfModeDec                            -1.74740 -0.222446 -0.682339   35  124   2 w
+//VSD Panel
+SimF15VsdBrightnessIncrease     			-1.827309    0.846800   -1.068425	30	116	1
+SimF15VsdBrightnessDecrease     			-1.827309    0.846800   -1.068425	30	116	2
 
-// HUD SET Panel
-SimF15HudSymReject                          -1.80040 0.095120 -0.818535    30  115   1
-SimF15HudSymNorm                            -1.80040 0.095120 -0.818535    30  115   2
-SimSymWheelUp                               -1.81876 0.222516 -0.931340    35  116   1 w
-SimSymWheelDn                               -1.81876 0.222516 -0.931340    35  116   2 w
-SimHUDBrtDay                                -1.81682 0.096127 -0.919720    30  115   1
-SimHUDBrtNight                              -1.81682 0.096127 -0.919720    30  115   2
+//MCC Panel
+ExtinguishMasterCaution                     -1.548515	0.171399	-0.368990	50  127	1	p
+SimF15IFFM3Digit1Inc          				-1.560264	0.053590	-0.376091	25	125	1	w //size 15?
+SimF15IFFM3Digit1Dec          				-1.560264	0.053590	-0.376091	25	125	2	w
+SimF15IFFM3Digit2Inc          				-1.560370	0.008356	-0.376122	25	125	1	w
+SimF15IFFM3Digit2Dec          				-1.560370	0.008356	-0.376122	25	125	2	w
+SimF15IFFM3Digit3Inc          				-1.560473	-0.035554	-0.376151	25	125	1	w
+SimF15IFFM3Digit3Dec          				-1.560473	-0.035554	-0.376151	25	125	2	w
+SimF15IFFM3Digit4Inc          				-1.560578	-0.080294	-0.376182	25	125	1	w
+SimF15IFFM3Digit4Dec          				-1.560578	-0.080294	-0.376182	25	125	2	w
+SimCycleRadioChannel                        -1.631501	0.211288	-0.587581	25	125	1	w
+SimDecRadioChannel                          -1.631501	0.211288	-0.587581	25	125	2	w
 
-// VIDEO RECORD Panel
-SimAVTRSwitchUp                             -1.78332 -0.358689 -0.779103   30  125   1 w
-SimAVTRSwitchDown                           -1.78332 -0.358689 -0.779103   30  125   2 w
+SimF15R1HundredsTensDec               		-1.621992	0.095008	-0.573236	15	125	2	w
+SimF15R1HundredsTensInc               		-1.621992	0.095008	-0.573236	15	125	1	w
+SimF15R1OnesDec               				-1.622393	-0.006184	-0.574828	15	125	2	w
+SimF15R1OnesInc               				-1.622393	-0.006184	-0.574828	15	125	1	w
+SimF15R1FractionDec               			-1.622777	-0.103186	-0.576355	15	125	2	w
+SimF15R1FractionInc               			-1.622777	-0.103186	-0.576355	15	125	1	w
 
-// TEWS UNIT Panel (n/i)
+SimStepComm1VolumeUp            			-1.588571	-0.204177	-0.501946	25	116	1	w
+SimStepComm1VolumeDown          			-1.588571	-0.204177	-0.501946	25	116	2	w
+SimBupUhfModeInc                			-1.609748	-0.199873	-0.600535	25	124	1	w
+SimBupUhfModeDec                			-1.609748	-0.199873	-0.600535	25	124	2	w
 
-// HOOK Switch
-SimHookUp                                   -1.82347 1.538314 -1.866124    30  310   1
-SimHookDown                                 -1.82347 1.538314 -1.866124    30  310   2
+//HUD SET Panel
+SimF15HudSymReject              			-1.683833    0.085476   -0.730403	15	115	2	
+SimF15HudSymNorm                			-1.683833    0.085476   -0.730403	15	115	1	
+SimSymWheelUp                   			-1.702773    0.190126   -0.872013	30	116	1	w
+SimSymWheelDn                   			-1.702773    0.190126   -0.872013	30	116	2	w
+SimHUDBrtDay                    			-1.718339    0.096685   -0.867491	15	115	1	
+SimHUDBrtNight                  			-1.718339    0.096685   -0.867491	15	115	2	
 
-// EMERG LG Handle
-AFAlternateGear                             -1.57104 1.676687 -2.111409    40  321   1
-AFAlternateGearReset                        -1.57104 1.676687 -2.111409    40  314   2
+//HMD / VIDEO RECORD Panel
+SimHmsSymWheelDn							-1.600705	-0.308560	-0.514131	30	125 2   w
+SimHmsSymWheelUp							-1.600705	-0.308560	-0.514131	30	125 1   w
+SimAVTRSwitchDown               			-1.723560   -0.349539   -0.921351	30	125	2	w
+SimAVTRSwitchUp                 			-1.723560   -0.349539   -0.921351	30	125	1	w
 
-// LDG GR Panel
-AFGearUp                                    -1.75154 1.421186 -2.185856    50  118   1
-AFGearDown                                  -1.75154 1.421186 -2.185856    50  119   2
-SimWarnReset                                -1.75832 1.250612 -2.187195    30  312   1 p
+//TEWS UNIT Panel (n/i)
+SimRWRBrightnessUp							-2.138193   -0.915859   -1.122936	25	116	1	w
+SimRWRBrightnessDown						-2.138193   -0.915859   -1.122936	25	116	2	w
 
-// PITCH RATIO Switch (n/i)
+//HOOK Switch
+SimHookUp                       			-1.927172    1.416473   -1.827491	25	115	1
+SimHookDown                     			-1.927172    1.416473   -1.827491	25	115	2
 
-// MPCD Panel
-SimCBEOSB_1R                                -2.01515 1.201704 -1.235727    20  126   1 p
-SimCBEOSB_2R                                -2.01515 1.135916 -1.235727    20  126   1 p
-SimCBEOSB_3R                                -2.01515 1.069021 -1.235727    20  126   1 p
-SimCBEOSB_4R                                -2.01515 0.998106 -1.235727    20  126   1 p
-SimCBEOSB_5R                                -2.01515 0.929953 -1.235727    20  126   1 p
-SimCBEOSB_6R                                -1.97252 0.771246 -1.377288    20  126   1 p
-SimCBEOSB_7R                                -1.95189 0.771246 -1.445768    20  126   1 p
-SimCBEOSB_8R                                -1.93359 0.771246 -1.506533    20  126   1 p
-SimCBEOSB_9R                                -1.91503 0.771246 -1.568175    20  126   1 p
-SimCBEOSB_10R                               -1.89489 0.771246 -1.635032    20  126   1 p
-SimCBEOSB_11R                               -1.85001 0.930166 -1.784030    20  126   1 p
-SimCBEOSB_12R                               -1.85001 0.999266 -1.784030    20  126   1 p
-SimCBEOSB_13R                               -1.85001 1.068365 -1.784030    20  126   1 p
-SimCBEOSB_14R                               -1.85001 1.132094 -1.784030    20  126   1 p
-SimCBEOSB_15R                               -1.85001 1.206373 -1.784030    20  126   1 p
-SimCBEOSB_16R                               -1.89360 1.360693 -1.639328    20  126   1 p
-SimCBEOSB_17R                               -1.91326 1.360693 -1.574033    20  126   1 p
-SimCBEOSB_18R                               -1.93290 1.360693 -1.508827    20  126   1 p
-SimCBEOSB_19R                               -1.95254 1.360693 -1.443635    20  126   1 p
-SimCBEOSB_20R                               -1.97171 1.360693 -1.379962    20  126   1 p
-SimF15JettSelInc                            -1.75993 1.181731 -1.846337    30  124   1 w
-SimF15JettSelDec                            -1.75993 1.181731 -1.846337    30  124   2 w
-SimF15JettToggle                            -1.74784 1.209479 -1.897251    25  123   1 p
-SimF15MpcdPowerIncrease                     -1.81872 1.026784 -1.871363    30  125   1 w
-SimF15MpcdPowerDecrease                     -1.81872 1.026784 -1.871363    30  125   2 w
-SimCBEOSB_BRTUP_R                           -1.81578 0.921011 -1.897700    20  122   1
-SimCBEOSB_BRTDOWN_R                         -1.81578 0.921011 -1.897700    20  122   2
-//SimDoNothing                             -1.81872 0.851094 -1.892664    20  122   1
-SimF15MasterArmSwitchOn                     -1.84916 0.740168 -1.786850    30  310   1
-SimF15MasterArmSwitchOff                    -1.84916 0.740107 -1.786850    30  310   2
+//EMERG LG Handle
+SimF15EmergGear                 			-1.788161    1.557741   -2.086183    35	321	2
+SimF15EmergGearReset            			-1.788161    1.557741   -2.086183    35	314	1
 
-// MAIN INSTRUMENTS
-SimHsiHdgIncBy1                             -1.79033 0.177307 -1.997430    35  116   1 w
-SimHsiHdgDecBy1                             -1.79033 0.177307 -1.997430    35  116   2 w
-SimHsiCrsIncBy1                             -1.79033 -0.163208 -1.997430   35  116   1 w
-SimHsiCrsDecBy1                             -1.79033 -0.163208 -1.997430   35  116   2 w
-SimAltPressInc                              -1.92536 -0.434231 -1.481747   30  116   1 w
-SimAltPressDec                              -1.92536 -0.434231 -1.481747   30  116   2 w
+//LDG GR Panel
+AFGearUp                        			-1.748999	1.212878	-2.053422	50	118	1	p
+AFGearDown                      			-1.748999	1.212878 	-2.053422	50	119	2	p
+SimWarnReset                    			-1.873188	1.139175	-2.135525	15	312	1	p
 
-// EMERG JETT
-SimF15EmergJettToggle                       -1.91364 0.289694 -1.336324    40  123   1 p
+//PITCH RATIO Switch (n/i)
 
-// STEER MODE Panel
-SimHSIModeInc                               -1.83654 0.315009 -1.599340    35  124   1 w
-SimHSIModeDec                               -1.83654 0.315009 -1.599340    35  124   2 w
+//MPCD Panel
+SimCBEOSB_1R                    			-2.081484   1.107058    -1.263857	15	126	1	p
+SimCBEOSB_2R                    			-2.081484   1.036129    -1.263857	15	126	1	p
+SimCBEOSB_3R                    			-2.081484   0.966862    -1.263857	15	126	1	p
+SimCBEOSB_4R                    			-2.081484   0.897041    -1.263857	15	126	1	p
+SimCBEOSB_5R                    			-2.081484   0.824727    -1.263857	15	126	1	p
+SimCBEOSB_6R                    			-2.052193   0.704640    -1.381341	15	126	1	p
+SimCBEOSB_7R                    			-2.035295   0.704640    -1.449111	15	126	1	p
+SimCBEOSB_8R                    			-2.018728   0.704640    -1.515558	15	126	1	p
+SimCBEOSB_9R                    			-2.001849   0.704640    -1.583259	15	126	1	p
+SimCBEOSB_10R                   			-1.984741   0.704640    -1.651873	15	126	1	p
+SimCBEOSB_11R                   			-1.956783   0.824726    -1.764005	15	126	1	p
+SimCBEOSB_12R                   			-1.956783   0.897041    -1.764005	15	126	1	p
+SimCBEOSB_13R                   			-1.956783   0.966862    -1.764005	15	126	1	p
+SimCBEOSB_14R                   			-1.956783   1.036129    -1.764005	15	126	1	p
+SimCBEOSB_15R                   			-1.956783   1.107058    -1.764005	15	126	1	p
+SimCBEOSB_20R                   			-2.052191   1.225063    -1.381337	15	126	1	p
+SimCBEOSB_19R                   			-2.035493   1.225063    -1.448312	15	126	1	p
+SimCBEOSB_18R                   			-2.018726   1.225063    -1.515561	15	126	1	p
+SimCBEOSB_17R                   			-2.001849   1.225063    -1.583248	15	126	1	p
+SimCBEOSB_16R                   			-1.984735   1.225063    -1.651892	15	126	1	p
+SimF15JettSelInc                			-1.903253	1.127396	-1.814201	30	124	1	w
+SimF15JettSelDec                			-1.903253	1.127396	-1.814201	30	124	2	w
+SimF15JettToggle                 			-1.853234	1.127396	-1.860481	25	123	1	p
+SimF15MpcdPowerIncrease         			-1.926511	0.926423	-1.846442	30	125	1	w
+SimF15MpcdPowerDecrease         			-1.926511	0.926423	-1.846442	30	125	2	w
+SimCBEOSB_BRTUP_R               			-1.928677	0.817181	-1.856683	20	122	1	p
+SimCBEOSB_BRTDOWN_R             			-1.928677	0.817181	-1.856683	20	122	2	p
+//SimDoNothing								-1.81872 	0.851094	-1.892664	20  122	1
+SimF15MasterArmSwitchOn         			-1.935277	0.680192	-1.750412	30	310	1	p
+SimF15MasterArmSwitchOff        			-1.935277	0.680192	-1.750412	30	310	2	p
 
-// MASTER MODE Controls
-SimF15AGSwitchToggle                        -1.95244 -0.274324 -1.381873   30  318   1 p
-SimF15ADISwitchToggle                       -1.92880 -0.273327 -1.494699   30  318   1 p
-SimF15VISwitchToggle                        -1.90609 -0.272368 -1.603090   30  318   1 p
+//MAIN INSTRUMENTS
+SimHsiHdgIncBy1                             -1.845338	0.145309	-1.926126	35  116	1	w
+SimHsiHdgDecBy1                             -1.845338	0.145309	-1.926126	35  116	2	w
+SimHsiCrsIncBy1                             -1.845338	-0.152516	-1.926126   35  116	1	w
+SimHsiCrsDecBy1                             -1.845338	-0.152516	-1.926126   35  116	2	w
 
-// JET FUEL STARTER Handle
-SimF15JfsStart1                             -1.73330 -1.173209 -2.140737   40  321   1
-SimF15JfsStart2                             -1.73330 -1.173209 -2.140737   40  321   2
+SimAltPressDec                   			-2.049440	-0.415630	-1.498601	30	116	2	w
+SimAltPressInc                   			-2.049440	-0.415630	-1.498601	30	116	1	w
 
-// FUEL QTY Controls
-SimF15FuelSelectInc                         -1.77556 -1.206310 -1.965410   30  125   1 w
-SimF15FuelSelectDec                         -1.77556 -1.206310 -1.965410   30  125   2 w
-SimF15FuelBingoInc                          -1.87593 -1.325120 -1.727244   30  120   1
-SimF15FuelBingoDec                          -1.87593 -1.325120 -1.727244   30  120   2
+SimGMeterReset                  			-1.941816	0.555839	-1.968686	30	316	1	p
 
-// CONTROL STICK & RUDDER (keyfile only)
+//EMERG JETT
+SimF15EmergJettToggle           			-2.064951	0.253518	-1.347268	40	123	1	p
 
-// CANOPY & SEAT
-AFCanopyOpen                                -1.03185 -1.558695 -1.712782   40  322   1
-AFCanopyClose                               -1.03185 -1.558695 -1.712782   40  322   2
-SimMirrorClose                              -1.74749 -0.015321 0.477912    60  322   1
-SimMirrorOpen                               -1.74749 -0.015321 0.477912    60  322   2
-SimMirrorClose                              -1.62616 1.051495  0.055286    60  322   1
-SimMirrorOpen                               -1.62616 1.051495  0.055286    60  322   2
-SimMirrorClose                              -1.62081 -1.137391 0.036631    60  322   1
-SimMirrorOpen                               -1.62081 -1.137391 0.036631    60  322   2
-SimSeatUp                                   -0.41579 2.039886 -2.260388    30  115   1
-SimSeatDown                                 -0.41579 2.039886 -2.260388    30  115   2
-SimSeatOn                                   -0.78663 0.946440 -2.459207    60  315   1
-SimSeatOff                                  -0.78663 0.946440 -2.459207    60  315   2
-SimEject                                    -1.06363 0.946440 -2.379207    70  117   1
-SimEject                                    -1.06363 -0.946440 -2.379207    70  117   1
-SimLeftKneePadInc                           -0.95241 0.515320 -1.734061   130    0   2 w
-SimLeftKneePadDec                           -0.95241 0.515320 -1.734061   130    0   1 w
-SimRightKneePadInc 	                        -0.94145 -0.519777 -1.697525  130    0   2 w
-SimRightKneePadDec                          -0.94145 -0.519777 -1.697525  130    0   1 w
+//STEER MODE Panel
+SimHSIModeInc                               -2.013325	0.269172	-1.591960	35	116	1	w
+SimHSIModeDec                               -2.013325	0.269172	-1.591960	35	116	2	w
 
-///////////////////////////
-// RIGHT PANEL
-///////////////////////////
+//EMERG BK Handle
+SimF15EmergBrake                            -1.931927	0.266172	-1.878011	30	321	2	p
+SimF15EmergBrakeReset                       -1.931927	0.266172	-1.878011	30	321	1	p
 
-// OXYGEN Panel
-SimOxySupplyOn                              -1.44876 -1.495444 -2.347296   35  125   1
-SimOxySupplyOff                             -1.44876 -1.495444 -2.347296   35  125   2
+//MASTER MODE Controls
+SimF15AGSwitchToggle                        -2.057346	-0.258209	-1.376695   30  318	1	p
+SimF15ADISwitchToggle                       -2.031247	-0.258209	-1.481357   30  318	1	p
+SimF15VISwitchToggle                        -2.005169	-0.258209	-1.585943   30  318	1	p  
 
-// ECS Panel
-SimAntiIceInc                               -1.23532 -1.672276 -2.366995   30  115   1
-SimAntiIceDec                               -1.23532 -1.672276 -2.366995   30  115   2
-SimAntiIceInc                               -1.23542 -1.784367 -2.365541   30  115   1
-SimAntiIceDec                               -1.23542 -1.784367 -2.365541   30  115   2
-SimAntiIceInc                               -1.23516 -1.897649 -2.364072   30  115   1
-SimAntiIceDec                               -1.23516 -1.897649 -2.364072   30  115   2
+//JET FUEL STARTER Handle
+SimF15JfsStart1                 			-1.807983   -1.083764   -2.103842	40	321	1	p
+SimF15JfsStart2                 			-1.807983   -1.083764   -2.103842	40	321	2	p
 
-// ENGINE Panel
-SimF15GeneratorControlSwitchLeftOn          -1.29932 -1.176791 -2.357083   30  311   1
-SimF15GeneratorControlSwitchLeftOff         -1.29932 -1.176791 -2.357083   30  311   2
-SimF15GeneratorControlSwitchRightOn         -1.30098 -1.241870 -2.357364   30  311   1
-SimF15GeneratorControlSwitchRightOff        -1.30098 -1.241870 -2.357364   30  311   2
-SimF15EecSwitchLeftOn                       -1.30676 -1.458597 -2.358342   30  311   1
-SimF15EecSwitchLeftOff                      -1.30676 -1.458230 -2.358342   30  311   2
-SimF15EecSwitchRightOn                      -1.30856 -1.522226 -2.358647   30  311   1
-SimF15EecSwitchRightOff                     -1.30856 -1.522226 -2.358647   30  311   2
-SimF15EngineMasterSwitchLeftIncrease        -1.18198 -1.203688 -2.362861   40  316   1
-SimF15EngineMasterSwitchLeftDecrease        -1.18198 -1.203688 -2.362861   40  316   2
-SimF15JfsStarterSwitchOn                    -1.13473 -1.396886 -2.366995   30  115   1
-SimF15JfsStarterSwitchOff                   -1.13473 -1.396886 -2.366995   30  115   2
-SimF15EngineMasterSwitchRightIncrease       -1.18198 -1.504073 -2.362861   40  316   1
-SimF15EngineMasterSwitchRightDecrease       -1.18198 -1.504073 -2.362861   40  316   2
+//FUEL QTY Controls
+SimF15FuelSelectInc             			-1.900876   -1.131981   -1.929017	30	125	1	w
+SimF15FuelSelectDec             			-1.900876   -1.131981   -1.929017	30	125	2	w
+SimF15BingoBugInc              				-1.956859   -1.248396   -1.712672	30	116	1	w
+SimF15BingoBugDec              				-1.956859   -1.248396   -1.712672	30	116	2	w
 
-// TEMP Panel
-SimIncAirSource                             -0.99028 -1.869847 -2.367861   35  124   1
-SimDecAirSource                             -0.99028 -1.869847 -2.367861   35  124   2
+//CONTROL STICK & RUDDER (keyfile only)
 
-// NAV CONTROL Panel
-SimF15NciDestDataDec                        -0.89658 -1.195426 -2.367861   25  312   1 p
-SimF15NciDestDataInc                        -0.89658 -1.277205 -2.367861   25  312   1 p
-SimF15NciMark                               -0.89658 -1.351115 -2.367861   25  122   1 p
-SimF15NciSteerDec                           -0.89658 -1.421439 -2.367861   25  312   1 p
-SimF15NciSteerInc                           -0.89658 -1.503097 -2.367861   25  312   1 p
-SimF15NciDataSelectInc                      -0.75933 -1.255296 -2.367861   35  124   1 w
-SimF15NciDataSelectDec                      -0.75933 -1.255296 -2.367861   35  124   2 w
-SimF15NciNumpadOFly                         -0.81171 -1.385268 -2.367861   25  122   1 p
-SimF15NciNumpadUpdate                       -0.81171 -1.445662 -2.367861   25  122   1 p
-SimF15NciNumpadSel                          -0.81171 -1.504954 -2.367861   25  122   1 p
-SimF15NciNumpad1                            -0.75698 -1.387950 -2.367861   25  122   1 p
-SimF15NciNumpad2                            -0.75698 -1.447490 -2.367861   25  122   1 p
-SimF15NciNumpad3                            -0.75698 -1.506412 -2.367861   25  122   1 p
-SimF15NciNumpad4                            -0.70375 -1.387950 -2.367861   25  122   1 p
-SimF15NciNumpad5                            -0.70375 -1.446567 -2.367861   25  122   1 p
-SimF15NciNumpad6                            -0.70375 -1.508563 -2.367861   25  122   1 p
-SimF15NciNumpad9                            -0.64772 -1.508563 -2.367861   25  122   1 p
-SimF15NciNumpad7                            -0.64772 -1.390429 -2.367861   25  122   1 p
-SimF15NciNumpad8                            -0.64772 -1.448745 -2.367861   25  122   1 p
-SimF15NciClr                                -0.59841 -1.390429 -2.367861   25  122   1 p
-SimF15NciNumpad0                            -0.59841 -1.445674 -2.367861   25  122   1 p
-SimF15NciEntr                               -0.59841 -1.507976 -2.367861   25  122   1 p
-SimF15NciModeInc                            -0.58847 -1.260859 -2.367861   35  124   1 w
-SimF15NciModeDec                            -0.58847 -1.260859 -2.367861   35  124   2 w
-SimF15NciLightIntensityInc                  -0.51033 -1.357272 -2.367861   25  125   1 w
-SimF15NciLightIntensityDec                  -0.51033 -1.357272 -2.367861   25  125   2 w
-SimF15NciRdy                                -0.52803 -1.447360 -2.367861   25  122   1 p
+//CANOPY & SEAT
+AFCanopyOpen                                -1.03185	-1.558695	-1.712782	45	322	1
+AFCanopyClose                               -1.03185	-1.558695	-1.712782	45	322	2
 
-// INTERIOR LT Panel
-SimF15LightLeftConsoleInc                   -0.83460 -1.688853 -2.366657   35  116   1 w
-SimF15LightLeftConsoleDec                   -0.83460 -1.688853 -2.366657   35  116   2 w
-SimF15LightRightConsoleInc                  -0.83205 -1.884974 -2.366657   35  116   1 w
-SimF15LightRightConsoleDec                  -0.83205 -1.884831 -2.366656   35  116   2 w
-SimF15LightTestPress                        -0.69596 -1.644047 -2.363001   25  115   1 p
-SimF15LightAuxInstrInc                      -0.70170 -1.788071 -2.340632   30  116   1 w
-SimF15LightAuxInstrDec                      -0.70170 -1.788071 -2.340632   30  116   2 w
-SimF15LightStbyInstOn                       -0.69248 -1.921320 -2.358943   30  115   1
-SimF15LightStbyInstOff                      -0.69248 -1.921141 -2.358943   30  115   2
-SimF15LightFlightInstrInc                   -0.56557 -1.695145 -2.366657   35  116   1 w
-SimF15LightFlightInstrDec                   -0.56557 -1.695145 -2.366657   35  116   2 w
-SimF15LightEngInstrInc                      -0.56551 -1.878348 -2.366657   35  116   1 w
-SimF15LightEngInstrDec                      -0.56551 -1.878348 -2.366657   35  116   2 w
-SimF15FloodLightInc                         -0.42240 -1.881263 -2.358943   35  116   1 w
-SimF15FloodLightDec                         -0.42240 -1.881263 -2.358943   35  116   2 w
+//AFCanopyInc                     			-0.932149	-1.551313	-1.667646	40	322	2
+//AFCanopyDec                     			-0.932149	-1.551313	-1.667646	40	322	1
+//AFCanopyUnlock                  			-1.296665	-1.551313	-1.667646	40	322	2
+//AFCanopyLock                    			-1.296665	-1.551313	-1.667646	40	322	1
 
-// TEWS Panel
-SimF15TEWSIcsPowerOn                        -0.37308 -1.186640 -2.387763   30  311   1
-SimF15TEWSIcsPowerOff                       -0.37308 -1.186640 -2.387763   30  311   2
-SimF15TEWSSet1Man                           -0.37308 -1.278445 -2.387763   30  115   1
-SimF15TEWSSet1Auto                          -0.37308 -1.278445 -2.387763   30  115   2
-SimF15TEWSSet2Man                           -0.37308 -1.392306 -2.387763   30  115   1
-SimF15TEWSSet2Auto                          -0.37308 -1.392306 -2.387763   30  115   2
-SimF15TEWSSet3Man                           -0.37308 -1.498759 -2.387763   30  115   1
-SimF15TEWSSet3Auto                          -0.37308 -1.498759 -2.387763   30  115   2
-SimF15TEWSRwrPwrOn                          -0.18680 -1.279688 -2.391913   30  311   1
-SimF15TEWSRwrPwrOff                         -0.18680 -1.279688 -2.391913   30  311   2
-SimF15TEWSEwwsPwrOn                         -0.18680 -1.391764 -2.391913   30  311   1
-SimF15TEWSEwwsPwrOff                        -0.18680 -1.391764 -2.391913   30  311   2
-SimF15TEWSEwwsTone                          -0.18845 -1.498759 -2.398017   30  115   1
-SimF15TEWSEwwsDefeat                        -0.18845 -1.498759 -2.398017   30  115   2
+SimMirrorClose                  			-1.494536	0.000000	0.525419	60	322	1
+SimMirrorOpen                   			-1.494536	0.000000	0.525419	60	322	2
+SimMirrorClose                  			-1.360000	-1.080000	0.080000	60	322	1
+SimMirrorOpen                   			-1.360000	-1.080000	0.080000	60	322	2
+SimMirrorClose                  			-1.360000	1.080000	0.080000	60	322	1
+SimMirrorOpen                   			-1.360000	1.080000	0.080000	60	322	2
+SimSeatUp                       			-0.415870	1.901508	-1.961445	30	115	1
+SimSeatDown                     			-0.415870	1.901508	-1.961445	30	115	2
+SimSeatOn                                   -0.684759	0.789516	-2.312690	60	315	1
+SimSeatOff                                  -0.684759	0.789516	-2.312690	60	315	2
+SimEject                        			-1.243616	0.789516	-2.312690	30	117	1
+SimEject                        			-1.243616	-0.789516	-2.312690	30	117	1
+//SimLeftKneePadInc               			-0.890000	0.320000	-1.580000	40	0	2	w
+//SimLeftKneePadDec               			-0.890000	0.320000	-1.580000	40	0	1	w
+SimRightKneePadInc              			-0.890000	-0.320000	-1.580000	40	0	2	w
+SimRightKneePadDec              			-0.890000	-0.320000	-1.580000	40	0	1	w
 
-// ECM Panel (n/i)
+/////////////////////////
+//RIGHT PANEL
+/////////////////////////
 
-// CMD Panel
-SimF15Ale45DispSelInc                       -0.07326 -1.679890 -2.409057   30  115   1
-SimF15Ale45DispSelDec                       -0.07326 -1.679890 -2.409057   30  115   2
-SimF15Ale45ModeSelInc                       -0.07722 -1.816884 -2.366657   35  124   1 w
-SimF15Ale45ModeSelDec                       -0.07722 -1.816884 -2.366657   35  124   2 w
-SimF15Ale45FlareEmergJettInc                -0.04494 -1.987295 -2.376308   30  316   1
-SimF15Ale45FlareEmergJettDec                -0.04494 -1.987295 -2.376308   30  316   2
+//OXYGEN Panel
+SimOxySupplyOn                  			-1.562686   -1.362369   -2.261449    30    125    1
+SimOxySupplyOff                 			-1.562686   -1.362369   -2.261449    30    125    2
 
-// COMPASS Panel (n/i)
+//ECS Panel
+SimAntiIceUp        	           			-1.344828   -1.754666   -2.228595    30    115    1
+SimAntiIceDown	                   			-1.344828   -1.754666   -2.228595    30    115    2
+SimProbeHeatOn                   			-1.344828   -1.645265   -2.239387    30    115    1
+SimProbeHeatOff                   			-1.344828   -1.645265   -2.239387    30    115    2
+
+
+//ENGINE Panel
+SimF15GeneratorControlSwitchLeftOn   		-1.403342   -1.042522   -2.304816    20    311    1
+SimF15GeneratorControlSwitchLeftOff   		-1.403342   -1.042522   -2.304816    20    311    2
+SimF15GeneratorControlSwitchRightOn   		-1.403342   -1.101500   -2.298997    20    311    1
+SimF15GeneratorControlSwitchRightOff   		-1.403342   -1.101500   -2.298997    20    311    2
+SimF15EmerGenControlSwitchIncrease          -1.403342   -1.203775   -2.281602    20    311    1
+SimF15EmerGenControlSwitchDecrease          -1.403342   -1.203775   -2.281602    20    311    2
+SimF15EecSwitchLeftOn           			-1.403342   -1.309429   -2.271178    20    311    1
+SimF15EecSwitchLeftOff          			-1.403342   -1.309429   -2.271178    20    311    2
+SimF15EecSwitchRightOn          			-1.403342   -1.369419   -2.265260    20    311    1
+SimF15EecSwitchRightOff         			-1.403342   -1.369419   -2.265260    20    311    2
+SimF15JfsStarterSwitchOn        			-1.239116   -1.243139   -2.277696    30    115    1
+SimF15JfsStarterSwitchOff       			-1.239116   -1.243139   -2.277696    30    115    2
+SimF15EngineMasterSwitchLeftIncrease   		-1.263032   -1.053396   -2.296415    30    316    1
+SimF15EngineMasterSwitchLeftDecrease   		-1.263032   -1.053396   -2.296415    30    316    2
+SimF15EngineMasterSwitchRightIncrease   	-1.262649   -1.354597   -2.266690    30    316    1
+SimF15EngineMasterSwitchRightDecrease   	-1.262649   -1.354597   -2.266690    30    316    2
+
+//TEMP Panel
+SimDecAirSource                 			-1.091244   -1.733335   -2.241330    35    124    2
+SimIncAirSource                 			-1.091244   -1.733335   -2.241330    35    124    1
+
+//NAV CONTROL Panel
+SimF15NciDestDec              				-0.994322	-1.277275	-2.287666	25	312	1	p
+SimF15NciDestInc              				-0.994322	-1.368045	-2.278711	25	312	1	p
+SimF15NciMark                 				-0.981251	-1.202838	-2.283932	25	122	1	p
+SimF15NciSteerDec                           -0.994322	-1.03882	-2.311190   25  312	1	p
+SimF15NciSteerInc                           -0.994322	-1.12959	-2.302235   25  312	1	p
+SimF15NciDataSelectInc        				-0.845209	-1.094307	-2.301258	35	124	1	w
+SimF15NciDataSelectDec        				-0.845209	-1.094307	-2.301258	35	124	2	w
+SimF15NciNumpadOFly           				-0.907773	-1.221335	-2.282107	25	122	1	p
+SimF15NciNumpadUpdate         				-0.907773	-1.293721	-2.274966	25	122	1	p
+SimF15NciNumpadSel            				-0.907773	-1.367012	-2.267735	25	122	1	p
+SimF15NciNumpad1              				-0.842550	-1.221335	-2.282107	25	122	1	p
+SimF15NciNumpad2              				-0.842550	-1.293721	-2.274966	25	122	1	p
+SimF15NciNumpad3              				-0.842550	-1.367012	-2.267735	25	122	1	p
+SimF15NciNumpad4              				-0.780503	-1.221335	-2.282107	25	122	1	p
+SimF15NciNumpad5              				-0.780503	-1.293721	-2.274966	25	122	1	p
+SimF15NciNumpad6              				-0.780503	-1.367012	-2.267735	25	122	1	p
+SimF15NciNumpad7              				-0.717861	-1.221335	-2.282107	25	122	1	p
+SimF15NciNumpad8              				-0.717861	-1.293721	-2.274966	25	122	1	p
+SimF15NciNumpad9              				-0.717861	-1.367012	-2.267735	25	122	1	p
+SimF15NciClr                  				-0.656034	-1.221335	-2.282107	25	122	1	p
+SimF15NciNumpad0              				-0.656034	-1.293721	-2.274966	25	122	1	p
+SimF15NciEntr                 				-0.656034	-1.367012	-2.267735	25	122	1	p
+SimF15NciModeInc              				-0.667500	-1.094307	-2.301258	35	124	1	w
+SimF15NciModeDec              				-0.667500	-1.094307	-2.301258	35	124	2	w
+SimF15NciLightIntensityInc    				-0.594266	-1.180611	-2.295858	25	125	1	w
+SimF15NciLightIntensityDec    				-0.594266	-1.180611	-2.295858	25	125	2	w
+SimF15NciRdy                  				-0.593666	-1.293721	-2.274966	25	122	1	p
+
+//INTERIOR LT Panel
+SimF15LightLeftConsoleInstrKnobInc			-0.938139   -1.546147   -2.256682    35    116    1	w
+SimF15LightLeftConsoleInstrKnobDec			-0.938139   -1.546147   -2.256682    35    116    2	w
+SimF15LightRightConsoleInstrKnobInc			-0.938139   -1.744485   -2.237115    35    116    1	w
+SimF15LightRightConsoleInstrKnobDec			-0.938139   -1.744485   -2.237115    35    116    2	w
+SimF15LightAuxInstrKnobInc					-0.797096   -1.645987   -2.246833    35    116    1	w
+SimF15LightAuxInstrKnobDec					-0.797096   -1.645987   -2.246833    35    116    2	w
+SimF15LightFlightInstrKnobInc				-0.657007   -1.555341   -2.255775    35    116    1	w
+SimF15LightFlightInstrKnobDec				-0.657007   -1.555341   -2.255775    35    116    2	w
+SimF15LightEngInstrKnobInc					-0.657007   -1.741202   -2.237439    35    116    1	w
+SimF15LightEngInstrKnobDec					-0.657007   -1.741202   -2.237439    35    116    2	w
+SimF15FloodLightKnobInc						-0.514875   -1.737356   -2.237819    35    116    1	w
+SimF15FloodLightKnobDec						-0.514875   -1.737356   -2.237819    35    116    2	w
+SimF15LightStbyInstOn           			-0.787296   -1.786185   -2.229683    30    115    1
+SimF15LightStbyInstOff          			-0.787296   -1.786185   -2.229683    30    115    2
+SimF15LightTestPress            			-0.787296   -1.501945   -2.257724    25    115    1
+
+//TEWS Panel
+SimF15TEWSIcsPowerOn            			-0.463599   -1.031709   -2.298554    30    311    1
+SimF15TEWSIcsPowerOff           			-0.463599   -1.031709   -2.298554    30    311    2
+SimF15TEWSSet1Man               			-0.463599   -1.128313   -2.289023    30    115    1
+SimF15TEWSSet1Auto              			-0.463599   -1.128313   -2.289023    30    115    2
+SimF15TEWSSet2Man               			-0.463598   -1.241458   -2.277861    30    115    1
+SimF15TEWSSet2Auto              			-0.463598   -1.241458   -2.277861    30    115    2
+SimF15TEWSSet3Man               			-0.463598   -1.355136   -2.266647    30    115    1
+SimF15TEWSSet3Auto              			-0.463598   -1.355136   -2.266647    30    115    2
+SimF15TEWSRwrPwrOn              			-0.274446   -1.129010   -2.288955    30    311    1
+SimF15TEWSRwrPwrOff             			-0.274446   -1.129010   -2.288955    30    311    2
+SimF15TEWSEwwsPwrOn             			-0.274446   -1.242561   -2.277753    30    311    1
+SimF15TEWSEwwsPwrOff            			-0.274446   -1.242561   -2.277753    30    311    2
+SimF15TEWSEwwsTone              			-0.274445   -1.355136   -2.266647    30    115    1
+SimF15TEWSEwwsDefeat            			-0.274445   -1.355136   -2.266647    30    115    2
+
+//ECM Panel (n/i)
+
+//CMD Panel
+SimF15Ale45DispSelInc						-0.133858   -1.534043   -2.248997    30    115    1
+SimF15Ale45DispSelDec						-0.133858   -1.534043   -2.248997    30    115    2
+SimF15Ale45FlareEmergJettInc				-0.112605   -1.817162   -2.229496    30    316    1
+SimF15Ale45FlareEmergJettDec				-0.112605   -1.817162   -2.229496    30    316    2
+SimF15Ale45ModeSelInc						-0.140364   -1.677132   -2.243760    35    124    1    w
+SimF15Ale45ModeSelDec						-0.140364   -1.677132   -2.243760    35    124    2    w
+
+//COMPASS Panel (n/i)
 
 
 

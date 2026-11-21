@@ -368,7 +368,7 @@
         <OffsetY>-4703.328</OffsetY>
         <OffsetZ>0.000</OffsetZ>
         <Type>3</Type>
-        <CrossingPoint>32760</CrossingPoint>
+        <CrossingPoint>true</CrossingPoint>
     </PD>
     <PD Num="60">
         <OffsetX>-2674.634</OffsetX>
@@ -586,7 +586,7 @@
         <OffsetZ>0.000</OffsetZ>
         <Type>3</Type>
         <BranchIdx>52</BranchIdx>
-        <CrossingPoint>32760</CrossingPoint>
+        <CrossingPoint>true</CrossingPoint>
     </PD>
     <PD Num="95">
         <OffsetX>2915.913</OffsetX>

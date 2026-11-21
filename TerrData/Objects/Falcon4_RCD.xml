@@ -1186,9 +1186,9 @@
         <HighAltLethality>0.42</HighAltLethality>
         <LowAltLethality>0.42</LowAltLethality>
         <DetectionRange>53.7</DetectionRange>
-        <BeamWidth>4.6</BeamWidth>
+        <BeamWidth>3.5</BeamWidth>
         <ScanWidth>120.0</ScanWidth>
-        <SweepRate>60.0</SweepRate>
+        <SweepRate>70.0</SweepRate>
         <CoastTime>6.0</CoastTime>
         <LookDownPenalty>0.620</LookDownPenalty>
         <JammingPenalty>0.550</JammingPenalty>
@@ -1642,9 +1642,9 @@
         <HighAltLethality>0.42</HighAltLethality>
         <LowAltLethality>0.42</LowAltLethality>
         <DetectionRange>53.7</DetectionRange>
-        <BeamWidth>4.6</BeamWidth>
+        <BeamWidth>3.5</BeamWidth>
         <ScanWidth>120.0</ScanWidth>
-        <SweepRate>60.0</SweepRate>
+        <SweepRate>70.0</SweepRate>
         <CoastTime>6.0</CoastTime>
         <LookDownPenalty>0.620</LookDownPenalty>
         <JammingPenalty>0.550</JammingPenalty>
@@ -2060,9 +2060,9 @@
         <HighAltLethality>0.42</HighAltLethality>
         <LowAltLethality>0.42</LowAltLethality>
         <DetectionRange>53.7</DetectionRange>
-        <BeamWidth>4.6</BeamWidth>
+        <BeamWidth>3.5</BeamWidth>
         <ScanWidth>120.0</ScanWidth>
-        <SweepRate>60.0</SweepRate>
+        <SweepRate>70.0</SweepRate>
         <CoastTime>6.0</CoastTime>
         <LookDownPenalty>0.620</LookDownPenalty>
         <JammingPenalty>0.550</JammingPenalty>
@@ -2439,7 +2439,7 @@
         <RadarDatIdx>128</RadarDatIdx>
         <HighAltLethality>0.90</HighAltLethality>
         <LowAltLethality>0.40</LowAltLethality>
-        <DetectionRange>401.4</DetectionRange>
+        <DetectionRange>400.3</DetectionRange>
         <BeamWidth>2.0</BeamWidth>
         <ScanWidth>360.0</ScanWidth>
         <SweepRate>15.0</SweepRate>

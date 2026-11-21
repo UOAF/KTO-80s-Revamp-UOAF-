@@ -314,9 +314,9 @@ misengGlowBSP 0
 trailAlphaCx 3.0
 trailSizeCx 3.0
 flameChainID 4
-flameChainInitialSize 4
-flameChainGrowthRate 5
-flameChainLength 240
+flameChainInitialSize 2.25
+flameChainGrowthRate 0.55
+flameChainLength 320
 flameChainRandomPosition 0.012
 #-----------------------------------------------------
 # Rocket

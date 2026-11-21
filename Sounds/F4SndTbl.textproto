@@ -4664,7 +4664,7 @@ sfx_defs {
   index: 429
 }
 sfx_defs {
-  filename: "Cockpit\\f15_overg.ogg"
+  filename: "Cockpit\\f15maxG.ogg"
   max_dist: 99999
   max_vol: -950
   min_vol: -10000
@@ -5004,7 +5004,7 @@ sfx_defs {
   index: 460
 }
 sfx_defs {
-  filename: "Cockpit\\f15_lowalt_tone.ogg"
+  filename: "Cockpit\\f15_fuellow.ogg"
   max_dist: 99999
   max_vol: -950
   min_vol: -10000
@@ -5014,7 +5014,7 @@ sfx_defs {
   index: 461
 }
 sfx_defs {
-  filename: "Cockpit\\f15_fuellow.ogg"
+  filename: "Cockpit\\f15_overg.ogg"
   max_dist: 99999
   max_vol: -950
   min_vol: -10000
@@ -5022,4 +5022,78 @@ sfx_defs {
   sound_group: GROUP_INTERCOM
   cone_outside_vol: -950
   index: 462
+}
+sfx_defs {
+  filename: "Cockpit\\f15maxAOA_gear.ogg"
+  max_dist: 99999
+  max_vol: -950
+  min_vol: -10000
+  primary_flag: VMS
+  sound_group: GROUP_INTERCOM
+  cone_outside_vol: -950
+  index: 463
+}
+sfx_defs {
+  filename: "Cockpit\\f15_lowalt_A.ogg"
+  max_dist: 99999
+  max_vol: -950
+  min_vol: -10000
+  primary_flag: VMS
+  sound_group: GROUP_INTERCOM
+  cone_outside_vol: -950
+  index: 464
+}
+sfx_defs {
+  filename: "Twi\\ALR56C\\ALR56C_newguy.ogg"
+  max_dist: 99999
+  min_vol: -10000
+  primary_flag: INTERNAL_SOUND
+  sound_group: GROUP_RWR
+  index: 465
+}
+sfx_defs {
+  filename: "Twi\\ALR56C\\ALR56C_lock.ogg"
+  max_dist: 99999
+  min_vol: -10000
+  primary_flag: INTERNAL_SOUND
+  sound_group: GROUP_RWR
+  index: 466
+}
+sfx_defs {
+  filename: "Twi\\ALR56C\\ALR56C_launch.ogg"
+  max_dist: 99999
+  min_vol: -10000
+  primary_flag: INTERNAL_SOUND
+  sound_group: GROUP_RWR
+  index: 467
+}
+sfx_defs {
+  filename: "Cockpit\\f15_eng_fire_l.ogg"
+  max_dist: 99999
+  max_vol: -950
+  min_vol: -10000
+  primary_flag: VMS
+  sound_group: GROUP_INTERCOM
+  cone_outside_vol: -950
+  index: 468
+}
+sfx_defs {
+  filename: "Cockpit\\f15_eng_fire_r.ogg"
+  max_dist: 99999
+  max_vol: -950
+  min_vol: -10000
+  primary_flag: VMS
+  sound_group: GROUP_INTERCOM
+  cone_outside_vol: -950
+  index: 469
+}
+sfx_defs {
+  filename: "Cockpit\\f15_amad_fire.ogg"
+  max_dist: 99999
+  max_vol: -950
+  min_vol: -10000
+  primary_flag: VMS
+  sound_group: GROUP_INTERCOM
+  cone_outside_vol: -950
+  index: 470
 }

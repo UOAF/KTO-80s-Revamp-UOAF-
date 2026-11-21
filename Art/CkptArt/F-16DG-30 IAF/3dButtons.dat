@@ -280,8 +280,8 @@ SimRWRBrightnessUp              -2.363928    0.582094   -0.718060    30    116  
 SimRWRBrightnessDown            -2.363928    0.582094   -0.718060    30    116    2    w
 
 // Left MFD
-SimRadarGainUp                  -2.311958    0.768599   -1.061829    10    126    1    p
-SimRadarGainDown                -2.305365    0.768711   -1.082840    10    126    1    p
+SimCBEOSB_GAINUP_L              -2.311958    0.768599   -1.061829    10    126    1    p
+SimCBEOSB_GAINDOWN_L            -2.305365    0.768711   -1.082840    10    126    1    p
 SimCBEOSB_BRTUP_L               -2.221328    0.769920   -1.347882    10    126    1    p
 SimCBEOSB_BRTDOWN_L             -2.211044    0.769960   -1.377183    10    126    1    p
 SimCBEOSB_1L                    -2.329097    0.660677   -1.023423    20    126    1    p
@@ -376,8 +376,8 @@ SimFuelTransNorm                -1.589638   -0.227714   -1.912819    35    311  
 SimFuelTransWing                -1.589638   -0.227714   -1.912819    35    311    2
 
 // Right MFD
-SimRadarGainUp                  -2.312181   -0.355786   -1.061721    10    126    1    p
-SimRadarGainDown                -2.305587   -0.355674   -1.082732    10    126    1    p
+SimCBEOSB_GAINUP_R              -2.312181   -0.355786   -1.061721    10    126    1    p
+SimCBEOSB_GAINDOWN_R            -2.305587   -0.355674   -1.082732    10    126    1    p
 SimCBEOSB_BRTUP_R               -2.220160   -0.360280   -1.348244    10    126    1    p
 SimCBEOSB_BRTDOWN_R             -2.211044   -0.361200   -1.377183    10    126    1    p
 SimCBEOSB_1R                    -2.329305   -0.463787   -1.023315    20    126    1    p

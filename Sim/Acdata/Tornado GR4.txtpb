@@ -19,7 +19,7 @@ airframe {
       y: 0
       z: 7
     } 
-    range_deg: 100
+    range_deg: 110
   } 
   gear {
     position_ft {
@@ -27,7 +27,7 @@ airframe {
       y: -4.94
       z: 6.79
     } 
-    range_deg: 125
+    range_deg: 125  
   } 
   gear {
     position_ft {
@@ -498,7 +498,21 @@ auxaero {
     jet_heat_shader_max_speed_kts: 250
   } 
   intake_ramp_data {
-  } 
+    anim_intake_ramp {
+      table {
+        x_axis {
+          breakpoints: [0]
+        } 
+        y_axis {
+          breakpoints: [0, 0.1, 0.3, 0.6, 1, 2]
+        } 
+        data {
+          values: [25, 20, 16, 0, 18, 25]
+        } 
+      } 
+      rate: 75
+    } 
+  }
   flight_dynamics {
     area2_span: 0.1406
     pitch_momentum: 1.2
@@ -577,7 +591,7 @@ auxaero {
     airbrake_out_rate_factor: 0.416667
     airbrake_in_rate_factor: 0.138889
     airbrake_approach_angle_deg: -1
-    min_airbrake_speed_kts: 200
+    min_airbrake_speed_kts: -1
   } 
   drag_chute {
     drag_chute_cd: 0
@@ -594,10 +608,10 @@ auxaero {
     nlg_wow_percentage: 0.5
     nws_rate_up: 1.5
     nws_rate_down: 4
-    nws_dof_multiplier_for_ai: 0
+    nws_dof_multiplier_for_ai: 3
     nws_dof_multiplier_for_player: 1
     anim_gear_angle_ofm_deg {
-      values: [0, 0, 0]
+      values: [10, 70, 70]
     } 
     anim_gear_angle_afm_deg {
       values: [0, 0, 0]
@@ -609,7 +623,7 @@ auxaero {
       values: [0.5, 0.45, 0.45]
     } 
     anim_gear_max_ext_ft {
-      values: [0.5, 0.4, 0.4]
+      values: [0.4, 0.4, 0.4]
     } 
     anim_gear_inverted: false
     gear_dof_rate {
@@ -622,7 +636,7 @@ auxaero {
       values: [0, 0, 0]
     } 
     door_dof_rate {
-      values: [0.6, 0.6, 0.6]
+      values: [0.4, 0.4, 0.4]
     } 
     door_delay_down_sec {
       values: [0, 0, 0]
@@ -1749,8 +1763,7 @@ auxaero {
         z: 0
       } 
       radius: 30
-      attenuation: 0.35
-      ps_size_cx: 0
+      attenuation: 0.7
       ps_alpha_cx: 0
       ps_kick_in_dist: 0
     } 
@@ -1768,7 +1781,7 @@ auxaero {
         z: 0
       } 
       radius: 30
-      attenuation: 0.35
+      attenuation: 0.7
       ps_size_cx: 0
       ps_alpha_cx: 0
       ps_kick_in_dist: 0
@@ -1787,7 +1800,7 @@ auxaero {
         z: 0
       } 
       radius: 25
-      attenuation: 0.5
+      attenuation: 0.7
       ps_size_cx: 0
       ps_alpha_cx: 0
       ps_kick_in_dist: 0
@@ -1806,7 +1819,7 @@ auxaero {
         z: 0
       } 
       radius: 25
-      attenuation: 0.5
+      attenuation: 0.7
       ps_size_cx: 0
       ps_alpha_cx: 0
       ps_kick_in_dist: 0
@@ -1844,7 +1857,7 @@ auxaero {
         z: 0.5
       } 
       radius: 25
-      attenuation: 0.11
+      attenuation: 0.7
       ps_size_cx: 0
       ps_alpha_cx: 0
       ps_kick_in_dist: 0
@@ -1863,7 +1876,7 @@ auxaero {
         z: 0.5
       } 
       radius: 25
-      attenuation: 0.23
+      attenuation: 0.7
       ps_size_cx: 0
       ps_alpha_cx: 0
       ps_kick_in_dist: 0
@@ -1907,10 +1920,10 @@ auxaero {
       ps_kick_in_dist: 0
     } 
     anim_strobe_on_time: 0.02
-    anim_strobe_off_time: 1
+    anim_strobe_off_time: 0.5
     anim_wing_flash_on_time: 0.03
-    anim_wing_flash_off_time: 1.5
-    num_formation_light_levels: 0
+    anim_wing_flash_off_time: 1
+    num_formation_light_levels: 3
     num_aar_light_levels: 0
     ext_light_ctrl_panel: 0
     features_mobile_lights {

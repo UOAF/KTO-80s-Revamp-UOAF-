@@ -82,6 +82,8 @@
 	1	7	50	9	21206	520	10127
 // F-1 (Mitsubishi)
 	1	2	40	3	21375	606	10092
+// F-2A (Mitsubishi)
+	1	7	79	9	21386	621	10065
 // F-104C Starfighter
 	1	7	70	9	21271	525	10078
 // F-104DJ Starfighter JASDF
@@ -113,6 +115,8 @@
 // F-15C Eagle Late
 	1	6	35	8	21105	490	10075
 // F-15C Baz IAF
+	1	7	80	9	21387	622	10075
+// F-15C Improved Baz IAF
 	1	7	32	9	21221	507	10075
 // F-15D Eagle
 	1	6	34	8	21305	480	10075
@@ -200,6 +204,8 @@
 	1	7	73	9	21379	613	10122
 // F-22A Raptor
 	1	6	4	8	21133	416	10122
+// F-35A Lightning II
+	1	7	77	9	21383	618	10122
 // F-4D Phantom ROKAF
 	1	6	44	8	21355	476	10077
 // F-4E Phantom ROKAF
@@ -258,8 +264,12 @@
 	1	6	8	8	21137	48	10087
 // J-11B PLAAF
 	1	6	19	8	21162	528	10093
+// J-11BSH PLAAF
+	1	6	49	8	21384	619	10093
 // J-15 Flying Shark PLANAF
 	1	6	32	8	21294	454	10093
+// J-15T Flying Shark PLANAF
+	1	7	76	9	21382	617	10093
 // J-16 Hidden Dragon
 	1	7	40	9	21289	449	10093
 // J-20 Mighty Dragon PLAAF
@@ -370,6 +380,8 @@
 	1	7	75	9	21381	616	10093
 // Su-30SM2 Flanker-H
 	1	7	38	9	21178	517	10093
+// Su-30SM Flanker-H
+	1	7	78	9	21385	620	10093
 // Su-33 Flanker-D (Naval)
 	1	6	25	8	21275	438	10093
 // Su-34 Fullback
@@ -425,7 +437,7 @@
 // CH-47 Chinook
 	5	3	1	14	21190	11	10071
 // CH-53 Sea Stallion
-	5	3	2	14	21191	596	10091
+	5	3	2	14	21191	596	10085
 // KA-52 Alligator
 	5	1	4	4	21183	65	10081
 // KA-52K Katran

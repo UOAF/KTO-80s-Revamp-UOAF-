@@ -1815,7 +1815,7 @@ auxaero {
       y: 0
       z: -2.35
     } 
-    refuel_speed_kts: 300
+    refuel_speed_kts: 310
     refuel_altitude_ft: 22000
     refuel_rate: 33
     aiboom_distance_ft: 10
@@ -2883,11 +2883,11 @@ auxaero {
       } 
     } 
     tgp_point_threshold: 0.01
-    tgp_wide_fov: 3.6
-    tgp_nar_fov: 1
+    tgp_wide_fov: 6.0
+    tgp_nar_fov: 1.7
     tgp_exp_fov: 0.334
     tgp_tv_fov: 0.5
-    tgp_has_tv_video: true
+    tgp_has_tv_video: false
   } 
   lantirn {
     Lantirn_type: POD_EXTERNAL

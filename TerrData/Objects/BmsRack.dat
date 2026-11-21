@@ -43,7 +43,7 @@ definerack pod-no-rack
 	smsmodes NONE
 	rackct 0
 	rackstations 1
-	addwid 179 180 181 182 184 192 191 697
+	addwid 179 180 181 182 184 192 191 697 791
 
 definerack datalink-no-rack
 	weapjettmodes NONE
@@ -75,8 +75,16 @@ definerack no-rack
 	rackct 0
 	rackstations 1
 	addwclass rocket, bomb, tank, agm, gbu, ecm
-	addwid 17 19 20 131 140 141 193 194 195 200 202 213 230 250 251 252 273 274 278 279 280 281 284 300 304 307 314 315 316 317 369 370 371 372 387 388 389 390 391 392 393 394 402 455 457 458 459 460 461 462 545 788 789
-	
+	addwid 17 19 20 131 140 141 193 194 195 200 202 213 230 250 251 252 273 274 278 279 280 281 284 300 304 307 314 315 316 317 369 370 371 372 387 388 389 390 391 392 393 394 402 455 457 458 459 460 461 462 545 788 789 863
+
+definerack JETT-no-rack
+	rackct 0
+	rackstations 1
+	rackjettmodes EMERGENCY,SELECTIVE
+	weapjettmodes EMERGENCY,SELECTIVE
+	addwclass rocket, bomb, tank, agm, gbu, ecm
+	addwid 17 19 20 131 140 141 193 194 195 200 202 213 230 250 251 252 273 274 278 279 280 281 284 300 304 307 314 315 316 317 369 370 371 372 387 388 389 390 391 392 393 394 402 455 457 458 459 460 461 462 545 788 789 863
+
 definerack aim-no-rail
 	rackct 0
 	rackstations 1
@@ -186,7 +194,7 @@ definerack bru-42i-left
 	rackjettmodes EMERGENCY,SELECTIVE
 	weapjettmodes EMERGENCY,SELECTIVE
 	addwclass rocket, bomb, gbu
-	addwid 229
+	addwid 20
 	addloadorder 0
 	addloadorder 0 1
 	addloadorder 0 1 2
@@ -199,7 +207,7 @@ definerack bru-42i-right
 	rackjettmodes EMERGENCY,SELECTIVE
 	weapjettmodes EMERGENCY,SELECTIVE
 	addwclass rocket, bomb, gbu
-	addwid 229
+	addwid 20
 	addloadorder 0
 	addloadorder 0 2
 	addloadorder 0 2 1
@@ -239,7 +247,7 @@ definerack bru-42-left-generic
 	weapjettmodes EMERGENCY,SELECTIVE
 	addwclass rocket, bomb, gbu
 	addwid 17 19 20
-	addloadorder 2 1 0
+	addloadorder 0 1 2
 
 # TER
 definerack bru-42-right-generic
@@ -250,7 +258,7 @@ definerack bru-42-right-generic
 	weapjettmodes EMERGENCY,SELECTIVE
 	addwclass rocket, bomb, gbu
 	addwid 17 19 20
-	addloadorder 2 0 1
+	addloadorder 0 2 1
 
 # SER
 definerack bru-55-left
@@ -320,7 +328,7 @@ definerack bru-57-left
 	rackstations 2
 	rackjettmodes EMERGENCY,SELECTIVE
 	weapjettmodes EMERGENCY,SELECTIVE
-	addwid 300 140 141 304 250 251 252 307
+	addwid 19 20 300 140 141 304 250 251 252 307
 	addloadorder 0
 	addloadorder 1 0
 
@@ -330,7 +338,7 @@ definerack bru-57-right
 	rackstations 2
 	rackjettmodes EMERGENCY,SELECTIVE
 	weapjettmodes EMERGENCY,SELECTIVE
-	addwid 300 140 141 304 250 251 252 307
+	addwid 19 20 300 140 141 304 250 251 252 307
 	addloadorder 0
 	addloadorder 0 1
 
@@ -418,7 +426,7 @@ definerack simulated-fire-CATM120C
 	racksmsname CATM
 	rackjettmodes NONE
 	weapjettmodes NONE
-	rackct 4371
+	rackct 4757
 	rackstations 1
 	addwid 763 774
 	addloadorder 0
@@ -427,7 +435,7 @@ definerack simulated-fire-CATM120B
 	racksmsname CATM
 	rackjettmodes NONE
 	weapjettmodes NONE
-	rackct 4372
+	rackct 4758
 	rackstations 1
 	addwid 764 773
 	addloadorder 0
@@ -436,7 +444,7 @@ definerack simulated-fire-CATM9X
 	racksmsname CATM
 	rackjettmodes NONE
 	weapjettmodes NONE
-	rackct 4374
+	rackct 4760
 	rackstations 1
 	addwid 766
 	addloadorder 0
@@ -445,7 +453,7 @@ definerack simulated-fire-CATM9M-BD
 	racksmsname CATM
 	rackjettmodes NONE
 	weapjettmodes NONE
-	rackct 4376
+	rackct 4762
 	rackstations 1
 	addwid 768
 	addloadorder 0
@@ -454,7 +462,7 @@ definerack simulated-fire-CATM9M-RD
 	racksmsname CATM
 	rackjettmodes NONE
 	weapjettmodes NONE
-	rackct 4375
+	rackct 4761
 	rackstations 1
 	addwid 767
 	addloadorder 0
@@ -463,7 +471,7 @@ definerack simulated-fire-TGM65G
 	racksmsname L117
 	rackjettmodes EMERGENCY,SELECTIVE
 	weapjettmodes EMERGENCY,SELECTIVE
-	rackct 4385
+	rackct 4771
 	rackstations 1
 	addwid 772
 	addloadorder 0
@@ -472,7 +480,7 @@ definerack simulated-fire-CATM88D
 	racksmsname L118
 	rackjettmodes EMERGENCY,SELECTIVE
 	weapjettmodes EMERGENCY,SELECTIVE
-	rackct 4373
+	rackct 4759
 	rackstations 1
 	addwid 765
 	addloadorder 0
@@ -558,9 +566,9 @@ definerack TER-LGTR-left
 	weapjettmodes SELECTIVE,EMERGENCY
 	rackct 2813
 	rackstations 3
-	addwid 59 60 229
+	addwid 12 59 60 229 288 304 307 355 356 357 358 359 775 346 350 261 259 257 352 353
 	addloadorder 0
-	addloadorder 1 0
+	addloadorder 1 2
 	addloadorder 1 0 2
 
 definerack TER-LGTR-right
@@ -568,9 +576,9 @@ definerack TER-LGTR-right
 	weapjettmodes SELECTIVE,EMERGENCY
 	rackct 2813
 	rackstations 3
-	addwid 59 60 229
+	addwid 12 59 60 229 288 304 307 355 356 357 358 359 775 346 350 261 259 257 352 353
 	addloadorder 0
-	addloadorder 2 0
+	addloadorder 2 1
 	addloadorder 2 0 1
 
 ##################
@@ -616,6 +624,18 @@ definerack b52-hsab-rack
 	addloadorder 2 8 1 7 6 0 3
 	addloadorder 2 8 4 1 7 6 0 3
 	addloadorder 2 8 4 1 7 5 6 0 3
+
+definerack b52-MERx6-rack
+	rackct 5197
+	rackstations 6
+	weapjettmodes EMERGENCY,SELECTIVE
+	addwid 155 156 256 258 262 264 265 300 330 355 357
+	addloadorder 0
+	addloadorder 0 1
+	addloadorder 1 2 3
+	addloadorder 2 3 4 5
+	addloadorder 0 2 3 4 5
+	addloadorder 0 1 2 3 4 5 6
 
 ###################
 ### EF-2K RACKS ###
@@ -736,7 +756,7 @@ definerack F-CK-1_Tank
 #################
 
 definerack f1-jasdf-2
-	rackct 4407
+	rackct 5098
 	rackstations 2
 	weapjettmodes EMERGENCY,SELECTIVE
 	rackjettmodes EMERGENCY
@@ -744,7 +764,7 @@ definerack f1-jasdf-2
 	addloadorder 0 1
 
 definerack f1-jasdf-4
-	rackct 4408
+	rackct 5099
 	rackstations 4
 	weapjettmodes EMERGENCY,SELECTIVE
 	rackjettmodes EMERGENCY
@@ -975,7 +995,97 @@ definerack f15e-cft-triple-rack-right
 	weapjettmodes EMERGENCY,SELECTIVE
 	addwid 304 # GBU-38/B
 	addloadorder 0 1 2
+	
+	
+######################
+### F-15 IAF RACKS ###
+######################
 
+definerack f15-IAF-AAM-LAU7
+	rackjettmodes EMERGENCY,SELECTIVE
+	weapjettmodes EMERGENCY,SELECTIVE
+	rackct 5268 # LAU-7(Long)
+	rackstations 1
+	addwid 168 169 170 171 172 173 174 175 729 382 383 # AIM-9 & Python-4 & 5
+	
+definerack f15-IAF-AAM-LAU128
+	rackjettmodes EMERGENCY,SELECTIVE
+	weapjettmodes EMERGENCY,SELECTIVE
+	rackct 2872 # LAU-128
+	rackstations 1
+	addwid 158 159 176 # AIM-120 & AIM-9X
+	
+definerack f15-IAF-AAM-LAU7-PYT3
+	rackjettmodes EMERGENCY,SELECTIVE
+	weapjettmodes EMERGENCY,SELECTIVE
+	rackct 5268 # LAU-7(Long)
+	rackstations 1
+	addwid 381 # Python-3
+
+definerack f15i-IAF-cft-spice-rack-left
+	rackct 2726
+	rackstations 2
+	weapjettmodes EMERGENCY,SELECTIVE
+	addwclass gbu
+	addwid 437 438 439 440	292 # SPICE 1000 & SPICE 2000
+	addloadorder 1
+
+definerack f15i-IAF-cft-spice-rack-right
+	rackct 2725
+	rackstations 2
+	weapjettmodes EMERGENCY,SELECTIVE
+	addwclass gbu
+	addwid 437 438 439 440 # SPICE 1000 & SPICE 2000
+	addloadorder 1
+	
+definerack f15i-IAF-cft-gbu12-left
+	rackct 2726
+	rackstations 6
+	weapjettmodes EMERGENCY,SELECTIVE
+	addswd 288 # GBU-12
+	addloadorder 0 2 5 3
+
+definerack f15i-IAF-cft-gbu12-right
+	rackct 2725
+	rackstations 6
+	weapjettmodes EMERGENCY,SELECTIVE
+	addswd 288 # GBU-12
+	addloadorder 0 2 5 3
+
+	
+definerack f15-usaf-AAM-LAU128
+	rackjettmodes EMERGENCY,SELECTIVE
+	weapjettmodes EMERGENCY,SELECTIVE
+	rackct 2872 # LAU-128
+	rackstations 1
+	addwid 15 16 158 159 168 169 170 171 172 173 174 175 176 193 194 729 763 764 766 767 768 883 # AAM-3 & AAM-4 & AIM-120 & AIM-9 & CATM & AN/ASQ-T50 & AAM-5B
+
+##################
+### F-2A RACKS ###
+##################
+
+definerack f2a-center-tank
+	weapjettmodes EMERGENCY,SELECTIVE
+	rackjettmodes NONE
+	rackct 5284
+	rackstations 1
+	addwclass tank
+	addwid 876
+
+definerack f2a-600-wing-tank
+	weapjettmodes EMERGENCY,SELECTIVE
+	rackjettmodes NONE
+	rackct 5280
+	rackstations 1
+	addwid 875
+
+definerack f2a-AAM-LAU
+	rackjettmodes EMERGENCY,SELECTIVE
+	weapjettmodes EMERGENCY,SELECTIVE
+	rackct 5282 # LAU-7(Short)
+	rackstations 1
+	addwid 15 16 158 159 164 165 166 167 168 169 170 171 172 173 174 175 176 193 194 729 763 764 766 767 768 # AAM-3 & AAM-4 & & AIM-7 & AIM-120 & AIM-9 & CATM & AN/ASQ-T50
+	
 ##################
 ### F-16 RACKS ###
 ##################
@@ -1069,20 +1179,26 @@ definerack f16-iaf-370-wing-tank-no-rack
 	addwid 753
 
 definerack f16-iaf-600-wing-tank
-	weapjettmodes EMERGENCY,SELECTIVE
+	weapjettmodes NONE
 	rackjettmodes NONE
-	rackct 4362
+	rackct 4748
 	rackstations 1
 	addwid 754
 
 definerack f16-iaf-center-tank
 	weapjettmodes EMERGENCY,SELECTIVE
 	rackjettmodes NONE
-	rackct 4363
+	rackct 4749
 	rackstations 1
 	addwclass tank
 	addwid 752 
-
+	
+definerack Delilah-Rack-Adjuster
+	rackct 5273
+	rackstations 1
+	rackjettmodes NONE
+	weapjettmodes EMERGENCY,SELECTIVE
+	addwid 10 270
 
 ##################
 ### F-18 RACKS ###
@@ -1120,9 +1236,102 @@ definerack f18-aaq
 	addwid 181 182
 
 ##################
+### F-35 RACKS ###
+##################
+
+definerack f35-ext-aim
+	rackct 2872
+	rackstations 1
+	weapjettmodes EMERGENCY,SELECTIVE
+	rackjettmodes EMERGENCY,SELECTIVE
+	addwid 159 160 176
+	addloadorder 0
+
+definerack f35-ext-tank
+	rackct 0
+	rackstations 1
+	weapjettmodes EMERGENCY,SELECTIVE
+	rackjettmodes NONE
+	addwid 863
+	addwclass tank
+	addloadorder 0
+
+definerack f35-ext-agm88
+	rackct 0
+	rackstations 1
+	weapjettmodes EMERGENCY,SELECTIVE
+	rackjettmodes NONE
+	addwid 157
+	addloadorder 0
+
+definerack f35-ext-2aim-left
+	rackct 2941
+	rackstations 2
+	weapjettmodes EMERGENCY,SELECTIVE
+	rackjettmodes EMERGENCY,SELECTIVE
+	addwid 159 160 176
+	addloadorder 0 1
+
+definerack f35-ext-2aim-right
+	rackct 2941
+	rackstations 2
+	weapjettmodes EMERGENCY,SELECTIVE
+	rackjettmodes EMERGENCY,SELECTIVE
+	addwid 159 160 176
+	addloadorder 1 0
+
+definerack f35-int-aim
+	rackct 5257
+	rackstations 1
+	weapjettmodes NONE
+	rackjettmodes NONE
+	addwid 159 160 176
+	addloadorder 0
+
+definerack f35-int-agm
+	rackct 5257
+	rackstations 1
+	weapjettmodes EMERGENCY
+	rackjettmodes NONE
+	addwid 140 141 142
+	addloadorder 0
+
+definerack f35-int-2ag-l
+	rackct 5257
+	rackstations 3
+	weapjettmodes EMERGENCY
+	rackjettmodes NONE
+	addwid 250 251 252 286 287 288 290 292 293 296 297 298 299 300 301 355 357 360 361 362 363 775
+	addloadorder 2 1 0
+
+definerack f35-int-2ag-r
+	rackct 5257
+	rackstations 3
+	weapjettmodes EMERGENCY
+	rackjettmodes NONE
+	addwid 250 251 252 286 287 288 290 292 293 296 297 298 299 300 301 355 357 360 361 362 363 775
+	addloadorder 1 2 0
+
+definerack f35-int-4ag-l
+	rackct 5257
+	rackstations 7
+	weapjettmodes EMERGENCY
+	rackjettmodes NONE
+	addwid 305 306 685
+	addloadorder 4 6 3 5 1 2 0
+
+definerack f35-int-4ag-r
+	rackct 5257
+	rackstations 7
+	weapjettmodes EMERGENCY,SELECTIVE
+	rackjettmodes NONE
+	addwid 305 306 685
+	addloadorder  3 5 4 6 2 1 0
+
+##################
 ### J-20 RACKS ###
 ##################
-	
+
 # J-20 Pylon
 definerack j-20_single_aa
 	weapjettmodes NONE
@@ -1233,6 +1442,33 @@ definerack JAG-Missile
 	rackstations 1
 	addwclass aim
 
+####################
+### KF-21 RACKS ####
+####################
+
+definerack KF21-370-Tank
+	rackct 0
+	rackstations 1
+	weapjettmodes EMERGENCY,SELECTIVE
+	rackjettmodes NONE
+	addwclass tank
+	addwid 93
+
+definerack KF21-Meteor
+	rackct 0
+	rackstations 1
+	weapjettmodes EMERGENCY,SELECTIVE
+	rackjettmodes NONE
+	addwid 33
+
+definerack KF21-IR
+	rackct 0
+	rackstations 1
+	weapjettmodes NONE
+	rackjettmodes NONE
+	# AIM-9x, IRIS-T
+	addwid 176 309
+
 ###################
 ### MH-60 RACKS ###
 ###################
@@ -1243,7 +1479,148 @@ definerack MH60R-QuadAG
 	weapjettmodes NONE
 	rackjettmodes NONE
 	addwid 131 347 349
+	
+##########################
+### Mirage III/5 RACKS ###
+##########################
 
+definerack Mirage-III_RPL825
+	rackjettmodes NONE
+	weapjettmodes EMERGENCY,SELECTIVE
+	rackct 0
+	rackstations 1
+	addwid 904
+	
+definerack Mirage-III_RPL62
+	rackjettmodes NONE
+	weapjettmodes EMERGENCY,SELECTIVE
+	rackct 0
+	rackstations 1
+	addwid 701 903
+	
+definerack LAU-Shafrir-2
+	rackjettmodes EMERGENCY
+	weapjettmodes EMERGENCY,SELECTIVE
+	rackct 5294 # R MIII AERO 3b
+	rackstations 1
+	addwid 905
+	
+definerack Mirage-III_JL100
+	rackjettmodes NONE
+	weapjettmodes EMERGENCY,SELECTIVE
+	rackct 0
+	rackstations 1
+	addwid 884 # JL-100R
+
+definerack Mirage-III_WxAG
+	rackjettmodes EMERGENCY
+	weapjettmodes EMERGENCY,SELECTIVE
+	rackct 5293 # R MIII ADP-4 (under R MIII CES-3)
+	rackstations 1
+	addwclass bomb
+	addwid 58 885 # LRF-4, LRF-1
+
+definerack Mirage-III-R550L
+	rackjettmodes EMERGENCY
+	weapjettmodes EMERGENCY,SELECTIVE
+	rackct 5301 # R MIII LM40-ADP L (under R MIII CES-3)
+	rackstations 1
+	addwid 385 386 # R550 Magic, R550 MagicII
+	
+definerack Mirage-III-R550R
+	rackjettmodes EMERGENCY
+	weapjettmodes EMERGENCY,SELECTIVE
+	rackct 5302 # R MIII LM40-ADP R (under R MIII CES-3)
+	rackstations 1
+	addwid 385 386 # R550 Magic, R550 MagicII
+	
+definerack Mirage-III-AIM-L
+	rackjettmodes EMERGENCY
+	weapjettmodes EMERGENCY,SELECTIVE
+	rackct 5301 # R MIII LM40-ADP L (under R MIII CES-3)
+	rackstations 1
+	addwclass aim
+	
+definerack Mirage-III-AIM-R
+	rackjettmodes EMERGENCY
+	weapjettmodes EMERGENCY,SELECTIVE
+	rackct 5302 # R MIII LM40-ADP R (under R MIII CES-3)
+	rackstations 1
+	addwclass aim
+
+definerack Mirage-III-R530
+	rackjettmodes EMERGENCY
+	weapjettmodes EMERGENCY,SELECTIVE
+	rackct 5300 # R MIII LM-14
+	rackstations 1
+	addwid 886 # R530
+
+definerack Mirage-III_RPK10LH_GBU
+	racksmsname MER
+	rackct 5304 # RPK-10LH
+	rackstations 4
+	rackjettmodes EMERGENCY,SELECTIVE
+	weapjettmodes EMERGENCY,SELECTIVE
+	addwclass gbu
+	addloadorder 0 1 2 3 
+
+definerack Mirage-III_RPK10RH_GBU
+	racksmsname MER
+	rackct 5305 # RPK-10RH
+	rackstations 4
+	rackjettmodes EMERGENCY,SELECTIVE
+	weapjettmodes EMERGENCY,SELECTIVE
+	addwclass gbu
+	addloadorder 0 1 2 3 
+
+definerack Mirage-III_RPK10LH_SHORT
+	racksmsname MER
+	rackct 5304 # RPK-10LH
+	rackstations 4
+	rackjettmodes EMERGENCY,SELECTIVE
+	weapjettmodes EMERGENCY,SELECTIVE
+	addwclass bomb
+	addloadorder 0 2 1 3 
+
+definerack Mirage-III_RPK10RH_SHORT
+	racksmsname MER
+	rackct 5305 # RPK-10RH
+	rackstations 4
+	rackjettmodes EMERGENCY,SELECTIVE
+	weapjettmodes EMERGENCY,SELECTIVE
+	addwclass bomb
+	addloadorder 0 2 1 3 
+	
+definerack Mirage-III_MER
+	racksmsname MER
+	rackct 5296 # R MIII CL-MER
+	rackstations 6
+	rackjettmodes EMERGENCY,SELECTIVE
+	weapjettmodes EMERGENCY,SELECTIVE
+	addwclass bomb
+	addloadorder 0
+	addloadorder 1 0
+	addloadorder 3 2 0
+	addloadorder 3 2 4 5 
+	addloadorder 3 2 0 4 5
+	addloadorder 3 2 0 4 5 1
+
+definerack Mirage-III_AG-x2-Centre
+	racksmsname TANDEM
+	rackct 5297 # R MIII CL-PM-3
+	rackstations 2
+	weapjettmodes EMERGENCY,SELECTIVE
+	rackjettmodes NONE
+	addwclass bomb
+	addloadorder 0 1
+
+definerack Mirage-III-PM-30
+	rackjettmodes EMERGENCY
+	weapjettmodes EMERGENCY,SELECTIVE
+	rackct 5344 # R MIII PM-30 CL 
+	rackstations 1
+	addwid 214 215 216 # AS-30L, AS-34, AS-37
+	
 #######################
 ### Mirage F1 RACKS ###
 #######################
@@ -1678,6 +2055,28 @@ definerack rafale-tgp
 	addwid 269
 
 #####################
+##    Saetbyol-9   ##
+#####################
+
+definerack sb9-single
+	rackjettmodes SELECTIVE,EMERGENCY
+	weapjettmodes NONE
+	rackct 5130
+	rackstations 1
+	addloadorder 0
+	addwid 796 797
+
+definerack sb9-dual
+	rackjettmodes SELECTIVE,EMERGENCY
+	weapjettmodes NONE
+	rackct 5131
+	rackstations 2
+	addloadorder 0
+	addloadorder 0 1
+	addwid 796 797
+
+
+#####################
 ### Tornado RACKS ###
 #####################
 
@@ -1877,7 +2276,7 @@ definerack apu-13
 	rackstations 1
 	rackjettmodes EMERGENCY,SELECTIVE
 	weapjettmodes EMERGENCY,SELECTIVE
-	addwid 45 114 122 121 706 
+	addwid 45 114 122 121 375 376 706 
 
 # AA-8 single / R APU-60
 definerack apu-60
@@ -1953,7 +2352,7 @@ definerack apu-170
 	rackstations 1
 	rackjettmodes EMERGENCY,SELECTIVE
 	weapjettmodes EMERGENCY,SELECTIVE
-	addwid 120
+	addwid 120 835
 
 # OPFOR Light AGM and Rocket / R APU-68-UM2
 definerack apu-68-um2
@@ -1962,7 +2361,7 @@ definerack apu-68-um2
 	rackstations 1
 	rackjettmodes EMERGENCY,SELECTIVE
 	weapjettmodes EMERGENCY,SELECTIVE
-	addwid 213 200 202 402 545
+	addwid 200 202 213 402 545
 
 # OPFOR heavy AGM / R APU-58
 definerack apu-58
@@ -1972,6 +2371,15 @@ definerack apu-58
 	rackjettmodes EMERGENCY,SELECTIVE
 	weapjettmodes EMERGENCY,SELECTIVE
 	addwid 201 203 204 205 206 207 208 209 210
+
+# OPFOR heavy AGM / R APU-58-Kh-38
+definerack apu-58-kh38
+	racksmsname APU58
+	rackct 2827
+	rackstations 1
+	rackjettmodes EMERGENCY,SELECTIVE
+	weapjettmodes EMERGENCY,SELECTIVE
+	addwid 207 208 209 832 849 854 858
 
 # OPFOR 500kg Rack / R BD3-U
 definerack bd3-u
@@ -1991,7 +2399,7 @@ definerack bd4-u
 	rackjettmodes EMERGENCY,SELECTIVE
 	weapjettmodes EMERGENCY,SELECTIVE
 	addwclass bomb, gbu, ecm, rocket, tank, camera
-	addwid 275 276 277 311 312 313 380
+	addwid 275 276 277 311 312 313 380 856
 
 # OPFOR 500kg MiG-29/Su-27+ Rack / R BD2-29U
 definerack bd2-29u
@@ -2002,28 +2410,6 @@ definerack bd2-29u
 	weapjettmodes EMERGENCY,SELECTIVE
 	addwid 230 273 274 278 279 280 281 314 316 315 369 370 371 372 387 388 389 390 391 392 393 394 462 461 460 457 458 459 455 317
 
-# OPFOR Multi Bomb Rack 6x250kg LEFT / R MBD3-U6
-# MiG-23/27/29 use custom definition for this rack
-definerack mbd3-u6-L
-	racksmsname MBD3U6L
-	rackct 3121
-	rackstations 6
-	rackjettmodes EMERGENCY,SELECTIVE
-	weapjettmodes EMERGENCY,SELECTIVE
-	addloadorder 0 1 2 3 4 5
-	addwid 273 274 370 387 388 461
-
-# OPFOR Multi Bomb Rack 6x250kg RIGHT / R MBD3-U6
-# MiG-23/27/29 use custom definition for this rack
-definerack mbd3-u6-R
-	racksmsname MBD3U6R
-	rackct 3121
-	rackstations 6
-	rackjettmodes EMERGENCY,SELECTIVE
-	weapjettmodes EMERGENCY,SELECTIVE
-	addloadorder 0 1 4 5 2 3
-	addwid 273 274 370 387 388 461
-
 # OPFOR Multi Bomb Rack 2x500kg LEFT / R MBD3-2UK
 definerack mbd3-2uk-L
 	racksmsname MBD2UK
@@ -2031,8 +2417,8 @@ definerack mbd3-2uk-L
 	rackstations 2
 	rackjettmodes EMERGENCY,SELECTIVE
 	weapjettmodes EMERGENCY,SELECTIVE
-	addloadorder 0 1
-	addwid 230 280 281 314 316 315 369 372 389 390 391 393 394 462 460 457 458 459 455
+	addloadorder 1 0
+	addwid 230 280 281 314 316 315 369 372 389 390 391 392 393 394 462 460 457 458 459 455 818
 
 # OPFOR Multi Bomb Rack 2x500kg RIGHT / R MBD3-2UK
 definerack mbd3-2uk-R
@@ -2041,8 +2427,8 @@ definerack mbd3-2uk-R
 	rackstations 2
 	rackjettmodes EMERGENCY,SELECTIVE
 	weapjettmodes EMERGENCY,SELECTIVE
-	addloadorder 1 0
-	addwid 230 280 281 314 316 315 369 372 389 390 391 393 394 462 460 457 458 459 455
+	addloadorder 0 1
+	addwid 230 280 281 314 316 315 369 372 389 390 391 392 393 394 462 460 457 458 459 455 818
 
 # OPFOR Multi Bomb Rack 2x250kg LEFT / R MBD3-2UK
 definerack mbd3-2uk250-L
@@ -2051,7 +2437,7 @@ definerack mbd3-2uk250-L
 	rackstations 2
 	rackjettmodes EMERGENCY,SELECTIVE
 	weapjettmodes EMERGENCY,SELECTIVE
-	addloadorder 0 1
+	addloadorder 1 0
 	addwid 230 273 274 278 279 280 281 314 316 315 369 370 371 372 387 388 389 390 391 393 394 455 457 458 459 460 461 462 
 
 # OPFOR Multi Bomb Rack 2x250kg RIGHT / R MBD3-2UK
@@ -2061,8 +2447,106 @@ definerack mbd3-2uk250-R
 	rackstations 2
 	rackjettmodes EMERGENCY,SELECTIVE
 	weapjettmodes EMERGENCY,SELECTIVE
-	addloadorder 1 0
+	addloadorder 0 1
 	addwid 230 273 274 278 279 280 281 314 316 315 369 370 371 372 387 388 389 390 391 393 394 455 457 458 459 460 461 462 
+
+# OPFOR Multi Bomb Rack 4x250kg LEFT / R MBD3-U4
+definerack mbd3-u4-L
+	racksmsname MBD3U4L
+	rackct 5173
+	rackstations 4
+	rackjettmodes EMERGENCY,SELECTIVE
+	weapjettmodes EMERGENCY,SELECTIVE
+	addloadorder 1 0 3 2
+	addwid 273 274 278 279 370 371 387 388 461 816
+
+# OPFOR Multi Bomb Rack 4x250kg RIGHT / R MBD3-U4
+definerack mbd3-u4-R
+	racksmsname MBD3U4R
+	rackct 5173
+	rackstations 4
+	rackjettmodes EMERGENCY,SELECTIVE
+	weapjettmodes EMERGENCY,SELECTIVE
+	addloadorder 0 1 3 2
+	addwid 273 274 278 279 370 371 387 388 461 816
+
+# OPFOR Multi Bomb Rack 6x250kg LEFT / R MBD3-U6
+# MiG-23/27/29 use custom definition for this rack
+definerack mbd3-u6-L
+	racksmsname MBD3U6L
+	rackct 3121
+	rackstations 6
+	rackjettmodes EMERGENCY,SELECTIVE
+	weapjettmodes EMERGENCY,SELECTIVE
+	addloadorder 1 0
+	addloadorder 1 0 6
+	addloadorder 2 4 3 5
+	addloadorder 2 4 3 5 1
+	addloadorder 0 1 2 4 3 5
+	addwid 273 274 278 279 370 371 387 388
+
+# OPFOR Multi Bomb Rack 6x250kg RIGHT / R MBD3-U6
+# MiG-23/27/29 use custom definition for this rack
+definerack mbd3-u6-R
+	racksmsname MBD3U6R
+	rackct 3121
+	rackstations 6
+	rackjettmodes EMERGENCY,SELECTIVE
+	weapjettmodes EMERGENCY,SELECTIVE
+	addloadorder 0 1
+	addloadorder 1 3 2
+	addloadorder 4 2 5 3
+	addloadorder 4 2 5 3 1
+	addloadorder 0 1 4 2 5 3
+	addwid 273 274 278 279 370 371 387 388
+	
+# OPFOR Multi Bomb Rack 6x generic
+definerack mbd3-u6-G
+	racksmsname MBD3U6H
+	rackct 2876
+	rackstations 6
+	rackjettmodes EMERGENCY,SELECTIVE
+	weapjettmodes EMERGENCY,SELECTIVE
+	addloadorder 1 0
+	addloadorder 1 0 6
+	addloadorder 2 4 3 5
+	addloadorder 2 4 3 5 1
+	addloadorder 0 1 2 4 3 5
+	addwclass bomb, gbu, ecm, rocket, tank, camera
+	addwid 314 315 316
+
+# OPFOR APU-470 Su-30
+definerack su30-apu-470
+	rackct 5180
+	rackstations 1
+	rackjettmodes EMERGENCY,SELECTIVE
+	weapjettmodes EMERGENCY,SELECTIVE
+	addwid 115 116 117 118
+
+# OPFOR APU-470 Su-30 Center
+definerack su30-apu-470-C
+	rackct 5181
+	rackstations 2
+	rackjettmodes EMERGENCY,SELECTIVE
+	weapjettmodes EMERGENCY,SELECTIVE
+	addloadorder 1 0
+	addwid 115 116 117 118
+
+# OPFOR Khibiny-U (ecm) Left
+definerack su30-ecm-L
+	rackct 5178
+	rackstations 1
+	rackjettmodes NONE
+	weapjettmodes NONE
+	addwclass ecm
+
+# OPFOR Khibiny-U (ecm) Right
+definerack su30-ecm-R
+	rackct 5179
+	rackstations 1
+	rackjettmodes NONE
+	weapjettmodes NONE
+	addwclass ecm
 
 # OPFOR Kh-41 Su-30/33
 definerack su3x-kh41
@@ -2071,7 +2555,161 @@ definerack su3x-kh41
 	rackjettmodes EMERGENCY,SELECTIVE
 	weapjettmodes EMERGENCY,SELECTIVE
 	addwid 96
-	
+
+# OPFOR YJ-1000 J-16
+definerack j16-yj1000
+	rackct 5137
+	rackstations 1
+	rackjettmodes EMERGENCY,SELECTIVE
+	weapjettmodes EMERGENCY,SELECTIVE
+	addwid 800
+
+# OPFOR PL-17 J-16
+definerack j16-pl17
+	rackct 5139
+	rackstations 1
+	rackjettmodes EMERGENCY,SELECTIVE
+	weapjettmodes EMERGENCY,SELECTIVE
+	addwid 802 817
+
+# OPFOR 4X PL-15 J-16
+definerack j16-4x
+	rackct 5140
+	rackstations 4
+	rackjettmodes EMERGENCY,SELECTIVE
+	weapjettmodes EMERGENCY,SELECTIVE
+	addloadorder 0 1 2 3
+	addwid 45 706
+
+# OPFOR 2X PL-12 Center J-16
+definerack j16-2x-center
+	rackct 5141
+	rackstations 2
+	rackjettmodes EMERGENCY,SELECTIVE
+	weapjettmodes EMERGENCY,SELECTIVE
+	addloadorder 0 1
+	addwid 45 706 818
+
+# OPFOR 2X CM-102 Center J-16
+definerack j16-cm102-center
+	rackct 5157
+	rackstations 2
+	rackjettmodes EMERGENCY,SELECTIVE
+	weapjettmodes EMERGENCY,SELECTIVE
+	addloadorder 0 1
+	addwid 820
+
+# OPFOR AG Single J-16
+definerack j16-ag-single
+	rackct 5143
+	rackstations 1
+	rackjettmodes EMERGENCY,SELECTIVE
+	weapjettmodes EMERGENCY,SELECTIVE
+	addwid 18 230 273 274 278 279 280 281 288 314 316 315 369 370 371 372 376 387 388 389 390 391 392 393 394 462 461 460 457 458 459 455 317 806 818 820 826 855
+
+# OPFOR PL-12 Wing J-16
+definerack j16-pl-12-wing
+	rackct 5159
+	rackstations 1
+	rackjettmodes EMERGENCY,SELECTIVE
+	weapjettmodes EMERGENCY,SELECTIVE
+	addwid 45 706
+
+# OPFOR PL-12 Intake J-16
+definerack j16-pl-12-intake
+	rackct 5160
+	rackstations 1
+	rackjettmodes EMERGENCY,SELECTIVE
+	weapjettmodes EMERGENCY,SELECTIVE
+	addwid 18 45 706
+
+# OPFOR Twin AA Left J-16
+definerack j16-twin-AA-L
+	rackct 5145
+	rackstations 2
+	rackjettmodes EMERGENCY,SELECTIVE
+	weapjettmodes EMERGENCY,SELECTIVE
+	addwid 45 706 18
+	addloadorder 0 1
+
+# OPFOR Twin AA Right J-16
+definerack j16-twin-AA-R
+	rackct 5146
+	rackstations 2
+	rackjettmodes EMERGENCY,SELECTIVE
+	weapjettmodes EMERGENCY,SELECTIVE
+	addwid 45 706 18
+	addloadorder 0 1
+
+# OPFOR 6x Bombs J-16
+definerack j16-6x-bombs-L
+	rackct 5147
+	rackstations 6
+	rackjettmodes EMERGENCY,SELECTIVE
+	weapjettmodes EMERGENCY,SELECTIVE
+	addwid 707 816
+	addloadorder 3
+	addloadorder 3 2
+	addloadorder 3 2 4
+	addloadorder 3 2 4 5
+	addloadorder 3 2 4 5 0
+	addloadorder 3 2 4 5 0 1
+
+# OPFOR 6x Bombs J-16
+definerack j16-6x-bombs-R
+	rackct 5147
+	rackstations 6
+	rackjettmodes EMERGENCY,SELECTIVE
+	weapjettmodes EMERGENCY,SELECTIVE
+	addwid 707 816
+	addloadorder 2
+	addloadorder 2 3
+	addloadorder 2 3 5
+	addloadorder 2 3 5 4
+	addloadorder 2 3 5 4 0
+	addloadorder 2 3 5 4 0 1
+
+# OPFOR WMD-7 J-16
+definerack j16-WMD-7
+	rackct 5148
+	rackstations 1
+	rackjettmodes NONE
+	weapjettmodes NONE
+	addwid 814
+
+# OPFOR KRKL700A J-16
+definerack j16-KRKL700A
+	rackct 5149
+	rackstations 1
+	rackjettmodes NONE
+	weapjettmodes NONE
+	addwid 815 859
+
+# OPFOR 2X J-16
+definerack j16-2x
+	rackct 5155
+	rackstations 2
+	rackjettmodes EMERGENCY,SELECTIVE
+	weapjettmodes EMERGENCY,SELECTIVE
+	addloadorder 0 1
+	addwid 818 822 826
+
+# OPFOR J-16 GDJ-II36-norack
+definerack j16-GDJ-II36-norack
+	rackct 0
+	rackstations 1
+	rackjettmodes EMERGENCY,SELECTIVE
+	weapjettmodes EMERGENCY,SELECTIVE
+	addwid 825
+
+# OPFOR J-16 Rocket Single
+definerack j16-rocket-single
+	rackct 5143
+	rackstations 1
+	rackjettmodes EMERGENCY,SELECTIVE
+	weapjettmodes EMERGENCY,SELECTIVE
+	addwid 822 826
+
 # UKR-NATO JDAM GBU-31, GBU-62
 definerack su3x-JDAM-norack
 	racksmsname JDAM
@@ -2139,7 +2777,7 @@ definerack j8i-aa-rack
 	rackstations 1
 	rackjettmodes NONE
 	weapjettmodes NONE
-	addwid 375 376
+	addwid 375 376 910 911
 
 ####Chengdu J-15 RACK DEFINITION ##################
 
@@ -2293,10 +2931,10 @@ definerack MiG19-tank-rack
 definerack MiG21-tank-rack
 	rackct 0
 	rackstations 1
-	rackjettmodes NONE
-	weapjettmodes NONE
-	addwid 5 82
-
+	rackjettmodes EMERGENCY,SELECTIVE
+	weapjettmodes EMERGENCY,SELECTIVE
+	addwid 5 76 82
+	
 ##### MiG-23/27 CUSTOM RACK AND PYLON DEFINITION ############
 
 # MiG 23 Pylon / R BD2-23
@@ -2442,6 +3080,9 @@ definerack MiG29-mbd3-250
 	rackstations 6
 	rackjettmodes EMERGENCY,SELECTIVE
 	weapjettmodes EMERGENCY,SELECTIVE
+	addloadorder 3 4 5
+	addloadorder 1 2 4 5
+	addloadorder 3 4 5 1 2
 	addloadorder 0 1 2 3 4 5
 	addwid 278 279 371 387 388 461 # 250 kg Bombs only
 
@@ -2516,20 +3157,32 @@ definerack su27bomb3R
 definerack su27caat
 	rackct 2788
 	rackstations 2
-	rackjettmodes EMERGENCY,SELECTIVE
+	rackjettmodes NONE
 	weapjettmodes EMERGENCY,SELECTIVE
 	addloadorder 0 1
 	addwclass aim
 
-# Su-27 6x500 kg center
+# Su-27 2x Centerline Bombs
+definerack su27cag
+	rackct 5134
+	rackstations 2
+	rackjettmodes EMERGENCY,SELECTIVE
+	weapjettmodes EMERGENCY,SELECTIVE
+	addloadorder 0 1
+	addwid 230 280 281 311 314 315 316 369 372 389 390 391 392 393 394 462 818
+
+# Su-27 6x250 kg center
 definerack su27center
 	rackct 2789
 	rackstations 6
 	rackjettmodes EMERGENCY,SELECTIVE
 	weapjettmodes EMERGENCY,SELECTIVE
-	addloadorder 0 1 2 3 4 5
-	addwclass bomb, gbu, rocket
-	addwid 230 280 281 314 315 316 317 369 372 389 390 391 392 393 394 455 457 458 459 460 462
+	addloadorder 0 3
+	addloadorder 4 5 0
+	addloadorder 4 5 1 2
+	addloadorder 3 4 5 1 2
+	addloadorder 3 4 5 0 1 2
+	addwid 278 279 371 387 388
 
 # Su-27 12x100 kg center
 definerack su27c12x100
@@ -2537,28 +3190,87 @@ definerack su27c12x100
 	rackstations 12
 	rackjettmodes EMERGENCY,SELECTIVE
 	weapjettmodes EMERGENCY,SELECTIVE
-	addloadorder 0 1 2 3 4 5 6 7 8 9 10 11
-	addwid 273 274 370
+	addloadorder 0 3
+	addloadorder 0 1 3
+	addloadorder 0 1 2 3
+	addloadorder 4 5 1 2 3
+	addloadorder 4 5 6 7 2 3
+	addloadorder 4 5 6 7 8 9 3
+	addloadorder 4 5 6 7 8 9 10 11 0 3 1 2
+	addwid 273 274 278 279 370 371 387 388 461
 
 # Su-30 2xAGM LEFT
 definerack su30agm2L
 	rackct 2823
-	rackstations 3
+	rackstations 2
 	rackjettmodes EMERGENCY,SELECTIVE
 	weapjettmodes EMERGENCY,SELECTIVE
-	addloadorder 2 1 0
+	addloadorder 2 1
 	addwclass agm aim
 	addwid 200
 
 # Su-30 2xAGM RIGHT
 definerack su30agm2R
 	rackct 2823
-	rackstations 3
+	rackstations 2
 	rackjettmodes EMERGENCY,SELECTIVE
 	weapjettmodes EMERGENCY,SELECTIVE
-	addloadorder 1 2 0
+	addloadorder 1 2
 	addwclass agm aim
 	addwid 200
+
+# Su-30 Center 2x
+definerack su30-center-2x
+	rackct 5174
+	rackstations 2
+	rackjettmodes EMERGENCY,SELECTIVE
+	weapjettmodes EMERGENCY,SELECTIVE
+	addloadorder 0 1
+	addwid 827
+
+# Su-30 Center 2xAA
+definerack su30-center-2xAA
+	rackct 5177
+	rackstations 2
+	rackjettmodes EMERGENCY,SELECTIVE
+	weapjettmodes EMERGENCY,SELECTIVE
+	addloadorder 0 1
+	addwid 120 835
+
+# Su-30 Center 4x
+definerack su30-center-4x
+	rackct 5176
+	rackstations 4
+	rackjettmodes EMERGENCY,SELECTIVE
+	weapjettmodes EMERGENCY,SELECTIVE
+	addloadorder 0 1 2 3
+	addwclass bomb
+	addwid 120 835 855
+
+# Su-30 AA-13
+definerack su30aa13
+	rackct 5168
+	rackstations 1
+	rackjettmodes EMERGENCY,SELECTIVE
+	weapjettmodes EMERGENCY,SELECTIVE
+	addwid 827
+
+# Su-30 T-220
+definerack su30t220
+	rackct 5143
+	rackstations 1
+	rackjettmodes EMERGENCY,SELECTIVE
+	weapjettmodes EMERGENCY,SELECTIVE
+	addwid 830 311 312 313
+
+# Su-30 2x Rockets
+definerack su30-2x
+	rackct 5195
+	rackstations 2
+	rackjettmodes EMERGENCY,SELECTIVE
+	weapjettmodes EMERGENCY,SELECTIVE
+	addloadorder 0 1
+	addwid 455 457 460 855
 
 # Su-xx ECM LEFT
 definerack Su-xx_Sorbtsiya_Left
@@ -2576,6 +3288,62 @@ definerack Su-xx_Sorbtsiya_Right
 	rackstations 1
 	addwclass ecm
 
+# Su-30MKK ECM LEFT
+definerack Su-30-MKK_Sorbtsiya_Left
+	weapjettmodes NONE
+	rackjettmodes NONE
+	rackct 5187
+	rackstations 1
+	addwclass ecm
+
+# Su-30MKK ECM RIGHT
+definerack Su-30-MKK_Sorbtsiya_Right
+	weapjettmodes NONE
+	rackjettmodes NONE
+	rackct 5188
+	rackstations 1
+	addwclass ecm
+
+# Su-30MKM AIM-120 Rack
+definerack Su-30-MKM_AIM-120
+	rackct 5094
+	rackstations 1
+	rackjettmodes EMERGENCY,SELECTIVE
+	weapjettmodes EMERGENCY,SELECTIVE
+	addwid 158
+
+# Su-30MKM Khibiny-MKM (ecm) Left
+definerack su30mkm-ecm-L
+	rackct 5202
+	rackstations 1
+	rackjettmodes NONE
+	weapjettmodes NONE
+	addwclass ecm
+
+# Su-30MKM Khibiny-MKM (ecm) Right
+definerack su30mkm-ecm-R
+	rackct 5201
+	rackstations 1
+	rackjettmodes NONE
+	weapjettmodes NONE
+	addwclass ecm
+
+# Su-30SM Khibiny-SM (ecm) Left
+definerack su30sm-ecm-L
+	rackct 5266
+	rackstations 1
+	rackjettmodes NONE
+	weapjettmodes NONE
+	addwclass ecm
+
+# Su-30SM Khibiny-SM (ecm) Right
+definerack su30sm-ecm-R
+	rackct 5265
+	rackstations 1
+	rackjettmodes NONE
+	weapjettmodes NONE
+	addwclass ecm
+
 # Su-35SK PL-10 Pylon
 definerack su35_pl10
 	weapjettmodes NONE
@@ -2583,7 +3351,7 @@ definerack su35_pl10
 	rackct 4253
 	rackstations 1
 	addwid 18
-	
+
 # Su-35SK Hard AA
 definerack su35_hard_AA
 	weapjettmodes NONE
@@ -2738,6 +3506,7 @@ definegroup nopylon-left
 			addrack bru-42-left-generic
 			addrack bru-41-left
 			addrack bru-61-left
+			addrack suu-20-left
 
 # For a/c with pylons as part of the a/c LOD
 definegroup nopylon-right
@@ -2753,7 +3522,7 @@ definegroup nopylon-right
 			addrack bru-42-right-generic
 			addrack bru-41-right
 			addrack bru-61-right
-
+			addrack suu-20-right
 # Helo rack
 definegroup 0
 	addpylon
@@ -2901,18 +3670,18 @@ definegroup AV8B-HP2
 	addpylon
 		pylonct 3141
 			addrack aim+LAU-7+ADU-299
-			addrack TER-LGTR-right
 			addrack no-rack
 			addrack lau-117
 			addrack lau-118
+			addrack TER-LGTR-right
 
 definegroup AV8B-HP3
 	addpylon
 		pylonct 3140
-			addrack TER-LGTR-right
 			addrack no-rack
 			addrack lau-117
 			addrack lau-118
+			addrack TER-LGTR-right
 
 definegroup AV8B-HP4
 	addpylon
@@ -2922,20 +3691,20 @@ definegroup AV8B-HP4
 definegroup AV8B-HP5
 	addpylon
 		pylonct 3140
-			addrack TER-LGTR-left
 			addrack no-rack
 			addrack pod-no-rack
 			addrack lau-117
 			addrack lau-118
+			addrack TER-LGTR-left
 
 definegroup AV8B-HP6
 	addpylon
 		pylonct 3141
 			addrack aim+LAU-7+ADU-299
-			addrack TER-LGTR-left
 			addrack no-rack
 			addrack lau-117
 			addrack lau-118
+			addrack TER-LGTR-left
 
 definegroup AV8B-HP7
 	addpylon
@@ -2974,7 +3743,9 @@ definegroup b1-external
 definegroup b52-hsab
 	addpylon
 		pylonct 0
+			addrack b52-MERx6-rack
 			addrack b52-hsab-rack
+			addrack b52-dualmer-rack
 
 definegroup b52-dualmer
 	addpylon
@@ -3099,23 +3870,23 @@ definegroup f-ck-1_wing-tip
 definegroup F1-wingtip-left
 	addpylon
 	    pylonsmsname LAU-127
-		pylonct 4403
+		pylonct 5094
 			addrack aim-no-rail
 
 definegroup F1-wingtip-right
 	addpylon
 	    pylonsmsname LAU-127
-		pylonct 4404
+		pylonct 5095
 			addrack aim-no-rail
 
 definegroup F1-center
 	addpylon
 		pylonsmsname TANK
-		pylonct 4400
+		pylonct 5091
 			addrack f1-tank-220gal
 	addpylon
 		pylonsmsname MAU
-		pylonct 4400
+		pylonct 5091
 			addrack no-rack
 			addrack f1-jasdf-2
 			addrack f1-jasdf-4
@@ -3123,21 +3894,20 @@ definegroup F1-center
 definegroup F1-wing-inner
 	addpylon
 		pylonsmsname TANK
-		pylonct 4401
+		pylonct 5092
 			addrack f1-tank-220gal
 	addpylon
 		pylonsmsname MAU
-		pylonct 4401
+		pylonct 5092
 			addrack no-rack
 			addrack f1-jasdf-2
 
 definegroup F1-wing-outer
 	addpylon
 		pylonsmsname MAU
-		pylonct 4402
+		pylonct 5093
 			addrack no-rack
 			addrack f1-jasdf-2
-
 
 
 ########               ##
@@ -3411,6 +4181,7 @@ definegroup f15c-center
 			addrack lau-88-left
 			addrack bru-42-left
 			addrack bru-41-left
+			addrack suu-20-left
 
 definegroup f15-pod-left
 	addpylon
@@ -3421,6 +4192,89 @@ definegroup f15-pod-right
 	addpylon
 		pylonct 1211
 			addrack pod-no-rack
+
+definegroup F-15-IAF-Wing-Int-LH
+	addpylon
+		pylonsmsname LAU7L
+		pylonct 5270 # SUU-59_LAU-7 L
+			addrack f15-IAF-AAM-LAU7-PYT3
+	addpylon
+		pylonsmsname LAU7
+		pylonct 5269 # SUU-59_LAU-7
+			addrack f15-IAF-AAM-LAU7
+			addrack simulated-fire-CATM120C
+			addrack simulated-fire-CATM120B
+	addpylon
+		pylonsmsname LAU128
+		pylonct 5272 # SUU-59_LAU-128	
+			addrack f15-IAF-AAM-LAU128
+			addrack simulated-fire-CATM9M-BD
+			addrack simulated-fire-CATM9M-RD
+
+definegroup F-15-IAF-Wing-Int-RH
+	addpylon
+		pylonsmsname LAU7R
+		pylonct 5271 # SUU-59_LAU-7 R
+			addrack f15-IAF-AAM-LAU7-PYT3
+	addpylon
+		pylonsmsname LAU7
+		pylonct 5269 # SUU-59_LAU-7
+			addrack f15-IAF-AAM-LAU7
+			addrack simulated-fire-CATM120C
+			addrack simulated-fire-CATM120B
+	addpylon
+		pylonsmsname LAU128
+		pylonct 5272 # SUU-59_LAU-7
+			addrack f15-IAF-AAM-LAU128
+			addrack simulated-fire-CATM9M-BD
+			addrack simulated-fire-CATM9M-RD
+			
+definegroup f15I-IAF-cft-left
+	addpylon
+		pylonsmsname FST
+		pylonct 0
+			addrack f15e-cft-aa-rack-left
+			addrack f15e-cft-single-rack-left
+			addrack f15e-cft-triple-rack-left
+			addrack f15e-cft-bru61x4-left
+			addrack f15e-cft-large-rack-left
+			addrack f15e-cft-rack-left
+			addrack f15e-cft-bru61x8-left
+			addrack f15i-IAF-cft-spice-rack-left
+			addrack f15i-IAF-cft-gbu12-left
+	addpylon
+		pylonsmsname LNCHW
+		pylonct 0
+			addrack aim-no-rail
+			addrack simulated-fire-CATM120C
+			addrack simulated-fire-CATM120B
+			
+definegroup f15I-IAF-cft-right
+	addpylon
+		pylonsmsname FST
+		pylonct 0
+			addrack f15e-cft-aa-rack-right
+			addrack f15e-cft-single-rack-right
+			addrack f15e-cft-triple-rack-right
+			addrack f15e-cft-bru61x4-right
+			addrack f15e-cft-large-rack-right
+			addrack f15e-cft-single-pod-right
+			addrack f15e-cft-rack-right
+			addrack f15e-cft-bru61x8-right
+			addrack f15i-IAF-cft-spice-rack-right
+			addrack f15i-IAF-cft-gbu12-right
+	addpylon
+		pylonsmsname LNCHW
+		pylonct 0
+			addrack aim-no-rail
+			addrack simulated-fire-CATM120C
+			addrack simulated-fire-CATM120B
+
+definegroup F-15-USAF-Wing-Int
+	addpylon
+		pylonsmsname LAU128
+		pylonct 5272 # SUU-59_LAU-128	
+			addrack f15-usaf-AAM-LAU128
 
 
 ########            ##    #######
@@ -3500,7 +4354,7 @@ definegroup f16-3/4-16s210
 			addrack suu-20-left
 	addpylon
 		pylonsmsname MAU
-		pylonct 4384
+		pylonct 4770
 			addrack simulated-fire-CATM88D
 			addrack simulated-fire-TGM65G
 
@@ -3541,7 +4395,7 @@ definegroup f16-6/7-16s210
 			addrack suu-20-right
 	addpylon
 		pylonsmsname MAU
-		pylonct 4384
+		pylonct 4770
 			addrack simulated-fire-CATM88D
 			addrack simulated-fire-TGM65G
 
@@ -3627,7 +4481,7 @@ definegroup f16-3/4
 			addrack suu-20-left
 	addpylon
 		pylonsmsname MAU
-		pylonct 4384
+		pylonct 4770
 			addrack simulated-fire-CATM88D
 			addrack simulated-fire-TGM65G
 
@@ -3668,7 +4522,7 @@ definegroup f16-6/7
 			addrack suu-20-right
 	addpylon
 		pylonsmsname MAU
-		pylonct 4384
+		pylonct 4770
 			addrack simulated-fire-CATM88D
 			addrack simulated-fire-TGM65G
 
@@ -3706,7 +4560,7 @@ definegroup f16-pidsu-3/4
 			addrack suu-20-left
 	addpylon
 		pylonsmsname MAU
-		pylonct 4384
+		pylonct 4770
 			addrack simulated-fire-CATM88D
 			addrack simulated-fire-TGM65G
 
@@ -3742,7 +4596,7 @@ definegroup f16-pidsu-6/7
 			addrack suu-20-right
 	addpylon
 		pylonsmsname MAU
-		pylonct 4384
+		pylonct 4770
 			addrack simulated-fire-CATM88D
 			addrack simulated-fire-TGM65G
 
@@ -3780,7 +4634,7 @@ definegroup f16-ecipsu-6/7
 			addrack suu-20-right
 	addpylon
 		pylonsmsname MAU
-		pylonct 4384
+		pylonct 4770
 			addrack simulated-fire-CATM88D
 			addrack simulated-fire-TGM65G
 
@@ -3818,7 +4672,7 @@ definegroup f16-ecips+-3/4
 			addrack suu-20-left
 	addpylon
 		pylonsmsname MAU
-		pylonct 4384
+		pylonct 4770
 			addrack simulated-fire-CATM88D
 			addrack simulated-fire-TGM65G
 
@@ -3856,7 +4710,7 @@ definegroup f16-pids+-3/4
 			addrack suu-20-left
 	addpylon
 		pylonsmsname MAU
-		pylonct 4384
+		pylonct 4770
 			addrack simulated-fire-CATM88D
 			addrack simulated-fire-TGM65G
 
@@ -3892,7 +4746,7 @@ definegroup f16-pids+-6/7
 			addrack suu-20-right
 	addpylon
 		pylonsmsname MAU
-		pylonct 4384
+		pylonct 4770
 			addrack simulated-fire-CATM88D
 			addrack simulated-fire-TGM65G
 
@@ -3948,7 +4802,7 @@ definegroup f16-iaf-3/4-16s210
 	# AIM-7M pylon
 	addpylon
 		pylonsmsname LNCH
-		pylonct 4365
+		pylonct 4751
 			addrack f16-aim7
 	# AA and ACMI pylon
 	addpylon
@@ -3963,7 +4817,7 @@ definegroup f16-iaf-3/4-16s210
 	# normal pylon
 	addpylon
 		pylonsmsname MAU
-		pylonct 4364
+		pylonct 4750
 		# Sorted by number of slots
 			addrack empty-withpylon
 			addrack lau-117
@@ -3974,9 +4828,11 @@ definegroup f16-iaf-3/4-16s210
 			addrack bru-42i-left
 			addrack bru-61-left
 			addrack suu-20-left
+			addrack Delilah-Rack-Adjuster
+			addrack datalink-no-rack
 	addpylon
 		pylonsmsname MAU
-		pylonct 4384
+		pylonct 4770
 			addrack simulated-fire-CATM88D
 			addrack simulated-fire-TGM65G
 
@@ -3989,7 +4845,7 @@ definegroup f16-iaf-6/7-16s210
 	# AIM-7M pylon
 	addpylon
 		pylonsmsname LNCH
-		pylonct 4365
+		pylonct 4751
 			addrack f16-aim7
 	# AA and ACMI pylon
 	addpylon
@@ -4004,7 +4860,7 @@ definegroup f16-iaf-6/7-16s210
 	# normal pylon
 	addpylon
 		pylonsmsname MAU
-		pylonct 4364
+		pylonct 4750
 		# Sorted by number of slots
 			addrack empty-withpylon
 			addrack lau-117
@@ -4015,9 +4871,11 @@ definegroup f16-iaf-6/7-16s210
 			addrack bru-42i-right
 			addrack bru-61-right
 			addrack suu-20-right
+			addrack Delilah-Rack-Adjuster
+			addrack datalink-no-rack
 	addpylon
 		pylonsmsname MAU
-		pylonct 4384
+		pylonct 4770
 			addrack simulated-fire-CATM88D
 			addrack simulated-fire-TGM65G
 
@@ -4030,7 +4888,7 @@ definegroup f16-iaf-3/4
 	# AIM-7M pylon
 	addpylon
 		pylonsmsname LNCH
-		pylonct 4365
+		pylonct 4751
 			addrack f16-aim7
 	# AA and ACMI pylon
 	addpylon
@@ -4045,7 +4903,7 @@ definegroup f16-iaf-3/4
 	# normal pylon
 	addpylon
 		pylonsmsname MAU
-		pylonct 4364
+		pylonct 4750
 		# Sorted by number of slots
 			addrack empty-withpylon
 			addrack lau-117
@@ -4056,9 +4914,11 @@ definegroup f16-iaf-3/4
 			addrack bru-42i-left
 			addrack bru-61-left
 			addrack suu-20-left
+			addrack Delilah-Rack-Adjuster
+			addrack datalink-no-rack
 	addpylon
 		pylonsmsname MAU
-		pylonct 4384
+		pylonct 4770
 			addrack simulated-fire-CATM88D
 			addrack simulated-fire-TGM65G
 
@@ -4071,7 +4931,7 @@ definegroup f16-iaf-6/7
 	# AIM-7M pylon
 	addpylon
 		pylonsmsname LNCH
-		pylonct 4365
+		pylonct 4751
 			addrack f16-aim7
 	# AA and ACMI pylon
 	addpylon
@@ -4086,7 +4946,7 @@ definegroup f16-iaf-6/7
 	# normal pylon
 	addpylon
 		pylonsmsname MAU
-		pylonct 4364
+		pylonct 4750
 		# Sorted by number of slots
 			addrack empty-withpylon
 			addrack lau-117
@@ -4097,9 +4957,11 @@ definegroup f16-iaf-6/7
 			addrack bru-42i-right
 			addrack bru-61-right
 			addrack suu-20-right
+			addrack Delilah-Rack-Adjuster
+			addrack datalink-no-rack
 	addpylon
 		pylonsmsname MAU
-		pylonct 4384
+		pylonct 4770
 			addrack simulated-fire-CATM88D
 			addrack simulated-fire-TGM65G
 
@@ -4116,12 +4978,93 @@ definegroup f16-iaf-centerline
 			addrack f16-gpu5a
 	addpylon
 		pylonsmsname MAU
-		pylonct 4363
+		pylonct 4749
 			addrack empty-withpylon
 			addrack ecm-camera-no-rack
 			addrack no-rack
 			addrack datalink-no-rack
 
+
+#######           #######       ######
+##                      ##     ##    ##
+##                      ##    ##      ##
+######   #######  #######     ##########
+##               ##           ##      ##
+##               ##           ##      ##
+##                #######     ##      ##
+			
+definegroup F2-2/10
+	# AA and ACMI pylon
+	addpylon
+		pylonsmsname MRL
+		pylonct 5283
+			addrack aim-no-rail
+			addrack empty-withpylon
+			addrack simulated-fire-CATM120C
+			addrack simulated-fire-CATM120B
+			addrack simulated-fire-CATM9X
+			addrack simulated-fire-CATM9M-BD
+			addrack simulated-fire-CATM9M-RD
+
+definegroup F2-3/4
+	addpylon
+		pylonsmsname AAM
+		pylonct 5281
+			addrack f2a-AAM-LAU
+	addpylon
+		pylonsmsname MAU
+		pylonct 5281
+		# Sorted by number of slots
+			addrack empty-withpylon
+			addrack no-rack
+			addrack bru-42i-left
+
+definegroup F2-5/7
+	addpylon
+		pylonsmsname TANK
+		pylonct 0
+			addrack f2a-600-wing-tank
+	addpylon
+		pylonsmsname LNCH
+		pylonct 5281
+			addrack no-rack
+
+definegroup F2-6
+	addpylon
+		pylonct 0
+			addrack mrp-no-rack
+	addpylon
+		pylonsmsname MAU
+		pylonct 0
+			addrack f2a-center-tank
+			addrack f16-gpu5a
+	addpylon
+		pylonsmsname MAU
+		pylonct 5284
+			addrack empty-withpylon
+			addrack ecm-camera-no-rack
+			addrack no-rack
+			addrack datalink-no-rack
+
+definegroup F2-8/9
+	addpylon
+		pylonsmsname AAM
+		pylonct 5281
+			addrack f2a-AAM-LAU
+	addpylon
+		pylonsmsname MAU
+		pylonct 5281
+		# Sorted by number of slots
+			addrack empty-withpylon
+			addrack no-rack
+			addrack bru-42i-right
+			
+definegroup F2-POD-R
+	# POD
+	addpylon
+		pylonct 0
+			addrack f16-aaq14/28
+			addrack f16-aaq33
 
 
 ########    ##  ###               ##    #######
@@ -4194,6 +5137,82 @@ definegroup f18-centerline
 			addrack bru-55-left
 			addrack suu-20-left
 
+
+########          ######  ########    ###
+##                     ## ##         ## ##
+##                     ## ##        ##   ##
+######   #######   ####   #######  #########
+##                     ##       ## ##     ##
+##                     ##       ## ##     ##
+##                ######  #######  ##     ##
+
+definegroup f35-ext-outer-l
+	addpylon
+		pylonsmsname MAU
+		pylonct 5254
+			addrack aim-no-rail
+
+definegroup f35-ext-outer-r
+	addpylon
+		pylonsmsname MAU
+		pylonct 5255
+			addrack aim-no-rail
+
+definegroup f35-ext-inner-l
+	addpylon
+		pylonsmsname MAU
+		pylonct 5253
+			addrack f35-ext-tank
+			addrack f35-ext-aim
+			addrack f35-ext-2aim-left
+			addrack f35-ext-agm88
+			addrack triple-brimstone
+			addrack bru-61-left
+			addrack no-rack
+			addrack bru-55-left
+
+definegroup f35-ext-inner-r
+	addpylon
+		pylonsmsname MAU
+		pylonct 5253
+			addrack f35-ext-tank
+			addrack f35-ext-aim
+			addrack f35-ext-2aim-right
+			addrack f35-ext-agm88
+			addrack triple-brimstone
+			addrack bru-61-right
+			addrack no-rack
+			addrack bru-55-right
+
+definegroup f35-ext-pod
+	addpylon
+		pylonsmsname POD
+		pylonct 0
+			addrack no-rail
+
+definegroup f35-int-aa
+	addpylon
+		pylonsmsname MAU
+		pylonct 0
+			addrack aim-no-rail
+
+definegroup f35-int-aag-l
+	addpylon
+		pylonsmsname MAU
+		pylonct 0
+			addrack f35-int-aim
+			addrack f35-int-agm
+			addrack f35-int-2ag-l
+			addrack f35-int-4ag-l
+
+definegroup f35-int-aag-r
+	addpylon
+		pylonsmsname MAU
+		pylonct 0
+			addrack f35-int-aim
+			addrack f35-int-agm
+			addrack f35-int-2ag-r
+			addrack f35-int-4ag-r
 
 
 ########              ##    #######      ###
@@ -4314,6 +5333,273 @@ definegroup G4-outer
 		pylonsmsname AG
 		pylonct 2803
 			addrack bd3-u
+
+        ##             ##    #######
+        ##            ####   ##
+        ##              ##   ##
+        ##   #######    ##   ########
+        ##              ##          ##
+        ##              ##   ##     ##
+    #####              ######  #######
+#### J-15T GROUP DEFINITION  #################
+
+definegroup J-15_1
+	addpylon
+		pylonct 0
+			addrack aim-no-rail
+
+definegroup J-15_2
+	addpylon
+		pylonct 5144
+			addrack j16-ag-single
+
+definegroup J-15_3
+	addpylon
+		pylonct 5144
+			addrack j16-rocket-single
+			addrack j16-ag-single
+			addrack apu-58-kh38
+			addrack mbd3-u4-L
+			addrack j16-6x-bombs-L
+			addrack su35bomb3L
+	addpylon
+		pylonct 0
+			addrack su30agm2L
+			addrack j15-yj83k
+			addrack j16-2x
+			addrack j16-pl-12-wing
+
+definegroup J-15_4
+	addpylon
+		pylonct 5144
+			addrack j16-rocket-single
+	addpylon
+		pylonct 5144
+			addrack j16-ag-single
+			addrack apu-58-kh38
+	addpylon
+		pylonct 0
+			addrack j15-yj83k
+			addrack j16-pl17
+			addrack j16-2x
+	addpylon
+		pylonct 0
+			addrack j16-pl-12-wing
+	addpylon
+		pylonct 5144
+			addrack j16-6x-bombs-L
+
+definegroup J-15_5
+	addpylon
+		pylonct 0
+			addrack j16-pl-12-intake
+			addrack j16-KRKL700A
+
+definegroup J-15_6
+	addpylon
+		pylonct 0
+			addrack j16-2x-center
+			addrack j16-cm102-center
+			addrack j16-4x
+	addpylon
+		pylonct 5144
+			addrack j16-6x-bombs-L
+
+definegroup J-15_7
+	addpylon
+		pylonct 0
+			addrack j16-pl-12-intake
+			addrack j16-KRKL700A
+
+definegroup J-15_8
+	addpylon
+		pylonct 5144
+			addrack j16-rocket-single
+	addpylon
+		pylonct 5144
+			addrack j16-ag-single
+			addrack apu-58-kh38
+	addpylon
+		pylonct 0
+			addrack j15-yj83k
+			addrack j16-pl17
+			addrack j16-2x
+	addpylon
+		pylonct 0
+			addrack j16-pl-12-wing
+	addpylon
+		pylonct 5144
+			addrack j16-6x-bombs-R
+
+definegroup J-15_9
+	addpylon
+		pylonct 5144
+			addrack j16-rocket-single
+			addrack j16-ag-single
+			addrack apu-58-kh38
+			addrack mbd3-u4-R
+			addrack j16-6x-bombs-R
+			addrack su35bomb3R
+	addpylon
+		pylonct 0
+			addrack su30agm2R
+			addrack j15-yj83k
+			addrack j16-2x
+			addrack j16-pl-12-wing
+
+definegroup J-15_10
+	addpylon
+		pylonct 5144
+			addrack j16-ag-single
+
+definegroup J-15_11
+	addpylon
+		pylonct 0
+			addrack aim-no-rail
+
+        ##             ##    #######
+        ##            ####   ##
+        ##              ##   ##
+        ##   #######    ##   ########
+        ##              ##   ##     ##
+        ##              ##   ##     ##
+    #####              ######  #######
+#### J-16 GROUP DEFINITION  #################
+
+definegroup J-16_1
+	addpylon
+		pylonct 0
+			addrack aim-no-rail
+			addrack Su-xx_Sorbtsiya_Left
+
+definegroup J-16_2
+	addpylon
+		pylonct 5144
+			addrack j16-ag-single
+	addpylon
+		pylonct 0
+			addrack j16-twin-AA-L
+
+definegroup J-16_3
+	addpylon
+		pylonct 5144
+			addrack j16-ag-single
+			addrack apu-58-kh38
+	addpylon
+		pylonct 0
+			addrack j16-pl-12-wing
+			addrack j16-twin-AA-L
+			addrack j15-yj83k
+	addpylon
+		pylonct 5144
+			addrack j16-6x-bombs-L
+	addpylon
+		pylonct 5144
+			addrack j16-rocket-single
+	addpylon
+		pylonct 0
+			addrack j16-yj1000
+			addrack j16-2x
+
+definegroup J-16_4
+	addpylon
+		pylonct 5144
+			addrack j16-ag-single
+			addrack j16-rocket-single
+	addpylon
+		pylonct 0
+			addrack j15-yj83k
+			addrack j16-pl17
+			addrack j16-yj1000
+			addrack j16-2x
+	addpylon
+		pylonct 5144
+			addrack j16-ag-single
+			addrack apu-58-kh38
+	addpylon
+		pylonct 0
+			addrack j16-pl-12-wing
+			addrack j16-twin-AA-L
+	addpylon
+		pylonct 5144
+			addrack j16-6x-bombs-L
+
+definegroup J-16_5
+	addpylon
+		pylonct 0
+			addrack j16-pl-12-intake
+			addrack j16-twin-AA-L
+			addrack j16-WMD-7
+			addrack j16-GDJ-II36-norack
+
+definegroup J-16_6
+	addpylon
+		pylonct 0
+			addrack j16-2x-center
+			addrack j16-cm102-center
+			addrack j16-4x
+	addpylon
+		pylonct 5144
+			addrack j16-6x-bombs-L
+
+definegroup J-16_7
+	addpylon
+		pylonct 0
+			addrack j16-pl-12-intake
+			addrack j16-twin-AA-R
+			addrack j16-KRKL700A
+
+definegroup J-16_8
+	addpylon
+		pylonct 5144
+			addrack j16-ag-single
+			addrack j16-rocket-single
+	addpylon
+		pylonct 0
+			addrack j15-yj83k
+			addrack j16-pl17
+			addrack j16-yj1000
+			addrack j16-2x
+	addpylon
+		pylonct 5144
+			addrack j16-ag-single
+			addrack apu-58-kh38
+	addpylon
+		pylonct 0
+			addrack j16-pl-12-wing
+			addrack j16-twin-AA-R
+	addpylon
+		pylonct 5144
+			addrack j16-6x-bombs-R
+
+definegroup J-16_9
+	addpylon
+		pylonct 5144
+		    addrack j16-rocket-single
+			addrack j16-ag-single
+			addrack apu-58-kh38
+			addrack j16-6x-bombs-R
+	addpylon
+		pylonct 0
+			addrack j16-pl-12-wing
+			addrack j16-twin-AA-L
+			addrack j15-yj83k
+			addrack j16-yj1000
+			addrack j16-2x
+
+definegroup J-16_10
+	addpylon
+		pylonct 5144
+			addrack j16-ag-single
+	addpylon
+		pylonct 0
+			addrack j16-twin-AA-R
+
+definegroup J-16_11
+	addpylon
+		pylonct 0
+			addrack aim-no-rail
+			addrack Su-xx_Sorbtsiya_Right
 
 
       ##         #######    #######
@@ -4515,6 +5801,84 @@ definegroup KA52-Inner
 			addrack KA-52_Tank-550li
 			addrack KA-52_GUV8700
 			addrack KA-52_9M120
+				
+##     ##    #######           #######     ##
+##    ##     ##                      ##    ##
+##  ##       ##                      ##    ##
+######       ######   #######  #######     ##
+##  ##       ##               ##           ##
+##   ##      ##               ##           ##
+##     ##    ##                #######     ##
+
+definegroup KF21-Outer-Wing
+	addpylon
+		pylonsmsname LNCHW
+		pylonct 5123
+			addrack KF21-IR
+
+definegroup KF21-Mid-Wing-R
+	# AG Weapons
+	addpylon
+		pylonct 1980
+			addrack no-rack
+			addrack bru-57-right			# GBU-54/GBU32
+			addrack bru-61-right			# GBU-39
+			addrack lau-117					# AGM-65D	x1
+			addrack lau-88-right			# AGM-65D	x2
+			addrack bru-42-right-generic	# MK/CBU
+
+definegroup KF21-Inner-Wing-R
+	# wing tank
+	addpylon
+		pylonct 0
+			addrack KF21-370-Tank
+	# AG Weapons
+	addpylon
+		pylonct 1980
+			addrack no-rack
+			addrack bru-57-right			# GBU-54/GBU32
+			addrack bru-61-right			# GBU-39
+			addrack lau-117					# AGM-65D	x1
+			addrack lau-88-right			# AGM-65D	x2
+			addrack bru-42-right-generic	# MK/CBU
+
+definegroup KF21-EOTGP
+	addpylon
+		pylonsmsname EOTGP
+		pylonct 0
+			addrack pod-no-rack
+
+definegroup KF21-Fus-AA
+	addpylon
+		pylonsmsname LNCH
+		pylonct 0
+			addrack KF21-Meteor
+
+definegroup KF21-Inner-Wing-L
+	# wing tank
+	addpylon
+		pylonct 0
+			addrack KF21-370-Tank
+	# AG Weapons
+	addpylon
+		pylonct 1980
+			addrack no-rack
+			addrack bru-57-left			# GBU-54/GBU32
+			addrack bru-61-left			# GBU-39
+			addrack lau-117				# AGM-65D	x1
+			addrack lau-88-left			# AGM-65D	x2
+			addrack bru-42-left-generic	# MK/CBU
+
+definegroup KF21-Mid-Wing-L
+	# AG Weapons
+	addpylon
+		pylonct 1980
+			addrack no-rack
+			addrack bru-57-left			# GBU-54/GBU32
+			addrack bru-61-left			# GBU-39
+			addrack lau-117				# AGM-65D	x1
+			addrack lau-88-left			# AGM-65D	x2
+			addrack bru-42-left-generic	# MK/CBU
 
 
 ##     ## ##     ##          #######    #######  ########
@@ -4667,68 +6031,70 @@ definegroup MiG19PM-IntWing
 
 definegroup MiG21MFBis-innerL
 	# 	2803 MiG21 AG pylon but all grey textre 1881 used by 10LOD
+	#   can be replaced by "R J-7G AG" CT 1660
+	# 	2802 MiG21 New pylon 
 	addpylon
 		pylonsmsname AA
-		pylonct 2803
+		pylonct 2802
 			addrack apu-13
 			addrack apu-60
 	addpylon
 		pylonsmsname AG
-		pylonct 2803
-			addrack apu-68-um2
-			addrack bd3-u
+		pylonct 2802
+			addrack JETT-no-rack
+			addrack ecm-camera-no-rack
+			addrack pod-no-rack
 
 definegroup MiG21MFBis-innerR
 	# 	2803 MiG21 AG pylon but all grey textre 1881 used by 10LOD
 	addpylon
 		pylonsmsname AA
-		pylonct 2803
+		pylonct 2802
 			addrack apu-13
 			addrack apu-60
 	addpylon
 		pylonsmsname AG
-		pylonct 2803
-			addrack apu-68-um2
-			addrack bd3-u
-	addpylon
-		pylonsmsname AG
-		pylonct 2803
+		pylonct 2802
+			addrack JETT-no-rack
+			addrack ecm-camera-no-rack
 			addrack pod-no-rack
 
 definegroup MiG21MFBis-outerL
 	# 	2803 MiG21 AG pylon but all grey textre 1881 used by 10LOD
 	addpylon
 		pylonsmsname AA
-		pylonct 2803
+		pylonct 2802
 			addrack apu-13
 			addrack apu-60
 			addrack apu-60-2L
 	addpylon
 		pylonsmsname AG
-		pylonct 2803
-			addrack apu-68-um2
-			addrack bd3-u
+		pylonct 2802
+			addrack JETT-no-rack
 			addrack MiG21-tank-rack
 
 definegroup MiG21MFBis-outerR
 	# 	2803 MiG21 AG pylon but all grey textre 1881 used by 10LOD
 	addpylon
 		pylonsmsname AA
-		pylonct 2803
+		pylonct 2802
 			addrack apu-13
 			addrack apu-60
 			addrack apu-60-2R
 	addpylon
 		pylonsmsname AG
-		pylonct 2803
-			addrack apu-68-um2
-			addrack bd3-u
+		pylonct 2802
+			addrack JETT-no-rack
 			addrack MiG21-tank-rack
 
+# 	2803 MiG21 AG pylon but all grey textre 1881 used by 10LOD
+# 	1082 AERO-20A pylon (**)
+# 	1105 AERO-7 pylon (**)
+# 	5261 MiG21 CL Pyl (***)
 definegroup MiG21MFBis-center
 	addpylon
 		pylonsmsname AG
-		pylonct 2803
+		pylonct 5261
 			addrack ecm-camera-no-rack
 			addrack MiG21-tank-rack
 
@@ -5158,6 +6524,95 @@ definegroup MiG31aa6
 	addpylon
 		pylonct 0
 			addrack aim-no-rail
+			
+##     ## #### ########      ###      #####   ########  #### #### ####       # ########
+###   ###  ##  ##     ##    ## ##   ##    ##  ##         ##   ##   ##       #  #
+#### ####  ##  ##     ##   ##   ##  ##        ##         ##   ##   ##      #   #
+## ### ##  ##  ########   ##     ## ##   #### ######     ##   ##   ##     #    #######
+##     ##  ##  ##   ##    ######### ##    ##  ##         ##   ##   ##    #            #
+##     ##  ##  ##    ##   ##     ## ##    ##  ##         ##   ##   ##   #             #
+##     ## #### ##     ##  ##     ##  ######   ########  #### #### #### #       #######
+
+definegroup MIIIE-wingouter
+	addpylon
+		pylonct 5295 # R MIII CES-3
+			addrack LAU-Shafrir-2
+			addrack Mirage-III_WxAG
+			addrack Mirage-F1_Magic
+			addrack LAU-7-aim
+	addpylon
+		pylonct 0
+			addrack Mirage-F1_Phimat
+			
+definegroup MIIIE-wingouterL
+	addpylon
+		pylonct 5295 # R MIII CES-3
+			addrack Mirage-III_WxAG
+			addrack Mirage-III-AIM-L
+	addpylon
+		pylonct 0
+			addrack Mirage-F1_Phimat
+
+definegroup MIIIE-wingouterR
+	addpylon
+		pylonct 5295 # R MIII CES-3
+			addrack Mirage-III_WxAG
+			addrack Mirage-III-AIM-R
+	addpylon
+		pylonct 0
+			addrack Mirage-F1_Phimat
+	
+definegroup MIIIE-winginnerL
+	addpylon
+		pylonct 2245 # R MIII Wing Pylon
+			addrack LAU-Shafrir-2
+			addrack LAU-7-aim
+			addrack m2k-AG1x
+	addpylon
+		pylonct 5298 # R MIII CRP-18
+			addrack Mirage-III_JL100
+			addrack Mirage-III_RPL62
+	addpylon
+		pylonct 0
+			addrack Mirage-III_RPK10LH_GBU
+			addrack Mirage-III_RPK10LH_SHORT
+			addrack m2k-tank
+			
+definegroup MIIIE-winginnerR
+	addpylon
+		pylonct 2245 # R MIII Wing Pylon
+			addrack LAU-Shafrir-2
+			addrack LAU-7-aim
+			addrack m2k-AG1x
+	addpylon
+		pylonct 5298 # R MIII CRP-18
+			addrack Mirage-III_JL100
+			addrack Mirage-III_RPL62
+	addpylon
+		pylonct 0
+			addrack Mirage-III_RPK10RH_GBU
+			addrack Mirage-III_RPK10RH_SHORT
+			addrack m2k-tank
+
+			
+definegroup MIIIE-wingRear
+	addpylon
+		pylonct 5292 # R M5 Wing Rear
+			addrack m2k-AG1x
+
+definegroup MIIIE-center
+	addpylon
+		pylonct 5299 # R MIII CRP-37
+			addrack Mirage-III_RPL62
+			addrack Mirage-III_RPL825
+			addrack Mirage-F1_RPL35
+	addpylon
+		pylonct 0
+			addrack Mirage-III_AG-x2-Centre
+			addrack Mirage-III_MER
+			addrack Mirage-III-R530
+			addrack Mirage-III-PM-30
+
 
 
 ##     ## #### ########      ###      #####   ########   ########     ##
@@ -5474,6 +6929,25 @@ definegroup rafale-pod
 			addrack rafale-tgp
 
 
+ ######     ###    ######## ######## ########  ##    ##  #######  ##                #######  
+##    ##   ## ##   ##          ##    ##     ##  ##  ##  ##     ## ##               ##     ## 
+##        ##   ##  ##          ##    ##     ##   ####   ##     ## ##               ##     ## 
+ ######  ##     ## ######      ##    ########     ##    ##     ## ##       #######  ######## 
+      ## ######### ##          ##    ##     ##    ##    ##     ## ##                      ## 
+##    ## ##     ## ##          ##    ##     ##    ##    ##     ## ##               ##     ## 
+ ######  ##     ## ########    ##    ########     ##     #######  ########          #######  
+
+definegroup Saetbyol-9-rack
+	addpylon
+		pylonsmsname AG
+		pylonct 0
+			addrack sb9-single
+	addpylon
+		pylonsmsname AGM
+		pylonct 5130
+			addrack sb9-dual
+
+
  ######  ##    ##       ########
 ##    ## ##    ##             ##
 ##       ##    ##            ##
@@ -5608,67 +7082,59 @@ definegroup su25_1
 definegroup su25_2
 	addpylon
 		pylonct 0
-			addrack no-rack
 			addrack apu-68-um2
-			#addrack	bd3-u
+			addrack	bd3-u
 			addrack MBD-U4-MiG23L
 
 definegroup su25_3
 	addpylon
 		pylonct 0
-			addrack no-rack
 			addrack apu-68-um2
-			#addrack	bd3-u
+			addrack	bd3-u
 			addrack MBD-U4-MiG23L
 
 definegroup su25_4
 	addpylon
 		pylonct 0
-			addrack no-rack
 			addrack apu-68-um2
-			#addrack	bd3-u
+			addrack	bd3-u
 			addrack MBD-U4-MiG23L
 
 definegroup su25_5
 	addpylon
 		pylonct 0
-			addrack no-rack
 			addrack apu-68-um2
 			addrack	apu-58
-			#addrack	bd3-u
+			addrack	bd3-u
 			addrack MBD-U4-MiG23L
 
 definegroup su25_6
 	addpylon
 		pylonct 0
-			addrack no-rack
 			addrack apu-68-um2
 			addrack apu-58
-			#addrack	bd3-u
+			addrack	bd3-u
 			addrack MBD-U4-MiG23R
 
 definegroup su25_7
 	addpylon
 		pylonct 0
-			addrack no-rack
 			addrack apu-68-um2
-			#addrack	bd3-u
+			addrack	bd3-u
 			addrack MBD-U4-MiG23R
 
 definegroup su25_8
 	addpylon
 		pylonct 0
-			addrack no-rack
 			addrack apu-68-um2
-			#addrack	bd3-u
+			addrack	bd3-u
 			addrack MBD-U4-MiG23R
 
 definegroup su25_9
 	addpylon
 		pylonct 0
-			addrack no-rack
 			addrack apu-68-um2
-			#addrack	bd3-u
+			addrack	bd3-u
 			addrack MBD-U4-MiG23R
 
 definegroup su25_10
@@ -5686,124 +7152,136 @@ definegroup su25_10
  ######   ######         ######## ##
 
 definegroup su27_1
+	# ECM / R-73 with offset
 	addpylon
-		pylonct 0
+		pylonct 5135
+			addrack Su-xx_Sorbtsiya_Left
 			addrack aim-no-rail
-			addrack no-rack
 
-definegroup su27_2
-	addpylon
-		pylonct 1177
-			addrack apu-60
+definegroup su27_2/8
+# R-73 x1
 	addpylon
 		pylonct 2807
 			addrack apu-73
 	addpylon
 		pylonct 1176
-			addrack apu-170
+			# Bombs x1
+			addrack bd2-29u
 
 definegroup su27_3
-	addpylon
-		pylonct 1177
-			addrack apu-60
+# R-73 x1 / R-77 x1
 	addpylon
 		pylonct 2807
 			addrack apu-73
+			addrack apu-170
+# R-27 family x1
 	addpylon
 		pylonct 2806
 			addrack apu-470
 			addrack apu-470EX
+# A/G Weapons
 	addpylon
 		pylonct 1176
-			addrack apu-170
-			addrack apu-68-um2
+			# Guided missiles x1
 			addrack apu-58
+			# Rockets x1
+			addrack apu-68-um2
+			# Bombs x1
 			addrack bd2-29u
-			addrack mbd3-u6-L
+			# Bombs x2
 			addrack mbd3-2uk-L
+			# Bombs x3
 			addrack su27bomb3L
+			# Bombs x6
+			addrack mbd3-u6-L
 
 definegroup su27_4
 	addpylon
-		pylonct 0
+		pylonct 2807
+			# AA Weapons R-77
+			addrack apu-170
+	addpylon
+		pylonct 2806
+			# AA Weapons R-27
 			addrack apu-470
 			addrack apu-470EX
-			addrack apu-68-um2
-			addrack apu-58
-			addrack bd3-u
-			addrack mbd3-u6-L
-			addrack mbd3-2uk-L
-			addrack su27bomb3L
 	addpylon
 		pylonct 1176
-			addrack apu-170
+			# AG Weapons
+			addrack apu-58
+			addrack apu-68-um2
+			addrack bd3-u
+			addrack mbd3-2uk-L
+			addrack su27bomb3L
+			addrack mbd3-u6-L
 
 definegroup su27_5
+	# AG Weapons
 	addpylon
 		pylonct 0
-			addrack apu-170
 			addrack bd3-u
-			addrack mbd3-u6-L
-			addrack MBD-U4-MiG23L
-			addrack su27bomb3L
+			addrack bd4-u
+			addrack su27cag
+			addrack su27center
+			addrack su27c12x100
+	# AA Weapons
 	addpylon
 		pylonct 0
 			addrack su27caat
-			addrack su27center
-			addrack su27c12x100
 
 definegroup su27_6
 	addpylon
-		pylonct 0
+		pylonct 2807
+			# AA Weapons R-77
+			addrack apu-170
+	addpylon
+		pylonct 2806
+			# AA Weapons R-27
 			addrack apu-470
 			addrack apu-470EX
-			addrack apu-68-um2
-			addrack apu-58
-			addrack bd3-u
-			addrack mbd3-u6-R
-			addrack mbd3-2uk-R
-			addrack su27bomb3R
 	addpylon
 		pylonct 1176
-			addrack apu-170
+			# AG Weapons
+			addrack apu-58
+			addrack apu-68-um2
+			addrack bd3-u
+			addrack mbd3-2uk-R
+			addrack su27bomb3R
+			addrack mbd3-u6-R
 
 definegroup su27_7
-	addpylon
-		pylonct 1177
-			addrack apu-60
+# R-73 x1 / R-77 x1
 	addpylon
 		pylonct 2807
 			addrack apu-73
+			addrack apu-170
+# R-27 family x1
 	addpylon
 		pylonct 2806
 			addrack apu-470
 			addrack apu-470EX
+# A/G Weapons
 	addpylon
 		pylonct 1176
-			addrack apu-170
-			addrack apu-68-um2
+			# Guided missiles x1
 			addrack apu-58
+			# Rockets x1
+			addrack apu-68-um2
+			# Bombs x1
 			addrack bd2-29u
-			addrack mbd3-u6-R
+			# Bombs x2
 			addrack mbd3-2uk-R
+			# Bombs x3
 			addrack su27bomb3R
-
-definegroup su27_8
-	addpylon
-		pylonct 1177
-			addrack apu-60
-	addpylon
-		pylonct 2807
-			addrack apu-73
-	addpylon
-		pylonct 1176
-			addrack apu-170
+			# Bombs x6
+			addrack mbd3-u6-R
 
 definegroup su27_9
+	# ECM / R-73 with offset
 	addpylon
-		pylonct 0
+		pylonct 5135
+			addrack Su-xx_Sorbtsiya_Right
 			addrack aim-no-rail
-			addrack no-rack
 
 
  ######  ##    ##         ######   ######
@@ -5816,11 +7294,36 @@ definegroup su27_9
 
 #### SU30/33/35 GROUP DEFINITION  #################
 
+definegroup su30MKK_1
+	addpylon
+		pylonct 5192
+			addrack Su-30-MKK_Sorbtsiya_Left
+			addrack aim-no-rail
+
+definegroup su30MKK_11
+	addpylon
+		pylonct 5192
+			addrack Su-30-MKK_Sorbtsiya_Right
+			addrack aim-no-rail
+
+definegroup su30SM_1
+	addpylon
+		pylonct 5192
+			addrack addrack su30sm-ecm-L
+			addrack aim-no-rail
+
+definegroup su30SM_11
+	addpylon
+		pylonct 5192
+			addrack addrack su30sm-ecm-R
+			addrack aim-no-rail
+
 definegroup su30_1
 	addpylon
 		pylonct 0
 			addrack aim-no-rail
-			addrack Su-xx_Sorbtsiya_Left
+			addrack su30-ecm-L
+			addrack su30mkm-ecm-L
 
 definegroup su30_2
 	addpylon
@@ -5830,15 +7333,16 @@ definegroup su30_2
 		pylonct 2807
 			addrack apu-73
 	addpylon
-		pylonct 1176
+		pylonct 5167
 			addrack apu-170
+			addrack su30-apu-470
 	addpylon
-		pylonct 2806
-			addrack apu-470
+		pylonct 5144
+			addrack Su-30-MKM_AIM-120
 
 definegroup su30_3
 	addpylon
-		pylonct 4393
+		pylonct 4936
 			addrack su3x-JDAM-norack
 			addrack su3x-JDAM-left
 	addpylon
@@ -5848,115 +7352,166 @@ definegroup su30_3
 		pylonct 2807
 			addrack apu-73
 	addpylon
-		pylonct 2806
-			addrack apu-470
-			addrack apu-470EX
-	addpylon
-		pylonct 1176
-			addrack apu-170
-			addrack apu-68-um2
+		pylonct 5167
 			addrack apu-58
-			addrack bd2-29u
-			addrack mbd3-u6-L
-			addrack mbd3-2uk-L
-			addrack su27bomb3L
+			addrack apu-58-kh38
+			addrack apu-170
+			addrack su30-apu-470
+			addrack j16-rocket-single
+	addpylon
+		pylonct 5144
+			addrack j16-6x-bombs-L	
+			addrack j16-ag-single	
+			addrack Su-30-MKM_AIM-120
+			addrack su35bomb3L
 	addpylon
 		pylonct 0
 			addrack su30agm2L
 			addrack j15-yj83k
+			addrack j16-2x
+			addrack su30-2x
 	addpylon
-		pylonct 4392
+		pylonct 1176
+			addrack apu-68-um2
+			addrack bd4-u
+			addrack mbd3-2uk-L
+			addrack mbd3-u4-L
+			addrack mbd3-u6-L
+	addpylon
+		pylonct 4935
 			addrack harm-no-rack
 
 definegroup su30_4
 	addpylon
-		pylonct 1176
-			addrack apu-170
-			addrack apu-470
-			addrack apu-470EX
-			addrack apu-68-um2
+		pylonct 5167
+			addrack su30t220
 			addrack apu-58
-			addrack bd3-u
-			addrack bd4-u
-			addrack mbd3-u6-L
-			addrack mbd3-2uk-L
-			addrack su27bomb3L
+			addrack apu-58-kh38
+			addrack apu-170
+			addrack su30-apu-470
+	addpylon
+		pylonct 5144
+			addrack j16-6x-bombs-L
+			addrack j16-ag-single
+			addrack su35bomb3L
 	addpylon
 		pylonct 0
 			addrack j15-yj83k
+			addrack j16-2x
+			addrack su30-2x
+	addpylon
+		pylonct 1176
+			addrack apu-68-um2
+			addrack bd4-u
+			addrack mbd3-2uk-L
+			addrack mbd3-u4-L
+			addrack mbd3-u6-L
+	addpylon
+		pylonct 5167
+			addrack su30aa13
+			addrack j16-rocket-single
 
 definegroup su30_5
 	addpylon
-		pylonct 0
-			addrack apu-470
-			addrack apu-470EX
-			addrack apu-68-um2
+		pylonct 5170
 			addrack apu-58
-			addrack bd3-u
-			addrack bd4-u
-			addrack mbd3-u6-L
-			addrack mbd3-2uk-L
-			addrack su27bomb3L
-	addpylon
-		pylonct 1176
+			addrack apu-58-kh38
 			addrack apu-170
+			addrack su30-apu-470
+	addpylon
+		pylonct 5190
+			addrack j16-ag-single
+	addpylon
+		pylonct 0
+			addrack apu-68-um2
+			addrack bd4-u
+			addrack mbd3-2uk-L
+			addrack mbd3-u6-L
+		    addrack MiG27-apk9 # For APK-9
 
 definegroup su30_6
 	addpylon
 		pylonct 0
 			addrack apu-170
-			addrack bd3-u
+	addpylon
+		pylonct 5167
+			addrack apu-58
+			addrack apu-58-kh38
+	addpylon
+		pylonct 5144
+			addrack j16-6x-bombs-R
+			addrack j16-ag-single
+	addpylon
+		pylonct 0
+		    addrack su30-apu-470-C
+		    addrack su30-center-2xAA
+			addrack su30-center-2x
+			addrack su30-center-4x
 			addrack bd4-u
+			addrack mbd3-u4-L
 			addrack MBD-U4-MiG23L
 			addrack mbd3-u6-L
-			addrack su27bomb3L
 			addrack su27caat
+			addrack su27cag
 			addrack su27center
 			addrack su27c12x100
 			addrack su3x-kh41
-			addrack	MiG27-apk9 # For APK-9
-
 	addpylon
 		pylonct 1176
-			addrack apu-58
 			addrack apu-68-um2
 
 definegroup su30_7
 	addpylon
-		pylonct 0
-			addrack apu-470
-			addrack apu-470EX
-			addrack apu-68-um2
+		pylonct 5170
+			addrack su30t220
 			addrack apu-58
-			addrack bd3-u
-			addrack bd4-u
-			addrack mbd3-u6-R
-			addrack mbd3-2uk-R
-			addrack su27bomb3R
-	addpylon
-		pylonct 1176
+			addrack apu-58-kh38
 			addrack apu-170
+			addrack su30-apu-470
+	addpylon
+		pylonct 5190
+			addrack j16-ag-single
+	addpylon
+		pylonct 0
+			addrack apu-68-um2
+			addrack bd4-u
+			addrack mbd3-2uk-R
+			addrack mbd3-u6-R
+			addrack m2k-Pod
 
 definegroup su30_8
 	addpylon
-		pylonct 1176
-			addrack apu-170
-			addrack apu-470
-			addrack apu-470EX
-			addrack apu-68-um2
+		pylonct 5167
+			addrack su30t220
 			addrack apu-58
-			addrack bd3-u
-			addrack bd4-u
-			addrack mbd3-u6-R
-			addrack mbd3-2uk-R
-			addrack su27bomb3R
+			addrack apu-58-kh38
+			addrack apu-170
+			addrack su30-apu-470
+	addpylon
+		pylonct 5144
+			addrack j16-6x-bombs-R
+			addrack j16-ag-single
+			addrack su35bomb3R
 	addpylon
 		pylonct 0
 			addrack j15-yj83k
+			addrack j16-2x
+			addrack su30-2x
+	addpylon
+		pylonct 1176
+			addrack apu-68-um2
+			addrack bd4-u
+			addrack mbd3-2uk-R
+			addrack mbd3-u4-R
+			addrack mbd3-u6-R
+	addpylon
+		pylonct 5167
+			addrack su30aa13
+			addrack j16-rocket-single
 
 definegroup su30_9
 	addpylon
-		pylonct 4393
+		pylonct 4936
 			addrack su3x-JDAM-norack
 			addrack su3x-JDAM-right
 	addpylon
@@ -5966,24 +7521,33 @@ definegroup su30_9
 		pylonct 2807
 			addrack apu-73
 	addpylon
-		pylonct 2806
-			addrack apu-470
-			addrack apu-470EX
-	addpylon
-		pylonct 1176
-			addrack apu-170
-			addrack apu-68-um2
+		pylonct 5167
 			addrack apu-58
-			addrack bd2-29u
-			addrack mbd3-u6-R
-			addrack mbd3-2uk-R
-			addrack su27bomb3R
+			addrack apu-58-kh38
+			addrack apu-170
+			addrack su30-apu-470
+			addrack j16-rocket-single
+	addpylon
+		pylonct 5144
+			addrack j16-6x-bombs-R
+			addrack j16-ag-single
+			addrack Su-30-MKM_AIM-120
+			addrack su35bomb3R
 	addpylon
 		pylonct 0
 			addrack su30agm2R
 			addrack j15-yj83k
+			addrack j16-2x
+			addrack su30-2x
 	addpylon
-		pylonct 4392
+		pylonct 1176
+			addrack apu-68-um2
+			addrack bd4-u
+			addrack mbd3-2uk-R
+			addrack mbd3-u4-R
+			addrack mbd3-u6-R
+	addpylon
+		pylonct 4935
 			addrack harm-no-rack
 
 definegroup su30_10
@@ -5994,17 +7558,19 @@ definegroup su30_10
 		pylonct 2807
 			addrack apu-73
 	addpylon
-		pylonct 1176
+		pylonct 5167
 			addrack apu-170
+			addrack su30-apu-470
 	addpylon
-		pylonct 2806
-			addrack apu-470
+		pylonct 5144
+			addrack Su-30-MKM_AIM-120
 
 definegroup su30_11
 	addpylon
 		pylonct 0
 			addrack aim-no-rail
-			addrack Su-xx_Sorbtsiya_Right
+			addrack su30-ecm-R
+			addrack su30mkm-ecm-R
 
 definegroup su35_2
 	addpylon
@@ -6095,6 +7661,7 @@ definegroup su35_6
 		pylonct 2838
 			addrack apu-58
 			addrack apu-68-um2
+			addrack mbd3-u6-G
 
 definegroup su35_7
 	addpylon
@@ -6214,6 +7781,7 @@ definegroup su35sk_6
 			addrack su27c12x100
 			addrack su3x-kh41
 			addrack MiG27-apk9 # For APK-9
+			addrack mbd3-u6-G
 
 definegroup su35sk_7
 	addpylon

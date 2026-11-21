@@ -19560,6 +19560,11 @@
         <Dam_Chemical>0</Dam_Chemical>
         <Dam_Nuclear>100</Dam_Nuclear>
         <Dam_Other>0</Dam_Other>
+      <DynamicLights>
+        activation: LIGHT_DEFAULT_ON_WHEN_SWITCH_IS_ON
+        light { type: LIGHT_FEATURE_SPOT radius_ft: 600 color { r: 6 g: 6 b: 5 } attenuation { z: 0.01 } position { z: -110 } direction { y: -2.5 z: 1 } inner_cone_deg: 47 outer_cone_deg: 85 }
+        light { type: LIGHT_FEATURE_SPOT radius_ft: 600 color { r: 6 g: 6 b: 5 } attenuation { z: 0.01 } position { z: -110 } direction { y: 2.5 z: 1 } inner_cone_deg: 47 outer_cone_deg: 85 }
+      </DynamicLights>
     </FCD>
     <FCD Num="652">
         <CtIdx>2489</CtIdx>
@@ -19590,6 +19595,10 @@
         <Dam_Chemical>0</Dam_Chemical>
         <Dam_Nuclear>100</Dam_Nuclear>
         <Dam_Other>0</Dam_Other>
+      <DynamicLights>
+        activation: LIGHT_DEFAULT_ON_WHEN_SWITCH_IS_ON
+        light { type: LIGHT_FEATURE_SPOT radius_ft: 600 color { r: 6 g: 6 b: 5 } attenuation { z: 0.01 } position { z: -110 } direction { y: -2.5 z: 1 } inner_cone_deg: 47 outer_cone_deg: 85 }
+      </DynamicLights>
     </FCD>
     <FCD Num="653">
         <CtIdx>2795</CtIdx>
@@ -21452,6 +21461,10 @@
         <Dam_Chemical>0</Dam_Chemical>
         <Dam_Nuclear>100</Dam_Nuclear>
         <Dam_Other>0</Dam_Other>
+      <DynamicLights>
+        activation: LIGHT_DEFAULT_ON_WHEN_SWITCH_IS_ON
+        light { type: LIGHT_FEATURE_SPOT radius_ft: 350 color { r: 6 g: 6 b: 5 } attenuation { z: 0.01 } position { z: -65 } direction { z: 1 } inner_cone_deg: 47 outer_cone_deg: 85 }
+      </DynamicLights>
     </FCD>
     <FCD Num="715">
         <CtIdx>2684</CtIdx>
@@ -21482,6 +21495,10 @@
         <Dam_Chemical>0</Dam_Chemical>
         <Dam_Nuclear>100</Dam_Nuclear>
         <Dam_Other>0</Dam_Other>
+      <DynamicLights>
+        activation: LIGHT_DEFAULT_ON_WHEN_SWITCH_IS_ON
+        light { type: LIGHT_FEATURE_SPOT radius_ft: 350 color { r: 6 g: 6 b: 5 } attenuation { z: 0.01 } position { z: -65 } direction { z: 1 } inner_cone_deg: 47 outer_cone_deg: 85 }
+      </DynamicLights>
     </FCD>
     <FCD Num="716">
         <CtIdx>2685</CtIdx>
@@ -23042,6 +23059,10 @@
         <Dam_Chemical>0</Dam_Chemical>
         <Dam_Nuclear>100</Dam_Nuclear>
         <Dam_Other>0</Dam_Other>
+      <DynamicLights>
+        activation: LIGHT_DEFAULT_ON_WHEN_SWITCH_IS_ON
+        light { type: LIGHT_FEATURE_SPOT radius_ft: 600 color { r: 6 g: 6 b: 5 } attenuation { z: 0.01 } position { z: -110 } direction { z: 1 } inner_cone_deg: 47 outer_cone_deg: 85 }
+      </DynamicLights>
     </FCD>
     <FCD Num="768">
         <CtIdx>2894</CtIdx>
@@ -57089,6 +57110,1056 @@
         <Dam_Incendairy>50</Dam_Incendairy>
         <Dam_Proximity>25</Dam_Proximity>
         <Dam_Kinetic>25</Dam_Kinetic>
+        <Dam_Hydrostatic>0</Dam_Hydrostatic>
+        <Dam_Chemical>0</Dam_Chemical>
+        <Dam_Nuclear>100</Dam_Nuclear>
+        <Dam_Other>50</Dam_Other>
+    </FCD>
+    <FCD Num="1903">
+        <CtIdx>5311</CtIdx>
+        <RepairTime>1</RepairTime>
+        <DisplayPriority>2</DisplayPriority>
+        <Flags>17</Flags>
+        <Name>Rwy Sign Man. - ILS</Name>
+        <HitPoints>50</HitPoints>
+        <RampHeight>0</RampHeight>
+        <RampAngle>0.000</RampAngle>
+        <RadarIdx>0</RadarIdx>
+        <Det_NoMove>0.0</Det_NoMove>
+        <Det_Foot>0.0</Det_Foot>
+        <Det_Wheeled>0.0</Det_Wheeled>
+        <Det_Tracked>0.0</Det_Tracked>
+        <Det_LowAir>0.0</Det_LowAir>
+        <Det_Air>0.0</Det_Air>
+        <Det_Naval>0.0</Det_Naval>
+        <Det_Rail>0.0</Det_Rail>
+        <Dam_None>100</Dam_None>
+        <Dam_Penetration>50</Dam_Penetration>
+        <Dam_HighExplosive>50</Dam_HighExplosive>
+        <Dam_Heave>50</Dam_Heave>
+        <Dam_Incendairy>50</Dam_Incendairy>
+        <Dam_Proximity>50</Dam_Proximity>
+        <Dam_Kinetic>50</Dam_Kinetic>
+        <Dam_Hydrostatic>50</Dam_Hydrostatic>
+        <Dam_Chemical>0</Dam_Chemical>
+        <Dam_Nuclear>50</Dam_Nuclear>
+        <Dam_Other>50</Dam_Other>
+    </FCD>
+    <FCD Num="1904">
+        <CtIdx>5312</CtIdx>
+        <RepairTime>1</RepairTime>
+        <DisplayPriority>2</DisplayPriority>
+        <Flags>17</Flags>
+        <Name>Rwy DMS Sign 1-7</Name>
+        <HitPoints>50</HitPoints>
+        <RampHeight>0</RampHeight>
+        <RampAngle>0.000</RampAngle>
+        <RadarIdx>0</RadarIdx>
+        <Det_NoMove>0.0</Det_NoMove>
+        <Det_Foot>0.0</Det_Foot>
+        <Det_Wheeled>0.0</Det_Wheeled>
+        <Det_Tracked>0.0</Det_Tracked>
+        <Det_LowAir>0.0</Det_LowAir>
+        <Det_Air>0.0</Det_Air>
+        <Det_Naval>0.0</Det_Naval>
+        <Det_Rail>0.0</Det_Rail>
+        <Dam_None>100</Dam_None>
+        <Dam_Penetration>50</Dam_Penetration>
+        <Dam_HighExplosive>50</Dam_HighExplosive>
+        <Dam_Heave>50</Dam_Heave>
+        <Dam_Incendairy>50</Dam_Incendairy>
+        <Dam_Proximity>50</Dam_Proximity>
+        <Dam_Kinetic>50</Dam_Kinetic>
+        <Dam_Hydrostatic>50</Dam_Hydrostatic>
+        <Dam_Chemical>0</Dam_Chemical>
+        <Dam_Nuclear>50</Dam_Nuclear>
+        <Dam_Other>50</Dam_Other>
+    </FCD>
+    <FCD Num="1905">
+        <CtIdx>5313</CtIdx>
+        <RepairTime>1</RepairTime>
+        <DisplayPriority>2</DisplayPriority>
+        <Flags>17</Flags>
+        <Name>Rwy DMS Sign 2-6</Name>
+        <HitPoints>50</HitPoints>
+        <RampHeight>0</RampHeight>
+        <RampAngle>0.000</RampAngle>
+        <RadarIdx>0</RadarIdx>
+        <Det_NoMove>0.0</Det_NoMove>
+        <Det_Foot>0.0</Det_Foot>
+        <Det_Wheeled>0.0</Det_Wheeled>
+        <Det_Tracked>0.0</Det_Tracked>
+        <Det_LowAir>0.0</Det_LowAir>
+        <Det_Air>0.0</Det_Air>
+        <Det_Naval>0.0</Det_Naval>
+        <Det_Rail>0.0</Det_Rail>
+        <Dam_None>100</Dam_None>
+        <Dam_Penetration>50</Dam_Penetration>
+        <Dam_HighExplosive>50</Dam_HighExplosive>
+        <Dam_Heave>50</Dam_Heave>
+        <Dam_Incendairy>50</Dam_Incendairy>
+        <Dam_Proximity>50</Dam_Proximity>
+        <Dam_Kinetic>50</Dam_Kinetic>
+        <Dam_Hydrostatic>50</Dam_Hydrostatic>
+        <Dam_Chemical>0</Dam_Chemical>
+        <Dam_Nuclear>50</Dam_Nuclear>
+        <Dam_Other>50</Dam_Other>
+    </FCD>
+    <FCD Num="1906">
+        <CtIdx>5314</CtIdx>
+        <RepairTime>1</RepairTime>
+        <DisplayPriority>2</DisplayPriority>
+        <Flags>17</Flags>
+        <Name>Rwy DMS Sign 3-5</Name>
+        <HitPoints>50</HitPoints>
+        <RampHeight>0</RampHeight>
+        <RampAngle>0.000</RampAngle>
+        <RadarIdx>0</RadarIdx>
+        <Det_NoMove>0.0</Det_NoMove>
+        <Det_Foot>0.0</Det_Foot>
+        <Det_Wheeled>0.0</Det_Wheeled>
+        <Det_Tracked>0.0</Det_Tracked>
+        <Det_LowAir>0.0</Det_LowAir>
+        <Det_Air>0.0</Det_Air>
+        <Det_Naval>0.0</Det_Naval>
+        <Det_Rail>0.0</Det_Rail>
+        <Dam_None>100</Dam_None>
+        <Dam_Penetration>50</Dam_Penetration>
+        <Dam_HighExplosive>50</Dam_HighExplosive>
+        <Dam_Heave>50</Dam_Heave>
+        <Dam_Incendairy>50</Dam_Incendairy>
+        <Dam_Proximity>50</Dam_Proximity>
+        <Dam_Kinetic>50</Dam_Kinetic>
+        <Dam_Hydrostatic>50</Dam_Hydrostatic>
+        <Dam_Chemical>0</Dam_Chemical>
+        <Dam_Nuclear>50</Dam_Nuclear>
+        <Dam_Other>50</Dam_Other>
+    </FCD>
+    <FCD Num="1907">
+        <CtIdx>5315</CtIdx>
+        <RepairTime>1</RepairTime>
+        <DisplayPriority>2</DisplayPriority>
+        <Flags>17</Flags>
+        <Name>Rwy DMS Sign 4-4</Name>
+        <HitPoints>50</HitPoints>
+        <RampHeight>0</RampHeight>
+        <RampAngle>0.000</RampAngle>
+        <RadarIdx>0</RadarIdx>
+        <Det_NoMove>0.0</Det_NoMove>
+        <Det_Foot>0.0</Det_Foot>
+        <Det_Wheeled>0.0</Det_Wheeled>
+        <Det_Tracked>0.0</Det_Tracked>
+        <Det_LowAir>0.0</Det_LowAir>
+        <Det_Air>0.0</Det_Air>
+        <Det_Naval>0.0</Det_Naval>
+        <Det_Rail>0.0</Det_Rail>
+        <Dam_None>100</Dam_None>
+        <Dam_Penetration>50</Dam_Penetration>
+        <Dam_HighExplosive>50</Dam_HighExplosive>
+        <Dam_Heave>50</Dam_Heave>
+        <Dam_Incendairy>50</Dam_Incendairy>
+        <Dam_Proximity>50</Dam_Proximity>
+        <Dam_Kinetic>50</Dam_Kinetic>
+        <Dam_Hydrostatic>50</Dam_Hydrostatic>
+        <Dam_Chemical>0</Dam_Chemical>
+        <Dam_Nuclear>50</Dam_Nuclear>
+        <Dam_Other>50</Dam_Other>
+    </FCD>
+    <FCD Num="1908">
+        <CtIdx>5316</CtIdx>
+        <RepairTime>1</RepairTime>
+        <DisplayPriority>2</DisplayPriority>
+        <Flags>17</Flags>
+        <Name>Rwy DMS Sign 1-8</Name>
+        <HitPoints>50</HitPoints>
+        <RampHeight>0</RampHeight>
+        <RampAngle>0.000</RampAngle>
+        <RadarIdx>0</RadarIdx>
+        <Det_NoMove>0.0</Det_NoMove>
+        <Det_Foot>0.0</Det_Foot>
+        <Det_Wheeled>0.0</Det_Wheeled>
+        <Det_Tracked>0.0</Det_Tracked>
+        <Det_LowAir>0.0</Det_LowAir>
+        <Det_Air>0.0</Det_Air>
+        <Det_Naval>0.0</Det_Naval>
+        <Det_Rail>0.0</Det_Rail>
+        <Dam_None>100</Dam_None>
+        <Dam_Penetration>50</Dam_Penetration>
+        <Dam_HighExplosive>50</Dam_HighExplosive>
+        <Dam_Heave>50</Dam_Heave>
+        <Dam_Incendairy>50</Dam_Incendairy>
+        <Dam_Proximity>50</Dam_Proximity>
+        <Dam_Kinetic>50</Dam_Kinetic>
+        <Dam_Hydrostatic>50</Dam_Hydrostatic>
+        <Dam_Chemical>0</Dam_Chemical>
+        <Dam_Nuclear>50</Dam_Nuclear>
+        <Dam_Other>50</Dam_Other>
+    </FCD>
+    <FCD Num="1909">
+        <CtIdx>5317</CtIdx>
+        <RepairTime>1</RepairTime>
+        <DisplayPriority>2</DisplayPriority>
+        <Flags>17</Flags>
+        <Name>Rwy DMS Sign 2-7</Name>
+        <HitPoints>50</HitPoints>
+        <RampHeight>0</RampHeight>
+        <RampAngle>0.000</RampAngle>
+        <RadarIdx>0</RadarIdx>
+        <Det_NoMove>0.0</Det_NoMove>
+        <Det_Foot>0.0</Det_Foot>
+        <Det_Wheeled>0.0</Det_Wheeled>
+        <Det_Tracked>0.0</Det_Tracked>
+        <Det_LowAir>0.0</Det_LowAir>
+        <Det_Air>0.0</Det_Air>
+        <Det_Naval>0.0</Det_Naval>
+        <Det_Rail>0.0</Det_Rail>
+        <Dam_None>100</Dam_None>
+        <Dam_Penetration>50</Dam_Penetration>
+        <Dam_HighExplosive>50</Dam_HighExplosive>
+        <Dam_Heave>50</Dam_Heave>
+        <Dam_Incendairy>50</Dam_Incendairy>
+        <Dam_Proximity>50</Dam_Proximity>
+        <Dam_Kinetic>50</Dam_Kinetic>
+        <Dam_Hydrostatic>50</Dam_Hydrostatic>
+        <Dam_Chemical>0</Dam_Chemical>
+        <Dam_Nuclear>50</Dam_Nuclear>
+        <Dam_Other>50</Dam_Other>
+    </FCD>
+    <FCD Num="1910">
+        <CtIdx>5318</CtIdx>
+        <RepairTime>1</RepairTime>
+        <DisplayPriority>2</DisplayPriority>
+        <Flags>17</Flags>
+        <Name>Rwy DMS Sign 3-6</Name>
+        <HitPoints>50</HitPoints>
+        <RampHeight>0</RampHeight>
+        <RampAngle>0.000</RampAngle>
+        <RadarIdx>0</RadarIdx>
+        <Det_NoMove>0.0</Det_NoMove>
+        <Det_Foot>0.0</Det_Foot>
+        <Det_Wheeled>0.0</Det_Wheeled>
+        <Det_Tracked>0.0</Det_Tracked>
+        <Det_LowAir>0.0</Det_LowAir>
+        <Det_Air>0.0</Det_Air>
+        <Det_Naval>0.0</Det_Naval>
+        <Det_Rail>0.0</Det_Rail>
+        <Dam_None>100</Dam_None>
+        <Dam_Penetration>50</Dam_Penetration>
+        <Dam_HighExplosive>50</Dam_HighExplosive>
+        <Dam_Heave>50</Dam_Heave>
+        <Dam_Incendairy>50</Dam_Incendairy>
+        <Dam_Proximity>50</Dam_Proximity>
+        <Dam_Kinetic>50</Dam_Kinetic>
+        <Dam_Hydrostatic>50</Dam_Hydrostatic>
+        <Dam_Chemical>0</Dam_Chemical>
+        <Dam_Nuclear>50</Dam_Nuclear>
+        <Dam_Other>50</Dam_Other>
+    </FCD>
+    <FCD Num="1911">
+        <CtIdx>5319</CtIdx>
+        <RepairTime>1</RepairTime>
+        <DisplayPriority>2</DisplayPriority>
+        <Flags>17</Flags>
+        <Name>Rwy DMS Sign 4-5</Name>
+        <HitPoints>50</HitPoints>
+        <RampHeight>0</RampHeight>
+        <RampAngle>0.000</RampAngle>
+        <RadarIdx>0</RadarIdx>
+        <Det_NoMove>0.0</Det_NoMove>
+        <Det_Foot>0.0</Det_Foot>
+        <Det_Wheeled>0.0</Det_Wheeled>
+        <Det_Tracked>0.0</Det_Tracked>
+        <Det_LowAir>0.0</Det_LowAir>
+        <Det_Air>0.0</Det_Air>
+        <Det_Naval>0.0</Det_Naval>
+        <Det_Rail>0.0</Det_Rail>
+        <Dam_None>100</Dam_None>
+        <Dam_Penetration>50</Dam_Penetration>
+        <Dam_HighExplosive>50</Dam_HighExplosive>
+        <Dam_Heave>50</Dam_Heave>
+        <Dam_Incendairy>50</Dam_Incendairy>
+        <Dam_Proximity>50</Dam_Proximity>
+        <Dam_Kinetic>50</Dam_Kinetic>
+        <Dam_Hydrostatic>50</Dam_Hydrostatic>
+        <Dam_Chemical>0</Dam_Chemical>
+        <Dam_Nuclear>50</Dam_Nuclear>
+        <Dam_Other>50</Dam_Other>
+    </FCD>
+    <FCD Num="1912">
+        <CtIdx>5320</CtIdx>
+        <RepairTime>1</RepairTime>
+        <DisplayPriority>2</DisplayPriority>
+        <Flags>17</Flags>
+        <Name>Rwy DMS Sign 1-9</Name>
+        <HitPoints>50</HitPoints>
+        <RampHeight>0</RampHeight>
+        <RampAngle>0.000</RampAngle>
+        <RadarIdx>0</RadarIdx>
+        <Det_NoMove>0.0</Det_NoMove>
+        <Det_Foot>0.0</Det_Foot>
+        <Det_Wheeled>0.0</Det_Wheeled>
+        <Det_Tracked>0.0</Det_Tracked>
+        <Det_LowAir>0.0</Det_LowAir>
+        <Det_Air>0.0</Det_Air>
+        <Det_Naval>0.0</Det_Naval>
+        <Det_Rail>0.0</Det_Rail>
+        <Dam_None>100</Dam_None>
+        <Dam_Penetration>50</Dam_Penetration>
+        <Dam_HighExplosive>50</Dam_HighExplosive>
+        <Dam_Heave>50</Dam_Heave>
+        <Dam_Incendairy>50</Dam_Incendairy>
+        <Dam_Proximity>50</Dam_Proximity>
+        <Dam_Kinetic>50</Dam_Kinetic>
+        <Dam_Hydrostatic>50</Dam_Hydrostatic>
+        <Dam_Chemical>0</Dam_Chemical>
+        <Dam_Nuclear>50</Dam_Nuclear>
+        <Dam_Other>50</Dam_Other>
+    </FCD>
+    <FCD Num="1913">
+        <CtIdx>5321</CtIdx>
+        <RepairTime>1</RepairTime>
+        <DisplayPriority>2</DisplayPriority>
+        <Flags>17</Flags>
+        <Name>Rwy DMS Sign 2-8</Name>
+        <HitPoints>50</HitPoints>
+        <RampHeight>0</RampHeight>
+        <RampAngle>0.000</RampAngle>
+        <RadarIdx>0</RadarIdx>
+        <Det_NoMove>0.0</Det_NoMove>
+        <Det_Foot>0.0</Det_Foot>
+        <Det_Wheeled>0.0</Det_Wheeled>
+        <Det_Tracked>0.0</Det_Tracked>
+        <Det_LowAir>0.0</Det_LowAir>
+        <Det_Air>0.0</Det_Air>
+        <Det_Naval>0.0</Det_Naval>
+        <Det_Rail>0.0</Det_Rail>
+        <Dam_None>100</Dam_None>
+        <Dam_Penetration>50</Dam_Penetration>
+        <Dam_HighExplosive>50</Dam_HighExplosive>
+        <Dam_Heave>50</Dam_Heave>
+        <Dam_Incendairy>50</Dam_Incendairy>
+        <Dam_Proximity>50</Dam_Proximity>
+        <Dam_Kinetic>50</Dam_Kinetic>
+        <Dam_Hydrostatic>50</Dam_Hydrostatic>
+        <Dam_Chemical>0</Dam_Chemical>
+        <Dam_Nuclear>50</Dam_Nuclear>
+        <Dam_Other>50</Dam_Other>
+    </FCD>
+    <FCD Num="1914">
+        <CtIdx>5322</CtIdx>
+        <RepairTime>1</RepairTime>
+        <DisplayPriority>2</DisplayPriority>
+        <Flags>17</Flags>
+        <Name>Rwy DMS Sign 3-7</Name>
+        <HitPoints>50</HitPoints>
+        <RampHeight>0</RampHeight>
+        <RampAngle>0.000</RampAngle>
+        <RadarIdx>0</RadarIdx>
+        <Det_NoMove>0.0</Det_NoMove>
+        <Det_Foot>0.0</Det_Foot>
+        <Det_Wheeled>0.0</Det_Wheeled>
+        <Det_Tracked>0.0</Det_Tracked>
+        <Det_LowAir>0.0</Det_LowAir>
+        <Det_Air>0.0</Det_Air>
+        <Det_Naval>0.0</Det_Naval>
+        <Det_Rail>0.0</Det_Rail>
+        <Dam_None>100</Dam_None>
+        <Dam_Penetration>50</Dam_Penetration>
+        <Dam_HighExplosive>50</Dam_HighExplosive>
+        <Dam_Heave>50</Dam_Heave>
+        <Dam_Incendairy>50</Dam_Incendairy>
+        <Dam_Proximity>50</Dam_Proximity>
+        <Dam_Kinetic>50</Dam_Kinetic>
+        <Dam_Hydrostatic>50</Dam_Hydrostatic>
+        <Dam_Chemical>0</Dam_Chemical>
+        <Dam_Nuclear>50</Dam_Nuclear>
+        <Dam_Other>50</Dam_Other>
+    </FCD>
+    <FCD Num="1915">
+        <CtIdx>5323</CtIdx>
+        <RepairTime>1</RepairTime>
+        <DisplayPriority>2</DisplayPriority>
+        <Flags>17</Flags>
+        <Name>Rwy DMS Sign 4-6</Name>
+        <HitPoints>50</HitPoints>
+        <RampHeight>0</RampHeight>
+        <RampAngle>0.000</RampAngle>
+        <RadarIdx>0</RadarIdx>
+        <Det_NoMove>0.0</Det_NoMove>
+        <Det_Foot>0.0</Det_Foot>
+        <Det_Wheeled>0.0</Det_Wheeled>
+        <Det_Tracked>0.0</Det_Tracked>
+        <Det_LowAir>0.0</Det_LowAir>
+        <Det_Air>0.0</Det_Air>
+        <Det_Naval>0.0</Det_Naval>
+        <Det_Rail>0.0</Det_Rail>
+        <Dam_None>100</Dam_None>
+        <Dam_Penetration>50</Dam_Penetration>
+        <Dam_HighExplosive>50</Dam_HighExplosive>
+        <Dam_Heave>50</Dam_Heave>
+        <Dam_Incendairy>50</Dam_Incendairy>
+        <Dam_Proximity>50</Dam_Proximity>
+        <Dam_Kinetic>50</Dam_Kinetic>
+        <Dam_Hydrostatic>50</Dam_Hydrostatic>
+        <Dam_Chemical>0</Dam_Chemical>
+        <Dam_Nuclear>50</Dam_Nuclear>
+        <Dam_Other>50</Dam_Other>
+    </FCD>
+    <FCD Num="1916">
+        <CtIdx>5324</CtIdx>
+        <RepairTime>1</RepairTime>
+        <DisplayPriority>2</DisplayPriority>
+        <Flags>17</Flags>
+        <Name>Rwy DMS Sign 5-5</Name>
+        <HitPoints>50</HitPoints>
+        <RampHeight>0</RampHeight>
+        <RampAngle>0.000</RampAngle>
+        <RadarIdx>0</RadarIdx>
+        <Det_NoMove>0.0</Det_NoMove>
+        <Det_Foot>0.0</Det_Foot>
+        <Det_Wheeled>0.0</Det_Wheeled>
+        <Det_Tracked>0.0</Det_Tracked>
+        <Det_LowAir>0.0</Det_LowAir>
+        <Det_Air>0.0</Det_Air>
+        <Det_Naval>0.0</Det_Naval>
+        <Det_Rail>0.0</Det_Rail>
+        <Dam_None>100</Dam_None>
+        <Dam_Penetration>50</Dam_Penetration>
+        <Dam_HighExplosive>50</Dam_HighExplosive>
+        <Dam_Heave>50</Dam_Heave>
+        <Dam_Incendairy>50</Dam_Incendairy>
+        <Dam_Proximity>50</Dam_Proximity>
+        <Dam_Kinetic>50</Dam_Kinetic>
+        <Dam_Hydrostatic>50</Dam_Hydrostatic>
+        <Dam_Chemical>0</Dam_Chemical>
+        <Dam_Nuclear>50</Dam_Nuclear>
+        <Dam_Other>50</Dam_Other>
+    </FCD>
+    <FCD Num="1917">
+        <CtIdx>5325</CtIdx>
+        <RepairTime>1</RepairTime>
+        <DisplayPriority>2</DisplayPriority>
+        <Flags>17</Flags>
+        <Name>Rwy DMS Sign 1-10</Name>
+        <HitPoints>50</HitPoints>
+        <RampHeight>0</RampHeight>
+        <RampAngle>0.000</RampAngle>
+        <RadarIdx>0</RadarIdx>
+        <Det_NoMove>0.0</Det_NoMove>
+        <Det_Foot>0.0</Det_Foot>
+        <Det_Wheeled>0.0</Det_Wheeled>
+        <Det_Tracked>0.0</Det_Tracked>
+        <Det_LowAir>0.0</Det_LowAir>
+        <Det_Air>0.0</Det_Air>
+        <Det_Naval>0.0</Det_Naval>
+        <Det_Rail>0.0</Det_Rail>
+        <Dam_None>100</Dam_None>
+        <Dam_Penetration>50</Dam_Penetration>
+        <Dam_HighExplosive>50</Dam_HighExplosive>
+        <Dam_Heave>50</Dam_Heave>
+        <Dam_Incendairy>50</Dam_Incendairy>
+        <Dam_Proximity>50</Dam_Proximity>
+        <Dam_Kinetic>50</Dam_Kinetic>
+        <Dam_Hydrostatic>50</Dam_Hydrostatic>
+        <Dam_Chemical>0</Dam_Chemical>
+        <Dam_Nuclear>50</Dam_Nuclear>
+        <Dam_Other>50</Dam_Other>
+    </FCD>
+    <FCD Num="1918">
+        <CtIdx>5326</CtIdx>
+        <RepairTime>1</RepairTime>
+        <DisplayPriority>2</DisplayPriority>
+        <Flags>17</Flags>
+        <Name>Rwy DMS Sign 2-9</Name>
+        <HitPoints>50</HitPoints>
+        <RampHeight>0</RampHeight>
+        <RampAngle>0.000</RampAngle>
+        <RadarIdx>0</RadarIdx>
+        <Det_NoMove>0.0</Det_NoMove>
+        <Det_Foot>0.0</Det_Foot>
+        <Det_Wheeled>0.0</Det_Wheeled>
+        <Det_Tracked>0.0</Det_Tracked>
+        <Det_LowAir>0.0</Det_LowAir>
+        <Det_Air>0.0</Det_Air>
+        <Det_Naval>0.0</Det_Naval>
+        <Det_Rail>0.0</Det_Rail>
+        <Dam_None>100</Dam_None>
+        <Dam_Penetration>50</Dam_Penetration>
+        <Dam_HighExplosive>50</Dam_HighExplosive>
+        <Dam_Heave>50</Dam_Heave>
+        <Dam_Incendairy>50</Dam_Incendairy>
+        <Dam_Proximity>50</Dam_Proximity>
+        <Dam_Kinetic>50</Dam_Kinetic>
+        <Dam_Hydrostatic>50</Dam_Hydrostatic>
+        <Dam_Chemical>0</Dam_Chemical>
+        <Dam_Nuclear>50</Dam_Nuclear>
+        <Dam_Other>50</Dam_Other>
+    </FCD>
+    <FCD Num="1919">
+        <CtIdx>5327</CtIdx>
+        <RepairTime>1</RepairTime>
+        <DisplayPriority>2</DisplayPriority>
+        <Flags>17</Flags>
+        <Name>Rwy DMS Sign 3-8</Name>
+        <HitPoints>50</HitPoints>
+        <RampHeight>0</RampHeight>
+        <RampAngle>0.000</RampAngle>
+        <RadarIdx>0</RadarIdx>
+        <Det_NoMove>0.0</Det_NoMove>
+        <Det_Foot>0.0</Det_Foot>
+        <Det_Wheeled>0.0</Det_Wheeled>
+        <Det_Tracked>0.0</Det_Tracked>
+        <Det_LowAir>0.0</Det_LowAir>
+        <Det_Air>0.0</Det_Air>
+        <Det_Naval>0.0</Det_Naval>
+        <Det_Rail>0.0</Det_Rail>
+        <Dam_None>100</Dam_None>
+        <Dam_Penetration>50</Dam_Penetration>
+        <Dam_HighExplosive>50</Dam_HighExplosive>
+        <Dam_Heave>50</Dam_Heave>
+        <Dam_Incendairy>50</Dam_Incendairy>
+        <Dam_Proximity>50</Dam_Proximity>
+        <Dam_Kinetic>50</Dam_Kinetic>
+        <Dam_Hydrostatic>50</Dam_Hydrostatic>
+        <Dam_Chemical>0</Dam_Chemical>
+        <Dam_Nuclear>50</Dam_Nuclear>
+        <Dam_Other>50</Dam_Other>
+    </FCD>
+    <FCD Num="1920">
+        <CtIdx>5328</CtIdx>
+        <RepairTime>1</RepairTime>
+        <DisplayPriority>2</DisplayPriority>
+        <Flags>17</Flags>
+        <Name>Rwy DMS Sign 4-7</Name>
+        <HitPoints>50</HitPoints>
+        <RampHeight>0</RampHeight>
+        <RampAngle>0.000</RampAngle>
+        <RadarIdx>0</RadarIdx>
+        <Det_NoMove>0.0</Det_NoMove>
+        <Det_Foot>0.0</Det_Foot>
+        <Det_Wheeled>0.0</Det_Wheeled>
+        <Det_Tracked>0.0</Det_Tracked>
+        <Det_LowAir>0.0</Det_LowAir>
+        <Det_Air>0.0</Det_Air>
+        <Det_Naval>0.0</Det_Naval>
+        <Det_Rail>0.0</Det_Rail>
+        <Dam_None>100</Dam_None>
+        <Dam_Penetration>50</Dam_Penetration>
+        <Dam_HighExplosive>50</Dam_HighExplosive>
+        <Dam_Heave>50</Dam_Heave>
+        <Dam_Incendairy>50</Dam_Incendairy>
+        <Dam_Proximity>50</Dam_Proximity>
+        <Dam_Kinetic>50</Dam_Kinetic>
+        <Dam_Hydrostatic>50</Dam_Hydrostatic>
+        <Dam_Chemical>0</Dam_Chemical>
+        <Dam_Nuclear>50</Dam_Nuclear>
+        <Dam_Other>50</Dam_Other>
+    </FCD>
+    <FCD Num="1921">
+        <CtIdx>5329</CtIdx>
+        <RepairTime>1</RepairTime>
+        <DisplayPriority>2</DisplayPriority>
+        <Flags>17</Flags>
+        <Name>Rwy DMS Sign 5-6</Name>
+        <HitPoints>50</HitPoints>
+        <RampHeight>0</RampHeight>
+        <RampAngle>0.000</RampAngle>
+        <RadarIdx>0</RadarIdx>
+        <Det_NoMove>0.0</Det_NoMove>
+        <Det_Foot>0.0</Det_Foot>
+        <Det_Wheeled>0.0</Det_Wheeled>
+        <Det_Tracked>0.0</Det_Tracked>
+        <Det_LowAir>0.0</Det_LowAir>
+        <Det_Air>0.0</Det_Air>
+        <Det_Naval>0.0</Det_Naval>
+        <Det_Rail>0.0</Det_Rail>
+        <Dam_None>100</Dam_None>
+        <Dam_Penetration>50</Dam_Penetration>
+        <Dam_HighExplosive>50</Dam_HighExplosive>
+        <Dam_Heave>50</Dam_Heave>
+        <Dam_Incendairy>50</Dam_Incendairy>
+        <Dam_Proximity>50</Dam_Proximity>
+        <Dam_Kinetic>50</Dam_Kinetic>
+        <Dam_Hydrostatic>50</Dam_Hydrostatic>
+        <Dam_Chemical>0</Dam_Chemical>
+        <Dam_Nuclear>50</Dam_Nuclear>
+        <Dam_Other>50</Dam_Other>
+    </FCD>
+    <FCD Num="1922">
+        <CtIdx>5330</CtIdx>
+        <RepairTime>1</RepairTime>
+        <DisplayPriority>2</DisplayPriority>
+        <Flags>17</Flags>
+        <Name>Rwy DMS Sign 1-11</Name>
+        <HitPoints>50</HitPoints>
+        <RampHeight>0</RampHeight>
+        <RampAngle>0.000</RampAngle>
+        <RadarIdx>0</RadarIdx>
+        <Det_NoMove>0.0</Det_NoMove>
+        <Det_Foot>0.0</Det_Foot>
+        <Det_Wheeled>0.0</Det_Wheeled>
+        <Det_Tracked>0.0</Det_Tracked>
+        <Det_LowAir>0.0</Det_LowAir>
+        <Det_Air>0.0</Det_Air>
+        <Det_Naval>0.0</Det_Naval>
+        <Det_Rail>0.0</Det_Rail>
+        <Dam_None>100</Dam_None>
+        <Dam_Penetration>50</Dam_Penetration>
+        <Dam_HighExplosive>50</Dam_HighExplosive>
+        <Dam_Heave>50</Dam_Heave>
+        <Dam_Incendairy>50</Dam_Incendairy>
+        <Dam_Proximity>50</Dam_Proximity>
+        <Dam_Kinetic>50</Dam_Kinetic>
+        <Dam_Hydrostatic>50</Dam_Hydrostatic>
+        <Dam_Chemical>0</Dam_Chemical>
+        <Dam_Nuclear>50</Dam_Nuclear>
+        <Dam_Other>50</Dam_Other>
+    </FCD>
+    <FCD Num="1923">
+        <CtIdx>5331</CtIdx>
+        <RepairTime>1</RepairTime>
+        <DisplayPriority>2</DisplayPriority>
+        <Flags>17</Flags>
+        <Name>Rwy DMS Sign 2-10</Name>
+        <HitPoints>50</HitPoints>
+        <RampHeight>0</RampHeight>
+        <RampAngle>0.000</RampAngle>
+        <RadarIdx>0</RadarIdx>
+        <Det_NoMove>0.0</Det_NoMove>
+        <Det_Foot>0.0</Det_Foot>
+        <Det_Wheeled>0.0</Det_Wheeled>
+        <Det_Tracked>0.0</Det_Tracked>
+        <Det_LowAir>0.0</Det_LowAir>
+        <Det_Air>0.0</Det_Air>
+        <Det_Naval>0.0</Det_Naval>
+        <Det_Rail>0.0</Det_Rail>
+        <Dam_None>100</Dam_None>
+        <Dam_Penetration>50</Dam_Penetration>
+        <Dam_HighExplosive>50</Dam_HighExplosive>
+        <Dam_Heave>50</Dam_Heave>
+        <Dam_Incendairy>50</Dam_Incendairy>
+        <Dam_Proximity>50</Dam_Proximity>
+        <Dam_Kinetic>50</Dam_Kinetic>
+        <Dam_Hydrostatic>50</Dam_Hydrostatic>
+        <Dam_Chemical>0</Dam_Chemical>
+        <Dam_Nuclear>50</Dam_Nuclear>
+        <Dam_Other>50</Dam_Other>
+    </FCD>
+    <FCD Num="1924">
+        <CtIdx>5332</CtIdx>
+        <RepairTime>1</RepairTime>
+        <DisplayPriority>2</DisplayPriority>
+        <Flags>17</Flags>
+        <Name>Rwy DMS Sign 3-9</Name>
+        <HitPoints>50</HitPoints>
+        <RampHeight>0</RampHeight>
+        <RampAngle>0.000</RampAngle>
+        <RadarIdx>0</RadarIdx>
+        <Det_NoMove>0.0</Det_NoMove>
+        <Det_Foot>0.0</Det_Foot>
+        <Det_Wheeled>0.0</Det_Wheeled>
+        <Det_Tracked>0.0</Det_Tracked>
+        <Det_LowAir>0.0</Det_LowAir>
+        <Det_Air>0.0</Det_Air>
+        <Det_Naval>0.0</Det_Naval>
+        <Det_Rail>0.0</Det_Rail>
+        <Dam_None>100</Dam_None>
+        <Dam_Penetration>50</Dam_Penetration>
+        <Dam_HighExplosive>50</Dam_HighExplosive>
+        <Dam_Heave>50</Dam_Heave>
+        <Dam_Incendairy>50</Dam_Incendairy>
+        <Dam_Proximity>50</Dam_Proximity>
+        <Dam_Kinetic>50</Dam_Kinetic>
+        <Dam_Hydrostatic>50</Dam_Hydrostatic>
+        <Dam_Chemical>0</Dam_Chemical>
+        <Dam_Nuclear>50</Dam_Nuclear>
+        <Dam_Other>50</Dam_Other>
+    </FCD>
+    <FCD Num="1925">
+        <CtIdx>5333</CtIdx>
+        <RepairTime>1</RepairTime>
+        <DisplayPriority>2</DisplayPriority>
+        <Flags>17</Flags>
+        <Name>Rwy DMS Sign 4-8</Name>
+        <HitPoints>50</HitPoints>
+        <RampHeight>0</RampHeight>
+        <RampAngle>0.000</RampAngle>
+        <RadarIdx>0</RadarIdx>
+        <Det_NoMove>0.0</Det_NoMove>
+        <Det_Foot>0.0</Det_Foot>
+        <Det_Wheeled>0.0</Det_Wheeled>
+        <Det_Tracked>0.0</Det_Tracked>
+        <Det_LowAir>0.0</Det_LowAir>
+        <Det_Air>0.0</Det_Air>
+        <Det_Naval>0.0</Det_Naval>
+        <Det_Rail>0.0</Det_Rail>
+        <Dam_None>100</Dam_None>
+        <Dam_Penetration>50</Dam_Penetration>
+        <Dam_HighExplosive>50</Dam_HighExplosive>
+        <Dam_Heave>50</Dam_Heave>
+        <Dam_Incendairy>50</Dam_Incendairy>
+        <Dam_Proximity>50</Dam_Proximity>
+        <Dam_Kinetic>50</Dam_Kinetic>
+        <Dam_Hydrostatic>50</Dam_Hydrostatic>
+        <Dam_Chemical>0</Dam_Chemical>
+        <Dam_Nuclear>50</Dam_Nuclear>
+        <Dam_Other>50</Dam_Other>
+    </FCD>
+    <FCD Num="1926">
+        <CtIdx>5334</CtIdx>
+        <RepairTime>1</RepairTime>
+        <DisplayPriority>2</DisplayPriority>
+        <Flags>17</Flags>
+        <Name>Rwy DMS Sign 5-7</Name>
+        <HitPoints>50</HitPoints>
+        <RampHeight>0</RampHeight>
+        <RampAngle>0.000</RampAngle>
+        <RadarIdx>0</RadarIdx>
+        <Det_NoMove>0.0</Det_NoMove>
+        <Det_Foot>0.0</Det_Foot>
+        <Det_Wheeled>0.0</Det_Wheeled>
+        <Det_Tracked>0.0</Det_Tracked>
+        <Det_LowAir>0.0</Det_LowAir>
+        <Det_Air>0.0</Det_Air>
+        <Det_Naval>0.0</Det_Naval>
+        <Det_Rail>0.0</Det_Rail>
+        <Dam_None>100</Dam_None>
+        <Dam_Penetration>50</Dam_Penetration>
+        <Dam_HighExplosive>50</Dam_HighExplosive>
+        <Dam_Heave>50</Dam_Heave>
+        <Dam_Incendairy>50</Dam_Incendairy>
+        <Dam_Proximity>50</Dam_Proximity>
+        <Dam_Kinetic>50</Dam_Kinetic>
+        <Dam_Hydrostatic>50</Dam_Hydrostatic>
+        <Dam_Chemical>0</Dam_Chemical>
+        <Dam_Nuclear>50</Dam_Nuclear>
+        <Dam_Other>50</Dam_Other>
+    </FCD>
+    <FCD Num="1927">
+        <CtIdx>5335</CtIdx>
+        <RepairTime>1</RepairTime>
+        <DisplayPriority>2</DisplayPriority>
+        <Flags>17</Flags>
+        <Name>Rwy DMS Sign 6-6</Name>
+        <HitPoints>50</HitPoints>
+        <RampHeight>0</RampHeight>
+        <RampAngle>0.000</RampAngle>
+        <RadarIdx>0</RadarIdx>
+        <Det_NoMove>0.0</Det_NoMove>
+        <Det_Foot>0.0</Det_Foot>
+        <Det_Wheeled>0.0</Det_Wheeled>
+        <Det_Tracked>0.0</Det_Tracked>
+        <Det_LowAir>0.0</Det_LowAir>
+        <Det_Air>0.0</Det_Air>
+        <Det_Naval>0.0</Det_Naval>
+        <Det_Rail>0.0</Det_Rail>
+        <Dam_None>100</Dam_None>
+        <Dam_Penetration>50</Dam_Penetration>
+        <Dam_HighExplosive>50</Dam_HighExplosive>
+        <Dam_Heave>50</Dam_Heave>
+        <Dam_Incendairy>50</Dam_Incendairy>
+        <Dam_Proximity>50</Dam_Proximity>
+        <Dam_Kinetic>50</Dam_Kinetic>
+        <Dam_Hydrostatic>50</Dam_Hydrostatic>
+        <Dam_Chemical>0</Dam_Chemical>
+        <Dam_Nuclear>50</Dam_Nuclear>
+        <Dam_Other>50</Dam_Other>
+    </FCD>
+    <FCD Num="1928">
+        <CtIdx>5336</CtIdx>
+        <RepairTime>1</RepairTime>
+        <DisplayPriority>2</DisplayPriority>
+        <Flags>17</Flags>
+        <Name>Rwy DMS Sign 1-12</Name>
+        <HitPoints>50</HitPoints>
+        <RampHeight>0</RampHeight>
+        <RampAngle>0.000</RampAngle>
+        <RadarIdx>0</RadarIdx>
+        <Det_NoMove>0.0</Det_NoMove>
+        <Det_Foot>0.0</Det_Foot>
+        <Det_Wheeled>0.0</Det_Wheeled>
+        <Det_Tracked>0.0</Det_Tracked>
+        <Det_LowAir>0.0</Det_LowAir>
+        <Det_Air>0.0</Det_Air>
+        <Det_Naval>0.0</Det_Naval>
+        <Det_Rail>0.0</Det_Rail>
+        <Dam_None>100</Dam_None>
+        <Dam_Penetration>50</Dam_Penetration>
+        <Dam_HighExplosive>50</Dam_HighExplosive>
+        <Dam_Heave>50</Dam_Heave>
+        <Dam_Incendairy>50</Dam_Incendairy>
+        <Dam_Proximity>50</Dam_Proximity>
+        <Dam_Kinetic>50</Dam_Kinetic>
+        <Dam_Hydrostatic>50</Dam_Hydrostatic>
+        <Dam_Chemical>0</Dam_Chemical>
+        <Dam_Nuclear>50</Dam_Nuclear>
+        <Dam_Other>50</Dam_Other>
+    </FCD>
+    <FCD Num="1929">
+        <CtIdx>5337</CtIdx>
+        <RepairTime>1</RepairTime>
+        <DisplayPriority>2</DisplayPriority>
+        <Flags>17</Flags>
+        <Name>Rwy DMS Sign 2-11</Name>
+        <HitPoints>50</HitPoints>
+        <RampHeight>0</RampHeight>
+        <RampAngle>0.000</RampAngle>
+        <RadarIdx>0</RadarIdx>
+        <Det_NoMove>0.0</Det_NoMove>
+        <Det_Foot>0.0</Det_Foot>
+        <Det_Wheeled>0.0</Det_Wheeled>
+        <Det_Tracked>0.0</Det_Tracked>
+        <Det_LowAir>0.0</Det_LowAir>
+        <Det_Air>0.0</Det_Air>
+        <Det_Naval>0.0</Det_Naval>
+        <Det_Rail>0.0</Det_Rail>
+        <Dam_None>100</Dam_None>
+        <Dam_Penetration>50</Dam_Penetration>
+        <Dam_HighExplosive>50</Dam_HighExplosive>
+        <Dam_Heave>50</Dam_Heave>
+        <Dam_Incendairy>50</Dam_Incendairy>
+        <Dam_Proximity>50</Dam_Proximity>
+        <Dam_Kinetic>50</Dam_Kinetic>
+        <Dam_Hydrostatic>50</Dam_Hydrostatic>
+        <Dam_Chemical>0</Dam_Chemical>
+        <Dam_Nuclear>50</Dam_Nuclear>
+        <Dam_Other>50</Dam_Other>
+    </FCD>
+    <FCD Num="1930">
+        <CtIdx>5338</CtIdx>
+        <RepairTime>1</RepairTime>
+        <DisplayPriority>2</DisplayPriority>
+        <Flags>17</Flags>
+        <Name>Rwy DMS Sign 3-10</Name>
+        <HitPoints>50</HitPoints>
+        <RampHeight>0</RampHeight>
+        <RampAngle>0.000</RampAngle>
+        <RadarIdx>0</RadarIdx>
+        <Det_NoMove>0.0</Det_NoMove>
+        <Det_Foot>0.0</Det_Foot>
+        <Det_Wheeled>0.0</Det_Wheeled>
+        <Det_Tracked>0.0</Det_Tracked>
+        <Det_LowAir>0.0</Det_LowAir>
+        <Det_Air>0.0</Det_Air>
+        <Det_Naval>0.0</Det_Naval>
+        <Det_Rail>0.0</Det_Rail>
+        <Dam_None>100</Dam_None>
+        <Dam_Penetration>50</Dam_Penetration>
+        <Dam_HighExplosive>50</Dam_HighExplosive>
+        <Dam_Heave>50</Dam_Heave>
+        <Dam_Incendairy>50</Dam_Incendairy>
+        <Dam_Proximity>50</Dam_Proximity>
+        <Dam_Kinetic>50</Dam_Kinetic>
+        <Dam_Hydrostatic>50</Dam_Hydrostatic>
+        <Dam_Chemical>0</Dam_Chemical>
+        <Dam_Nuclear>50</Dam_Nuclear>
+        <Dam_Other>50</Dam_Other>
+    </FCD>
+    <FCD Num="1931">
+        <CtIdx>5339</CtIdx>
+        <RepairTime>1</RepairTime>
+        <DisplayPriority>2</DisplayPriority>
+        <Flags>17</Flags>
+        <Name>Rwy DMS Sign 4-9</Name>
+        <HitPoints>50</HitPoints>
+        <RampHeight>0</RampHeight>
+        <RampAngle>0.000</RampAngle>
+        <RadarIdx>0</RadarIdx>
+        <Det_NoMove>0.0</Det_NoMove>
+        <Det_Foot>0.0</Det_Foot>
+        <Det_Wheeled>0.0</Det_Wheeled>
+        <Det_Tracked>0.0</Det_Tracked>
+        <Det_LowAir>0.0</Det_LowAir>
+        <Det_Air>0.0</Det_Air>
+        <Det_Naval>0.0</Det_Naval>
+        <Det_Rail>0.0</Det_Rail>
+        <Dam_None>100</Dam_None>
+        <Dam_Penetration>50</Dam_Penetration>
+        <Dam_HighExplosive>50</Dam_HighExplosive>
+        <Dam_Heave>50</Dam_Heave>
+        <Dam_Incendairy>50</Dam_Incendairy>
+        <Dam_Proximity>50</Dam_Proximity>
+        <Dam_Kinetic>50</Dam_Kinetic>
+        <Dam_Hydrostatic>50</Dam_Hydrostatic>
+        <Dam_Chemical>0</Dam_Chemical>
+        <Dam_Nuclear>50</Dam_Nuclear>
+        <Dam_Other>50</Dam_Other>
+    </FCD>
+    <FCD Num="1932">
+        <CtIdx>5340</CtIdx>
+        <RepairTime>1</RepairTime>
+        <DisplayPriority>2</DisplayPriority>
+        <Flags>17</Flags>
+        <Name>Rwy DMS Sign 5-8</Name>
+        <HitPoints>50</HitPoints>
+        <RampHeight>0</RampHeight>
+        <RampAngle>0.000</RampAngle>
+        <RadarIdx>0</RadarIdx>
+        <Det_NoMove>0.0</Det_NoMove>
+        <Det_Foot>0.0</Det_Foot>
+        <Det_Wheeled>0.0</Det_Wheeled>
+        <Det_Tracked>0.0</Det_Tracked>
+        <Det_LowAir>0.0</Det_LowAir>
+        <Det_Air>0.0</Det_Air>
+        <Det_Naval>0.0</Det_Naval>
+        <Det_Rail>0.0</Det_Rail>
+        <Dam_None>100</Dam_None>
+        <Dam_Penetration>50</Dam_Penetration>
+        <Dam_HighExplosive>50</Dam_HighExplosive>
+        <Dam_Heave>50</Dam_Heave>
+        <Dam_Incendairy>50</Dam_Incendairy>
+        <Dam_Proximity>50</Dam_Proximity>
+        <Dam_Kinetic>50</Dam_Kinetic>
+        <Dam_Hydrostatic>50</Dam_Hydrostatic>
+        <Dam_Chemical>0</Dam_Chemical>
+        <Dam_Nuclear>50</Dam_Nuclear>
+        <Dam_Other>50</Dam_Other>
+    </FCD>
+    <FCD Num="1933">
+        <CtIdx>5341</CtIdx>
+        <RepairTime>1</RepairTime>
+        <DisplayPriority>2</DisplayPriority>
+        <Flags>17</Flags>
+        <Name>Rwy DMS Sign 6-7</Name>
+        <HitPoints>50</HitPoints>
+        <RampHeight>0</RampHeight>
+        <RampAngle>0.000</RampAngle>
+        <RadarIdx>0</RadarIdx>
+        <Det_NoMove>0.0</Det_NoMove>
+        <Det_Foot>0.0</Det_Foot>
+        <Det_Wheeled>0.0</Det_Wheeled>
+        <Det_Tracked>0.0</Det_Tracked>
+        <Det_LowAir>0.0</Det_LowAir>
+        <Det_Air>0.0</Det_Air>
+        <Det_Naval>0.0</Det_Naval>
+        <Det_Rail>0.0</Det_Rail>
+        <Dam_None>100</Dam_None>
+        <Dam_Penetration>50</Dam_Penetration>
+        <Dam_HighExplosive>50</Dam_HighExplosive>
+        <Dam_Heave>50</Dam_Heave>
+        <Dam_Incendairy>50</Dam_Incendairy>
+        <Dam_Proximity>50</Dam_Proximity>
+        <Dam_Kinetic>50</Dam_Kinetic>
+        <Dam_Hydrostatic>50</Dam_Hydrostatic>
+        <Dam_Chemical>0</Dam_Chemical>
+        <Dam_Nuclear>50</Dam_Nuclear>
+        <Dam_Other>50</Dam_Other>
+    </FCD>
+    <FCD Num="1934">
+        <CtIdx>5342</CtIdx>
+        <RepairTime>1</RepairTime>
+        <DisplayPriority>2</DisplayPriority>
+        <Flags>17</Flags>
+        <Name>Taxi Sign Pos - A1</Name>
+        <HitPoints>50</HitPoints>
+        <RampHeight>0</RampHeight>
+        <RampAngle>0.000</RampAngle>
+        <RadarIdx>0</RadarIdx>
+        <Det_NoMove>0.0</Det_NoMove>
+        <Det_Foot>0.0</Det_Foot>
+        <Det_Wheeled>0.0</Det_Wheeled>
+        <Det_Tracked>0.0</Det_Tracked>
+        <Det_LowAir>0.0</Det_LowAir>
+        <Det_Air>0.0</Det_Air>
+        <Det_Naval>0.0</Det_Naval>
+        <Det_Rail>0.0</Det_Rail>
+        <Dam_None>100</Dam_None>
+        <Dam_Penetration>50</Dam_Penetration>
+        <Dam_HighExplosive>50</Dam_HighExplosive>
+        <Dam_Heave>50</Dam_Heave>
+        <Dam_Incendairy>50</Dam_Incendairy>
+        <Dam_Proximity>50</Dam_Proximity>
+        <Dam_Kinetic>50</Dam_Kinetic>
+        <Dam_Hydrostatic>50</Dam_Hydrostatic>
+        <Dam_Chemical>0</Dam_Chemical>
+        <Dam_Nuclear>50</Dam_Nuclear>
+        <Dam_Other>50</Dam_Other>
+    </FCD>
+    <FCD Num="1935">
+        <CtIdx>5343</CtIdx>
+        <RepairTime>1</RepairTime>
+        <DisplayPriority>2</DisplayPriority>
+        <Flags>17</Flags>
+        <Name>Taxi Sign Pos - B1</Name>
+        <HitPoints>50</HitPoints>
+        <RampHeight>0</RampHeight>
+        <RampAngle>0.000</RampAngle>
+        <RadarIdx>0</RadarIdx>
+        <Det_NoMove>0.0</Det_NoMove>
+        <Det_Foot>0.0</Det_Foot>
+        <Det_Wheeled>0.0</Det_Wheeled>
+        <Det_Tracked>0.0</Det_Tracked>
+        <Det_LowAir>0.0</Det_LowAir>
+        <Det_Air>0.0</Det_Air>
+        <Det_Naval>0.0</Det_Naval>
+        <Det_Rail>0.0</Det_Rail>
+        <Dam_None>100</Dam_None>
+        <Dam_Penetration>50</Dam_Penetration>
+        <Dam_HighExplosive>50</Dam_HighExplosive>
+        <Dam_Heave>50</Dam_Heave>
+        <Dam_Incendairy>50</Dam_Incendairy>
+        <Dam_Proximity>50</Dam_Proximity>
+        <Dam_Kinetic>50</Dam_Kinetic>
+        <Dam_Hydrostatic>50</Dam_Hydrostatic>
+        <Dam_Chemical>0</Dam_Chemical>
+        <Dam_Nuclear>50</Dam_Nuclear>
+        <Dam_Other>50</Dam_Other>
+    </FCD>
+    <FCD Num="1936">
+        <CtIdx>5345</CtIdx>
+        <RepairTime>96</RepairTime>
+        <DisplayPriority>2</DisplayPriority>
+        <Flags>14373</Flags>
+        <Name>Hangar Red</Name>
+        <HitPoints>380</HitPoints>
+        <RampHeight>0</RampHeight>
+        <RampAngle>0.000</RampAngle>
+        <RadarIdx>0</RadarIdx>
+        <Det_NoMove>0.0</Det_NoMove>
+        <Det_Foot>0.0</Det_Foot>
+        <Det_Wheeled>0.0</Det_Wheeled>
+        <Det_Tracked>0.0</Det_Tracked>
+        <Det_LowAir>0.0</Det_LowAir>
+        <Det_Air>0.0</Det_Air>
+        <Det_Naval>0.0</Det_Naval>
+        <Det_Rail>0.0</Det_Rail>
+        <Dam_None>100</Dam_None>
+        <Dam_Penetration>40</Dam_Penetration>
+        <Dam_HighExplosive>100</Dam_HighExplosive>
+        <Dam_Heave>10</Dam_Heave>
+        <Dam_Incendairy>75</Dam_Incendairy>
+        <Dam_Proximity>10</Dam_Proximity>
+        <Dam_Kinetic>5</Dam_Kinetic>
+        <Dam_Hydrostatic>0</Dam_Hydrostatic>
+        <Dam_Chemical>0</Dam_Chemical>
+        <Dam_Nuclear>100</Dam_Nuclear>
+        <Dam_Other>50</Dam_Other>
+    </FCD>
+    <FCD Num="1937">
+        <CtIdx>5346</CtIdx>
+        <RepairTime>96</RepairTime>
+        <DisplayPriority>2</DisplayPriority>
+        <Flags>14373</Flags>
+        <Name>Open Hangar DPRK</Name>
+        <HitPoints>380</HitPoints>
+        <RampHeight>0</RampHeight>
+        <RampAngle>0.000</RampAngle>
+        <RadarIdx>0</RadarIdx>
+        <Det_NoMove>0.0</Det_NoMove>
+        <Det_Foot>0.0</Det_Foot>
+        <Det_Wheeled>0.0</Det_Wheeled>
+        <Det_Tracked>0.0</Det_Tracked>
+        <Det_LowAir>0.0</Det_LowAir>
+        <Det_Air>0.0</Det_Air>
+        <Det_Naval>0.0</Det_Naval>
+        <Det_Rail>0.0</Det_Rail>
+        <Dam_None>100</Dam_None>
+        <Dam_Penetration>40</Dam_Penetration>
+        <Dam_HighExplosive>100</Dam_HighExplosive>
+        <Dam_Heave>10</Dam_Heave>
+        <Dam_Incendairy>75</Dam_Incendairy>
+        <Dam_Proximity>10</Dam_Proximity>
+        <Dam_Kinetic>5</Dam_Kinetic>
         <Dam_Hydrostatic>0</Dam_Hydrostatic>
         <Dam_Chemical>0</Dam_Chemical>
         <Dam_Nuclear>100</Dam_Nuclear>

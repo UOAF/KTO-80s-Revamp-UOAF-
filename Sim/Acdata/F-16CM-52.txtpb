@@ -1812,7 +1812,7 @@ auxaero {
       y: 0
       z: -2.35
     } 
-    refuel_speed_kts: 300
+    refuel_speed_kts: 310
     refuel_altitude_ft: 22000
     refuel_rate: 33
     aiboom_distance_ft: 10

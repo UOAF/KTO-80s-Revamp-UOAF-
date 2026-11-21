@@ -102,7 +102,7 @@
         <OffsetZ>0.000</OffsetZ>
         <Type>16</Type>
         <Heading>307.000</Heading>
-        <CrossingPoint>32760</CrossingPoint>
+        <CrossingPoint>true</CrossingPoint>
     </PD>
     <PD Num="14">
         <OffsetX>1017.657</OffsetX>
@@ -507,7 +507,7 @@
         <MaxLength>0.000</MaxLength>
         <Type>9</Type>
         <Heading>348.000</Heading>
-        <CrossingPoint>32760</CrossingPoint>
+        <CrossingPoint>true</CrossingPoint>
     </PD>
     <PD Num="62">
         <OffsetX>-2985.487</OffsetX>
@@ -608,7 +608,7 @@
         <MaxLength>0.000</MaxLength>
         <Type>9</Type>
         <Heading>228.000</Heading>
-        <CrossingPoint>32760</CrossingPoint>
+        <CrossingPoint>true</CrossingPoint>
     </PD>
     <PD Num="72">
         <OffsetX>-645.022</OffsetX>
@@ -967,7 +967,7 @@
         <OffsetZ>0.000</OffsetZ>
         <Type>9</Type>
         <Heading>322.000</Heading>
-        <CrossingPoint>32760</CrossingPoint>
+        <CrossingPoint>true</CrossingPoint>
     </PD>
     <PD Num="117">
         <OffsetX>-135.958</OffsetX>
@@ -975,7 +975,7 @@
         <OffsetZ>0.000</OffsetZ>
         <Type>9</Type>
         <Heading>267.000</Heading>
-        <CrossingPoint>32760</CrossingPoint>
+        <CrossingPoint>true</CrossingPoint>
     </PD>
     <PD Num="118">
         <OffsetX>34.525</OffsetX>
@@ -990,7 +990,7 @@
         <OffsetZ>0.000</OffsetZ>
         <Type>9</Type>
         <Heading>62.000</Heading>
-        <CrossingPoint>32760</CrossingPoint>
+        <CrossingPoint>true</CrossingPoint>
     </PD>
     <PD Num="120">
         <OffsetX>-1451.255</OffsetX>
@@ -1005,7 +1005,7 @@
         <OffsetZ>0.000</OffsetZ>
         <Type>9</Type>
         <Heading>351.000</Heading>
-        <CrossingPoint>32760</CrossingPoint>
+        <CrossingPoint>true</CrossingPoint>
     </PD>
     <PD Num="122">
         <OffsetX>2140.309</OffsetX>
@@ -1013,7 +1013,7 @@
         <OffsetZ>0.000</OffsetZ>
         <Type>9</Type>
         <Heading>23.000</Heading>
-        <CrossingPoint>32760</CrossingPoint>
+        <CrossingPoint>true</CrossingPoint>
     </PD>
     <PD Num="123">
         <OffsetX>1840.049</OffsetX>
@@ -1021,7 +1021,7 @@
         <OffsetZ>0.000</OffsetZ>
         <Type>9</Type>
         <Heading>52.000</Heading>
-        <CrossingPoint>32760</CrossingPoint>
+        <CrossingPoint>true</CrossingPoint>
     </PD>
     <PD Num="124">
         <OffsetX>1646.023</OffsetX>
@@ -1036,7 +1036,7 @@
         <OffsetZ>0.000</OffsetZ>
         <Type>9</Type>
         <Heading>317.000</Heading>
-        <CrossingPoint>32760</CrossingPoint>
+        <CrossingPoint>true</CrossingPoint>
     </PD>
     <PD Num="126">
         <OffsetX>717.055</OffsetX>
@@ -1044,7 +1044,7 @@
         <OffsetZ>0.000</OffsetZ>
         <Type>9</Type>
         <Heading>168.000</Heading>
-        <CrossingPoint>32760</CrossingPoint>
+        <CrossingPoint>true</CrossingPoint>
     </PD>
     <PD Num="127">
         <OffsetX>1400.399</OffsetX>
@@ -1052,7 +1052,7 @@
         <OffsetZ>0.000</OffsetZ>
         <Type>9</Type>
         <Heading>351.000</Heading>
-        <CrossingPoint>32760</CrossingPoint>
+        <CrossingPoint>true</CrossingPoint>
     </PD>
     <PD Num="128">
         <OffsetX>-1610.218</OffsetX>
@@ -1060,7 +1060,7 @@
         <OffsetZ>0.000</OffsetZ>
         <Type>6</Type>
         <Heading>351.000</Heading>
-        <CrossingPoint>32760</CrossingPoint>
+        <CrossingPoint>true</CrossingPoint>
     </PD>
     <PD Num="129">
         <OffsetX>1792.804</OffsetX>
@@ -1068,7 +1068,7 @@
         <OffsetZ>0.000</OffsetZ>
         <Type>6</Type>
         <Heading>267.000</Heading>
-        <CrossingPoint>32760</CrossingPoint>
+        <CrossingPoint>true</CrossingPoint>
     </PD>
     <PD Num="130">
         <OffsetX>-2003.129</OffsetX>
@@ -1084,6 +1084,6 @@
         <Type>6</Type>
         <Flags>2</Flags>
         <Heading>37.000</Heading>
-        <CrossingPoint>32760</CrossingPoint>
+        <CrossingPoint>true</CrossingPoint>
     </PD>
 </PDRecords>

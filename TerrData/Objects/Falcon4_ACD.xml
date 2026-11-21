@@ -130,7 +130,7 @@
         <SensorType_3>-1</SensorType_3>
         <SensorType_4>-1</SensorType_4>
         <SensorIdx_0>7</SensorIdx_0>
-        <SensorIdx_1>62</SensorIdx_1>
+        <SensorIdx_1>86</SensorIdx_1>
         <SensorIdx_2>60</SensorIdx_2>
         <SensorIdx_3>-1</SensorIdx_3>
         <SensorIdx_4>-1</SensorIdx_4>
@@ -955,7 +955,7 @@
         <SensorType_3>-1</SensorType_3>
         <SensorType_4>-1</SensorType_4>
         <SensorIdx_0>7</SensorIdx_0>
-        <SensorIdx_1>62</SensorIdx_1>
+        <SensorIdx_1>86</SensorIdx_1>
         <SensorIdx_2>60</SensorIdx_2>
         <SensorIdx_3>0</SensorIdx_3>
         <SensorIdx_4>0</SensorIdx_4>
@@ -1616,7 +1616,7 @@
         <SensorType_4>-1</SensorType_4>
         <SensorIdx_0>7</SensorIdx_0>
         <SensorIdx_1>86</SensorIdx_1>
-        <SensorIdx_2>6</SensorIdx_2>
+        <SensorIdx_2>60</SensorIdx_2>
         <SensorIdx_3>-1</SensorIdx_3>
         <SensorIdx_4>-1</SensorIdx_4>
     </ACD>
@@ -1630,7 +1630,7 @@
         <SensorType_3>-1</SensorType_3>
         <SensorType_4>-1</SensorType_4>
         <SensorIdx_0>7</SensorIdx_0>
-        <SensorIdx_1>62</SensorIdx_1>
+        <SensorIdx_1>86</SensorIdx_1>
         <SensorIdx_2>60</SensorIdx_2>
         <SensorIdx_3>-1</SensorIdx_3>
         <SensorIdx_4>-1</SensorIdx_4>
@@ -2095,8 +2095,8 @@
         <SensorType_3>-1</SensorType_3>
         <SensorType_4>-1</SensorType_4>
         <SensorIdx_0>7</SensorIdx_0>
-        <SensorIdx_1>62</SensorIdx_1>
-        <SensorIdx_2>6</SensorIdx_2>
+        <SensorIdx_1>86</SensorIdx_1>
+        <SensorIdx_2>60</SensorIdx_2>
         <SensorIdx_3>-1</SensorIdx_3>
         <SensorIdx_4>-1</SensorIdx_4>
     </ACD>
@@ -2110,7 +2110,7 @@
         <SensorType_3>-1</SensorType_3>
         <SensorType_4>-1</SensorType_4>
         <SensorIdx_0>7</SensorIdx_0>
-        <SensorIdx_1>62</SensorIdx_1>
+        <SensorIdx_1>86</SensorIdx_1>
         <SensorIdx_2>60</SensorIdx_2>
         <SensorIdx_3>-1</SensorIdx_3>
         <SensorIdx_4>-1</SensorIdx_4>
@@ -2526,12 +2526,12 @@
         <IrSignatureIdx>0</IrSignatureIdx>
         <SensorType_0>3</SensorType_0>
         <SensorType_1>2</SensorType_1>
-        <SensorType_2>1</SensorType_2>
+        <SensorType_2>-1</SensorType_2>
         <SensorType_3>-1</SensorType_3>
         <SensorType_4>-1</SensorType_4>
         <SensorIdx_0>10</SensorIdx_0>
         <SensorIdx_1>31</SensorIdx_1>
-        <SensorIdx_2>0</SensorIdx_2>
+        <SensorIdx_2>-1</SensorIdx_2>
         <SensorIdx_3>-1</SensorIdx_3>
         <SensorIdx_4>-1</SensorIdx_4>
     </ACD>
@@ -3074,5 +3074,65 @@
         <SensorIdx_2>61</SensorIdx_2>
         <SensorIdx_3>-1</SensorIdx_3>
         <SensorIdx_4>-1</SensorIdx_4>
+    </ACD>
+    <ACD Num="205">
+        <CombatClass>3</CombatClass>
+        <AirframeDatIdx>199</AirframeDatIdx>
+        <IrSignatureIdx>0</IrSignatureIdx>
+        <SensorType_0>3</SensorType_0>
+        <SensorType_1>1</SensorType_1>
+        <SensorType_2>2</SensorType_2>
+        <SensorType_3>0</SensorType_3>
+        <SensorType_4>-1</SensorType_4>
+        <SensorIdx_0>8</SensorIdx_0>
+        <SensorIdx_1>64</SensorIdx_1>
+        <SensorIdx_2>12</SensorIdx_2>
+        <SensorIdx_3>4</SensorIdx_3>
+        <SensorIdx_4>-1</SensorIdx_4>
+    </ACD>
+    <ACD Num="206">
+        <CombatClass>3</CombatClass>
+        <AirframeDatIdx>200</AirframeDatIdx>
+        <IrSignatureIdx>0</IrSignatureIdx>
+        <SensorType_0>3</SensorType_0>
+        <SensorType_1>1</SensorType_1>
+        <SensorType_2>2</SensorType_2>
+        <SensorType_3>0</SensorType_3>
+        <SensorType_4>-1</SensorType_4>
+        <SensorIdx_0>8</SensorIdx_0>
+        <SensorIdx_1>92</SensorIdx_1>
+        <SensorIdx_2>25</SensorIdx_2>
+        <SensorIdx_3>4</SensorIdx_3>
+        <SensorIdx_4>0</SensorIdx_4>
+    </ACD>
+    <ACD Num="207">
+        <CombatClass>4</CombatClass>
+        <AirframeDatIdx>201</AirframeDatIdx>
+        <IrSignatureIdx>0</IrSignatureIdx>
+        <SensorType_0>3</SensorType_0>
+        <SensorType_1>1</SensorType_1>
+        <SensorType_2>2</SensorType_2>
+        <SensorType_3>-1</SensorType_3>
+        <SensorType_4>-1</SensorType_4>
+        <SensorIdx_0>7</SensorIdx_0>
+        <SensorIdx_1>1</SensorIdx_1>
+        <SensorIdx_2>50</SensorIdx_2>
+        <SensorIdx_3>0</SensorIdx_3>
+        <SensorIdx_4>0</SensorIdx_4>
+    </ACD>
+    <ACD Num="208">
+        <CombatClass>3</CombatClass>
+        <AirframeDatIdx>202</AirframeDatIdx>
+        <IrSignatureIdx>0</IrSignatureIdx>
+        <SensorType_0>3</SensorType_0>
+        <SensorType_1>1</SensorType_1>
+        <SensorType_2>2</SensorType_2>
+        <SensorType_3>-1</SensorType_3>
+        <SensorType_4>-1</SensorType_4>
+        <SensorIdx_0>7</SensorIdx_0>
+        <SensorIdx_1>62</SensorIdx_1>
+        <SensorIdx_2>60</SensorIdx_2>
+        <SensorIdx_3>0</SensorIdx_3>
+        <SensorIdx_4>0</SensorIdx_4>
     </ACD>
 </ACDRecords>

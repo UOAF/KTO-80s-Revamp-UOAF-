@@ -792,7 +792,7 @@
         <EjectX>2000.000</EjectX>
         <EjectY>0.000</EjectY>
         <EjectZ>0.000</EjectZ>
-        <WpnName>L03HE</WpnName>
+        <WpnName>L03</WpnName>
         <WpnClass>1</WpnClass>
         <Domain>2</Domain>
         <WpnType>9</WpnType>
@@ -5458,7 +5458,7 @@
         <WpnClass>0</WpnClass>
         <Domain>1</Domain>
         <WpnType>2</WpnType>
-        <WpnDatIdx>180</WpnDatIdx>
+        <WpnDatIdx>228</WpnDatIdx>
     </SWD>
     <SWD Num="390">
         <Flags>0</Flags>
@@ -5546,6 +5546,20 @@
     </SWD>
     <SWD Num="396">
         <Flags>0</Flags>
+        <Drag>0.010</Drag>
+        <Weight>125.000</Weight>
+        <Area>0.200</Area>
+        <EjectX>0.000</EjectX>
+        <EjectY>0.000</EjectY>
+        <EjectZ>0.000</EjectZ>
+        <WpnName>AAM5B</WpnName>
+        <WpnClass>0</WpnClass>
+        <Domain>1</Domain>
+        <WpnType>1</WpnType>
+        <WpnDatIdx>181</WpnDatIdx>
+    </SWD>
+    <SWD Num="397">
+        <Flags>0</Flags>
         <Drag>0.020</Drag>
         <Weight>0.900</Weight>
         <Area>0.300</Area>
@@ -5558,7 +5572,7 @@
         <WpnType>9</WpnType>
         <WpnDatIdx>25</WpnDatIdx>
     </SWD>
-    <SWD Num="397">
+    <SWD Num="398">
         <Flags>0</Flags>
         <Drag>0.020</Drag>
         <Weight>0.900</Weight>
@@ -5572,7 +5586,7 @@
         <WpnType>9</WpnType>
         <WpnDatIdx>24</WpnDatIdx>
     </SWD>
-    <SWD Num="398">
+    <SWD Num="399">
         <Flags>0</Flags>
         <Drag>0.020</Drag>
         <Weight>0.900</Weight>
@@ -5586,7 +5600,7 @@
         <WpnType>9</WpnType>
         <WpnDatIdx>27</WpnDatIdx>
     </SWD>
-    <SWD Num="399">
+    <SWD Num="400">
         <Flags>0</Flags>
         <Drag>0.020</Drag>
         <Weight>0.900</Weight>
@@ -5600,7 +5614,7 @@
         <WpnType>9</WpnType>
         <WpnDatIdx>26</WpnDatIdx>
     </SWD>
-    <SWD Num="400">
+    <SWD Num="401">
         <Flags>0</Flags>
         <Drag>0.020</Drag>
         <Weight>0.900</Weight>
@@ -5612,9 +5626,9 @@
         <WpnClass>1</WpnClass>
         <Domain>2</Domain>
         <WpnType>9</WpnType>
-        <WpnDatIdx>229</WpnDatIdx>
+        <WpnDatIdx>230</WpnDatIdx>
     </SWD>
-    <SWD Num="401">
+    <SWD Num="402">
         <Flags>0</Flags>
         <Drag>0.020</Drag>
         <Weight>0.900</Weight>
@@ -5626,9 +5640,9 @@
         <WpnClass>1</WpnClass>
         <Domain>2</Domain>
         <WpnType>9</WpnType>
-        <WpnDatIdx>228</WpnDatIdx>
+        <WpnDatIdx>229</WpnDatIdx>
     </SWD>
-    <SWD Num="402">
+    <SWD Num="403">
         <Flags>0</Flags>
         <Drag>0.020</Drag>
         <Weight>0.900</Weight>
