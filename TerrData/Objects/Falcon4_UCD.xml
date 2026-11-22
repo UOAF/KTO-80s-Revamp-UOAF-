@@ -52490,7 +52490,7 @@
         <Dam_Other>0</Dam_Other>
         <RadarVehicle>0</RadarVehicle>
         <SquadronStoresIdx>0</SquadronStoresIdx>
-        <UnitIcon>10100</UnitIcon>
+        <UnitIcon>10102</UnitIcon>
     </UCD>
     <UCD Num="632">
         <CtIdx>5348</CtIdx>
@@ -52501,6 +52501,7 @@
         <VehicleCtIdx_0>814</VehicleCtIdx_0>
         <VehicleCtIdx_1>814</VehicleCtIdx_1>
         <ElementFlags_0>1</ElementFlags_0>
+        <ElementFlags_1>1</ElementFlags_1>
         <Flags>2</Flags>
         <Name>SAG</Name>
         <MoveType>6</MoveType>
@@ -52557,6 +52558,6 @@
         <Dam_Other>0</Dam_Other>
         <RadarVehicle>0</RadarVehicle>
         <SquadronStoresIdx>0</SquadronStoresIdx>
-        <UnitIcon>10100</UnitIcon>
-    </UCD>    
+        <UnitIcon>10102</UnitIcon>
+    </UCD>
 </UCDRecords>
